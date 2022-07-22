@@ -1,0 +1,14 @@
+{
+    "name": "Simple PWA",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "icons": [
+         {
+            "src": "images/icon_200.png",
+            "sizes": "200x200",
+            "type": "image/png",
+            "purpose": "any"
+         }
+    ]
+}
