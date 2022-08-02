@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="">
+
+        <div class="header-container">
+            <div class="header">
+                <h1>Weather App</h1>
+
+                <div>
+                    <span>Choose Location: </span>
+                    <select name="" class="countrySelect">
+                        <option value="Berlin" selected data-lat="52.5235" data-lon="13.4115" >Berlin</option>
+                        <option value="Paris" data-lat="48.8567" data-lon="2.3510" >Paris</option>
+                        <option value="London" data-lat="51.5002" data-lon="-0.1262" >London</option>
+                        <option value="Madrid" data-lat="40.4167" data-lon="-3.7033">Madrid</option>
+                        <option value="Vienna" data-lat="48.2092" data-lon="16.3728">Vienna</option>
+                        <option value="Brussels" data-lat="50.8371" data-lon="4.3676">Brussels</option>
+                        <option value="Moscow" data-lat="55.7558" data-lon="37.6176">Moscow</option>
+                        <option value="Sofia" data-lat="42.7105" data-lon="23.3238">Sofia</option>
+                        <option value="Copenhagen" data-lat="55.6763" data-lon="12.5681">Copenhagen</option>
+                        <option value="Athens" data-lat="37.9792" data-lon="23.7166">Athens</option>
+                        <option value="Budapest" data-lat="47.4984" data-lon="19.0408">Budapest</option>
+                        <option value="Reykjavik" data-lat="64.1353" data-lon="-21.8952">Reykjavik</option>
+                        <option value="Dublin" data-lat="53.3441" data-lon="-6.2675">Dublin</option>
+                        <option value="Rome" data-lat="41.8955" data-lon="12.4823">Rome</option>
+                        <option value="Amsterdam" data-lat="52.3738" data-lon="4.8910">Amsterdam</option>
+                        <option value="Oslo" data-lat="59.9138" data-lon="10.7387">Oslo</option>
+                        <option value="Warsaw" data-lat="52.2297" data-lon="21.0122">Warsaw</option>
+                        <option value="Lisabon" data-lat="38.7072" data-lon="-9.1355">Lisabon</option>
+                        <option value="Bern" data-lat="46.9480" data-lon="7.4481">Bern</option>
+                        <option value="Kiev" data-lat="50.4422" data-lon="30.5367">Kiev</option>
+                        <option value="Stockholm" data-lat="59.3328" data-lon="18.0645">Stockholm</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="container graph-container">
+            <svg height="400" id="graph-svg">
+
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:#5591c2  ;stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#5591c2  ;stop-opacity:0.5" />
+                        <stop offset="100%" style="stop-color:rgba(44, 44, 44, 0);stop-opacity:0" />
+                    </linearGradient>
+                </defs>
+
+                <g class="lables"></g>
+                <g class="data"></g>
+
+            </svg>
+
+            <div>
+                <a href="https://open-meteo.com" target="_blank">Weather Data Provided By Open-Meteo</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
