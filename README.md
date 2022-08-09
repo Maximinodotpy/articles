@@ -1,11 +1,11 @@
-# articles
+# Blog Articles
 This repositories holds the code to my Tutorials
 
 Each Article has its own folder.
 
 [maximmaeder.com](https://maximmaeder.com/)
 
-## All Articles
+## Article Links
 
 [Country Quiz with HTML, SASS, and JavaScript.](https://maximmaeder.com/country-quiz-with-html-sass-and-javascript/)
 
