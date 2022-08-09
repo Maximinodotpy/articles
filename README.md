@@ -7,6 +7,8 @@ Each Article has its own folder.
 
 ## All Articles
 
+[Country Quiz with HTML, SASS, and JavaScript.](https://maximmaeder.com/country-quiz-with-html-sass-and-javascript/)
+
 [Weather App with HTML, SASS, and JavaScript](https://maximmaeder.com/weather-app-with-html-sass-and-javascript/)
 
 [Accordion with HTML, CSS (SASS) and JavaScript.](https://maximmaeder.com/accordion-with-html-css-sass-and-javascript/)
@@ -28,8 +30,3 @@ Each Article has its own folder.
 [Edit XML with python](https://maximmaeder.com/edit-xml-with-python/)
 
 [Padding and Margin Classes with Sass](https://maximmaeder.com/padding-and-margin-classes-with-sass/)
-
-[Simple quiz in the console with python.](https://maximmaeder.com/simple-quiz-in-the-console-with-python/)
-
-
-![](https://komarev.com/ghpvc/?username=Maximinodotpy-article)
