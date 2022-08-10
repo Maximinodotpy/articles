@@ -1,9 +1,13 @@
-# Blog Articles
-This repositories holds the code to my Tutorials
+![Maximmaeder.com Logo](https://maximmaeder.com/wp-content/uploads/2022/06/blog-logo_v1-150x150.png)
 
-Each Article has its own folder.
+# Articles
+This repository holds the code for my Tutorials, feel free to copy folders or the whole repository to test and look at the code. Each Article has its own folder.
 
 [maximmaeder.com](https://maximmaeder.com/)
+
+## Demos
+
+The demos of articles revolving around Web technologies can be found [here](https://articles.maximmaeder.com/a/). This page shows subdirectories in this folder and each one represents the demo page of an article.
 
 ## Article Links
 
