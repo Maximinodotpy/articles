@@ -1,0 +1,122 @@
+[class*=button] {
+  padding: 0.5em 1em;
+  background-color: rgb(240, 240, 240);
+  /* border: 0.5px solid rgb(185, 185, 185) */
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.ripple-button {
+  overflow: hidden;
+}
+
+.ripple-button:hover {
+  cursor: pointer;
+}
+
+.ripple {
+  position: absolute;
+  background-color: rgba(200, 200, 200, 0.322);
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  pointer-events: none;
+  animation-name: ripple-grow;
+  animation-duration: 0.7s;
+}
+
+@keyframes ripple-grow {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(15);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(15);
+  }
+}
+.button-red {
+  background-color: rgb(234, 95, 95);
+}
+.button-red .ripple {
+  background-color: rgba(228, 50, 50, 0.5);
+}
+
+.button-blue {
+  background-color: rgb(95, 211, 234);
+}
+.button-blue .ripple {
+  background-color: rgba(50, 199, 228, 0.5);
+}
+
+.button-orange {
+  background-color: rgb(234, 162, 95);
+}
+.button-orange .ripple {
+  background-color: rgba(228, 136, 50, 0.5);
+}
+
+.button-green {
+  background-color: rgb(95, 234, 165);
+}
+.button-green .ripple {
+  background-color: rgba(50, 228, 140, 0.5);
+}
+
+.button-grey {
+  background-color: rgb(95, 95, 95);
+}
+.button-grey .ripple {
+  background-color: rgba(70, 70, 70, 0.5);
+}
+
+.button-black {
+  background-color: rgb(0, 0, 0);
+}
+.button-black .ripple {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button-white {
+  background-color: rgb(255, 255, 255);
+}
+.button-white .ripple {
+  background-color: rgba(230, 230, 230, 0.5);
+}
+
+.button-small {
+  font-size: 70%;
+}
+.button-small .ripple {
+  width: 5.6px;
+  height: 5.6px;
+}
+
+.button-normal {
+  font-size: 100%;
+}
+.button-normal .ripple {
+  width: 8px;
+  height: 8px;
+}
+
+.button-large {
+  font-size: 130%;
+}
+.button-large .ripple {
+  width: 10.4px;
+  height: 10.4px;
+}
+
+div {
+  margin-top: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
