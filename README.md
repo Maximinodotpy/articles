@@ -11,6 +11,8 @@ The demos of articles revolving around Web technologies can be found [here](http
 
 ## Article Links
 
+[Tabs with HTML, SASS, and JS](https://maximmaeder.com/tabs-with-html-sass-and-js/)
+
 [Ripple Button with HTML, SASS, and JavaScript](https://maximmaeder.com/ripple-button-with-html-sass-and-javascript/)
 
 [Country Quiz with HTML, SASS, and JavaScript.](https://maximmaeder.com/country-quiz-with-html-sass-and-javascript/)
@@ -32,5 +34,3 @@ The demos of articles revolving around Web technologies can be found [here](http
 [How to hide text in images with python.](https://maximmaeder.com/how-to-hide-text-in-images-with-python/)
 
 [What is Programming?](https://maximmaeder.com/what-is-programming/)
-
-[Edit XML with python](https://maximmaeder.com/edit-xml-with-python/)
