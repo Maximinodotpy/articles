@@ -1,0 +1,66 @@
+
+:root {
+    --bg: rgb(255, 255, 255);
+    --titleStyle: rgb(121, 121, 121);
+    --moreDetails: rgb(200, 200, 200);
+    --string: orange;
+    --number: rgb(0, 76, 255);
+    --boolean: rgb(191, 0, 255);
+    --function: rgb(109, 176, 137);
+    --objectNull: rgb(176, 142, 109);
+    --undefined: rgb(176, 142, 109);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: rgb(40, 40, 40);
+        --titleStyle: rgb(170, 170, 170);
+        --moreDetails: rgb(140, 140, 140);
+        --string: rgb(223, 177, 93);
+        --number: rgb(119, 152, 229);
+        --boolean: rgb(206, 142, 227);
+        --function: rgb(109, 176, 137);
+        --objectNull: rgb(176, 142, 109);
+        --undefined: rgb(176, 142, 109);
+    }
+}
+
+body {
+    margin: 0
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 20px;
+}
+
+pre {
+    padding: 1em;
+    margin: 0;
+    background-color: var(--bg)
+}
+
+li:hover .moreDetails {
+    display: unset
+}
+
+.moreDetails {
+    display: none;
+    color: var(--moreDetails)
+}
+
+.titleStyle {
+    color: var(--titleStyle)
+}
+.titleStyleDescription {
+    color: var(--moreDetails)
+}
+
+
+.string {color: var(--string);}
+.string::before,.string::after {content: '"';color: var(--string)}
+.number {color: var(--number);}
+.boolean {color: var(--boolean)}
+.function {color: var(--function)}
+.object {color: var(--objectNull)}
+.undefined {color: var(--undefined)}
