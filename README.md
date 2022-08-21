@@ -22,6 +22,11 @@ The demos of articles revolving around Web technologies can be found [here](http
 - [grid classes with Sass.](https://maximmaeder.com/grid-classes-with-sass/)
 - [How to hide text in images with python.](https://maximmaeder.com/how-to-hide-text-in-images-with-python/)
 - [What is Programming?](https://maximmaeder.com/what-is-programming/)
+- [Edit XML with python](https://maximmaeder.com/edit-xml-with-python/)
+- [Padding and Margin Classes with Sass](https://maximmaeder.com/padding-and-margin-classes-with-sass/)
+- [Simple quiz in the console with python.](https://maximmaeder.com/simple-quiz-in-the-console-with-python/)
+
+
 
 ## Taxonomy
 
