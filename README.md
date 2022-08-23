@@ -10,6 +10,7 @@ This repository holds the code for my Tutorials, feel free to copy folders or th
 The demos of articles revolving around Web technologies can be found [here](https://articles.maximmaeder.com/a/). This page shows subdirectories in this folder and each one represents the demo page of an article.
 
 ## Article Links
+- [Display JSON with HTML, CSS, and Javascript](https://maximmaeder.com/display-json-with-html-css-and-javascript/)
 - [Tabs with HTML, SASS, and JS](https://maximmaeder.com/tabs-with-html-sass-and-js/)
 - [Ripple Button with HTML, SASS, and JavaScript](https://maximmaeder.com/ripple-button-with-html-sass-and-javascript/)
 - [Country Quiz with HTML, SASS, and JavaScript.](https://maximmaeder.com/country-quiz-with-html-sass-and-javascript/)
