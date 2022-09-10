@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta name="robots" content="noindex">
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Markdown Editor</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1em;
+    }
+
+    label {
+      margin-bottom: 1em;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Markdown Input</h1>
+  
+    <label for="">Input</label>
+    <div class="mdEdit">
+      <div>fasd</div>
+      <input type="text" value="Enter Simple Markdown like *italic* or **bold**"> 
+    </div>
+    
+    <br>
+    <br>
+    
+    <label for="">Textarea</label>
+    <div class="mdEdit">
+      <div></div>
+      <textarea name="" id="" cols="30" rows="10">
+Enter More Complex Markdown into me like ...
+# Headers in different sizes
+or 
+[links](https://maximmaeder.com)
+or
+![](https://maximmaeder.com/wp-content/uploads/2022/08/preview-2048x1280.png)
+or
+`codeing` is cool</textarea>
+    </div>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
