@@ -10,6 +10,9 @@ This repository holds the code for my Tutorials, feel free to copy folders or th
 The demos of articles revolving around Web technologies can be found [here](https://articles.maximmaeder.com/a/). This page shows subdirectories in this folder and each one represents the demo page of an article.
 
 ## Article Links
+- [Sortable Table with JavaScript](https://maximmaeder.com/sortable-table-with-javascript/)
+- [Shortcuts with JavaScript](https://maximmaeder.com/shortcuts-with-javascript/)
+- [Calculator with History Function in HTML, CSS, and JavaScript.](https://maximmaeder.com/calculator-with-history-function-in-html-css-and-javascript/)
 - [Link Previews with JavaScript and PHP](https://maximmaeder.com/link-previews-with-javascript-and-php/)
 - [Split Container Web Component](https://maximmaeder.com/split-container-web-component/)
 - [Markdown Inputs with HTML, CSS and JavaScript](https://maximmaeder.com/markdown-inputs-with-html-css-and-javascript/)
@@ -22,7 +25,6 @@ The demos of articles revolving around Web technologies can be found [here](http
 - [Highlighted Dummy Code Editor with HTML CSS JavaScript (vue.js)](https://maximmaeder.com/highlighted-dummy-code-editor-with-html-css-javascript-vue-js/)
 - [How to make a Progressive Web App.](https://maximmaeder.com/how-to-make-a-progressive-web-app/)
 - [Dropdown with SASS/CSS](https://maximmaeder.com/dropdown-with-sass-css/)
-
 - [Simple spreadsheet app with vue](https://maximmaeder.com/simple-spreadsheet-app-with-vue/)
 - [grid classes with Sass.](https://maximmaeder.com/grid-classes-with-sass/)
 - [How to hide text in images with python.](https://maximmaeder.com/how-to-hide-text-in-images-with-python/)
@@ -43,19 +45,17 @@ The Articles are organized by the following Categories and Tags.
 - [ui-components](https://maximmaeder.com/category/ui-components/)
 - [webdevelopment](https://maximmaeder.com/category/webdevelopment/)
 - [allgemein](https://maximmaeder.com/category/allgemein/)
-- [sass](https://maximmaeder.com/category/sass/)
 
 ### Tags
 
-- [html](https://maximmaeder.com/tag/html/)
 - [javascript](https://maximmaeder.com/tag/javascript/)
-- [programming](https://maximmaeder.com/tag/programming/)
+- [sortable](https://maximmaeder.com/tag/sortable/)
+- [table](https://maximmaeder.com/tag/table/)
 - [web-developement](https://maximmaeder.com/tag/web-developement/)
-- [components](https://maximmaeder.com/tag/components/)
+- [programming](https://maximmaeder.com/tag/programming/)
+- [calculator](https://maximmaeder.com/tag/calculator/)
 - [css](https://maximmaeder.com/tag/css/)
+- [html](https://maximmaeder.com/tag/html/)
+- [components](https://maximmaeder.com/tag/components/)
 - [markdown](https://maximmaeder.com/tag/markdown/)
 - [sass](https://maximmaeder.com/tag/sass/)
-- [vue](https://maximmaeder.com/tag/vue/)
-- [pwa](https://maximmaeder.com/tag/pwa/)
-- [simple](https://maximmaeder.com/tag/simple/)
-
