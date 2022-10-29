@@ -10,6 +10,8 @@ This repository holds the code for my Tutorials, feel free to copy folders or th
 The demos of articles revolving around Web technologies can be found [here](https://articles.maximmaeder.com/a/). This page shows subdirectories in this folder and each one represents the demo page of an article.
 
 ## Article Links
+- [File Explorer with Vue.js](https://maximmaeder.com/file-explorer-with-vue-js/)
+- [Awesome Tools and Websites](https://maximmaeder.com/awesome-tools-and-websites/)
 - [Sortable Table with JavaScript](https://maximmaeder.com/sortable-table-with-javascript/)
 - [Shortcuts with JavaScript](https://maximmaeder.com/shortcuts-with-javascript/)
 - [Calculator with History Function in HTML, CSS, and JavaScript.](https://maximmaeder.com/calculator-with-history-function-in-html-css-and-javascript/)
@@ -20,6 +22,7 @@ The demos of articles revolving around Web technologies can be found [here](http
 - [Tabs with HTML, SASS, and JS](https://maximmaeder.com/tabs-with-html-sass-and-js/)
 - [Ripple Button with HTML, SASS, and JavaScript](https://maximmaeder.com/ripple-button-with-html-sass-and-javascript/)
 - [Country Quiz with HTML, SASS, and JavaScript.](https://maximmaeder.com/country-quiz-with-html-sass-and-javascript/)
+
 - [Weather App with HTML, SASS, and JavaScript](https://maximmaeder.com/weather-app-with-html-sass-and-javascript/)
 - [Accordion with HTML, CSS (SASS) and JavaScript.](https://maximmaeder.com/accordion-with-html-css-sass-and-javascript/)
 - [Highlighted Dummy Code Editor with HTML CSS JavaScript (vue.js)](https://maximmaeder.com/highlighted-dummy-code-editor-with-html-css-javascript-vue-js/)
@@ -42,17 +45,21 @@ The Articles are organized by the following Categories and Tags.
 
 ### Categories
 
-- [ui-components](https://maximmaeder.com/category/ui-components/)
 - [webdevelopment](https://maximmaeder.com/category/webdevelopment/)
-- [allgemein](https://maximmaeder.com/category/allgemein/)
+- [general](https://maximmaeder.com/category/general/)
+- [ui-components](https://maximmaeder.com/category/ui-components/)
 
 ### Tags
 
 - [javascript](https://maximmaeder.com/tag/javascript/)
+- [programming](https://maximmaeder.com/tag/programming/)
+- [vue](https://maximmaeder.com/tag/vue/)
+- [web-developement](https://maximmaeder.com/tag/web-developement/)
+- [general](https://maximmaeder.com/tag/general/)
+- [links](https://maximmaeder.com/tag/links/)
+- [websites](https://maximmaeder.com/tag/websites/)
 - [sortable](https://maximmaeder.com/tag/sortable/)
 - [table](https://maximmaeder.com/tag/table/)
-- [web-developement](https://maximmaeder.com/tag/web-developement/)
-- [programming](https://maximmaeder.com/tag/programming/)
 - [calculator](https://maximmaeder.com/tag/calculator/)
 - [css](https://maximmaeder.com/tag/css/)
 - [html](https://maximmaeder.com/tag/html/)
