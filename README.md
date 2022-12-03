@@ -10,6 +10,8 @@ This repository holds the code for my Tutorials, feel free to copy folders or th
 The demos of articles revolving around Web technologies can be found [here](https://articles.maximmaeder.com/a/). This page shows subdirectories in this folder and each one represents the demo page of an article.
 
 ## Article Links
+- [Product Tour with JavaScript and SCSS](https://maximmaeder.com/product-tour-with-javascript-and-scss/)
+- [Godot Platformer Character with Wall jumping](https://maximmaeder.com/godot-platformer-character-with-wall-jumping/)
 - [File Explorer with Vue.js](https://maximmaeder.com/file-explorer-with-vue-js/)
 - [Awesome Tools and Websites](https://maximmaeder.com/awesome-tools-and-websites/)
 - [Sortable Table with JavaScript](https://maximmaeder.com/sortable-table-with-javascript/)
@@ -22,7 +24,6 @@ The demos of articles revolving around Web technologies can be found [here](http
 - [Tabs with HTML, SASS, and JS](https://maximmaeder.com/tabs-with-html-sass-and-js/)
 - [Ripple Button with HTML, SASS, and JavaScript](https://maximmaeder.com/ripple-button-with-html-sass-and-javascript/)
 - [Country Quiz with HTML, SASS, and JavaScript.](https://maximmaeder.com/country-quiz-with-html-sass-and-javascript/)
-
 - [Weather App with HTML, SASS, and JavaScript](https://maximmaeder.com/weather-app-with-html-sass-and-javascript/)
 - [Accordion with HTML, CSS (SASS) and JavaScript.](https://maximmaeder.com/accordion-with-html-css-sass-and-javascript/)
 - [Highlighted Dummy Code Editor with HTML CSS JavaScript (vue.js)](https://maximmaeder.com/highlighted-dummy-code-editor-with-html-css-javascript-vue-js/)
