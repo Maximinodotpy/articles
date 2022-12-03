@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+
+.app {
+  height: 100vh;
+  background-color: hsl(220deg, 10%, 5%);
+  color: hsl(220deg, 10%, 70%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 2.5rem 1fr 2.5rem;
+}
+.app * {
+  font: inherit;
+  background-color: inherit;
+  border: inherit;
+  box-sizing: border-box;
+  color: inherit;
+}
+.app .header {
+  grid-column: 1/3;
+  background-color: hsl(220deg, 10%, 13%);
+  cursor: default;
+}
+.app .header button {
+  padding: 0.5rem;
+}
+.app .header button:hover {
+  background-color: hsl(220deg, 10%, 10%);
+  cursor: pointer;
+}
+.app .sidebar {
+  padding: 1rem;
+  background-color: hsl(220deg, 10%, 15%);
+}
+.app .sidebar h3 {
+  margin: 0;
+  font-weight: 600;
+}
+.app .sidebar-tree ul {
+  list-style-type: none;
+  padding-inline-start: 20px;
+}
+.app .sidebar-tree ul b {
+  color: hsl(220deg, 10%, 30%);
+}
+.app .sidebar-tree .firstList {
+  padding-inline-start: 0px;
+}
+.app .editArea {
+  background-color: hsl(220deg, 10%, 20%);
+}
+.app .editArea img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+.app .activityBar {
+  grid-column: 1/3;
+  background-color: hsl(220deg, 50%, 50%);
+  text-shadow: 0 0 3px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 600;
+}
+.app .activityBar img.icon {
+  height: 20px;
+  max-height: 100%;
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

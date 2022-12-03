@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Tour</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tour.css">
+</head>
+<body>
+    
+    <div class="app">
+        <div class="header">
+            <button>File</button>
+            <button id="selectionButton">Selection</button>
+            <button>Edit</button>
+            <button>Object</button>
+            <button id="scenesButton">Scenes</button>
+            <button>Help</button>
+        </div>
+        <div class="sidebar">
+            <h3><strong>Element Tree</strong></h3>
+            <div class="sidebar-tree" id="treeArea">
+                <ul class="firstList">
+                    <li>Script Manager <b>1</b></li>
+                    <li>Scene Root <b>2</b></li>
+                        <ul>
+                            <li>Player <b>2.1</b>
+                                <ul>
+                                    <li>Graphics <b>2.1.1</b></li>
+                                    <li>Kinematics <b>2.1.2</b></li>
+                                    <li>Collision <b>2.1.3</b></li>
+                                    <li>Raycast <b>2.1.4</b></li>
+                                </ul>
+                            </li>
+                            <li>UI <b>2.2</b></li>
+                        </ul>
+                    </li>
+                    <li>Testing <b>3</b></li>
+                </ul>
+            </div>
+
+            <p>Made By <a href="https://maximmaeder.com/" target="_blank">Maxim Maeder</a> </p>
+        </div>
+        <div class="editArea">
+            <!-- <img src="img/Screenshot 2022-12-02 081346.jpg" alt=""> -->
+        </div>
+
+        <div class="activityBar">
+            <div id="activityBar">ACTIVTY BAR</div>
+            <div>Service Running ...</div>
+            <img class="icon" src="img/bars-solid.svg" id="menuIcon">
+        </div>
+    </div>
+
+    <script src="tour.js"></script>
+    <script>
+
+        // Use Tour JS Function here
+
+        runTour([
+            {
+                title: 'Lets Take a little Tour!',
+                text: 'This is a Product / UI Tour Programm made by <a href="https://maximmaeder.com" target="_blank">Maxim Maeder</a>. It will show the user specified elements on a (non scrollong) Webpage. You can use the Arrow Keys, Enter and Backspace to navigate through the steps. 😎',
+            },
+            {
+                title: 'Selection',
+                text: 'Explore Different <i>Selection modes</i> here.',
+                element: '#selectionButton',
+            },
+            {
+                title: 'Scenes',
+                text: 'Here you can view different actions available for the scenes.',
+                element: '#scenesButton',
+            },
+            {
+                title: 'Element Tree',
+                text: 'Here you can see all the elements in the current file tree.',
+                element: '#treeArea',
+            },
+            {
+                title: 'Intermission',
+                text: 'In case you dont specify an element the programm will simply show the panel in the middle of the screen.',
+            },
+            {
+                title: 'Activity Bar',
+                text: 'This Area shows you some useful information about the current instance of the programm.',
+                element: '#activityBar',
+            },
+            {
+                title: 'Activity Menu',
+                text: 'View all the available actions',
+                element: '#menuIcon',
+            },
+        ])
+    </script>
+
+</body>
+</html>
