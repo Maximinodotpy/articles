@@ -1,0 +1,95 @@
+.modalWrapper {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsla(0deg, 0%, 0%, 0.5);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalWrapper .modalPanel {
+  width: 400px;
+  background-color: hsla(0deg, 0%, 0%, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 3px hsla(0deg, 0%, 0%, 0.3), 0 3px 2px hsla(0deg, 0%, 0%, 0.2);
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  animation: appear 0.5s ease;
+}
+@keyframes appear {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.modalWrapper .modalPanel * {
+  box-sizing: border-box;
+  color: inherit;
+  font: inherit;
+  border: none;
+  background-color: transparent;
+}
+.modalWrapper .modalPanel > * {
+  padding: 0.5rem;
+}
+.modalWrapper .modalPanel .modalTitle {
+  background-color: hsla(0deg, 0%, 30%, 0.5);
+  border-radius: 6px 6px 0 0;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.modalWrapper .modalPanel .actionBar {
+  background-color: rgba(51, 51, 51, 0.5);
+  border-radius: 0 0 6px 6px;
+  display: flex;
+  justify-content: flex-end;
+}
+.modalWrapper .modalPanel .actionBar .submitButton {
+  background-color: hsla(0deg, 0%, 20%, 0.5);
+  border-radius: 6px;
+  margin-left: 0.5rem;
+}
+.modalWrapper .modalPanel .actionBar .cancelButton {
+  opacity: 0.6;
+}
+.modalWrapper .modalPanel .actionBar .submitButton, .modalWrapper .modalPanel .actionBar .cancelButton {
+  padding: 0.2rem 0.4rem;
+}
+.modalWrapper .modalPanel .actionBar .submitButton:hover, .modalWrapper .modalPanel .actionBar .cancelButton:hover {
+  cursor: pointer;
+}
+.modalWrapper .modalPanel .fieldsWrapper {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.modalWrapper .modalPanel .inputRow {
+  margin-bottom: 1.4rem;
+}
+.modalWrapper .modalPanel .inputRow label {
+  margin-bottom: 0.7rem;
+  display: inline-block;
+  font-weight: 600;
+}
+.modalWrapper .modalPanel .inputRow input {
+  border-bottom: 1px solid hsla(200deg, 100%, 50%, 0.3);
+  width: 100%;
+  outline-offset: 0px;
+  outline: 0 solid hsla(200deg, 100%, 50%, 0);
+  transition-property: outline-offset, outline-color, border-bottom;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.modalWrapper .modalPanel .inputRow input:focus {
+  outline: 2px solid hsla(200deg, 100%, 50%, 0.5);
+  outline-offset: 2px;
+  border-bottom-color: transparent;
+}
+
+/*# sourceMappingURL=advancedPrompt.css.map */
