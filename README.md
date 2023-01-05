@@ -1,13 +1,13 @@
 ![Maximmaeder.com Logo](https://maximmaeder.com/wp-content/uploads/2022/06/blog-logo_v1-150x150.png)
 
 # Articles
-This repository holds the code for my Tutorials, feel free to copy folders or the whole repository to test and look at the code. Each Article has its own folder.
+This repository holds the code for my Tutorials; feel free to copy folders or the whole storage to test and look at the code. Each Article has its folder; optionally, there is also a _blog folder that contains the article's markdown, preview images, and so on.
 
 [maximmaeder.com](https://maximmaeder.com/)
 
 ## Demos
 
-The demos of articles revolving around Web technologies can be found [here](https://articles.maximmaeder.com/a/). This page shows subdirectories in this folder and each one represents the demo page of an article.
+The demos of articles revolving around Web technologies can be found [here](https://demos.maximmaeder.com/). This page shows subdirectories in this folder, each representing an article's demo page.
 
 ## Article Links
 - [Product Tour with JavaScript and SCSS](https://maximmaeder.com/product-tour-with-javascript-and-scss/)
@@ -41,8 +41,7 @@ The demos of articles revolving around Web technologies can be found [here](http
 
 ## Taxonomy
 
-The Articles are organized by the following Categories and Tags.
-
+The following Categories and Tags organize the Articles.
 
 ### Categories
 
