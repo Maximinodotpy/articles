@@ -1,7 +1,7 @@
 ![Maximmaeder.com Logo](https://maximmaeder.com/wp-content/uploads/2022/06/blog-logo_v1-150x150.png)
 
 # Articles
-This repository holds the code for my Tutorials; feel free to copy folders or the whole storage to test and look at the code. Each Article has its folder; optionally, there is also a _blog folder that contains the article's markdown, preview images, and so on.
+This repository holds the code for my Tutorials; feel free to copy folders or the whole storage to test and look at the code. Each Article has its folder; optionally, there is also a *_blog* folder that contains the article's markdown, preview images, and so on.
 
 [maximmaeder.com](https://maximmaeder.com/)
 
@@ -10,6 +10,11 @@ This repository holds the code for my Tutorials; feel free to copy folders or th
 The demos of articles revolving around Web technologies can be found [here](https://demos.maximmaeder.com/). This page shows subdirectories in this folder, each representing an article's demo page.
 
 ## Article Links
+- [Infinite Scrolling Website with JavaScript](https://maximmaeder.com/infinite-scrolling-website-with-javascript/)
+- [How to make a Chrome Extension](https://maximmaeder.com/how-to-make-a-chrome-extension/)
+- [How to set up and configure the Tailwind Framework.](https://maximmaeder.com/how-to-set-up-and-configure-the-tailwind-framework/)
+- [DOM Creation Function with JavaScript](https://maximmaeder.com/dom-creation-function-with-javascript/)
+- [Advanced Form Modal with JavaScript](https://maximmaeder.com/advanced-form-modal-with-javascript/)
 - [Product Tour with JavaScript and SCSS](https://maximmaeder.com/product-tour-with-javascript-and-scss/)
 - [Godot Platformer Character with Wall jumping](https://maximmaeder.com/godot-platformer-character-with-wall-jumping/)
 - [File Explorer with Vue.js](https://maximmaeder.com/file-explorer-with-vue-js/)
@@ -36,33 +41,3 @@ The demos of articles revolving around Web technologies can be found [here](http
 - [Edit XML with python](https://maximmaeder.com/edit-xml-with-python/)
 - [Padding and Margin Classes with Sass](https://maximmaeder.com/padding-and-margin-classes-with-sass/)
 - [Simple quiz in the console with python.](https://maximmaeder.com/simple-quiz-in-the-console-with-python/)
-
-
-
-## Taxonomy
-
-The following Categories and Tags organize the Articles.
-
-### Categories
-
-- [webdevelopment](https://maximmaeder.com/category/webdevelopment/)
-- [general](https://maximmaeder.com/category/general/)
-- [ui-components](https://maximmaeder.com/category/ui-components/)
-
-### Tags
-
-- [javascript](https://maximmaeder.com/tag/javascript/)
-- [programming](https://maximmaeder.com/tag/programming/)
-- [vue](https://maximmaeder.com/tag/vue/)
-- [web-developement](https://maximmaeder.com/tag/web-developement/)
-- [general](https://maximmaeder.com/tag/general/)
-- [links](https://maximmaeder.com/tag/links/)
-- [websites](https://maximmaeder.com/tag/websites/)
-- [sortable](https://maximmaeder.com/tag/sortable/)
-- [table](https://maximmaeder.com/tag/table/)
-- [calculator](https://maximmaeder.com/tag/calculator/)
-- [css](https://maximmaeder.com/tag/css/)
-- [html](https://maximmaeder.com/tag/html/)
-- [components](https://maximmaeder.com/tag/components/)
-- [markdown](https://maximmaeder.com/tag/markdown/)
-- [sass](https://maximmaeder.com/tag/sass/)
