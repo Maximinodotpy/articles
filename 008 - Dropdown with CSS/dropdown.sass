@@ -1,0 +1,57 @@
+$color: rgb(214, 238, 255)
+
+[class*="dropdown"]
+    position: relative
+    padding: 1em
+    display: inline-block
+
+    font-family: 'Segoe UI', sans-serif
+
+    /* The Header of the Dropdown */
+    > *:first-child
+        transition: transform 0.25s ease
+        font-weight: 600
+
+    &:hover
+        background: $color
+        border-radius: 10px 10px 0 0
+
+        > *:first-child
+            transform: translateY(-7px)
+
+    /* The Dropdownpanel that appears */
+    ul
+        display: none
+        min-width: 100%
+        background-color: $color
+        padding: 1em
+        list-style-type: none
+        margin: 0
+        position: absolute
+        top: 100%
+        left: 0
+        border-radius: 0px 10px 10px 10px
+        z-index: 99
+
+        li
+            padding-block-start: 0
+
+    &:hover ul
+        display: unset
+
+/* If the dropdown should start on the right side */
+.dropdown-right ul
+    border-radius: 10px 0px 10px 10px
+    left: unset
+    right: 0 !important
+    text-align: right
+
+/* Three Different widths for the dropdown panel */
+$dropdown-width-values: 100px, 200px, 300px
+$dropdown-width-names: 'slim', 'normal', 'wide'
+
+$dropdown-widths: zip($dropdown-width-names, $dropdown-width-values)
+
+@each $name, $width in $dropdown-widths
+    .dropdown-#{$name} ul
+        min-width: $width

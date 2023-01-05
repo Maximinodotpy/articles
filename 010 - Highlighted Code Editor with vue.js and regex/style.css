@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(42, 42, 42) !important;
+    height: 100vh
+}
+
+.menubar {
+    background-color: rgb(54, 54, 54) !important;
+    padding-left: 1em;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.menubar button {
+    padding: 0.7em 0.7em;
+    background-color: transparent;
+    color: rgb(175, 175, 175);
+    border: none;
+}
+
+.menubar button:hover {
+    background-color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+
+.editor-container {
+    display: grid;
+    grid-template-columns: 50px 1fr
+}
+
+.linenumbers {
+    color: rgb(109, 109, 109);
+    font-size: 1.3em;
+    font-family: monospace !important;
+    padding: 1em 0.1em;
+    text-align: right;
+}
+
+.linenumbers span {
+    width: 100% !important;
+}
+
+.display,
+textarea {
+    padding: 1em;
+    font-size: 1.3em;
+    font-family: monospace !important;
+    height: 100%;
+    outline: none;
+    border: 0px solid black;
+    width: 100%;
+    resize: none;
+    position: absolute;
+    margin: 0;
+    background: transparent;
+    padding-left: 1em;
+    overflow-x: auto;
+}
+
+textarea {
+    color: rgba(0, 0, 0, 0);
+    caret-color: aliceblue;
+}
+
+.display {
+    color: rgb(216, 216, 216);
+    white-space: pre-wrap;
+}
+
+
+.editor {
+    height: 100%;
+    position: relative;
+    flex-grow: 1;
+}
+
+[kw] {
+    color: rgb(234, 97, 97);
+}
+
+[num] {
+    color: #d8fff6;
+}
+
+[func] {
+    color: rgb(95, 211, 234);
+}
+
+[str],
+[str] * {
+    color: rgb(234, 162, 95) !important;
+}
+
+[com],
+[com] * {
+    color: rgb(95, 234, 165) !important;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+#input,
+#output {
+    padding: 0.5em;
+}
+
+#output {
+    text-align: right;
+    background-color: rgb(30, 30, 30);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h6 {
+    margin: 0
+}
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 200%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: none;
+}
+
+.container {
+    overflow: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(40, 40, 40);
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 250px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSide {
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.rightSide h4 {
+    padding: 0.5em;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .rightSide {
+        display: none;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.historyContainer {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+button,
+input {
+    font: inherit;
+    color: inherit;
+    background-color: inherit;
+    border: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-grow: 1;
+
+}
+
+.buttons button {
+    border: 1px solid rgb(60, 60, 60);
+}
+
+.blueButton {
+    background-color: rgb(81, 81, 164)
+}
+
+.greyButton {
+    background-color: rgba(100, 100, 100, 0.2)
+}
+
+.historyItem {
+    border-bottom: 1px solid rgb(100, 100, 100);
+    padding-left: 1em;
+    padding-right: 1em;
+    color: grey;
+    font-size: 60%;
+}
+
+.historyItem>*:first-child {
+    padding-top: 0.5em;
+}
+
+.historyItem>*:last-child {
+    text-align: right;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(100, 100, 100, 0.2);
+    transition: background-color 0.3s ease;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlighted Dummy Code Editor</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="menubar">
+            <Button>File</Button>
+            <Button>Edit</Button>
+            <Button>Selection</Button>
+            <Button>View</Button>
+            <Button>Go</Button>
+            <Button>Run</Button>
+            <Button>Help</Button>
+        </div>
+
+        <div class="editor-container">
+            <div class="linenumbers">
+                <span v-for="n in content.split('\n').length">{{ n }} <br> </span>
+            </div>
+            <div class="editor">
+                <div class="display" id="textarea" v-html="convert()"></div>
+                <textarea v-model="content"></textarea>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<company>
+	<info name="maximmaeder.com"></info>
+	<employees>
+		<employee id="1" name="John"></employee>
+		<employee id="2" name="Marc"></employee>
+		<employee id="3" name="Seth"></employee>
+	</employees>
+</company>

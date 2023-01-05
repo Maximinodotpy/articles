@@ -1,0 +1,19 @@
+$columnCounts: 2, 3, 4
+
+@each $count in $columnCounts
+    $text: "1fr "
+
+    @for $i from 1 to $count
+        $text: $text + "1fr "
+
+    .grid-#{$count}
+        grid-template-columns: unquote($text)
+        
+            
+[class*="grid"]
+    display: grid
+    
+    @media screen and (max-width: 900px)
+        grid-template-columns: 1fr
+    
+    

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap')
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after 
+  box-sizing: border-box
+
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd 
+  margin: 0
+
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] 
+  list-style: none
+
+
+/* Set core root defaults */
+html:focus-within 
+  scroll-behavior: smooth
+
+
+/* Set core body defaults */
+body 
+  min-height: 100vh
+  text-rendering: optimizeSpeed
+  line-height: 1.5
+
+
+/* A elements that don't have a class get default styles */
+a:not([class]) 
+  text-decoration-skip-ink: auto
+
+
+/* Make images easier to work with */
+img,
+picture 
+  max-width: 100%
+  display: block
+
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select 
+  font: inherit
+
+
+
+.container
+    max-width: 800px
+    padding: 1em
+    margin: 0 auto
+    
+    
+body
+    margin: 0
+    /* font-family: 'VT323', monospace */
+    font-size: 150%
+    
+    a
+        color: rgb(255, 0, 0)
+    
+    
+.tabs 
+    .tab-registers 
+        display: flex
+        background-color: rgb(255, 255, 255)
+        overflow-x: auto
+
+        button
+            display: inline-block
+            white-space: nowrap
+
+            &:focus
+                background-color: rgb(240, 240, 240)
+                outline: none
+                
+
+
+    button 
+        padding: 0.5em
+        background-color: rgb(255, 255, 255)
+        border: none
+        font: inherit
+
+
+    .tab-registers button:hover 
+        cursor: pointer
+
+
+    .tab-bodies 
+        padding: 0.5em
+        background-color: rgb(200, 200, 200)
+        flex-grow: 1
+        overflow-y: auto
+
+
+    button.active-tab 
+            background-color: rgb(235, 235, 235)
+            

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Preview</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .linkPreviewWrapper {
+            position: relative;
+        }
+
+        .linkPreviewWrapper > div {
+            width: 250px;
+            max-height: 200px;
+            box-shadow: 0 0 10px rgb(0,0,0,0.3);
+            position: absolute;
+            color: black;
+            padding: 1em;
+            overflow-y: hidden;
+            left: 0;
+            top: 100%;
+            display: none;
+            background: linear-gradient(0deg, rgb(228, 228, 228) 0%, rgba(0,0,0,0) 100%);
+            background-color: white;
+            z-index: 999;
+        }
+
+        .linkPreviewWrapper:hover h3 {
+            margin-top: 0;
+            font-weight: normal;
+        }
+        
+        .linkPreviewWrapper:hover > * {
+            display: block;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Link Previews</h1>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam eligendi eaque corporis porro
+            exercitationem fugit autem! <a href="https://quuli.ch/">Vitae</a> iusto cumque doloribus ratione quibusdam
+            delectus non animi nam! Numquam, quidem necessitatibus! <a href="https://maximmaeder.com">Iusto</a> ?
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a href="https://javascript.info/basic-dom-node-properties">Suscipit</a> reiciendis fugit, ullam vero natus consectetur est amet vitae quod ea non ipsa harum porro quia. <a href="https://maximmaeder.com/split-container-web-component/">Veritatis</a> eum sapiente provident eos.
+        </p>
+    </div>
+
+    <script>
+
+        Array.from(document.querySelectorAll('a')).forEach(async el => {
+
+            let response = await fetch(`script.php?url=${el.href}`);
+
+            if (response.ok) {
+                let html = await response.text();
+
+                title = html.match(/<title.*?>(?<t>.*?)<\/title>/s)?.groups.t ?? 'No Title';
+                description = html.match(/<meta name="description" content="(?<d>.*?)".*?>/s)?.groups.d ?? '';
+
+                panel = document.createElement('div');
+                
+                el.className = 'linkPreviewWrapper';
+
+                panel.innerHTML = `
+                    <h3>${title}</h3>
+                    <p>${description}</p>
+                `
+
+                el.appendChild(panel);
+            }
+        })
+    </script>
+
+</body>
+
+</html>

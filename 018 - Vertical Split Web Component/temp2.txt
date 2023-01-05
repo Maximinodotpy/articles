@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Container</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <hsplit-container class="container" preserve="name">
+        <div class="panel">
+            <h3>Vertical Split Container</h3>
+            <p>This is a custom HTML Element made with the JavaScript Web Components.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veniam eveniet autem porro fugit quas, ex beatae omnis ratione! Numquam maiores commodi excepturi expedita magnam consequatur fugiat enim quidem temporibus.</p>
+            <img src="https://maximmaeder.com/wp-content/uploads/2022/09/preveiw.png" alt="">
+            <img src="https://maximmaeder.com/wp-content/uploads/2022/08/preview-2-2048x2048.png" alt="">
+        </div>
+        <div class="panel">
+            <h3>Preserving</h3>
+            <p>When creating a <code>hsplit-container</code> you can supply a unique name to the <code>preserve</code> attribute so the split will be added back even after reloading the Page.</p>
+
+            <hsplit-container min="30" max="70">
+                <div>
+                    <h3>Nested Splits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus rem maxime veniam dicta commodi doloremque repellat assumenda, distinctio reprehenderit pariatur, voluptate sunt debitis quia itaque amet tempore? Sint, in. Quo!</p>
+                </div>
+                <div>
+                    <h3>are also possible.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus rem maxime veniam dicta commodi doloremque repellat assumenda, distinctio reprehenderit pariatur, voluptate sunt debitis quia itaque amet tempore? Sint, in. Quo!</p>
+                </div>
+            </hsplit-container>
+
+            <p>
+                Made By <a href="https://maximmaeder.com/">Maxim Maeder</a>
+            </p>
+
+        </div>
+    </hsplit-container>
+
+
+
+    <template id="splitContainerTemplate">
+        <style>
+            :host * {
+                box-sizing: border-box;
+            }
+
+            :host {
+                background-color: rgb(255, 255, 255);
+                font-family: 'Segoe UI', sans-serif;
+                display: flex;
+                position: relative;
+            }
+
+            ::slotted(div:first-child) {
+                width: 50%;
+                margin-right: 2em;
+            }
+
+            ::slotted(div:last-child) {
+                width: 50%;
+                margin-left: 2em;
+            }
+        
+
+            #dragger-container {
+                height: 100%;
+                padding: 0 1em;
+                opacity: 0.1;
+                left: calc(50% - 1em - 2.5px);
+                transition: opacity 0.2s ease;
+                position: absolute;
+                touch-action: none;
+                background-color: rgba(0, 0, 0, 0.)
+            }
+
+            #dragger-container:hover {
+                opacity: 0.3;
+                cursor: ew-resize;
+            }
+
+            #dragger-container:active {
+                opacity: 1;
+                cursor: ew-resize;
+            }
+
+            #dragger-container div {
+                background-color: rgb(0, 149, 255);
+                width: 5px;
+                height: 100%;
+                border-radius: 10px;
+            }
+        </style>
+        <slot name="first"></slot>
+        <div id="dragger-container">
+            <div></div>
+        </div>
+        <slot name="second"></slot>
+    </template>
+
+    <script>
+        class splitContainer extends HTMLElement {
+            connectedCallback() {
+
+                this.config = {
+                    min: this.getAttribute('min') || 20,
+                    max: this.getAttribute('max') || 80,
+                    preserve: this.getAttribute('preserve') || null,
+                }
+
+                const shadow = this.attachShadow({ mode: 'open' })
+                shadow.append(splitContainerTemplate.content.cloneNode(true))
+
+                const dragger = shadow.querySelector('#dragger-container')
+                let draggerClicked = false
+
+                // Get the two children
+                const firstEl = this.children[0]
+                const lastEl = this.children[1]
+
+                // the Slot Attribute for both Elements
+                firstEl.setAttribute('slot', 'first')
+                lastEl.setAttribute('slot', 'second')
+
+
+                if (this.config.preserve) {
+                    dragger.style.left = localStorage.getItem(`${this.config.preserve}_dPos`) || null;
+                    firstEl.style.width = localStorage.getItem(`${this.config.preserve}_fPos`) || null;
+                    lastEl.style.width = localStorage.getItem(`${this.config.preserve}_lPos`) || null;
+                }
+
+                dragger.addEventListener('pointerdown', (ev) => {draggerClicked = true;})
+                document.addEventListener('pointerup', () => { draggerClicked = false; })
+                document.addEventListener('pointermove', (ev) => {
+                    if (draggerClicked) {
+                        const x = this.getBoundingClientRect().x
+                        const width = this.getBoundingClientRect().width
+
+                        const perc = ((ev.x - x) / width) * 100
+                        const percClamped = this.clamp(perc, this.config.min, this.config.max)
+
+                        firstEl.style.width = `${percClamped}%`
+                        lastEl.style.width = `${100 - percClamped}%`
+                        dragger.style.left = `calc(${percClamped}% - 1em - 2.5px)`
+
+                        if (this.config.preserve) {
+                            localStorage.setItem(`${this.config.preserve}_dPos`, dragger.style.left)
+                            localStorage.setItem(`${this.config.preserve}_fPos`, firstEl.style.width)
+                            localStorage.setItem(`${this.config.preserve}_lPos`, lastEl.style.width)
+                        }
+
+                    }
+                })
+            }
+
+            static get observedAttributes() {
+                return ['min', 'max', 'preserve']
+            }
+
+            attributeChanged(name, oldValue, newValue) {
+                if (name in this.config) this.config[name] = newValue
+            }
+
+            clamp(val, min, max) {
+                if (val > max) return max
+                if (val < min) return min
+                return val
+            }
+        }
+
+        customElements.define('hsplit-container', splitContainer)
+    </script>
+
+</body>
+
+</html>

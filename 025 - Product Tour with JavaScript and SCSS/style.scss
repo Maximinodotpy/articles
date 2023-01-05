@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+.app {
+    height: 100vh;
+
+    background-color: hsl(220, 10%, 5%);
+    color: hsl(220, 10%, 70%);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 2.5rem 1fr 2.5rem;
+
+    * {
+        font: inherit;
+        background-color: inherit;
+        border: inherit;
+        box-sizing: border-box;
+        color: inherit;
+    }
+
+
+    .header {
+        grid-column: 1 / 3;
+
+        background-color: hsl(220, 10%, 13%);
+
+        cursor: default;
+
+        button {
+            padding: 0.5rem;
+
+            &:hover {
+                background-color: hsl(220, 10%, 10%);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .sidebar {
+        padding: 1rem;
+
+        h3 {
+            margin: 0;
+            font-weight: 600;
+        }
+
+        background-color: hsl(220, 10%, 15%);
+
+        &-tree {
+            ul {
+                list-style-type: none;
+                padding-inline-start: 20px;
+
+                b {
+                    color:hsl(220, 10%, 30%)
+                }
+            }
+
+            .firstList {
+                padding-inline-start: 0px;
+            }
+        }
+    }
+
+    .editArea {
+        background-color: hsl(220, 10%, 20%);
+        
+        img {
+            width: 100%;
+            height: 100%;
+            opacity: 0.3;
+        }
+
+    }
+
+    .activityBar {
+        grid-column: 1 / 3;
+
+        background-color: hsl(220, 50%, 50%);
+
+        text-shadow: 0 0 3px black;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-weight: 600;
+
+        img.icon {
+            height: 20px;
+            max-height: 100%;
+            display: block;
+        }
+    }
+}

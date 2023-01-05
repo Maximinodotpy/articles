@@ -1,0 +1,28 @@
+body {
+    margin: 0
+}
+
+h3 {
+    margin: 0
+}
+
+
+.panel {
+    padding: 1em;
+    height: 100%;
+    overflow: auto;
+}
+
+.container {
+    height: 100vh
+}
+
+img {
+    max-width: 100%;
+    width: 300px;
+    opacity: 0.3;
+}
+
+a {
+    color: rgb(141, 141, 255)
+}

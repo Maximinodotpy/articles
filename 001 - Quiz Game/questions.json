@@ -1,0 +1,8 @@
+{
+    "name": "Geography Quiz",
+    "questions": [
+        ["What is the Capital of France?", ["Paris", "Montpellier", "Toulouse"]],
+        ["Which country shares a border with the US to to the South?", ["Mexico", "Canada"]],
+        ["How is the desert in northern Africa called?", ["Sahara", "Gobi", "Urals"]]
+    ]
+}
