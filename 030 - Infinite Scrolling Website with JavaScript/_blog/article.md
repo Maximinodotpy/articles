@@ -1,6 +1,6 @@
 # Infinite Scrolling Website with JavaScript
 
-Learn how to make an infinitely scrolling website with JavaScript, HTML, and CSS.
+Learn how to make an infinitely scrolling website with JavaScript, HTML, and CSS. Learn about the Intersection Observer API.
 
 ## Idea
 
@@ -10,7 +10,7 @@ Visit the [Demo](https://demos.maximmaeder.com/demo/catstragam/) to understand b
 
 ![Showcase Video of Catstagram](showcase.gif)
 
-## Markup
+## Markup of the infinite scrolling website
 
 Let's start with the Markup of our little website. In the head, we need to add our script and link tags to the corresponding files. Mind the [defer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-defer) attribute added to the script tag, as its content should only run when the HTML has fully loaded. This way, we don't have to add scripts to the bottom of the page.
 
@@ -132,7 +132,7 @@ async function getPicture() {
 }
 ```
 
-## Styling
+## Styling the infinite scrolling grid
 
 Let's also style our website. I will only go over the grid and the animation.
 
@@ -175,7 +175,7 @@ This animation is then defined with the `@keyframes` rule, where we edit the bac
 }
 ```
 
-## Conclusion
+## Conclusion: Infinite Scrolling Website
 
 We made it a website that shows a bunch of cats that get more if you scroll down. I hope that my explanation is of some use to you. Also, remember that I am a beginner, so you should always look for better ways to solve these problems.
 
