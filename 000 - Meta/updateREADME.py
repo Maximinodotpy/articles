@@ -43,7 +43,7 @@ for i in chunks(content['items'], columns):
         finalString += f'|**[{title}]({url})** <br />'
 
         finalString+= f'{content_text} <br />'
-        finalString+= f'<img src="{image}" />'
+        finalString+= f'<img src="{image}" style="width: 100%"/>'
     
     finalString += '|\n'
 
