@@ -33,7 +33,7 @@ for item in content['items']:
 
 
     finalString += f'### [{title}]({url})\n'
-    finalString+= f'{content_text}\n'
+    finalString+= f'{content_text}\n\n'
     finalString+= f'![{title}]({image})\n\n'
 
 with open('../README.md', 'w') as f:
