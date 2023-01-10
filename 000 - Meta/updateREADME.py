@@ -19,7 +19,7 @@ The demos of articles revolving around Web technologies can be found [here](http
 |--|--|
 """
 
-columns = 2
+columns = 3
 
 response = requests.get('https://maximmaeder.com/feed/json')
 
@@ -30,7 +30,6 @@ finalString = defaultText
 def chunks(l, n):
     for i in range(0, len(l), n):
         yield l[i:i+n]
-
 
 for i in chunks(content['items'], columns):
 
