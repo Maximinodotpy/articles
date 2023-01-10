@@ -28,7 +28,7 @@ for item in content['items']:
     # print(item['content_text'])
     title = item['title']
     url = item['url']
-    content_text = item['content_text']
+    content_text = item['summary']
     image = item['image']
 
 
