@@ -31,10 +31,9 @@ for item in content['items']:
     content_text = item['summary']
     image = item['image']
 
-
     finalString += f'### [{title}]({url})\n'
     finalString+= f'{content_text}\n\n'
-    finalString+= f'![{title}]({image})\n\n'
+    finalString+= f'<img src="{image}" width="200" />\n\n'
 
 with open('../README.md', 'w') as f:
     f.write(finalString)
