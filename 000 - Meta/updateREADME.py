@@ -15,8 +15,11 @@ The demos of articles revolving around Web technologies can be found [here](http
 
 ## Article Links
 
+|  |  |
+|--|--|
 """
 
+columns = 2
 
 response = requests.get('https://maximmaeder.com/feed/json')
 
@@ -24,16 +27,25 @@ content = response.json()
 
 finalString = defaultText
 
-for item in content['items']:
-    # print(item['content_text'])
-    title = item['title']
-    url = item['url']
-    content_text = item['summary']
-    image = item['image']
+def chunks(l, n):
+    for i in range(0, len(l), n):
+        yield l[i:i+n]
 
-    finalString += f'### [{title}]({url})\n'
-    finalString+= f'{content_text}\n\n'
-    finalString+= f'<img src="{image}" width="200" />\n\n'
+
+for i in chunks(content['items'], columns):
+
+    for item in i:
+        title = item['title']
+        url = item['url']
+        content_text = item['summary']
+        image = item['image']
+
+        finalString += f'|**[{title}]({url})** <br />'
+
+        finalString+= f'{content_text} <br />'
+        finalString+= f'<img src="{image}" width="200" />'
+    
+    finalString += '|\n'
 
 with open('../README.md', 'w') as f:
     f.write(finalString)
