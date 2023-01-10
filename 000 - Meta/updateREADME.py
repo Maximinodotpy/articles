@@ -15,6 +15,12 @@ The demos of articles revolving around Web technologies can be found [here](http
 
 ## Article Links
 
+<style>
+    table, td {
+        vertical-align: top
+    }
+</style>
+
 |  |  |
 |--|--|
 """
@@ -43,7 +49,7 @@ for i in chunks(content['items'], columns):
         finalString += f'|**[{title}]({url})** <br />'
 
         finalString+= f'{content_text} <br />'
-        finalString+= f'<img src="{image}" style="width: 100%"/>'
+        finalString+= f'<img src="{image}" style="width: 100%; height: 100%; object-fit: fill"/>'
     
     finalString += '|\n'
 
