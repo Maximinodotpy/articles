@@ -12,12 +12,6 @@ The demos of articles revolving around Web technologies can be found [here](http
 
 ## Article Links
 
-<style>
-    table, td {
-        vertical-align: top
-    }
-</style>
-
 |  |  |
 |--|--|
 |**[Infinite Scrolling Website with JavaScript](https://maximmaeder.com/infinite-scrolling-website-with-javascript/)** <br />Learn how to make an infinitely scrolling website with JavaScript, HTML, and CSS. Learn about the Intersection Observer API. <br /><img src="https://maximmaeder.com/wp-content/uploads/2023/01/preview.png" style="width: 100%; height: 100%; object-fit: fill"/>|**[How to make a Chrome Extension](https://maximmaeder.com/how-to-make-a-chrome-extension/)** <br />Learn how to make Extensions for Chromium-based browsers. <br /><img src="https://maximmaeder.com/wp-content/uploads/2022/12/Screenshot-2022-12-27-200715-jpg.webp" style="width: 100%; height: 100%; object-fit: fill"/>|

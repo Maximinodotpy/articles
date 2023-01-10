@@ -15,12 +15,6 @@ The demos of articles revolving around Web technologies can be found [here](http
 
 ## Article Links
 
-<style>
-    table, td {
-        vertical-align: top
-    }
-</style>
-
 |  |  |
 |--|--|
 """
