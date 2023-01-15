@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://demos.maximmaeder.com/demo/catstragam/script.js",
+    "ranges": [
+      {
+        "start": 171,
+        "end": 335
+      }
+    ],
+    "text": "const url = 'https://api.thecatapi.com/v1/images/search'\nconst container = document.querySelector('.pictures')\n\nconst ids = [];\n\nconst observer = new IntersectionObserver((entries) => {\n    if (entries[0].isIntersecting) {\n        addPicture()\n    }\n    observer.unobserve(entries[0].target)\n    observer.observe(container.lastChild)\n}, {\n    threshold: 1,\n    rootMargin: '500px'\n})\n\n\naddPicture()\nobserver.observe(container.lastChild)\n\n\n\nasync function getPicture() {\n\n    try {\n        let r = await fetch(url)\n        let j = (await r.json())[0]\n        if (ids.includes(j.id)) {\n            throw new Error('Image Already Loaded')\n        }\n        ids.push(j.id)\n        return j\n\n\n    } catch (error) {\n        return getPicture()\n    }\n}\n\n\nasync function addPicture() {\n\n    const wrapper = document.createElement('a')\n    wrapper.target = '_blank'\n    \n    const imgNode = document.createElement('img')\n    \n    wrapper.appendChild(imgNode)\n    container.appendChild(wrapper)\n\n    let cat\n    try {\n        cat = await getPicture()\n    } catch (error) {\n        wrapper.remove()\n        return\n    }\n    \n    wrapper.href = cat.url\n    imgNode.src = cat.url\n    \n    const ratio = cat.width / cat.height\n    if (ratio < 0.8) {\n        wrapper.style.gridRow = 'span 2'\n    }\n}"
+  },
+  {
+    "url": "https://demos.maximmaeder.com/demo/catstragam/style.css",
+    "ranges": [
+      {
+        "start": 0,
+        "end": 97
+      },
+      {
+        "start": 99,
+        "end": 145
+      },
+      {
+        "start": 147,
+        "end": 267
+      },
+      {
+        "start": 269,
+        "end": 429
+      },
+      {
+        "start": 652,
+        "end": 1028
+      },
+      {
+        "start": 1125,
+        "end": 1195
+      },
+      {
+        "start": 1197,
+        "end": 1240
+      }
+    ],
+    "text": "body {\n    min-height: 100vh;\n    background-color: hsl(0, 0%, 14%);\n    color:hsl(0, 0%, 70%);\n}\n\nbody::-webkit-scrollbar {\n    display: none;\n}\n\n.container {\n    max-width: 800px;\n    margin: auto;\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n}\n\n.pictures {\n    display: grid;\n    height: 100%;\n    grid-template-columns: repeat( 2, 1fr );\n    grid-auto-rows: 200px;\n    column-fill: auto;\n    gap: 20px;\n}\n\n\n@media screen and (min-width: 1000px) {\n    .pictures:hover img:not(:hover) {\n        filter: grayscale(1) blur(3px);\n        opacity: 0.5;\n    }\n\n    .pictures {\n        grid-template-columns: repeat(4, 1fr);\n    }\n}\n\n\n.pictures img {\n    transition: all 0.2s ease-in-out;\n    display: block;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    box-shadow: 0 0 2px hsl(0, 0%, 70%);\n\n    background: linear-gradient(90deg, hsl(0, 0%, 30%), hsl(0, 0%, 50%), hsl(0, 0%, 30%));\n    background-size: 600% 100%;\n    animation: gradient 1s ease infinite;\n    animation-direction: alternate;\n}\n\n@keyframes gradient {\n    0% {background-position: 0%}\n    100% {background-position: 100%}\n}\n\na {\n    color: inherit;\n    text-decoration: none;\n    color: white;\n}\n\na:hover {\n    text-decoration: underline;\n}"
+  }
+]

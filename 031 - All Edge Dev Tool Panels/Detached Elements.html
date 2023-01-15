@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detached Elements</title>
+</head>
+<body>
+
+    <div id="hello">öflaskjdfölaksdj</div>
+
+    <script>        
+        // Getting the Element from the DOM and saving it to a variable
+        const variable = document.getElementById('hello')
+
+        // Removing this element
+        /* document.getElementById('hello').remove() */
+        variable.remove()
+
+        // the variable still shows the element and its methods work but it will show in *Detached Elements* as it can not be garbage collected.
+        console.log(variable);
+    </script>
+</body>
+</html>

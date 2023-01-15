@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+
+    <style>
+        .hover:hover {
+            color: red;
+            transition: color 0.5s ease;
+        }
+
+        .animation {
+            animation: translate 2s linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes translate {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(100px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animations</h1>
+
+    <div class="hover">Hover Me</div>
+
+    <div class="animation">I get animated</div>
+
+    <div class="rabbit">JS Animation</div>
+
+    <script>
+        const whiteRabbit = document.querySelector('.rabbit');
+
+        const rabbitDownKeyframes = new KeyframeEffect(
+            whiteRabbit, // element to animate
+            [
+                { transform: 'translateX(0%)' }, // keyframe
+                { transform: 'translateX(100%)' } // keyframe
+            ],
+            { duration: 3000, fill: 'forwards' } // keyframe options
+        );
+
+        const rabbitDownAnimation = new Animation(rabbitDownKeyframes, document.timeline);
+
+        // Play rabbit animation
+        rabbitDownAnimation.play();
+    </script>
+</body>
+
+</html>
