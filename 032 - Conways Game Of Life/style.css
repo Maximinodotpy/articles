@@ -1,0 +1,84 @@
+@font-face {
+    font-family: pixel;
+    src: url(font/pixel.ttf);
+}
+
+
+body {
+    margin: 0;
+    font-family: pixel;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 70%);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+}
+
+* {
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+}
+
+:root {
+    color-scheme: dark;
+}
+
+.controls {
+    background-color: hsl(0, 0%, 20%);
+    box-shadow: 0 5px 5px hsl(0, 0%, 13%);
+    z-index: 10;
+    transition: all 0.2s ease;
+}
+
+.controls.is_running {
+    box-shadow: none;
+    opacity: 0.3;
+}
+
+.controls button, .controls input {
+    padding: 1rem;
+    background-color: hsl(0, 0%, 23%)
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.playground {
+    overflow: auto;
+    padding: 1rem;
+    flex-grow: 1;
+    --size: 20px;
+    display: grid;
+    grid-template-columns: repeat(15, var(--size));
+    grid-auto-rows: var(--size);
+    gap: calc(var(--size) / 10);
+}
+
+.cell {
+    background-color: hsl(0, 0%, 23%);
+    color: hsl(0, 0%, 30%);
+    text-align: center;
+    font-size: 0.3rem;
+    padding:0.1rem;
+}
+
+.cell.live {
+    background-color: hsl(0, 0%, 50%);
+}
+
+.cell:hover {
+    outline: 2px solid white
+}
+
+
+
+
+.attribution {
+    padding: 1rem;
+    display: block;
+    font-size: 0.5rem;
+}
