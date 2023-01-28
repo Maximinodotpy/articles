@@ -101,7 +101,6 @@ resetButton.addEventListener('pointerdown', () => {
 
 function renderCells() {
     playground.innerHTML = ''
-    console.log(gridData);
 
     gridData.forEach(cellData => {
         const cellNode = document.createElement('div')
