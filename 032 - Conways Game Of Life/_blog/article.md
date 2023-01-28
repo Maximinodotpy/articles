@@ -1,21 +1,28 @@
-# Conways Game of Life with JavaScript
+# Conway's Game of Life with JavaScript
 
-**Let's implement Conways Game of Life as an interactive Website using JavaScript, HTML and CSS**
+**Let's implement Conway's Game of Life as an interactive Website using JavaScript, HTML and CSS.**
 
-
-In this Tutorial we will implement Conways Game of Life as an interactive website using JavaScript, HTML and CSS. If you dont know what the game of life is you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). In a nut shell, Conways Game of Life is a Zero Player game where the player can set the state of tiles in a 2D grid plane to either dead or alive and then start a simulation. Every tick/frame each tiles survival or state will be set according to its neighbours, if it has 2 or less alive neighbours it will die of lonelyness, if it has four or more it will die of overpopulation, lastly tiles will stay alive or even be born if they have three or two alive neighbours.
+In this Tutorial we will implement Conway's Game of Life as an interactive website using JavaScript, HTML and CSS. If you don't know what the game of life is you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). In a nut shell, Conway's Game of Life is a Zero Player game where the player can set the state of tiles in a 2D grid plane to either dead or alive and then start a simulation. Every tick/frame each tiles survival or state will be set according to its neighbors, if it has 2 or less alive neighbors it will die of loneliness, if it has four or more it will die of overpopulation, lastly tiles will stay alive or even be born if they have three or two alive neighbors.
 
 below you see some examples on wikipedia of special formations that can be created with the rules of the game of life. There are even some crazy things like glider guns that create infinite gliders.
 
-| Block | Blinker | Glider |
-|---|---|---|
-| ![Block](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Game_of_life_block_with_border.svg/99px-Game_of_life_block_with_border.svg.png) | ![Blinker](https://upload.wikimedia.org/wikipedia/commons/9/95/Game_of_life_blinker.gif) | ![Glider](https://upload.wikimedia.org/wikipedia/commons/f/f2/Game_of_life_animated_glider.gif) |
+**Block**
+
+![Block](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Game_of_life_block_with_border.svg/99px-Game_of_life_block_with_border.svg.png)
+
+**Blinker**
+
+![Blinker](https://upload.wikimedia.org/wikipedia/commons/9/95/Game_of_life_blinker.gif)
+
+**Glider**
+
+![Glider](https://upload.wikimedia.org/wikipedia/commons/f/f2/Game_of_life_animated_glider.gif)
 
 You can also visit the website we create today [here](https://demos.maximmaeder.com/demo/conway/). So let's get started.
 
 ## Markup for the User Interface
 
-Before we get into the difficult JavaScript of this program lets cover the HTML for this website, keep in mind that I wont go over everything, I will simply explain the important bits.
+Before we get into the difficult JavaScript of this program lets cover the HTML for this website. Keep in mind that I wont go over everything, I will simply explain the important bits.
 
 In the head of our page we add the link to the CSS file and we also link to the JavaScript via a `script` tag that has the `defer` attribute that will make it so the script is executed after the HTML content has been parsed.
 
@@ -34,12 +41,6 @@ Continuing we add two `div`'s to the page: The first one holds the controls for 
         <button id="reset">Reset</button>
 
         <input type="text" placeholder="FrameTime (250ms)" id="frametime">
-        
-        <span class="attribution">Made By <a href="https://maximmaeder.com/" target="_blank">Maxim Maeder</a>.
-            <br>
-            <br>
-            <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">What is Conways Game of Life?</a>
-        </span>
     </div>
 
 </div>
@@ -50,7 +51,7 @@ Continuing we add two `div`'s to the page: The first one holds the controls for 
 
 Lets continue with the JavaScript for the Game of Life.
 
-We simply start by defining a bunch of variables that will come in handy later. Some of them are needed to keep track of the state of the programm like `isRunning`.
+We simply start by defining a bunch of variables that will come in handy later. Some of them are needed to keep track of the state of the programme like `isRunning`.
 
 ```js
 const playground = document.querySelector('.playground');
@@ -94,7 +95,7 @@ Continuing we call the `renderCells` function that will as its name implies rere
 renderCells(gridData)
 ```
 
-The function starts by emptying the playground cell container via its `innerHTML` property. We then loop over the `gridData` Array and create a new div for each one. Depending on its `live` property we add a class with the same name. In case the simulation is not running we also add an event listener to this div that enables the user to toggle the live property of the given cell.
+The function starts by emptying the playground cell container via its `innerHTML` property. We then loop over the `gridData` Array and create a new div for each one. Depending on its `live` property we add a class with the same name. In case the simulation is not running we also add an event listener to this div. This listener enables the user to toggle the live property of the given cell.
 
 ```js
 function renderCells() {
@@ -119,7 +120,7 @@ function renderCells() {
 
 ### Simulating the Game Of Life
 
-Now lets get to the center of this whole programm. For this we add an event listener to the run button. It will set the `isRunning` variable to true so the user cant interact with the grid and we add the `is_running` class to the controls so we can apply some styling to them when the simulation is running. Now comes something important; In the Game of Life each tiles state is determined at the same time, so we have to keep that in mind in our code. Later we will cover the `simulateGeneration` function that does what is says. In JavaScript objects are passed by references and the only way to get fully rid of any and all connection we have to serialize the object and deserialize it with `JSON`.
+Now lets get to the center of this whole programme. For this we add an event listener to the run button. It will set the `isRunning` variable to true so the user cant interact with the grid and we add the `is_running` class to the controls so we can apply some styling to them when the simulation is running. Now comes something important; In the Game of Life each tiles state is determined at the same time, so we have to keep that in mind in our code. Later we will cover the `simulateGeneration` function that does what is says. In JavaScript objects are passed by references and the only way to get fully rid of any and all connection we have to serialize the object and deserialize it with `JSON`.
 
 ```js
 runButton.addEventListener('pointerdown', () => {
@@ -140,7 +141,7 @@ runButton.addEventListener('pointerdown', () => {
 
 We then also run a `setInterval` with our function and we save its returned Id for later so we can also finish it.
 
-Now let's go over the function that simulates a generation. Inside this function we need to use the JSON serialization trick to make an exact copy of the gridData variable. We then loop over each cell and find all its neighbours or better said their state and depending on that we set the state of this cell.
+Now let's go over the function that simulates a generation. Inside this function we need to use the JSON serialization trick to make an exact copy of the gridData variable. We then loop over each cell and find all its neighbors. Depending on that we set the state of this cell.
 
 ```js
 const copiedGridData = JSON.parse(JSON.stringify(gridData))
@@ -183,7 +184,7 @@ copiedGridData.forEach((copiedCell, index) => {
 
 ### Other Control Code
 
-Lastly we add two more event listeners that will handle stopping and reseting the simulation and grid data.
+Lastly we add two more event listeners that will handle stopping and resetting the simulation and grid data.
 
 ```js
 stopButton.addEventListener('pointerdown', () => {
@@ -215,7 +216,7 @@ Lastly lets also go over the CSS of our little Website. We start by importing a 
 }
 ```
 
-Next up we set the `color-scheme` property of the root element to `dark` which will make it so the default styling of element like scrollbars or input is dark instead of light.
+Next up we set the `color-scheme` property of the root element to `dark` which will make it so the default styling of element like scrollbar's or input is dark instead of light.
 
 ```css
 :root {
@@ -252,4 +253,4 @@ Lastly we style the playground and the cells for the playground we make use of c
 
 ## Conclusion
 
-So thats it, I know its a lot and you may have some things that you dont understand. I just hope that now have another Idea for a cool program that you can make. Always keep in mind that I am no pro myself just a programming enthusiast 😁.
+So thats it, I know its a lot and you may have some things that you don't understand. I just hope that now have another Idea for a cool program that you can make. Always keep in mind that I am no pro myself just a programming enthusiast 😁.
