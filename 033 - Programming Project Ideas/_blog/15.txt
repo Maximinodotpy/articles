@@ -1,0 +1,274 @@
+15 Writing Lessons on How to Improve Your Technical Articles
+Tips on how to write better programming articles
+
+Photo by Damir Spanic on Unsplash
+Table of Contents
+Introduction
+1. Terms
+2. Use acronyms properly
+3. Pay attention to disambiguate pronouns
+4. Prefer active voice to passive voice
+5. Use strong verbs
+6. Avoid filler words
+7. Minimize adjectives and adverbs
+8. Focus on a single idea
+9. Reduce subordinate clauses
+10. that and which
+11. Parallel and numbered lists
+12. Create helpful tables
+13. Image alt text and caption
+14. Table of contents (TOC)
+15. Paragraphs
+Conclusion
+Introduction
+When programmers and data scientists write articles, many skills are required. Not only coding skills, grammar, and vocabulary, but also technical writing skills.
+
+You can find a lot of writing advice on Medium. I love reading it to improve my writing. Although these are for general writing, they are extremely useful for programming articles as well.
+
+But is it enough for programmers and data science writers?
+
+I’m learning about technical writing from Google’s Technical Writing Courses. It’s a collection of courses and learning resources aimed to improve technical documentation. Even though the courses are for professional software engineers and students, programming and data science writers can adapt many useful points.
+
+Here are the top 15 lessons I have learned from the course and other expert writers.
+
+1. Terms
+I often assumed that my readers know what I know. I’ve introduced new terms without explaining them. I’ve written unfamiliar abbreviations without links and used terms without enough research.
+
+Some terms are confusing. Have you ever used the word “server-side” for the backend or “front end” for the client-side?
+
+
+Image credit
+When you use new or unfamiliar terms in your writing, you can either define the term in your article if they are short or add a link to those terms.
+
+To avoid this pitfall, you can also indicate the level of your writing in your introduction.
+
+For example:
+
+This article assumes you are already familiar with the basic operation in JupyterLab.
+
+This article assumes that you’ve written code in another programming language.
+
+2. Use Acronyms Properly
+When you use an unfamiliar acronym, spell out the full term and then put the acronym in parentheses and bold. If you use the word often, use the acronym.
+
+For example:
+
+An application programming interface (API) is a computing interface, which defines …
+When you use the API …
+The API …
+
+3. Pay Attention to Disambiguate Pronouns
+Disambiguate pronouns are it, they, them, their, this and that.
+
+You should use them after you’ve introduced the noun and place them as close as possible to the referring noun.
+
+For example, if you are using it:
+
+Python is a dynamically typed language like JavaScript and Closure. It supports multiple …
+
+Does “It” refer to Python or JavaScript or Closure?
+
+The above should be:
+
+Python is a dynamically typed language like JavaScript and Closure. Python supports multiple …
+
+4. Prefer Active Voice to Passive Voice
+Shaunta Grimes wrote about passive and active voice.
+
+The passive voice has the form of be-verb + past participle verb.
+
+For example: is generated, was formed.
+
+I often find myself using passive voice sentences. I have to think hard about how to change them to active voice sentences.
+
+For example:
+
+The flags were not parsed by the compiler.
+
+The compiler did not parse the flags.
+
+Because the human brain receives action directly from active voices, it processes the message easier than passive voice.
+
+The best way is to use the active voice most of the time and use the passive voice sparingly.
+
+5. Use Strong Verbs
+Shaunta Grimes also wrote about strong verbs.
+
+Strong verbs are precise and specific words and weak verbs are generic words, such as is, are, was, were, occur, happen, etc.
+
+Instead of using a generic verb, find a specific word in a relevant programming manual or guide. Explain the concept behind the specific verb.
+
+For example, use occur for trigger, generate for happen, ensure for is/are.
+
+Errors will occur when you click the button.
+
+Clicking the button triggers the error.
+
+Other strong verbs are:
+
+specify, declare, generate, issue, omit, call, execute, debug, instantiate, invoke, iterate
+
+An example of the pair of a generic word and a generic verb is “there is/there are”.
+
+You can replace the subject and the verb words from the word within the sentence.
+
+For example:
+
+There is almost nothing more important than the correct tools to create a nice user interface.
+
+The correct tools to create a nice user interface is important.
+
+6. Avoid Filler Words
+When I speak in front of others, I use “ahhh”, “um” a lot. These are my speaking filler words.
+
+Filler words in writing are so, that, very, just, really, highly, etc.
+
+When I write, my first draft is full of filler words. I have to hunt down those words when I edit.
+
+Rachael Hope wrote about filler words.
+
+“If communicating concisely and clearly is your goal, eliminating filler words is an easy way to shave content you don’t need.” — Rachael Hope
+
+Some examples about how to avoid using filler words in your article:
+
+Use now for at this point in time
+Use find for determine the location of
+Use can for is able to
+Use to for in order to
+Eliminate in the end and basically
+Use regarding/about for with regard/reference to
+7. Minimize Adjectives and Adverbs
+Adjectives are words or phrases that modify a noun, e.g. a red line. Adverbs are word phrases that modify a verb, e.g. runs slowly.
+
+Unless your writing style is friendly or creative, your readers prefer little adjectives and adverbs. They can make your statement vague.
+
+The compiler is super slow.
+The compiler is two times slower.
+
+You need to minimize adjectives and adverbs.
+
+8. Focus on a Single Idea
+Programmers admire the shortest code. It is easy to read and maintain and less prone to errors.
+
+The same rules apply to programming articles. It’s easier to understand articles with short sentences.
+
+When you use short sentences, it automatically focuses on a single idea.
+
+If I write a long sentence and it doesn’t make sense (that happens often, unfortunately), I divide it into small sentences.
+
+9. Reduce Subordinate Clauses
+A clause contains a subject and a verb. Subordinate clauses are less important than the main clause.
+
+The following words introduce subordinate clauses:
+
+which
+that
+because
+whose
+until
+unless
+since
+Less subordinate clauses make the sentences clear and easy to understand.
+
+10. That and Which
+In the United States, reserve ‘which’ for nonessential subordinate clauses, and use ‘that’ for an essential subordinate clause that the sentence can’t live without. Place a comma before ‘which’; do not place a comma before ‘that’. — Technical Writing
+
+When I use “which”, Grammarly suggests using “that”. But I’m not sure if it distinguishes my subordinate clause as nonessential or essential. If I can drop the subordinate clause, then I use “which” with a comma.
+
+For example:
+
+But if we used the different structs, which each have their own type …
+The following structs could hold the same data that the preceding enum variants hold. — The Rust Programming Language
+
+11. Parallel and Numbered Lists
+“Technical readers generally love lists. Therefore, when writing, seek opportunities to convert prose into lists.” — Technical Writing
+
+I often use markdown to create a table. I use Canva to create a list for quick reference.
+
+When you use lists, make sure to use the same formatting for each list. All the items should have the same style, structure, capitalization, and punctuation:
+
+- Quit has no data associated with it at all.
+- Move includes an anonymous struct inside it.
+- Write includes a single String.
+- ChangeColor includes three i32 values.
+
+From The Rust Programming Language
+
+When you use a numbered list, start each item with the command word (imperative verbs).
+
+You create an ordered list because you want readers to follow certain steps.
+
+Configure, start, download, open are some of the imperative verbs.
+
+For example:
+
+1. Execute any code.
+2. Make changes to the request and the response objects.
+3. End the request-response cycle.
+4. Call the next middleware in the stack.
+
+When the list items are a sentence, use capitalization and punctuation.
+
+For example:
+
+- Some advanced styles of programming require updating.
+- Arithmetic operations return an instance of the subclass.
+
+Otherwise use lowercase and no period.
+
+For example:
+
+- assignment expressions
+- positional-only parameters
+
+12. Create Helpful Tables
+If there is a table surrounded by sentences, I usually go to the table first to grasp the overall view. Then I read the details.
+
+When we use a list or table, it’s a good practice to introduce them to what they represent.
+
+For example:
+
+The following table(or list) contains some key parameters …
+The following table(or list) intensifies the …
+
+13. Image Alt Text and Caption
+When you add a list or table image to an article, each image has a caption and an alt attribute field. It is a good idea to fill out those fields.
+
+The alt attribute provides alternative information for an image if a user for some reason cannot view it. The caption is displayed at the bottom of the image.
+
+Medium Alt text image
+Medium Alt text
+When you click the alt text link, the following pops up:
+
+Medium caption sample image
+Medium caption sample
+Medium caption image sample
+Medium caption sample
+14. Table of Contents (TOC)
+How to Create a Clickable Table of Contents to Increase Traffic
+Improving User Experience With Attractive TOC
+medium.com
+
+The TOC serves many purposes. It gives users an overview of the document’s contents.
+
+If you provide a clickable TOC, it allows readers to go directly to a specific section of your content.
+
+TOC will provide readers with quick access to your content. I add a clickable TOC to most of the articles.
+
+15. Paragraphs
+What I struggle the most with are the title and opening paragraph. You’ve probably heard that you have less than three seconds to grab readers’ attention.
+
+You need to create a powerful title and good opening sentences.
+
+“The headline captures attention and the first sentence keeps it.” — Mark Crosling
+
+The following list is some of the techniques you can use.
+
+Ask a question
+Cite a statistic or surprising fact
+Share a quote or an anecdote
+Try to catch an emotion
+You need to focus each paragraph on a single topic. Keep it limited to three to five sentences.
+
+Conclusion
+For programming articles, clarity is everything. Follow the tips in this article and you are on your way to writing great content.
