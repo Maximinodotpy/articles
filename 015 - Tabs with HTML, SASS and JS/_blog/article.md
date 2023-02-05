@@ -1,6 +1,7 @@
-# Tabs with HTML, SASS, and JS
-**Learn how to make functional tabs for your website with HTML, Sass, and JavaScript.**
-
+---
+name: 'Tabs with HTML, SASS, and JS'
+description: 'Learn how to make functional tabs for your website with HTML, Sass, and JavaScript.'
+---
 
 ## Idea
 

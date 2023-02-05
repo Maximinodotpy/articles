@@ -1,6 +1,7 @@
-
-# Highlighted Dummy Code Editor with HTML CSS JavaScript (vue.js)
-**Learn about HTML, CSS, JavaScript (vue.js), and Regular Expressions by creating a dummy code editor that looks like VS-Code**
+---
+name: 'Highlighted Dummy Code Editor with HTML CSS JavaScript (vue.js)'
+description: 'Learn about HTML, CSS, JavaScript (vue.js), and Regular Expressions by creating a dummy code editor that looks like VS-Code'
+---
 
 ## Idea
 

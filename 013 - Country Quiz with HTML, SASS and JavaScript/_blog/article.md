@@ -1,5 +1,7 @@
-# Country Quiz with HTML, SASS, and JavaScript.
-**Learn how to make a country quiz with HTML javascript and the CSS Pre-Processor SASS**
+---
+name: 'Country Quiz with HTML, SASS, and JavaScript.'
+description: 'Learn how to make a country quiz with HTML javascript and the CSS Pre-Processor SASS'
+---
 
 ## Idea
 

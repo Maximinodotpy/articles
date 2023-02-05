@@ -1,5 +1,7 @@
-# Advanced Form Modal with JavaScript
-**Build a function that spawns an Advanced Modal with a form that will return a promise and the Data in the form.**
+---
+name: 'Advanced Form Modal with JavaScript'
+description: 'Build a function that spawns an Advanced Modal with a form that will return a promise and the Data in the form.'
+---
 
 ## Idea
 

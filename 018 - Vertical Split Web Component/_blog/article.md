@@ -1,5 +1,7 @@
-# Split Container Web Component
-**let us learn together how to make a custom HTML element with JavaScript by making a resizeable split container.**
+---
+name: 'Split Container Web Component'
+description: 'let us learn together how to make a custom HTML element with JavaScript by making a resizeable split container.'
+---
 
 ## Idea
 

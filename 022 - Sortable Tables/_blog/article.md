@@ -1,5 +1,7 @@
-# Sortable Table with JavaScript
-**Learn how to make sortable tables with JavaScript. We utilize the map and filter methods of Arrays.**
+---
+name: 'Sortable Table with JavaScript'
+description: 'Learn how to make sortable tables with JavaScript. We utilize the map and filter methods of Arrays.'
+---
 
 ## Idea
 In this Tutorial, we will make a sortable table with JavaScript. We will make it so we can have any number of tables on our page and set them to be sortable and we will differentiate between numbers and strings. We will also make it that so when the user clicks the head once it sorts ascending and if they click again it will sort in descending order. We will make use of functions like `map` and `filter`.

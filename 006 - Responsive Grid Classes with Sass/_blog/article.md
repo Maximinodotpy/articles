@@ -1,6 +1,7 @@
-
-# How to make responsive grid classes with Sass
-**Learn how to make Responsive Grid Classes with the CSS preprocessor SASS**
+---
+name: 'How to make responsive grid classes with Sass'
+description: 'Learn how to make Responsive Grid Classes with the CSS preprocessor SASS'
+---
 
 In this relatively short article, we will make responsive grid classes with the CSS preprocessor SASS / SCSS. We will learn about the `display: grid` CSS rule, two different kinds of loops in Sass, and the `[attr*=foo]` selector in CSS.
 

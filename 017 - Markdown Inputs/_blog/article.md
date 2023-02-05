@@ -1,5 +1,7 @@
-# Markdown Inputs with HTML, CSS and JavaScript
-**Learn how to make input and textarea tags that allow and show markdown.**
+---
+name: 'Markdown Inputs with HTML, CSS and JavaScript'
+description: 'Learn how to make input and textarea tags that allow and show markdown.'
+---
 
 ## Idea
 

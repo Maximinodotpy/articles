@@ -1,5 +1,7 @@
-# File Explorer with Vue.js
-**let's make a small JSON-based File Explorer with vue.js, Learn about methods, computed properties, and other awesome things you can do with vue. **
+---
+name: 'File Explorer with Vue.js'
+description: 'let's make a small JSON-based File Explorer with vue.js, Learn about methods, computed properties, and other awesome things you can do with vue.'
+---
 
 ## Idea
 

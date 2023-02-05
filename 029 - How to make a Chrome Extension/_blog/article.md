@@ -1,5 +1,7 @@
-# How to make a Chrome Extension
-**Learn how to make Extensions for Chromium-based browsers.**
+---
+name: 'How to make a Chrome Extension'
+description: 'Learn how to make Extensions for Chromium-based browsers.'
+---
 
 In this Tutorial, we will learn how to make a simple chrome extension that enables users to search and replace any text on a webpage. This extension won't be really useful, but it will teach you how to make extensions for chromium-based browsers (chrome and edge). Remember that this is also my first extension so look at this tutorial as an entry in my learning diary. I will also show you how to test your extension in a chrome/edge browser.
 

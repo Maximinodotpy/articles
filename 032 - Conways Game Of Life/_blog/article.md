@@ -1,6 +1,7 @@
-# Conway's Game of Life with JavaScript
-
-**Let's implement Conway's Game of Life as an interactive Website using JavaScript, HTML and CSS.**
+---
+name: "Conway's Game of Life with JavaScript"
+description: "Let's implement Conway's Game of Life as an interactive Website using JavaScript, HTML and CSS."
+---
 
 In this Tutorial we will implement Conway's Game of Life as an interactive website using JavaScript, HTML and CSS. If you don't know what the game of life is you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). In a nut shell, Conway's Game of Life is a Zero Player game where the player can set the state of tiles in a 2D grid plane to either dead or alive and then start a simulation. Every tick/frame each tiles survival or state will be set according to its neighbors, if it has 2 or less alive neighbors it will die of loneliness, if it has four or more it will die of overpopulation, lastly tiles will stay alive or even be born if they have three or two alive neighbors.
 

@@ -1,6 +1,7 @@
-
-# Godot Platformer Character with Wall jumping
-**Learn how to make a platformer character in Godot that also has wall jumping.**
+---
+name: 'Godot Platformer Character with Wall jumping'
+description: 'Learn how to make a platformer character in Godot that also has wall jumping.'
+---
 
 ## Idea
 

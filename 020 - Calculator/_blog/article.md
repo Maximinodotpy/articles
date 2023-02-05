@@ -1,5 +1,7 @@
-# Calculator with History Function in HTML, CSS, and JavaScript
-**Learn how to make a simple calculator with a history function using web technologies.**
+---
+name: 'Calculator with History Function in HTML, CSS, and JavaScript'
+description: 'Learn how to make a simple calculator with a history function using web technologies.'
+---
 
 ## Idea
 

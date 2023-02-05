@@ -1,32 +1,12 @@
+---
+name: 'How to make a Progressive Web App'
+description: 'Learn how to setup up a  in its most simplest form.'
+---
 
-# How to make a Progressive Web App
-**Learn how to setup up a  in its most simplest form.**
-```
-# Setting up the Argument Parser
-parser = ArgumentParser(
-prog='Password Generator.',
-description='Generate any number of passwords with this tool.'
-)
-```
 ## Idea
 In this tutorial, we will make a Progressive Web App (PWA) in its simplest form. This means we will make a bare-bones website with no features and want it to be installable. If you are serious about making a PWA, you can extend the framework created here. 
 
-To make a PWA, we need a *manifest.json* file and a s
-## Why PWA
-
-
-## Setup
-
-### Folders and Files
-
-### HTML and CSS
-
-
-## Manifest.json
-
-
-## Service -worker. The manifest holds information about the web app like the name, description, and icon images. The service worker is a javascript file that handles the offline functionalities, among other things.
-
+To make a PWA, we need a *manifest.json* file.
 Let us get into it.
 
 ## Setup

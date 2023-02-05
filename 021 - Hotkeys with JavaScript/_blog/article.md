@@ -1,5 +1,7 @@
-# Keyboard Shortcuts with JavaScript
-**Learn how to make functions to set up keyboard shortcuts easily in JavaScript**
+---
+name: 'Keyboard Shortcuts with JavaScript'
+description: 'Learn how to make functions to set up keyboard shortcuts easily in JavaScript'
+---
 
 ## Idea
 

@@ -1,5 +1,7 @@
-# Product Tour with JavaScript and SCSS
-**Learn how to make a Product Tour with JavaScript to showcase the features of a Website to your Users.**
+---
+name: 'Product Tour with JavaScript and SCSS'
+description: 'Learn how to make a Product Tour with JavaScript to showcase the features of a Website to your Users.'
+---
 
 ## Idea
 

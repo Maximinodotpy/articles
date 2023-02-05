@@ -1,6 +1,7 @@
-
-# Simple spreadsheet app with vue
-**Learn how to make a simple spreadsheet app with the javascript framework vue. We will create it so you can reference other cells.**
+---
+name: 'Simple spreadsheet app with vue'
+description: 'Learn how to make a simple spreadsheet app with the javascript framework vue. We will create it so you can reference other cells.'
+---
 
 In this tutorial, we will make a simple spreadsheet app consisting of a large empty table that we can fill with values. We can also use this syntax `=expression` to allow for more complex interactions, and we all make it so these fields can refer to other fields' values so that it will be a little bit like excl. I split this Tutorial into four parts; HTML, Javascript & CSS codes, and the program showcase, where you can try it out in an Iframe. We use the `js` framework [`vue.js`](https://vuejs.org/).
 

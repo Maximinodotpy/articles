@@ -1,7 +1,7 @@
-[SASS to CSS Converter Online (codebeautify.org)](https://codebeautify.org/sass-to-css-converter)
-
-# Padding and Margin Classes with Sass
-**How to quickly make padding and margin classes utilizing sass and its looping possibilities.**
+---
+name: 'Padding and Margin Classes with Sass'
+description: 'How to quickly make padding and margin classes utilizing sass and its looping possibilities.'
+---
 
 Sometimes one just needs margin and padding classes for left, right, top and bottom and we could make these ourselves but that would be tedious and take a long time. We can however use SASS to quickly make this CSS. SASS is a CSS Pre-Processor, which means it is not valid CSS but will generate it. SASS just others other useful features such as string functions, variables, and loops.
 

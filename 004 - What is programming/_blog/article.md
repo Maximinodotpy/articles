@@ -1,14 +1,7 @@
-
-# What is Programming
-**What is Programming: read about the answer or an attempt at it ...**
-
-as
-
-This time we will look at the grander picture by answering what is programming.
-
-
-
-
+---
+name: 'What is Programming'
+description: 'What is Programming: read about the answer or an attempt at it ...'
+---
 
 This Article is pretty different from my other articles. This time we will look at the grander picture by answering what programming is. I will try to provide three kinds of answers;  What the Census (Internet People) says, What my school education says and what I say. You may have another opinion.
 

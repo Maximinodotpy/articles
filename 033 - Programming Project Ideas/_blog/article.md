@@ -1,8 +1,7 @@
-# Programming Project Ideas
-
-**Caption**
-
-
+---
+name: 'Programming Project Ideas'
+description: "Let's go over some project Ideas that you could work on and learn from."
+---
 
 CONTENT NOTES
 

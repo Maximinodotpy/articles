@@ -1,6 +1,7 @@
-# Infinite Scrolling Website with JavaScript
-
-Learn how to make an infinitely scrolling website with JavaScript, HTML, and CSS. Learn about the Intersection Observer API.
+---
+name: 'Infinite Scrolling Website with JavaScript'
+description: 'Learn how to make an infinitely scrolling website with JavaScript, HTML, and CSS. Learn about the Intersection Observer API.'
+---
 
 ## Idea
 

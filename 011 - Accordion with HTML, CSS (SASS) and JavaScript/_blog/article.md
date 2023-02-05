@@ -1,6 +1,7 @@
-
-# Accordion with HTML, CSS (SASS) and JavaScript.
-**Learn how to make an Accordion with HTML, CSS (Sass), and a little bit of Javascript.**
+---
+name: 'Accordion with HTML, CSS (SASS) and JavaScript.'
+description: 'Learn how to make an Accordion with HTML, CSS (Sass), and a little bit of Javascript.'
+---
 
 ## Idea
 

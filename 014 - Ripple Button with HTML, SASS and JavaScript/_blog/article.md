@@ -1,5 +1,7 @@
-# Ripple Button with HTML, SASS, and JavaScript
-**Learn how to make a button that has a ripple effect when you click it. We will use HTML, SASS and JavaScript.**
+---
+name: 'Ripple Button with HTML, SASS, and JavaScript'
+description: 'Learn how to make a button that has a ripple effect when you click it. We will use HTML, SASS and JavaScript.'
+---
 
 ## Idea
 

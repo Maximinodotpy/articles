@@ -1,5 +1,7 @@
-# Edit XML with python
-**How to edit XML files with python using the dom class**
+---
+name: 'Edit XML with python'
+description: 'How to edit XML files with python using the dom class'
+---
 
 Today we learn how to edit XML files with python. To do this we use the `xml.dom.minidom` class from python. We don't have to install it because it comes with python. We will learn how to parse, get and set elements and attributes and how to save XML in this article.
 

@@ -1,5 +1,7 @@
-# Weather App with HTML, SASS, and JavaScript
-**Learn how to make a Simple App showing Temperatures for the next seven days. We learn about SVG and API fetching.**
+---
+name: 'Weather App with HTML, SASS, and JavaScript'
+description: 'Learn how to make a Simple App showing Temperatures for the next seven days. We learn about SVG and API fetching.'
+---
 
 Before we get into it, I want to stress that I am no JavaScript Pro; therefore, it may be that my practices are not the best or even the worst. Feel free to contact me in any way and tell me better ways to do things!
 
