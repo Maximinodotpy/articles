@@ -14,6 +14,10 @@ So lets get right into it!
 
 ## Recreating Famous Software or Famous UI Elements
 
+![Calculator with HTML, CSS and JavaScript](https://maximmaeder.com/wp-content/uploads/2022/10/Screenshot-253.png)
+
+*My Web Based [Calculator](https://maximmaeder.com/calculator-with-history-function-in-html-css-and-javascript/).*
+
 Finding project ideas is not easy but you can get inspired by already existing software, sometimes I think to myself: *"wow this is cool but how was it made?"*. Lets go over some inspirations.
 
 - Visual Studio Code (Or any Code Editor): You could try recreate [syntax highlighting](https://maximmaeder.com/highlighted-dummy-code-editor-with-html-css-javascript-vue-js/).
@@ -62,5 +66,11 @@ I myself have a Private Github where I store a Markdown document with all the th
 
 [KEEP WRITING TIPS IN MIND](https://betterprogramming.pub/15-writing-lessons-on-how-to-improve-your-technical-articles-60609c40bea4)
 
-- Game Making
-  - Really Rewarding seeing your friends fail
+
+- Trying Out Language Features and Libraries
+  - tailwind
+  - Vue.js
+- Make Plugins or Extensions for Existing Software
+  - VS Code
+  - Chrome
+  - Wordpress
