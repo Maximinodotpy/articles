@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": ".."
+		},
+		{
+			"path": "../../../000 - dokumente"
 		}
 	],
 	"settings": {

@@ -54,6 +54,23 @@ Once Again you can also get inspiration from big AAA title or simply other games
 
 Lastly I don't know if it is just me but I think making games is really rewarding especially seeing your friends play your games (and fail 😀).
 
+## Packages and Languages
+
+![Anime.js JavaScript Animation Library](https://maximmaeder.com/wp-content/uploads/2023/02/animejs.png)
+
+*[Anime.js](https://animejs.com/) JavaScript Animation Library*
+
+Now there are also some packages that could possibly inspire you to build something awesome.
+
+Lets go over some JavaScript and Python Packages you could try out.
+
+- [Anime.js](https://animejs.com/): Is a simple and intuitive animation library for the frontend, it's documentation is really good and you will get a hang of it rather fast.
+- [Three.js](https://threejs.org/): Is a 3D Library that is a bit harder to learn but all the more rewarding.
+- [Konva.js](https://konvajs.org/): I asked my self once how visual editors like Illustrator were made and then I stumbled upon this little package that enables you to make editable 2D Canvas Scene with a wide variety of objects.
+- [Monaco Editor](https://microsoft.github.io/monaco-editor/): Is the Code Editor built into VS Code and it is awesome! You could for example make your own playground like [jsbin](https://jsbin.com/?html,css,js,output).
+- [Tkinter](https://docs.python.org/fr/3/library/tkinter.html): Is Python package to make User Interfaces at first it behaves rather clunky but for little projects it is just fine.
+- [pywebview](https://pypi.org/project/pywebview/): Is somewhat of a combination of Python and JavaScript because it allows us to make a desktop app with Web Technologies and Python in the Backend to interact with the OS.
+
 ## Make Notes of Things you Encounter
 
 Lastly I want to give you a tip.
@@ -61,16 +78,3 @@ Lastly I want to give you a tip.
 Every time you encounter something you think is interesting or noteworthy write it down! Make a list of all this things and store it in a safe location so you can every once in a while when you are bored look at your list of things and should have new ideas for what to program.
 
 I myself have a Private Github where I store a Markdown document with all the things I want to make once or that I simply think are fascinating.
-
-## [CONTENT NOTES]
-
-[KEEP WRITING TIPS IN MIND](https://betterprogramming.pub/15-writing-lessons-on-how-to-improve-your-technical-articles-60609c40bea4)
-
-
-- Trying Out Language Features and Libraries
-  - tailwind
-  - Vue.js
-- Make Plugins or Extensions for Existing Software
-  - VS Code
-  - Chrome
-  - Wordpress
