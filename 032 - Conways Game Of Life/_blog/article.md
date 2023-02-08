@@ -1,5 +1,6 @@
 ---
 name: "Conway's Game of Life with JavaScript"
+slug: 'conways-game-of-life-with-javascript'
 description: "Let's implement Conway's Game of Life as an interactive Website using JavaScript, HTML and CSS."
 ---
 

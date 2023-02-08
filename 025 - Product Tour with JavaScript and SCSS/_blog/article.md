@@ -1,5 +1,6 @@
 ---
 name: 'Product Tour with JavaScript and SCSS'
+slug: 'product-tour-with-javascript-and-scss'
 description: 'Learn how to make a Product Tour with JavaScript to showcase the features of a Website to your Users.'
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: 'Godot Platformer Character with Wall jumping'
+slug: 'godot-platformer-character-with-wall-jumping'
 description: 'Learn how to make a platformer character in Godot that also has wall jumping.'
 ---
 
