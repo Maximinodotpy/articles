@@ -1,5 +1,6 @@
 ---
 name: 'Country Quiz with HTML, SASS, and JavaScript.'
+slug: 'country-quiz-with-html-sass-and-javascript'
 description: 'Learn how to make a country quiz with HTML javascript and the CSS Pre-Processor SASS'
 ---
 

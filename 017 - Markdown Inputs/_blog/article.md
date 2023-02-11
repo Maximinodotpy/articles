@@ -1,5 +1,6 @@
 ---
 name: 'Markdown Inputs with HTML, CSS and JavaScript'
+slug: 'markdown-inputs-with-html-css-and-javascript'
 description: 'Learn how to make input and textarea tags that allow and show markdown.'
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: 'Calculator with History Function in HTML, CSS, and JavaScript'
+slug: 'calculator-with-history-function-in-html-css-and-javascript'
 description: 'Learn how to make a simple calculator with a history function using web technologies.'
 ---
 

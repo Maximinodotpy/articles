@@ -1,5 +1,6 @@
 ---
 name: 'Accordion with HTML, CSS (SASS) and JavaScript.'
+slug: 'accordion-with-html-css-sass-and-javascript'
 description: 'Learn how to make an Accordion with HTML, CSS (Sass), and a little bit of Javascript.'
 ---
 

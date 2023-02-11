@@ -1,5 +1,6 @@
 ---
 name: 'Link Previews with JavaScript and PHP'
+slug: 'link-previews-with-javascript-and-php'
 description: 'In this short Tutorial we will make it so the links of our page show a little preview window panel that shows the title and description of the linked page.'
 ---
 

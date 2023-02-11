@@ -1,5 +1,6 @@
 ---
 name: 'Ripple Button with HTML, SASS, and JavaScript'
+slug: 'ripple-button-with-html-sass-and-javascript'
 description: 'Learn how to make a button that has a ripple effect when you click it. We will use HTML, SASS and JavaScript.'
 ---
 

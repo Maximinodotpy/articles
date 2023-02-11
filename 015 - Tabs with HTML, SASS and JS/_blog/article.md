@@ -1,5 +1,6 @@
 ---
 name: 'Tabs with HTML, SASS, and JS'
+slug: 'tabs-with-html-sass-and-js'
 description: 'Learn how to make functional tabs for your website with HTML, Sass, and JavaScript.'
 ---
 

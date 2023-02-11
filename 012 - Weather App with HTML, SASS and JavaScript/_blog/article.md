@@ -1,5 +1,6 @@
 ---
 name: 'Weather App with HTML, SASS, and JavaScript'
+slug: 'weather-app-with-html-sass-and-javascript'
 description: 'Learn how to make a Simple App showing Temperatures for the next seven days. We learn about SVG and API fetching.'
 ---
 
