@@ -1,5 +1,6 @@
 ---
 name: 'How to hide text in images with python.'
+slug: 'how-to-hide-text-in-images-with-python'
 description: 'Hiding and Reading Text that is hidden in uncompressed images with PIL.'
 ---
 

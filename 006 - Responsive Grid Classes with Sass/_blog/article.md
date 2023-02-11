@@ -1,5 +1,6 @@
 ---
 name: 'How to make responsive grid classes with Sass'
+slug: 'grid-classes-with-sass'
 description: 'Learn how to make Responsive Grid Classes with the CSS preprocessor SASS'
 ---
 
