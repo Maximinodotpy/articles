@@ -1,6 +1,8 @@
 ---
 name: 'Split Container Web Component'
 slug: 'split-container-web-component'
+tags: []
+category: 'Utility'
 description: 'let us learn together how to make a custom HTML element with JavaScript by making a resizeable split container.'
 ---
 

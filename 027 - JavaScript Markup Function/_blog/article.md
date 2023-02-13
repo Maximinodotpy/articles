@@ -1,6 +1,8 @@
 ---
 name: 'DOM Creation Function with JavaScript'
 slug: 'dom-creation-function-with-javascript'
+tags: []
+category: 'Utility'
 description: "Let's make a function that makes it easy for us to create DOM and get references to certain elements."
 ---
 

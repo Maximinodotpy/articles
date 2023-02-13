@@ -1,6 +1,8 @@
 ---
 name: 'What is Programming'
 slug: 'what-is-programming'
+tags: []
+category: 'General'
 description: 'What is Programming: read about the answer or an attempt at it ...'
 ---
 

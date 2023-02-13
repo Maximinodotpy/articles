@@ -1,6 +1,8 @@
 ---
 name: 'Advanced Form Modal with JavaScript'
 slug: 'advanced-form-modal-with-javascript'
+tags: []
+category: 'Utility'
 description: 'Build a function that spawns an Advanced Modal with a form that will return a promise and the Data in the form.'
 ---
 

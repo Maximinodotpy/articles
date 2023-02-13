@@ -1,8 +1,8 @@
 ---
 name: 'Programming Project Ideas'
 slug: 'programming-project-ideas'
-tags: [ideas, programming]
-category: 'Programming'
+tags: []
+category: 'General'
 status: 'publish'
 description: "Let's review some project ideas you could work on. Learning by Doing."
 ---

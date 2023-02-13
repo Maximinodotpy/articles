@@ -1,6 +1,8 @@
 ---
 name: 'Dropdown with SASS/CSS'
 slug: 'dropdown-with-sass-css'
+tags: []
+category: 'Utility'
 description: 'Learn how to make a dropdown class to be used in HTML with the CSS preprocessor SASS.'
 ---
 

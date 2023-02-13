@@ -1,6 +1,8 @@
 ---
 name: 'Padding and Margin Classes with Sass'
 slug: 'padding-and-margin-classes-with-sass'
+tags: []
+category: 'Utility'
 description: 'How to quickly make padding and margin classes utilizing sass and its looping possibilities.'
 ---
 

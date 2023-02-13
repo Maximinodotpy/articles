@@ -1,6 +1,7 @@
 ---
 name: 'Simple quiz in the console with python.'
-tags: [python, quiz]
+tags: []
+category: 'Project'
 slug: 'simple-quiz-in-the-console-with-python'
 description: 'How to make a simple quiz with python and some modules like os, colored, and json.'
 ---

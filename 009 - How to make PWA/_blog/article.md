@@ -1,6 +1,8 @@
 ---
 name: 'How to make a Progressive Web App'
 slug: 'how-to-make-a-progressive-web-app'
+tags: []
+category: 'General'
 description: 'Learn how to setup up a  in its most simplest form.'
 ---
 

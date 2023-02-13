@@ -1,6 +1,8 @@
 ---
 name: 'Infinite Scrolling Website with JavaScript'
 slug: 'infinite-scrolling-website-with-javascript'
+tags: []
+category: 'Project'
 description: 'Learn how to make an infinitely scrolling website with JavaScript, HTML, and CSS. Learn about the Intersection Observer API.'
 ---
 

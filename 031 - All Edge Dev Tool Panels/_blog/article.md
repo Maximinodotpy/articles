@@ -1,6 +1,8 @@
 ---
 name: 'All Edge Dev Tool Panels'
 slug: 'all-edge-dev-tool-panels'
+tags: []
+category: 'General'
 description: "Let's take a quick look at every Dev Tool Panel / Tool in Microsoft Edge."
 ---
 

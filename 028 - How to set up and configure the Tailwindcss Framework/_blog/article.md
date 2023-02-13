@@ -1,6 +1,8 @@
 ---
 name: 'How to set up and configure the Tailwindcss Framework.'
 slug: 'how-to-set-up-and-configure-the-tailwind-framework'
+tags: []
+category: 'General'
 description: 'Tailwind is pretty awesome; with this CSS Framework, one can write utility classes like `p-4` or `cursor-pointer`, and thanks to its bundler, it will only give you the classes you have used'
 ---
 

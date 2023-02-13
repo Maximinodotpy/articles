@@ -1,6 +1,8 @@
 ---
 name: 'Keyboard Shortcuts with JavaScript'
 slug: 'shortcuts-with-javascript'
+tags: []
+category: 'Utility'
 description: 'Learn how to make functions to set up keyboard shortcuts easily in JavaScript'
 ---
 

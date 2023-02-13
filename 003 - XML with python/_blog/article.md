@@ -1,6 +1,8 @@
 ---
 name: 'Edit XML with python'
 slug: 'edit-xml-with-python'
+tags: []
+category: 'General'
 description: 'How to edit XML files with python using the dom class'
 ---
 

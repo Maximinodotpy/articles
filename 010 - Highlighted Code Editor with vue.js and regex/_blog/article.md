@@ -1,6 +1,8 @@
 ---
 name: 'Highlighted Dummy Code Editor with HTML CSS JavaScript (vue.js)'
 slug: 'highlighted-dummy-code-editor-with-html-css-javascript-vue-js'
+tags: []
+category: 'Project'
 description: 'Learn about HTML, CSS, JavaScript (vue.js), and Regular Expressions by creating a dummy code editor that looks like VS-Code'
 ---
 

@@ -1,6 +1,8 @@
 ---
 name: 'File Explorer with Vue.js'
 slug: 'file-explorer-with-vue-js'
+tags: []
+category: 'Project'
 description: "let's make a small JSON-based File Explorer with vue.js, Learn about methods, computed properties, and other awesome things you can do with vue."
 ---
 

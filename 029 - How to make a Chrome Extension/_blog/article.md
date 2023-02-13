@@ -1,6 +1,8 @@
 ---
 name: 'How to make a Chrome Extension'
 slug: 'how-to-make-a-chrome-extension'
+tags: []
+category: 'General'
 description: 'Learn how to make Extensions for Chromium-based browsers.'
 ---
 
