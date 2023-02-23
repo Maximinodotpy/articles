@@ -6,7 +6,7 @@ category: 'Utility'
 description: 'Learn how to display nested JavaScript Objects the same way the console in the developer tools does.'
 ---
 
-## Idea
+
 The most used tool by any Web Developer would be probably the *Dev Tools* that are built into the browser for os programmers to analyze the HTML and CSS of our pages. This Tool also shows us the outputs by `console.log` and if the output is more complex than a string or number. It will show a tree view of the object where keys are highlighted by their data type. Below you see the console of the browser Microsoft edge where the window object has been printed out. As you see we could further expand this view into the nested object it has, and today we will try to implement this in HTML with JavaScript and CSS. We will make a recursive function that will make the HTML of any given object. This could be useful for debugging purposes or for the sake of showing how to display any tree structure.
 
 ![enter image description here](https://maximmaeder.com/wp-content/uploads/2022/08/devtools.png)

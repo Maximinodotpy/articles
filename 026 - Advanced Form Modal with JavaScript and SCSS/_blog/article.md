@@ -6,8 +6,6 @@ category: 'Utility'
 description: 'Build a function that spawns an Advanced Modal with a form that will return a promise and the Data in the form.'
 ---
 
-## Idea
-
 Today we will make something hard to explain: A Modal with a (somewhat) custom form that a programmer or we could use to ask the user something quickly and get the inputted data. Look at the [demo](https://articles.maximmaeder.com/a/advancedModal/) to see what I mean. It's going to be a function that will take in some config parameters for the form and the looks of the modal, and it will return a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that will resolve once the user has successfully submitted the form. This way, the function will be a little like `prompt()` but on steroids, if you get where I'm going.
 
 To keep this Tutorial a little bit shorter, I won't go over the CSS used for this Modal as it is purely cosmetic.

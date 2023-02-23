@@ -6,8 +6,6 @@ category: 'Project'
 description: "let's make a small JSON-based File Explorer with vue.js, Learn about methods, computed properties, and other awesome things you can do with vue."
 ---
 
-## Idea
-
 In this Tutorial, we will utilize the JavaScript Framework [Vue.js](https://vuejs.org/) to make a small dummy file explorer, where we can add, rename and delete files and folders via buttons. We will make it so we can enter folders via their content and for the files, we make their text content editable. This program served the purpose of learning Vue for me and it could very well be that I do something not the best way so keep that in mind. To keep it simple we won't use components and we will not use a build step.
 
 We first go over the HTML of the page and then we will cover the JavaScript and CSS. Below you see a GIF showcasing the Explorer. you can also visit the Live Demo.

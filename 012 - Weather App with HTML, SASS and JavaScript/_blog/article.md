@@ -8,7 +8,7 @@ description: 'Learn how to make a Simple App showing Temperatures for the next s
 
 Before we get into it, I want to stress that I am no JavaScript Pro; therefore, it may be that my practices are not the best or even the worst. Feel free to contact me in any way and tell me better ways to do things!
 
-## Idea
+
 
 Today we will make a little Website that shows us the hourly temperatures in the next seven days for a certain choosable city. We will make the graph ourselves using the power of SVG. We get the data from the [Open Meteo API](https://open-meteo.com) ([Licence](https://creativecommons.org/licenses/by-nc/4.0/)). Before we get into coding, we look at how SVG will help us and what kind of data the API returns.
 

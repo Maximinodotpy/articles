@@ -6,8 +6,6 @@ category: 'Utility'
 description: 'let us learn together how to make a custom HTML element with JavaScript by making a resizeable split container.'
 ---
 
-## Idea
-
 Not long ago I learned that it's possible that one can make custom HTML elements with JavaScript and today I want to make a resizeable split container with you to learn how to make custom web components. Keep in mind that I also did this for the first time and I am just a beginner who documents what he learns, so come along!
 
 Let's do this!

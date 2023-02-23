@@ -6,8 +6,6 @@ category: 'Utility'
 description: 'Learn how to make input and textarea tags that allow and show markdown.'
 ---
 
-## Idea
-
 In this Tutorial, we will make input areas that allow simple markdown markup to show itself when the user is not currently focused on the input itself. Visit the [Demo](https://articles.maximmaeder.com/a/Markdown%20Input/) to get a clearer Idea of what we are trying to accomplish here. Input areas like these are used in [Trello](http://trello.com/) and other software by [Atlassian](https://www.atlassian.com/software/jira). One could say this approach is somewhere between only unformatted text and a full Rich Text Editor.
 
 Let us get into it!

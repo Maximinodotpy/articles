@@ -6,8 +6,6 @@ category: 'Utility'
 description: 'Learn how to make a platformer character in Godot that also has wall jumping.'
 ---
 
-## Idea
-
 In this short Tutorial, we will go over how to make a platformer character in the [Godot Game Engine](https://godotengine.org/) that also has wall jumping. We will use the raycast and timer nodes for the wall jumping. I will show you the Node Setup and the script needed for this program.
 
 Of course, this Tutorial may be outdated as soon as Godot 4 Releases, but you can still learn about the General Concept, so let's get into it.

@@ -6,7 +6,6 @@ category: 'General'
 description: 'Learn how to setup up a  in its most simplest form.'
 ---
 
-## Idea
 In this tutorial, we will make a Progressive Web App (PWA) in its simplest form. This means we will make a bare-bones website with no features and want it to be installable. If you are serious about making a PWA, you can extend the framework created here. 
 
 To make a PWA, we need a *manifest.json* file.

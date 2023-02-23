@@ -6,7 +6,6 @@ slug: 'simple-quiz-in-the-console-with-python'
 description: 'How to make a simple quiz with python and some modules like os, colored, and json.'
 ---
 
-## Idea
 In this tutorial, we will make a simple quiz program with python and some excellent modules like json, colored and random.
 
 We will implement a point system and colorful feedback for the user. We also make it so the questions and answers are shuffled randomly.

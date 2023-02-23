@@ -6,7 +6,7 @@ category: 'Utility'
 description: "Let's make a function that makes it easy for us to create DOM and get references to certain elements."
 ---
 
-## Idea
+
 
 In this Tutorial, we will make a function that will make it easy for us to create nested elements in JavaScript. It also receives attributes we want to add to the element, some of which have a special meaning. We also make it so the function returns all elements created inside it with `id`, `idx`, or `classx` inside an object so we can edit them later. We also make it, so events are added as an event listener rather than an attribute and enable boolean event property checking; we later see what this means exactly.
 
