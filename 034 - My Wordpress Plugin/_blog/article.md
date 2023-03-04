@@ -3,7 +3,7 @@ name: 'My Wordpress Plugin: Gitdown'
 slug: 'my-wordpress-plugin'
 tags: []
 category: 'General'
-status: 'draft'
+status: 'publish'
 description: "I made a wordpress plugin to manage my git articles, and now I want to tell you about it!"
 ---
 
