@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=3 uid="uid://0rs4qxgl5atv"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_k8gyd"]
+[ext_resource type="Theme" uid="uid://4xi278rnuxkr" path="res://main.tres" id="1_rcfow"]
+[ext_resource type="FontFile" uid="uid://b745wci2igfly" path="res://consola.ttf" id="2_8rpd2"]
+
+[node name="root" type="Control"]
+texture_filter = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_rcfow")
+script = ExtResource("1_k8gyd")
+metadata/_edit_vertical_guides_ = [254.0]
+
+[node name="background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.152941, 0.152941, 0.152941, 1)
+
+[node name="vbox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="menu" type="HBoxContainer" parent="vbox"]
+layout_mode = 2
+
+[node name="file_menu_button" type="MenuButton" parent="vbox/menu"]
+texture_filter = 1
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_fonts/font = ExtResource("2_8rpd2")
+theme_override_font_sizes/font_size = 40
+text = "File"
+
+[node name="text_edit" type="TextEdit" parent="vbox"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("2_8rpd2")
+theme_override_font_sizes/font_size = 40
+placeholder_text = "Edit Your file Here"
