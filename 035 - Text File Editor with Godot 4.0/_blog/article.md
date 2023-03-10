@@ -1,5 +1,5 @@
 ---
-name: 'Text File Editor with Godot 4.0'
+name: 'Text File Editor with Godot 4'
 slug: 'text-file-editor-with-godot-4'
 tags: ['gdscript', 'godot', 'editor', 'ui']
 category: 'Godot Game Engine'
@@ -11,10 +11,12 @@ Its finally here: [Godot 4.0](https://godotengine.org/article/godot-4-0-sets-sai
 
 Bear in mind that I wont go over everything that this project includes, I will only go over the scene tree and the code. If you want you can head over to my [articles repository](https://github.com/Maximinodotpy/articles) and download the project to see for yourself.
 
-[Godot Naming Conventions]
 [How to get to user data folder]
 [ Add GDSCRIPT as a syntax for highlight JS https://github.com/highlightjs/highlightjs-gdscript/blob/master/dist/gdscript.min.js ]
-[ Add Image Transform to Gitdown ]
+
+```gdscript
+extends Control
+```
 
 ## Scene Tree for the Text Editor
 
