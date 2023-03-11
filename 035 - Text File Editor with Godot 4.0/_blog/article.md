@@ -3,7 +3,7 @@ name: 'Text Editor with Godot 4'
 slug: 'text-file-editor-with-godot-4'
 tags: ['gdscript', 'godot', 'editor', 'ui']
 category: 'Godot Game Engine'
-status: 'draft'
+status: 'publish'
 description: "Let's celebrate the Release of Godot 4.0 by making a Text File Editor with this awesome Game Engine."
 ---
 
