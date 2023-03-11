@@ -1,5 +1,5 @@
 ---
-name: 'Text File Editor with Godot 4'
+name: 'Text Editor with Godot 4'
 slug: 'text-file-editor-with-godot-4'
 tags: ['gdscript', 'godot', 'editor', 'ui']
 category: 'Godot Game Engine'
@@ -17,11 +17,11 @@ Bear in mind that I won't go over everything this project includes. I will only 
 
 Let's start with the scene tree! As you see, it consists of control nodes. We use a `ColorRect` to change the background color and a `VBoxContainer` to place the menu at the top and the text area below. For the menu, we use an `HBoxContainer` with one menu button that can spawn a popup menu.
 
-![](https://maximmaeder.com/wp-content/uploads/2023/03/scene-tree.png)
+![Scene for The File Editor with Godot](https://maximmaeder.com/wp-content/uploads/2023/03/scene-tree.png)
 
 For the Text edit, we need to go into its `Layout/Container Sizing` Properties to change expand to true. The expand property is a bit like `flex-grow: 1` in CSS, where this element will try to take up as much space as possible.
 
-![](https://maximmaeder.com/wp-content/uploads/2023/03/layout.png)
+![Layout Options for Control Nodes in Godot](https://maximmaeder.com/wp-content/uploads/2023/03/layout.png)
 
 ## GDScript for the Text Editor
 
@@ -218,9 +218,12 @@ func on_text_change():
 
 ## Conclusion
 
-![The Text File Editor in Action](https://maximmaeder.com/wp-content/uploads/2023/03/showcase.gif)
+![The File Editor in Action](https://maximmaeder.com/wp-content/uploads/2023/03/showcase.gif)
 
 I know it's a lot, and you may have better ideas than me, so feel free to try it out and build a program with Godot!
 
+Or you could try to implement my [wall jumping article](https://maximmaeder.com/godot-platformer-character-with-wall-jumping/) in Godot 4.
 
 *Extra Tip*: You can add a file called [`.gdignore`](https://github.com/godotengine/godot/issues/8461#issuecomment-481863362) to any folder that the Godot Editor should ignore. So images in such a folder won't be imported, which may be helpful in a folder containing the exports of your game of media for the itch.io page.
+
+If you code in python you can take a look at this tutorial where we build a [text editor](https://www.thepythoncode.com/article/create-rich-text-editor-with-tkinter-python) with tkinter.
