@@ -50,7 +50,6 @@ func _ready():
 	text_edit.connect('text_changed', on_text_change)
 
 func on_file_menu_clicked(id):
-	print('Pressed "%s"' % MENU_ITEMS[id][0])
 	self.call(MENU_ITEMS[id][1])
 
 func on_viewport_resize():
@@ -78,8 +77,6 @@ func create_default_dialog() -> FileDialog:
 
 
 func menu_open_file():
-	print('Open File Dialog ...')
-	
 	var dialog = create_default_dialog()
 	dialog.file_mode = FileDialog.FILE_MODE_OPEN_FILE
 	dialog.connect('file_selected', open_file_selected)
@@ -93,8 +90,6 @@ func open_file_selected(path):
 	current_path = path
 
 func menu_save_file():
-	print('Saving File ...')
-
 	var dialog = create_default_dialog()
 	dialog.file_mode = FileDialog.FILE_MODE_SAVE_FILE
 	dialog.connect('file_selected', save_file)
@@ -112,4 +107,4 @@ func save_file(path = current_path):
 	file.store_string(text_edit.text)
 
 func on_text_change():
-	get_window().title = WINDOW_TITLE_EDITED % [APPLICATION_NAME, current_path]
+	get_window().title = WINDOW_TITLE_EDITED % [APPLICATION_NAME, current_path]	

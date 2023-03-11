@@ -124,10 +124,108 @@ Lastly we connect the `sized_changed` signal and `text_changed` to some function
 	text_edit.connect('text_changed', on_text_change)
 ```
 
-## Showing the Text Editor
+### File Menu Actions
 
-[ GIF of the Text Editor ]
+Let's go over the three different actions that can be called via the menu at the top left and how the system behinde it works.
+
+In the ready function we connected this function below to be called whenever the user clicks any of the menu buttons and it will simply call the function that was specified in the array at the top.
+
+```gdscript
+func on_file_menu_clicked(id):
+	self.call(MENU_ITEMS[id][1])
+```
+
+The functions that are subsequntly called to almost the same thing. They use the `create_default_dialog` function to create a dialog set its file mode and they connect its `file_selected` signal to their respective functions.
+
+```gdscript
+func menu_open_file():
+	var dialog = create_default_dialog()
+	dialog.file_mode = FileDialog.FILE_MODE_OPEN_FILE
+	dialog.connect('file_selected', open_file_selected)
+
+...
+
+func menu_save_file():
+	var dialog = create_default_dialog()
+	dialog.file_mode = FileDialog.FILE_MODE_SAVE_FILE
+	dialog.connect('file_selected', save_file)
+```
+
+Now when opening a file we use the `FileAcces` Singleton to get the content of the given path and insert it into the text_edit. We also set the new window title and current_path variable.
+
+```gdscript
+func open_file_selected(path):
+	var file = FileAccess.open(path, FileAccess.READ)
+	text_edit.text = file.get_as_text()
+
+	get_window().title = WINDOW_TITLE % [APPLICATION_NAME, path]
+	current_path = path
+```
+
+And when we save a file we first check if the path is the equal to the unsaved file name which means this is a new file. So we simply call the `menu_save_file` function and return.
+
+If thats not the case we simple set the window title, current_path variable and we once again use FileAccess to put the content into the file.
+
+```gdscript
+func save_file(path = current_path):
+	if path == UNSAVED_FILE_NAME:
+		menu_save_file()
+		return
+	
+	get_window().title = WINDOW_TITLE % [APPLICATION_NAME, path]
+	current_path = path
+	
+	print('Saving to "%s"' % path)
+	var file = FileAccess.open(path, FileAccess.WRITE)
+	file.store_string(text_edit.text)
+```
+
+### `on_viewport_resize`, `create_default_dialog` and `on_text_change`
+
+Let's also quickly go over the three minor function that round of this little project.
+
+`on_viewport_resize` will simply change the current_dialog size to the viewport size every time it is changed so the dialog takes up all of the space.
+
+```gdscript
+func on_viewport_resize():
+	if current_dialog:
+		current_dialog.size = get_viewport().size
+```
+
+The `create_default_dialog` function will as its name implies create and return a dialog Node that conforms to the settings that we made above. It will have the correct filter and access.
+
+```gdscript
+func create_default_dialog() -> FileDialog:
+	var dialog := FileDialog.new()
+	
+	for file_filter in FILE_FILTERS:
+		dialog.add_filter(file_filter[0], file_filter[1])
+
+	dialog.access = FILE_ACCESS
+	dialog.unresizable = true
+	
+	current_dialog = dialog
+	
+	on_viewport_resize()
+	
+	dialog.show()
+
+	self.add_child(dialog)
+	
+	return dialog
+```
+
+Last but not least we need to change the window title everytime the use makes changes that arent saved.
+
+```gdscript
+func on_text_change():
+	get_window().title = WINDOW_TITLE_EDITED % [APPLICATION_NAME, current_path]	
+```
 
 ## Conclusion
+
+![The Text File Editor in Action](https://maximmaeder.com/wp-content/uploads/2023/03/showcase.gif)
+
+I know its a lot and maybe you have some better ideas than me so feel free to try it out yourself and build a program with Godot!
 
 By the way, you can add a file called [`.gdignore`](https://github.com/godotengine/godot/issues/8461#issuecomment-481863362) to any folder that should be ignored by the Godot Editor. So images in such a folder wont be importet which may be useful for a folder containing the exports of your game of media for the itch.io page.

@@ -1,12 +1,8 @@
 2a60927148abd1d33b818b535e306557
-::res://::1678514186
+::res://::1678517836
 consola.ttf::FontFile::4694191550869597234::1575709717::1678367317::1::::<><>::
 export_presets.cfg::TextFile::-1::1678368140::0::1::::<><>::
 icon.svg::CompressedTexture2D::209373402534224823::1678341933::1678341952::1::::<><>::
-main.gd::GDScript::-1::1678439752::0::1::::<>Control<>::
+main.gd::GDScript::-1::1678517659::0::1::::<>Control<>::
 main.tres::Theme::2083492838740215825::1678367827::0::1::::<><>::
-main.tscn::PackedScene::1790961082855460027::1678385118::0::1::::<><>::res://main.gd<>uid://4xi278rnuxkr<>uid://b745wci2igfly
-::res://_blog/::1678514438
-article.md::TextFile::-1::1678455978::0::1::::<><>::
-logo_large_color_dark.png::CompressedTexture2D::5965978168619779850::1678514353::1678514441::1::::<><>::
-preview.png::CompressedTexture2D::5324242614589708758::1678438765::1678514441::1::::<><>::
+main.tscn::PackedScene::1790961082855460027::1678516293::0::1::::<><>::res://main.gd<>uid://4xi278rnuxkr<>uid://b745wci2igfly
