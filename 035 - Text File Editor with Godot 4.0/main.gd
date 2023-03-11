@@ -49,13 +49,6 @@ func _ready():
 	
 	text_edit.connect('text_changed', on_text_change)
 
-
-func _process(delta):
-	for menu_item in MENU_ITEMS:
-		if '':
-			pass
-
-
 func on_file_menu_clicked(id):
 	print('Pressed "%s"' % MENU_ITEMS[id][0])
 	self.call(MENU_ITEMS[id][1])
