@@ -9,7 +9,7 @@ description: "Let's celebrate the Release of Godot 4.0 by making a Text File Edi
 
 Its finally here: [Godot 4.0](https://godotengine.org/article/godot-4-0-sets-sail/) just released and I want to celebrate that by diving back into this awesome game engine and making a text file editor with it.
 
-![Godot Logo](logo_large_color_dark.png)
+![Godot Logo](https://maximmaeder.com/wp-content/uploads/2023/03/logo_large_color_dark.png)
 
 Bear in mind that I wont go over everything that this project includes, I will only go over the scene tree and the code. If you want you can head over to my [articles repository](https://github.com/Maximinodotpy/articles) and download the project to see for yourself.
 
@@ -23,11 +23,11 @@ extends Control
 
 Let's start with the scene tree! As you see it  is made by control nodes. We use a `ColorRect` to change the background color and use a `VBoxContainer` to place the menu at the top and the text area below. For the menu we use a `HBoxContainer` with one menu button that can spawn a popup menu.
 
-![](scene-tree.png)
+![](https://maximmaeder.com/wp-content/uploads/2023/03/scene-tree.png)
 
 For the Text edit we need to go into its `Layout/Container Sizing` Properties to change expand to true. This is a little bit like `flex-grow: 1` in css where this element will try to take up as much space as possible.
 
-![](layout.png)
+![](https://maximmaeder.com/wp-content/uploads/2023/03/layout.png)
 
 ## GDScript for the Text Editor
 
