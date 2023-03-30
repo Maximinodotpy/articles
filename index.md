@@ -1,9 +1,4 @@
 ---
-categories: [
-    General,
-    Project,
-    Utility,
-]
 tags: [
     JavaScript,
     SASS,
