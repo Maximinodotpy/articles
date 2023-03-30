@@ -97,7 +97,7 @@ for question, answers in data['questions']:
 
 Next, we save the right answer to a variable we can do this because the first item in every answer list is the correct one. We also make the right index variable.
 
-```python	
+```python
     # get the right answer, which is the first item in list.
     rightAnswer = answers[0]
     rightIndex = 0
