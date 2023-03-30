@@ -6,8 +6,6 @@ category: 'Utility'
 description: 'In this short Tutorial we will make it so the links of our page show a little preview window panel that shows the title and description of the linked page.'
 ---
 
-
-
 On Wikipedia, its links are a little bit different than on other Pages, if you hover over one it displays a short description and an image of the page that this link leads to and today we will try to do this ourselves with JavaScript and a little bit of PHP. Just keep in mind this will be a quick and dirty solution to the problem you could work it out work consistently. The PHP part will be just one file with one function so we simply go over it in the JavaScript part.
 
 Let us get into it.
@@ -48,7 +46,7 @@ Then we finally create a div that will hold this information, we set a class for
 
 ```js
 panel = document.createElement('div');
-                
+
 el.className = 'linkPreviewWrapper';
 
 panel.innerHTML = `

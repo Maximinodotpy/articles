@@ -6,8 +6,6 @@ category: 'Project'
 description: 'Learn how to make an infinitely scrolling website with JavaScript, HTML, and CSS. Learn about the Intersection Observer API.'
 ---
 
-
-
 In this Tutorial, I will teach you how to make an infinite-scrolling website via the [IntersectionObserver API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) in JavaScript. Our website will show random pictures of cats, so we will also learn how to fetch JSON from an [API](https://thecatapi.com/). Lastly, we add a little loading animation that plays while the image is loading to indicate to the user that more content is coming.
 
 Visit the [Demo](https://demos.maximmaeder.com/demo/catstragam/) to understand better what we are about to do. Below you also see it.
@@ -18,14 +16,14 @@ Visit the [Demo](https://demos.maximmaeder.com/demo/catstragam/) to understand b
 
 Let's start with the Markup of our little website. In the head, we need to add our script and link tags to the corresponding files. Mind the [defer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-defer) attribute added to the script tag, as its content should only run when the HTML has fully loaded. This way, we don't have to add scripts to the bottom of the page.
 
-```HTML
+```html
 <script src="script.js" defer></script>
 <link rel="stylesheet" href="style.css">
 ```
 
 Next up, we need to add a div to our body to hold the Images / Items of our Timeline. It will be 4 column grid. We will also make it so some of the pictures span two rows if they are high.
 
-```HTML
+```html
 <div class="pictures"></div>
 ```
 
@@ -76,7 +74,7 @@ function observerCallback(entries) {
 ```
 
 Now, this only watches the last picture, and if it is visible, we know the user has scrolled too far down, and we have to add another image. This new picture will be the next observed element since it is the last. Conveniently newly created elements also trigger the Observer even though they were never outside the container.
-    
+
 ### `addPicture` Function
 
 Now how does this `addPicture` function work? Firstly the function is created with the `async` keyword so it can await results from the fetch request, and we don't have to use `.then()`. Then inside the function, we start by creating a wrapper link element that will hold the image and the image itself. We also add the wrapper to the container now rather than later because the image may take longer to load.
@@ -86,9 +84,9 @@ async function addPicture() {
 
     const wrapper = document.createElement('a')
     wrapper.target = '_blank'
-    
+
     const imgNode = document.createElement('img')
-    
+
     wrapper.appendChild(imgNode)
     container.appendChild(wrapper)
 
@@ -100,7 +98,7 @@ Continuing, we get an image and some metadata about it with the `getPicture` fun
 
 ```js
 let cat = await getPicture()
-    
+
 wrapper.href = cat.url
 imgNode.src = cat.url
 ```

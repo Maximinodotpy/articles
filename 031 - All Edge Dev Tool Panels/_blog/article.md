@@ -73,7 +73,7 @@ This Panel shows you the Media Players ( Video and Audio ) of your Website and s
 
 With this Tool, you can analyze the memory usage of your Website and optimize it according to this info.
 
-[Official Documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/experimental-features/share-traces)4
+[Official Documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/experimental-features/share-traces)
 
 ### Network
 

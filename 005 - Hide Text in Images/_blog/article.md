@@ -128,7 +128,7 @@ We get the pixel color `(RGB)` at the position. If the pixel is the `endingPixel
 ```python
 		# Loop throug each pixel in the top row
         pixel = image.getpixel((index, 0))
-		
+
 		# if the pixel is the ending pixel, we break the loop
         if pixel == endingPixel:
             break

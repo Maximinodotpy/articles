@@ -163,8 +163,8 @@ If that is the case, we replace this appearance with the evaluated value of the 
 methods: {
    evaluation(string) {
 
-       if (string.startsWith('=')) {	
-			string = string.slice(1, string.length)	
+       if (string.startsWith('=')) {
+			string = string.slice(1, string.length)
 		}
 
 
@@ -188,7 +188,7 @@ Don't forget to call the `mount(id)` function to assign the vue app to our div a
 
 Let us look at our app in action.
 
-![enter image description here](https://maximmaeder.com/wp-content/uploads/2022/07/spreadsheet-1.gif)
+![Unstyled Interactive Spreadsheet](https://maximmaeder.com/wp-content/uploads/2022/07/spreadsheet-1.gif)
 
 It works! But it does not look nice. Let us style it with CSS!
 
@@ -328,231 +328,11 @@ Now for some custom classes. The eval class is just used for cells that are eval
 
 So that's it. Let us look at our little app.
 
-![](https://maximmaeder.com/wp-content/uploads/2022/07/spreadsheet-2.gif)
+![Spreadsheet app in action](https://maximmaeder.com/wp-content/uploads/2022/07/spreadsheet-2.gif)
 
 
-embed
-[simple spreadsheet app with vue (quuli.ch)](https://ai.quuli.ch/examples/)
+[simple spreadsheet app with vue](https://ai.quuli.ch/examples/)
 
 ## Conclusion
 
 Excellent! You have successfully created a Simple spreadsheet app using HTML / CSS / Javascript and Vue.js! See how you can add more features to this program, such as functions like `sum` or saving and opening.
-
-## Full Code
-
-```HTML
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>simple spreadsheet app with vue</title>
-
-    <!-- Add vue via cdn -->
-    <script src="https://unpkg.com/vue@3"></script>
-
-    <style>
-/* CSS Setup */
-body {
-    margin: 0
-}
-
-* {
-    font-family: monospace !important;
-    box-sizing: border-box;
-}
-
-/* Remove Spacing between cells */
-table {
-    border-spacing: 0;
-}
-
-/* Styling the Cells */
-td,
-th {
-    min-width: 70px;
-    min-height: 40px;
-    padding: 0.2em;
-    border-right: 1px solid rgb(209, 209, 209);
-    border-bottom: 1px solid rgb(209, 209, 209);
-}
-
-th {
-    background-color: rgb(229, 229, 229);
-}
-
-td {
-    background-color: whitesmoke;
-    padding: 1em;
-    text-align: center;
-    position: relative;
-}
-
-
-/* Toggle Input and Display */
-
-/* Hide Label if input is focused or hovered */
-td:hover input+div,
-td input:focus+div {
-    display: none
-}
-
-/* Expand input and label to full size of container */
-td>input,
-td div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-width: 0px;
-}
-
-/* Make Label see through for mouse */
-td>div {
-    pointer-events: none;
-}
-
-/* Hide Input by default */
-td input {
-    visibility: hidden;
-}
-
-/* Show Input if focus or hover is true */
-td:hover input,
-td input:focus {
-    visibility: visible;
-    outline: none;
-}
-
-
-/* Classes */
-
-/* Cells that are evaluated */
-.eval {
-    background-color: rgb(207, 255, 221)
-}
-
-/* Top Row */
-.sticky-top {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    box-shadow: 0 1px 3px rgb(180, 180, 180)
-}
-
-/* Left Column */
-.sticky-left {
-    position: sticky;
-    left: 0;
-    z-index: 98;
-}
-    </style>
-
-</head>
-
-<body>
-
-    <div id="app">
-        
-        <table>
-            <thead class="sticky-top">
-                <th></th>
-                <th v-for="char in chars">{{char}}</th>
-            </thead>
-            <tr v-for="(layer, index) in cellsLayered">
-
-                <!-- First cell, which is the index / row number -->
-                <th class="sticky-left">{{index}}</th>
-
-                <!-- Display the cells -->
-                <td v-for="cell in layer">
-
-                    <!-- Insert input with v-model for binding -->
-                    <input v-model="cells[cell+index]" type="text">
-
-                    <!-- Insert either a div that shows the value or a div that evalates the value -->
-                    <div>
-                        <div v-if="!cells[cell+index].startsWith('=')">
-                            {{ cells[cell+index] }}
-                        </div>
-                        <div v-else class="eval">
-                            {{ evaluation(cells[cell+index]) }}
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-    <script>
-        console.log(eval("1"))
-
-        const { createApp } = Vue
-
-        /* Define The list */
-        var chars = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-
-        /* We are making this variables outside, but we will insert it into vue */
-        var cells = {}
-        var cellsLayered = []
-
-        for (let number = 0; number < 30; number++) {
-            var layer = []
-
-            chars.forEach(character => {
-                cells[character + number] = ''
-                layer.push(character)
-            });
-
-            cellsLayered.push(layer)
-        }
-
-        /* Some Starting Values */
-        cells['a0'] = '10'
-        cells['a1'] = '20'
-        cells['b2'] = '=30'
-        cells['b3'] = '=a0'
-
-        createApp({
-            data() {
-                return {
-                    chars: chars,
-                    cells: cells,
-                    cellsLayered: cellsLayered
-                }
-            },
-            methods: {
-                evaluation(string) {
-
-                    if (string.startsWith('=')) {
-                        string = string.slice(1, string.length)
-                    }
-
-
-                    Object.keys(cells).forEach(coord => {
-                        if (string.includes(coord)) {
-
-                            string = string.split(coord).join(this.evaluation(cells[coord]))
-                        }
-                    })
-
-                    try {
-                        return eval(string)
-                    } catch (error) {
-                        return error
-                    }
-                }
-            }
-        }).mount('#app')
-    </script>
-</body>
-
-</html>
-```

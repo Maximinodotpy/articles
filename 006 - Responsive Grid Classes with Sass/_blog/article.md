@@ -77,11 +77,11 @@ $columnCounts: 2, 3, 4
 
     .grid-#{$count}
         grid-template-columns: unquote($text)
-        
-            
+
+
 [class*="grid"]
     display: grid
-    
+
     @media screen and (max-width: 900px)
         grid-template-columns: 1fr
 ```

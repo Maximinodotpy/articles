@@ -6,7 +6,7 @@ category: 'Utility'
 description: 'let us learn together how to make a custom HTML element with JavaScript by making a resizeable split container.'
 ---
 
-Not long ago I learned that it's possible that one can make custom HTML elements with JavaScript and today I want to make a resizeable split container with you to learn how to make custom web components. Keep in mind that I also did this for the first time and I am just a beginner who documents what he learns, so come along!
+Not long ago I learned that it's possible that one can make custom HTML elements with JavaScript. So today I want to make a resizeable split container with you, to learn how to make custom web components. Keep in mind that I also did this for the first time and I am just a beginner who documents what he learns, so come along!
 
 Let's do this!
 
@@ -40,11 +40,9 @@ class splitContainer extends HTMLElement {
 
 ### Shadow DOM and Templates
 
-Next up we create a shadow DOM which is just HTML normally hidden that is used when a component needs many elements or a restructure of given elements. We make this shadow DOM with the `attachShadow()` function that returns an object that also has the sam[Selber noch nie Gemacht und dass ganze erklären]
+Next up we create a shadow DOM which is just HTML normally hidden that is used when a component needs many elements or a restructure of given elements. We make this shadow DOM with the `attachShadow()` function that returns an object that also has the same the same properties as a normal HTML Element.
 
-## Class
-
-Das mit der klasse function as any element. Inside there we can define styles slots and other elements.
+Inside there we can define styles slots and other elements.
 
 ```js
 const shadow = this.attachShadow({ mode: 'open' })
@@ -117,12 +115,12 @@ Let's go over the function that handles movement. In it, we first check if the d
 ```js
 moveCallback(ev) {
 	if (!this.draggerClicked) return
-	
+
 	...
 }
 ```
 
-if that is the case we continue by saving the x position and width to variables and we use this info and the x position of the click to calculate how far to the left inside the element the mouse pointer is currently in percent. We then also clamp this value to the max and min width.
+If that is the case we continue by saving the x position and width to variables and we use this info and the x position of the click to calculate how far to the left inside the element the mouse pointer is currently in percent. We then also clamp this value to the max and min width.
 
 ```js
         const x = this.getBoundingClientRect().x
@@ -134,7 +132,7 @@ if that is the case we continue by saving the x position and width to variables 
 ```
 
  We define this function somewhere in the class, and it looks like this.
- 
+
 ```js
 clamp(val, min, max) {
     if (val > max) return max
@@ -214,7 +212,7 @@ Let us also go over the CSS that is defined in the Shadow DOM. I don't want to g
 }
 ```
 
-## HTMl Usage
+## HTML Usage
 
 Now that we have the code we can use the element in our HTML with its custom name like this.
 
