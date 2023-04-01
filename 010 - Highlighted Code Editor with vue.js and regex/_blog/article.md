@@ -8,7 +8,7 @@ description: 'Learn about HTML, CSS, JavaScript (vue.js), and Regular Expression
 
 Today we will create a dummy code editor that supports syntax highlighting. We use HTML, CSS and JavaScript (Vue.js). We are also going to learn about RegularExpressions for the highlighting. Below you see the Editor already in action, so you better understand what we will do.
 
-![enter image description here](https://maximmaeder.com/wp-content/uploads/2022/07/code.gif)
+![Code Editor in Action](https://maximmaeder.com/wp-content/uploads/2022/07/code.gif)
 
 You find the Live Demo [here](https://dummy-editor.maximmaeder.com/).
 
@@ -273,7 +273,7 @@ Now for the syntax highlighting, we simply color elements that have the attribut
 
 Let's look at the app in action.
 
-![enter image description here](https://maximmaeder.com/wp-content/uploads/2022/07/code.gif)
+![Code Editor in Action](https://maximmaeder.com/wp-content/uploads/2022/07/code.gif)
 
 You find the Live Demo [here](https://dummy-editor.maximmaeder.com/).
 You find the [GitHub Repo](https://github.com/Maximinodotpy/articles/tree/main/article%2010%20-%20Highlighted%20Code%20Editor%20with%20vue.js%20and%20regex) here.

@@ -6,8 +6,6 @@ category: 'Utility'
 description: 'Learn how to make an Accordion with HTML, CSS (Sass), and a little bit of Javascript.'
 ---
 
-
-
 This Tutorial will make a reusable Accordion Component with HTML, CSS (Sass), and JavaScript. We will make it, so we only have to provide a minimal HTML structure with a few classes for the accordion to work. We'll handle most of it in JS and CSS.
 
 So let us get right into coding.

@@ -10,9 +10,9 @@ Sometimes one just needs margin and padding classes for left, right, top and bot
 
 Let us take a look at a simple example to make margin and padding class in all directions from 0ems to 7ems.
 
-Let us start by defining two lists, one holds the em range and one the direction strings. 
+Let us start by defining two lists, one holds the em range and one the direction strings.
 
-```sass
+```scss
 $ems: 0, 1, 2, 3, 4, 5, 6, 7
 $directions: "", "-bottom", "-top", "-left", "-right"
 ```
@@ -21,15 +21,15 @@ In SASS lists and the variables are defined in this manner. `$variableName: item
 
 Next, we loop over the two lists in a nested manner. So for every `em` we also go through every direction.
 
-```sass
-@each $em in $ems 
+```scss
+@each $em in $ems
 
     @each $dir in $directions
 ```
 
 After that we get the second letter from the direction so for `-top` that means `t`, we do this so the class name does not include the whole word. We can do this with the `str-slice()` function which takes the string to slice, the starting point, and the ending point. SASS Lists and Strings start at `1` and not `0` as most programming languages do, so keep that in mind.
 
-```sass
+```scss
 		$dir-in-rule: str-slice($dir, 2, 2)
 ```
 
@@ -39,19 +39,19 @@ To insert variables in selector and rules we have to do it this way: `#{$variabl
 
 We also do this for padding which is done in a similar manner.
 
-```sass
-        .m#{$dir-in-rule}-#{$em} 
+```scss
+        .m#{$dir-in-rule}-#{$em}
             margin#{$dir}: $em + em
-            
-        .p#{$dir-in-rule}-#{$em} 
-            padding#{$dir}: $em + em        
+
+        .p#{$dir-in-rule}-#{$em}
+            padding#{$dir}: $em + em
 ```
 
 
 
 Now this code won't work by itself, we have to convert it to valid CSS first this is done by transpilling or converting. [This](https://codebeautify.org/sass-to-css-converter) converter is really good. After putting in the code there it should result in something like this.
 
-```css
+```scss
 .m-0 {
   margin: 0em; }
 
@@ -73,22 +73,3 @@ Now this code won't work by itself, we have to convert it to valid CSS first thi
 ## Conclusion
 
 Excellent! You have successfully created margin and padding classes using SASS code! See how you can make more with this knowledge!
-
-## Full Code
-```sass
-$ems: 0, 1, 2, 3, 4, 5, 6, 7
-$directions: "", "-bottom", "-top", "-left", "-right"
-
-/* Paddings and Margins */
-@each $em in $ems 
-
-    @each $dir in $directions 
-        
-        $dir-in-rule: str-slice($dir, 2, 2)
-        
-        .m#{$dir-in-rule}-#{$em} 
-            margin#{$dir}: $em + em
-        
-        .p#{$dir-in-rule}-#{$em} 
-            padding#{$dir}: $em + em
-```

@@ -8,8 +8,6 @@ description: 'Learn how to make a Simple App showing Temperatures for the next s
 
 Before we get into it, I want to stress that I am no JavaScript Pro; therefore, it may be that my practices are not the best or even the worst. Feel free to contact me in any way and tell me better ways to do things!
 
-
-
 Today we will make a little Website that shows us the hourly temperatures in the next seven days for a certain choosable city. We will make the graph ourselves using the power of SVG. We get the data from the [Open Meteo API](https://open-meteo.com) ([Licence](https://creativecommons.org/licenses/by-nc/4.0/)). Before we get into coding, we look at how SVG will help us and what kind of data the API returns.
 
 [Live Demo](%5BWeather%20App%20%28maximmaeder.com%29%5D%28http://weather-app.maximmaeder.com/)
@@ -19,8 +17,8 @@ Today we will make a little Website that shows us the hourly temperatures in the
 Scalable Vector Graphics are fantastic. They look good in all sizes and can easily be made programmatically because they are HTML tags. Below you see a simple SVG tag that will show a polygon. We will use this tag for our graph and `line` and `text`. In the program, we add the points.
 
 ```SVG
-<svg height="210"  width="500">  
-	<polygon points="200,10 250,190 160,210"/>  
+<svg height="210"  width="500">
+	<polygon points="200,10 250,190 160,210"/>
 </svg>
 ```
 
@@ -146,7 +144,7 @@ const height_exxagaration = 7
 const LabelStepsY = 5
 ```
 
-After that, we save some of the needed elements in variables. For this we use `querySelector` and `getElementById`. continuing, we get the dimensions of the SVG element minus the padding; this is important so the graph will span the full width of the container. Last but not least, we define a step multiplier. This value will be used in tandem with the width. 
+After that, we save some of the needed elements in variables. For this we use `querySelector` and `getElementById`. continuing, we get the dimensions of the SVG element minus the padding; this is important so the graph will span the full width of the container. Last but not least, we define a step multiplier. This value will be used in tandem with the width.
 
 The API will always return `168` Datapoints, but it may be that the SVG is 500 Pixels wide, and we want each of the Datapoints evenly spread out in these 500 Pixels. These last three variables will always be overwritten when the window size changes.
 
@@ -180,10 +178,10 @@ The next one is also simple as it will just set the new width and step multiplie
 ```js
 function setSize() {
     let size = svgElement.getBoundingClientRect()
-    
+
     container_width = size.width - paddingLeftGraph
     step_multiplier = container_width / 168
-    
+
     DrawData()
     drawLables()
 }
@@ -201,15 +199,15 @@ function getWeekDay(date) {
 The `changeLocation` function will first get the option element where the value is the same as the select itself. This returned element has the `data-lon` and `data-lat` attributes which we will get from it using `getAttribute()`. After that we build the request string where insert these coordinates and we call the `request()` function. As soon as the request is finished we set the `currentData` variable to the returned data and we redraw the graph with `DrawData()`
 
 ```js
-function changeLocation() {    
+function changeLocation() {
 
     let currentCityEl = citySelect.querySelector(`[value="${citySelect.value}"]`)
-    
+
     let lat = currentCityEl.getAttribute('data-lat')
     let lon = currentCityEl.getAttribute('data-lon')
 
     let requestString = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=temperature_2m`
-    
+
     request(requestString).then((data) => {
         currentData = data
         DrawData(currentData)
@@ -301,7 +299,7 @@ Our Web App will now work but it won't look good, so let's add some styling to i
 In the sass file, we first add four variables that hold the color palette and we define a `mixin` which is a reusable component that we can later include anywhere with `@include container`.
 
 ```sass
-$color: #3e6b8f    
+$color: #3e6b8f
 $bg: rgb(65, 65, 65)
 $lines: rgb(90, 90, 90)
 $text: #f3f3f3
@@ -373,7 +371,7 @@ a
 
 Below you see the Website in action.
 
-![enter image description here](https://maximmaeder.com/wp-content/uploads/2022/08/weatherheihg.gif)
+![Waether App in action](https://maximmaeder.com/wp-content/uploads/2022/08/weatherheihg.gif)
 
 [Weather App (maximmaeder.com)](http://weather-app.maximmaeder.com/)
 [GitHub](https://github.com/Maximinodotpy/articles/tree/main/article%2012%20-%20Weather%20App%20with%20HTML%2C%20SASS%20and%20JavaScript)

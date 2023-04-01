@@ -6,8 +6,6 @@ category: 'Utility'
 description: 'Learn how to make functional tabs for your website with HTML, Sass, and JavaScript.'
 ---
 
-
-
 This Tutorial will make functional tabs with HTML, SASS, and JavaScript. We will make it so you can add the CSS and js file to the page and apply some classes to nested divs for it to work. We will also try to make it semantically correct by adding ARIA Attributes to the formal elements. However, don't take this too seriously because I am unsure if I did it correctly. Still, it is always essential to give your HTML meaning.
 
 Either way, Let us get started!
@@ -77,7 +75,7 @@ Then we add an event listener to the button, remove the active tab class from th
     Array.from(registers.children).forEach((el, i) => {
         el.setAttribute('aria-controls', `${TabID}_${i}`)
         bodies.children[i]?.setAttribute('id', `${TabID}_${i}`)
-        
+
         el.addEventListener('click', (ev) => {
             activeRegister.classList.remove('active-tab')
             activeRegister = el;
@@ -106,35 +104,35 @@ function changeBody() {
 Below you see the sass/CSS code of the program. We won't go into detail.
 
 ```sass
-.tabs 
+.tabs
     font-family: 'Lucida Sans', sans-serif
     font-size: 20px
 
 
-    .tab-registers 
+    .tab-registers
         display: flex
         background-color: RGB(255, 255, 255)
 
 
-    button 
+    button
         padding: 0.5em
         background-color: RGB(255, 255, 255)
         border: none
         font: inherit
 
 
-    .tab-registers button:hover 
+    .tab-registers button:hover
         cursor: pointer
 
 
-    .tab-bodies 
+    .tab-bodies
         padding: 0.5em
         background-color: RGB(235, 235, 235)
         flex-grow: 1
         overflow-y: auto
 
 
-    button.active-tab 
+    button.active-tab
             background-color: rgb(235, 235, 235)
 
 ```

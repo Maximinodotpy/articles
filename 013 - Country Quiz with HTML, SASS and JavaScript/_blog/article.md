@@ -6,8 +6,6 @@ category: 'Project'
 description: 'Learn how to make a country quiz with HTML javascript and the CSS Pre-Processor SASS'
 ---
 
-
-
 In this Tutorial, we will make a Country Quiz  Website with HTML, SASS, and JavaScript. We will make it so the user sees a country silhouette and they have to choose from 4 Countries, where one is the right one. You can download the SVG images of the Countries from the [Repository](https://github.com/Maximinodotpy/articles/tree/main/article%2013%20-%20Country%20Quiz%20with%20HTML,%20SASS%20and%20JavaScript), you find them in the `output` folder.
 
 [Demo](https://country-quiz.maximmaeder.com/)
@@ -54,7 +52,7 @@ Inside the div with the `ui` class  we simply add a Header and some buttons in a
         <button class="button">C</button>
         <button class="button">D</button>
     </div>
-    
+
     <div>
         <br>
         <button class="continue">Continue</button>
@@ -63,7 +61,7 @@ Inside the div with the `ui` class  we simply add a Header and some buttons in a
 
 <div>
     <br>
-    Data Provided By 
+    Data Provided By
     <a href="https://gadm.org/">GADM</a>.
 </div>
 ```
@@ -174,7 +172,7 @@ Last but not least we check if the country Pool length does not succeed  10. If 
 
 ### Other Helper functions
 
-Let us go over some helper functions, starting with the function that returns a random index from a given list. Keep in mind that `Math.random()` will return a random number between 0 and 1. `Math.floor()` will snap the given number to the lower integer so 5.2 will turn to 5. 
+Let us go over some helper functions, starting with the function that returns a random index from a given list. Keep in mind that `Math.random()` will return a random number between 0 and 1. `Math.floor()` will snap the given number to the lower integer so 5.2 will turn to 5.
 
 ```js
 function randomChoiceIndex(list) {
@@ -200,11 +198,11 @@ function clicked(el) {
 
     /* Get the clicked element */
     let clickedEl = el.path[0];
-    
+
     /* Color the pressed Button with Red */
     /* If the right button was pressed this will be overwritten*/
     clickedEl.style.backgroundColor = '#ffcea4'
-    
+
     /* Color the right Button with Green */
     document.querySelectorAll('.button').forEach(ele => {
         if (ele.innerHTML == currentCountry) {
@@ -297,7 +295,7 @@ body
 
             @media screen and (min-width: $breakpoint)
                 grid-template-columns: 1fr
-                
+
 
         button
             border: none
@@ -310,7 +308,7 @@ body
         @media screen and (min-width: $breakpoint)
             width: clamp(200px, 20%, 350px)
             padding: $paddingLarge
-    
+
         a
             color: $color
 ```

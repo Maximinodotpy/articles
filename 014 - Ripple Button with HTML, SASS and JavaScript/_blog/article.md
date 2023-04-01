@@ -6,8 +6,6 @@ category: 'Utility'
 description: 'Learn how to make a button that has a ripple effect when you click it. We will use HTML, SASS and JavaScript.'
 ---
 
-
-
 In this Tutorial, we will make a button component usable in HTML that will show a little splash when clicking on it. We will learn about CSS Keyframe Animations and JavaScript. We will make it so we can simply add a class to a button in order for it to work. We will also make variations of the button for colors and sizes.
 
 [Visit the Demonstration](https://articles.maximmaeder.com/a/ripple-button/index.html)
@@ -17,7 +15,7 @@ In this Tutorial, we will make a button component usable in HTML that will show 
 
 Let's start with the Sass / CSS of the button. We first define some colors. In the first list, we have values and in the second one we have the corresponding names, so these lists must have the same amount of items. The last variables combine them both. With `zip()` we can merge two or more lists so the items with the same index are placed in a nested list together. We do this so we can access the values and names at the same time when looping.
 
-```sass
+```scss
 $color-values:  rgb(234, 95, 95), rgb(95, 211, 234), rgb(234, 162, 95), rgb(95, 234, 165), rgb(95, 95, 95), rgb(0, 0, 0), rgb(255, 255, 255)
 $color-names:   'red', 'blue', 'orange', 'green', 'grey', 'black', 'white'
 $colors: zip($color-values, $color-names)
@@ -26,7 +24,7 @@ $colors: zip($color-values, $color-names)
 
 We do the same things for the possible sizes. The numbers indicate `%`.
 
-```sass
+```scss
 $size-values: 70, 100, 130
 $size-names: small, normal, large
 $sizes: zip($size-values, $size-names)
@@ -34,7 +32,7 @@ $sizes: zip($size-values, $size-names)
 
 Lastly, we define a ripple size variable because depending on the size the ripple should be larger.
 
-```sass
+```scss
 $rippleSize: 8px
 ```
 
@@ -49,7 +47,7 @@ Now we select all elements that have the substring `button` in their class attri
     border-radius: 5px
     position: relative
     text-transform: uppercase
-    
+
     font-family: 'Segoe UI', sans-serif
 ```
 
@@ -86,11 +84,11 @@ The animation is defined below with `@keyframes`. Here we can specify at what ti
         transform: scale(0)
         opacity: 0
 
-    60%                
+    60%
         transform: scale(15)
         opacity: 1
-    
-    100%                
+
+    100%
         opacity: 0
         transform: scale(15)
 ```
@@ -142,10 +140,10 @@ Inside the callback, we immediately set up an event listener for the elements cl
 
         let span = document.createElement('span');
         span.classList.toggle('ripple')
-		
+
 		span.style.left = event.layerX - width / 2 + 'px';
         span.style.top = event.layerY - width / 2 + 'px';
-		
+
 		...
 	}
 ```
