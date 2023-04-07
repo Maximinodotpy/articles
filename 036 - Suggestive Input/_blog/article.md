@@ -7,35 +7,35 @@ description: 'Let\' make an autocompletion feature for input elements our Websit
 status: 'draft'
 ---
 
-In todays Tutorial we will replicate the text suggestion featured that is built in many Websites and Apps like YouTube, Google and basically every place where a text field gives you suggestion based on your current input.
+In today's Tutorial, we will replicate the text suggestion feature built in many Websites and Apps like YouTube, Google, and every place where a text field gives you suggestions based on your current input.
 
-To do this we will  use the Datamuse API and for a better Developer Experience we use Typescript. Behinde the scenes we use Vite but I wont go over that as it does not really matter.
+To do this, we will use the Datamuse API, and for a better Developer Experience, we use Typescript. Behind the scenes, we use Vite, but I won't go over that as it does not matter.
 
-We make it so a panel appears whenever the user is focused on the text input, that contains suggestions based on the word that the cursor is currently. These suggestions can be chosen via the keyboard.
+We make it so a panel appears whenever the user focuses on the text input, which contains suggestions based on the word that the cursor is currently. Users can then choose a suggestion with the keyboard.
 
-Lastly we make it so this panel appears for every text input that has the `data-suggestions` attribute.
+Lastly, we make this panel appear for every text input with the `data-suggestions` attribute.
 
 ## Setup
 
-We start by query selecting all elements with the `data-suggestions` attribute and we save the resulting array in a variable that we will later loop over so we can add the logic to each input field.
+We start by query selecting all elements with the `data-suggestions` attribute, and we save the resulting array in a variable that we will later loop over so we can add the logic to each input field.
 
 ```ts
 const inputs: HTMLInputElement[] = Array.from(document.querySelectorAll('[data-suggestions]'))
 
 for (const input_element of inputs) {
-    // All other code is located in here
+    // All other code is located here
 }
 ```
 
-As you see we indicate that `inputs` holds a list of `HTMLInputElement`'s with `HTMLInputElement[]`.
+We indicate that `inputs` holds a list of `HTMLInputElement`'s with `HTMLInputElement[]`.
 
 ### Variable and Creating Elements
 
-Next up we define variables for later.
+Next up, we define variables for later.
 
-- `current_suggestion_index` will be used to chose suggestion from the current list.
-- `current_suggestions` will, as its name suggests (Pun somewhat intended), hold the current list of suggestions. For now it is empty but we can define its shape before hand.
-- `current_word_info` will be the word that is currently selected by the cursor.
+- `current_suggestion_index` will be used to choose a suggestion from the current list.
+- `current_suggestions` will, as its name suggests (Pun somewhat intended), hold the current list of suggestions. It is empty now, but we can define its shape beforehand.
+- `current_word_info` will be the word currently selected by the cursor.
 
 ```ts
 let current_suggestion_index = 0
@@ -43,7 +43,7 @@ let current_suggestions: { word: string, score: number }[] = []
 let current_word_info = get_currently_selected_word()
 ```
 
-After that we create the element that holds the current list of suggestions. We can add this element after the input element with the `after` method.
+After that, we create the element that holds the current list of suggestions. We can add this element after the input element with the `after` method.
 
 ```js
 const suggestion_container = document.createElement('div');
@@ -54,9 +54,9 @@ input_element.after(suggestion_container);
 
 ### Event Listeners
 
-Continuing we add Event Listeners to our input element.
+Continuing, we add Event Listeners to our input element.
 
-These next three elements simply handle hidding and showing the suggestion container and the last one re fetches suggestions when the user clicks on the input.
+The following three elements handle hiding and showing the suggestion container, and the last one re-fetches suggestions when the user clicks on the input.
 
 ```js
 input_element.addEventListener('focus', () => {
@@ -69,7 +69,7 @@ input_element.addEventListener('pointerdown', () => {
 })
 ```
 
-After that we also add an event listener for the `keydown` event because we want to prevent the default events for the left and right arrows if control is also pressed. We do this because this Shortcut will be used to select a suggestion.
+After that, we add an event listener for the `keydown` event to prevent the default events for the left and right arrows if control is pressed. We do this because this Shortcut will be used to select a suggestion.
 
 ```js
 input_element.addEventListener('keydown', (event: KeyboardEvent) => {
@@ -78,7 +78,7 @@ input_element.addEventListener('keydown', (event: KeyboardEvent) => {
 })
 ```
 
-Lastly we add a keyup event listener so we can react to new content in the input field. Here we handle the arrow navigation among other things.
+Lastly, we add a keyup event listener so we can react to new content in the input field. Here we handle the arrow navigation among other things.
 
 ```ts
 input_element.addEventListener('keyup', (event: KeyboardEvent) => {
@@ -111,11 +111,11 @@ input_element.addEventListener('keyup', (event: KeyboardEvent) => {
 
 ## Functions
 
-This is not all, as you saw before there are some function that havent been explained, but they have been used so lets go over them here.
+This is not all. As you saw before, some functions have yet to be explained, but they have been used, so let's go over them here.
 
-### Accepting the current Suggestion
+### Accepting the current suggestion
 
-This function is called as soon as the user hits `Ctrl + Enter`. It will replace the current word with the current suggestion. The `setRangeText` method of a text input element comes in handy here.
+This function is called when the user hits `Ctrl + Enter`. It will replace the current word with the current suggestion. The `setRangeText` method of a text input element comes in handy here.
 
 ```ts
 function accept_current_suggestion() {
@@ -129,7 +129,7 @@ function accept_current_suggestion() {
 
 ### Getting Suggestions from the API
 
-With this function we get suggestions from the Datamuse API
+With this function, we get suggestions from the Datamuse API.
 
 ```ts
 function get_suggestions() {
@@ -149,7 +149,7 @@ function get_suggestions() {
 
 ### Rendering the Suggestions
 
-This function will as its name suggests rerender the suggestions. As you see we treat the element that is currently chose differently by changing its font weight to be more prominent. Lastly we also ensure that the current element is visible in a scrolled container by using the `scrollIntoView` method.
+This function will, as its name suggests, rerender the suggestions. As you see, we treat the currently chosen element differently by changing its font weight to be more prominent. Lastly, we also ensure that the current element is visible in a scrolled container by using the `scrollIntoView` method.
 
 ```ts
 function render_suggestions() {
@@ -181,10 +181,10 @@ function render_suggestions() {
 
 ### Getting the Current Word
 
-Lastly we need a function that finds the word that the cursor is currently in and return it along its start and end indices.
+Lastly, we need a function that finds the word the cursor is currently in and returns it along its start and end indices.
 
 ```ts
-function get_currently_selected_word(): { word: string, start: number, end: number } {
+function get_currently_selected_word(): {word: string, start: number, end: number } {
     let current_word = ''
 
     // this will also be the end
@@ -200,7 +200,7 @@ function get_currently_selected_word(): { word: string, start: number, end: numb
 
         if (i == input_element.selectionStart) surely_the_word = true
 
-        // Break out entirely if the Current Word is finished
+        // Break out entirely if the Current word is finished
         // and it is the searched word
         if (letter == ' ' && surely_the_word) break
 
@@ -214,13 +214,13 @@ function get_currently_selected_word(): { word: string, start: number, end: numb
         i++
     }
 
-    return { word: current_word, start: start, end: i }
+    return {word: current_word, start: start, end: i }
 }
 ```
 
 ## HTML Usage
 
-Using our code is really simple, we just have to add the `data-suggestions` attribute to an text input that we want to equip with text suggestions.
+Using our code is simple; we have to add the `data-suggestions` attribute to an input we want to equip with text suggestions.
 
 ```html
 <input type="text" data-suggestions/>
@@ -228,4 +228,4 @@ Using our code is really simple, we just have to add the `data-suggestions` attr
 
 ## Conclusion
 
-Well thats it! I hope you had a good time reading this and that you learned something new!
+Well, that's it! I hope you had a good time reading this and that you learned something new!
