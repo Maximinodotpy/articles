@@ -4,7 +4,7 @@ slug: 'autocomplete-input-with-javascript'
 tags: ['JavaScript', 'Typescript']
 category: 'Utility'
 description: "Let's make an autocompletion feature for input elements our Website using Typescript and the Datamuse API."
-status: 'draft'
+status: 'publish'
 ---
 
 In today's Tutorial, we will replicate the text suggestion feature built in many Websites and Apps like YouTube, Google, and every place where a text field gives you suggestions based on your current input.
