@@ -3,7 +3,7 @@ name: 'Autocomplete Input with JavaScript/Typescript'
 slug: 'autocomplete-input-with-javascript'
 tags: ['JavaScript', 'Typescript']
 category: 'Utility'
-description: 'Let\' make an autocompletion feature for input elements our Website using Typescript and the Datamuse API.'
+description: "Let's make an autocompletion feature for input elements our Website using Typescript and the Datamuse API."
 status: 'draft'
 ---
 
