@@ -3,13 +3,13 @@ name: 'Autocomplete Input with JavaScript/Typescript'
 slug: 'autocomplete-input-with-javascript'
 tags: ['JavaScript', 'Typescript']
 category: 'Utility'
-description: "Let's make an autocompletion feature for input elements our Website using Typescript and the Datamuse API."
+description: "Let's make an autocompletion feature for input elements our Website using Typescript and the Datamuse API, similar to Youtubes and Googles search bars."
 status: 'publish'
 ---
 
-In today's Tutorial, we will replicate the text suggestion feature built in many Websites and Apps like YouTube, Google, and every place where a text field gives you suggestions based on your current input.
+In today's Tutorial, we will replicate the text autocompletion feature built in many Websites and Apps like YouTube, Google, and every place where a text field gives you suggestions based on your current input.
 
-To do this, we will use the Datamuse API, and for a better Developer Experience, we use Typescript. Behind the scenes, we use Vite, but I won't go over that as it does not matter.
+To do this, we will use the [Datamuse API](https://www.datamuse.com/), and for a better Developer Experience, we use Typescript. Behind the scenes, we use Vite, but I won't go over that as it does not matter.
 
 We make it so a panel appears whenever the user focuses on the text input, which contains suggestions based on the word that the cursor is currently. Users can then choose a suggestion with the keyboard.
 
@@ -149,7 +149,7 @@ function get_suggestions() {
 
 ### Rendering the Suggestions
 
-This function will, as its name suggests, rerender the suggestions. As you see, we treat the currently chosen element differently by changing its font weight to be more prominent. Lastly, we also ensure that the current element is visible in a scrolled container by using the `scrollIntoView` method.
+This function will, as its name suggests, rerender the suggestions. As you see, we treat the currently chosen element differently by changing its font weight to be more prominent. Lastly, we also ensure that the current element is visible in a scrolled container by using the [`scrollIntoView`](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView) method.
 
 ```ts
 function render_suggestions() {
@@ -225,6 +225,8 @@ Using our code is simple; we have to add the `data-suggestions` attribute to an 
 ```html
 <input type="text" data-suggestions/>
 ```
+
+[Showcase for the Autocompletting Input](showcase.gif)
 
 ## Conclusion
 
