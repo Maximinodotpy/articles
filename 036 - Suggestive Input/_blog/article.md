@@ -15,7 +15,7 @@ We make it so a panel appears whenever the user focuses on the text input, which
 
 Lastly, we make this panel appear for every text input with the `data-suggestions` attribute.
 
-## Setup
+## Setup of the Autocomplete Input
 
 We start by query selecting all elements with the `data-suggestions` attribute, and we save the resulting array in a variable that we will later loop over so we can add the logic to each input field.
 
@@ -226,8 +226,8 @@ Using our code is simple; we have to add the `data-suggestions` attribute to an 
 <input type="text" data-suggestions/>
 ```
 
-[Showcase for the Autocompletting Input](showcase.gif)
+[Showcase for the Autocompletting Input](https://raw.githubusercontent.com/Maximinodotpy/articles/main/036%20-%20Suggestive%20Input/_blog/showcase.gif)
 
 ## Conclusion
 
-Well, that's it! I hope you had a good time reading this and that you learned something new!
+Well, that's it, we now have text inputs with autocompletion! I hope you had a good time reading this and that you learned something new!
