@@ -226,7 +226,7 @@ Using our code is simple; we have to add the `data-suggestions` attribute to an 
 <input type="text" data-suggestions/>
 ```
 
-[Showcase for the Autocompletting Input](https://raw.githubusercontent.com/Maximinodotpy/articles/main/036%20-%20Suggestive%20Input/_blog/showcase.gif)
+![Showcase for the Autocompletting Input](https://raw.githubusercontent.com/Maximinodotpy/articles/main/036%20-%20Suggestive%20Input/_blog/showcase.gif)
 
 ## Conclusion
 
