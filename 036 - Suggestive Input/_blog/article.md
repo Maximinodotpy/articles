@@ -3,7 +3,7 @@ name: 'Autocomplete Input with JavaScript/Typescript'
 slug: 'autocomplete-input-with-javascript'
 tags: ['JavaScript', 'Typescript']
 category: 'Utility'
-description: "Let's make an autocompletion feature for input elements our Website using Typescript and the Datamuse API, similar to Youtubes and Googles search bars."
+description: "Let's make an auto-completion feature for input elements our Website using Typescript and the Datamuse API, similar to Youtubes and Googles search bars."
 status: 'publish'
 ---
 
@@ -78,7 +78,7 @@ input_element.addEventListener('keydown', (event: KeyboardEvent) => {
 })
 ```
 
-Lastly, we add a keyup event listener so we can react to new content in the input field. Here we handle the arrow navigation among other things.
+Lastly, we add a `keyup` event listener so we can react to new content in the input field. Here we handle arrow navigation among other things.
 
 ```ts
 input_element.addEventListener('keyup', (event: KeyboardEvent) => {

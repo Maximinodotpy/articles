@@ -19,7 +19,7 @@ Let's start with the scene tree! As you see, it consists of control nodes. We us
 
 ![Scene for The File Editor with Godot](https://maximmaeder.com/wp-content/uploads/2023/03/scene-tree.png)
 
-For the Text edit, we need to go into its `Layout/Container Sizing` Properties to change expand to true. The expand property is a bit like `flex-grow: 1` in CSS, where this element will try to take up as much space as possible.
+For the Text edit, we need to go into its `Layout/Container Sizing` Properties to change expand to true. The `expand` property is a bit like `flex-grow: 1` in CSS, where this element will try to take up as much space as possible.
 
 ![Layout Options for Control Nodes in Godot](https://maximmaeder.com/wp-content/uploads/2023/03/layout.png)
 
@@ -40,7 +40,7 @@ extends Control
 @onready var text_edit := $vbox/text_edit
 ```
 
-Also, mind the ` := `, which means we set the type of these variables to whatever is on the right. In this case, it means the variables will store Nodes.
+Also, mind the `:``= `, which means we set the type of these variables to whatever is on the right. In this case, it means the variables will store Nodes.
 
 Next, we define two variables that will change as the program continues.
 
@@ -86,7 +86,7 @@ Then in the ready function, set the window title with `get_window().title`.
 ```gdscript
 func _ready():
     current_path = UNSAVED_FILE_NAME
-    
+
     get_window().title = WINDOW_TITLE % [APPLICATION_NAME, current_path]
 ```
 
@@ -96,7 +96,7 @@ After that, we create the menu items in a loop. We also add a shortcut to each o
     var i = 0
     for menu_item in MENU_ITEMS:
         var popup : PopupMenu = menu_button.get_popup()
-        
+
         popup.add_item(menu_item[0], i)
 
         var new_input = InputEventKey.new()
@@ -114,7 +114,7 @@ Lastly, we connect the `sized_changed` signal and `text_changed` to some functio
 
 ```gdscript
     get_viewport().connect("size_changed", on_viewport_resize)
-    
+
     text_edit.connect('text_changed', on_text_change)
 ```
 
@@ -158,17 +158,17 @@ func open_file_selected(path):
 
 And when we save a file, we first check if the path is equal to the unsaved file name, which means this is a new file. So we call the `menu_save_file` function and return.
 
-If that's not the case, we set the window title, current_path variable and again use `FileAccess` to put the content into the file.
+If that's not the case, we set the window title, `current_path` variable and again use `FileAccess` to put the content into the file.
 
 ```gdscript
 func save_file(path = current_path):
     if path == UNSAVED_FILE_NAME:
         menu_save_file()
         return
-    
+
     get_window().title = WINDOW_TITLE % [APPLICATION_NAME, path]
     current_path = path
-    
+
     print('Saving to "%s"' % path)
     var file = FileAccess.open(path, FileAccess.WRITE)
     file.store_string(text_edit.text)
@@ -191,21 +191,21 @@ As its name implies, the `create_default_dialog` function will create and return
 ```gdscript
 func create_default_dialog() -> FileDialog:
     var dialog := FileDialog.new()
-    
+
     for file_filter in FILE_FILTERS:
         dialog.add_filter(file_filter[0], file_filter[1])
 
     dialog.access = FILE_ACCESS
     dialog.unresizable = true
-    
+
     current_dialog = dialog
-    
+
     on_viewport_resize()
-    
+
     dialog.show()
 
     self.add_child(dialog)
-    
+
     return dialog
 ```
 
@@ -213,7 +213,7 @@ Last but not least, we need to change the window title every time the user makes
 
 ```gdscript
 func on_text_change():
-    get_window().title = WINDOW_TITLE_EDITED % [APPLICATION_NAME, current_path] 
+    get_window().title = WINDOW_TITLE_EDITED % [APPLICATION_NAME, current_path]
 ```
 
 ## Conclusion
@@ -226,4 +226,4 @@ Or you could try to implement my [wall jumping article](https://maximmaeder.com/
 
 *Extra Tip*: You can add a file called [`.gdignore`](https://github.com/godotengine/godot/issues/8461#issuecomment-481863362) to any folder that the Godot Editor should ignore. So images in such a folder won't be imported, which may be helpful in a folder containing the exports of your game of media for the itch.io page.
 
-If you code in python you can take a look at this tutorial where we build a [text editor](https://www.thepythoncode.com/article/create-rich-text-editor-with-tkinter-python) with tkinter.
+If you code in Python you can take a look at this tutorial where we build a text [editor](https://www.thepythoncode.com/article/create-rich-text-editor-with-tkinter-python) with Tkinter.
