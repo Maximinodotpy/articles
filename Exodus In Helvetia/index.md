@@ -5,4 +5,30 @@ description: ''
 post_type: 'page'
 ---
 
-This is a test page
+## My World
+
+Mix between the US and Switzerland
+
+## Inspirations
+
+- Real Life
+  - Where I live
+- Movies that saw with my Father
+  - Winnetou
+  - Bonanza
+- RDR (2)
+- Grand Theft Auto
+- Breaking Bad / Better Call Saul
+- Narcos (Colombia and Mexico)
+- [Music from these Games and Shows]
+
+<div class="flex">
+
+<div>
+lfaösdjflasöjdföla ksjdföla kjsdölfkajsd
+</div>
+<div>
+lfaösdjflasöjdföla ksjdföla kjsdölfkajsd
+</div>
+
+</div>
