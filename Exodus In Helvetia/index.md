@@ -9,6 +9,21 @@ post_type: 'page'
 
 Mix between the US and Switzerland
 
+Many Spanish names indicate that some twisted part of south america colonized Europe.
+
+Historical events mixed and some that are new.
+- The Helvetian Civil War ( 1958, 1965 )
+- Europe's Discovery ( 1592 )
+- Introduction Ocas Model T ( 2008 )
+- 1999 Forest Fire ( 1999 )
+
+## Plot
+Thomas
+
+Linus Langenberg - Criminal
+Sara Wanner - Civilian
+
+
 ## Inspirations
 
 - Real Life
