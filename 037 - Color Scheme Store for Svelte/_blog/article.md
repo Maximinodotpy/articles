@@ -122,13 +122,45 @@ Lastly, we export the store object with the subscribe and toggle methods.
 export const colorScheme = { subscribe, toggle };
 ```
 
-
 ## Using the Custom Svelte Store
+
+Now we have a custom store that we can use in our application. We can import the store in our components like this.
+
+```html
+<script>
+    import { colorScheme } from "./store";
+</script>
+```
 
 ### Handling Color Scheme in the styling
 
+To handle our color theme store, we could set a class on the root element and use the [class strategy](https://tailwindcss.com/docs/dark-mode#toggling-dark-mode-manually) in Tailwindcss.
+
+```html
+<script>
+    import { colorScheme } from "./store";
+
+    // Set the color scheme each time it changes.
+    // Doing it this way could be useful if you use Tailwind with the class strategy.
+    $: {
+        document.firstElementChild.setAttribute("class", $colorScheme);
+        document.firstElementChild.style.colorScheme = $colorScheme;
+    };
+</script>
+```
+
 ### Toggle Button
 
-![Custom Svelte Store for Color Theme in action](https://raw.githubusercontent.com/Maximinodotpy/articles/main/037%20-%20Color%20Scheme%20Store%20for%20Svelte/_blog/showcase.gif)
+Lastly, to toggle the color scheme, we can add a button that calls the toggle function on the store.
 
-[ Conclusion ]
+```svelte
+<button on:click={() => colorScheme.toggle()}>Toggle</button>
+```
+
+### Conclusion
+
+Thats it! We now have a custom store that we can use to toggle the color scheme in our application. This store will event register changes on other tabs, windows, and iframes.
+
+In the video Below, you can see the store in action.
+
+![Custom Svelte Store for Color Theme in action](https://raw.githubusercontent.com/Maximinodotpy/articles/main/037%20-%20Color%20Scheme%20Store%20for%20Svelte/_blog/showcase.gif)
