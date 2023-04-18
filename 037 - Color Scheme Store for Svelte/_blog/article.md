@@ -89,8 +89,6 @@ channel.addEventListener("message", event => {
 
 We can add an event listener to this channel for messages from other tabs, windows, and iframes. When we receive a message, we update the store with the new value, which will be `light` or `dark`.
 
----
-
 After that, we define a function that will be added to the store to toggle the current color scheme. This function will be the only way to change the color scheme.
 
 For function, we use `update`, a method of the writable store. It takes a function as an argument, and this function will be called with the current value of the store. We can then return a new value, which will be the new value of the store.
@@ -153,7 +151,7 @@ To handle our color theme store, we could set a class on the root element and us
 
 Lastly, to toggle the color scheme, we can add a button that calls the toggle function on the store.
 
-```svelte
+```html
 <button on:click={() => colorScheme.toggle()}>Toggle</button>
 ```
 
