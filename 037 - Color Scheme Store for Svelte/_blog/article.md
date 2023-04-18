@@ -1,6 +1,6 @@
 ---
-name: 'Color Scheme Store for Svelte'
-slug: 'color-scheme-store-for-svelte'
+name: 'Custom Store for Svelte'
+slug: 'custom-store-for-svelte'
 tags: ['svelte', 'custom-svelte-stores', 'web_apis', 'user_interface']
 category: 'Web development'
 status: 'draft'
@@ -15,7 +15,6 @@ It will also register theme changes in other tabs, windows, and iframes. To do t
 
 Lastly, we learn how to use our custom store in our application with Tailwindcss.
 
-
 <!-- [ INTRODUCTION - Things we learn today ]
 
 - [Custom Svelte Stores](https://svelte.dev/tutorial/custom-stores)
@@ -26,7 +25,7 @@ Lastly, we learn how to use our custom store in our application with Tailwindcss
 
 To start, we create a new [Vite](https://vitejs.dev/) project with the following command.
 
-```bash
+```sh
 npm create vite@latest
 ```
 
@@ -36,7 +35,12 @@ You can then run the project by typing `npm run dev`, assuming you are in your p
 
 ## Creating a Custom Svelte Store
 
-[ Video of Clearing local storage ]
+
+
+[ In a separate js file ]
+
+[ In the App.svelte file ]
+
 
 ![Where to find Local Storage in Microsoft Edge](https://raw.githubusercontent.com/Maximinodotpy/articles/main/037%20-%20Color%20Scheme%20Store%20for%20Svelte/_blog/local_storage.gif)
 
