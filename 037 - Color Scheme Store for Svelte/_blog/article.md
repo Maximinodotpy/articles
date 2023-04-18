@@ -38,7 +38,7 @@ You can then run the project by typing `npm run dev`, assuming you are in your p
 
 [ Video of Clearing local storage ]
 
-![Where to find Local Storage in Microsoft Edge](local_storage.gif)
+![Where to find Local Storage in Microsoft Edge](https://raw.githubusercontent.com/Maximinodotpy/articles/main/037%20-%20Color%20Scheme%20Store%20for%20Svelte/_blog/local_storage.gif)
 
 ## Using the Custom Svelte Store
 
@@ -46,6 +46,6 @@ You can then run the project by typing `npm run dev`, assuming you are in your p
 
 ### Toggle Button
 
-![Custom Svelte Store for Color Theme in action](showcase.gif)
+![Custom Svelte Store for Color Theme in action](https://raw.githubusercontent.com/Maximinodotpy/articles/main/037%20-%20Color%20Scheme%20Store%20for%20Svelte/_blog/showcase.gif)
 
 [ Conclusion ]
