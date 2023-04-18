@@ -16,13 +16,6 @@ It will also register theme changes in other tabs, windows, and iframes. To do t
 Lastly, we learn how to use our custom store in our application with Tailwindcss.
 
 <!--
-[ INTRODUCTION - Things we learn today ]
-- [Custom Svelte Stores](https://svelte.dev/tutorial/custom-stores)
-- [Svelte Reactive Declarations](https://svelte.dev/tutorial/reactive-declarations)
-- [Tailwind Class Strategy](https://tailwindcss.com/docs/dark-mode#toggling-dark-mode-manually)
-- [Window Match Media](https://developer.mozilla.org/en-US/docs/web/api/window/matchmedia)
-- Clearing Local Storage
-
 # Post to
 - [ ] dev.to
 - [ ] medium.com
@@ -56,7 +49,9 @@ So let's start by creating a new file called `store.js` and import the `writable
 import { writable } from "svelte/store";
 ```
 
-We then continue by getting the OS default color scheme. In css we can apply styles conditionally based on the current color scheme with the `prefers-color-scheme` media query. And we can use the `matchMedia` function in js to find out if the media query is true or not.
+### OS Default
+
+We then continue by getting the OS default color scheme. In CSS we can apply styles conditionally based on the current color scheme with the `prefers-color-scheme` media query. And we can use the `matchMedia` function in js to find out if the media query is true or not.
 
 ```js
 // Get the OS default color scheme
@@ -66,6 +61,8 @@ const os_default = media_query.matches ? "dark" : "light";
 
 *We could also add an event listener to the media query to listen for changes. but we won't utilize this feature here.*
 
+### Base Store
+
 Next, we call the writable method with either the OS default or the value from local storage if defined.
 
 We destructure the subscribe and update methods from the returned object.
@@ -74,6 +71,8 @@ We destructure the subscribe and update methods from the returned object.
 // Get the current color scheme from local storage, or default to light
 const { subscribe, update } = writable(localStorage.getItem("colorScheme") ?? os_default);
 ```
+
+### Broadcast Channel
 
 Continuing, we create a new Broadcast Channel, a way to communicate between tabs, windows, and iframes. It's important to note that the channel name must be the same in all the places we want to communicate. But in this example, it's alright because we only have one channel.
 
@@ -88,6 +87,8 @@ channel.addEventListener("message", event => {
 ```
 
 We can add an event listener to this channel for messages from other tabs, windows, and iframes. When we receive a message, we update the store with the new value, which will be `light` or `dark`.
+
+### Toggle Function
 
 After that, we define a function that will be added to the store to toggle the current color scheme. This function will be the only way to change the color scheme.
 
@@ -112,6 +113,8 @@ We also set the value in the local storage and, we post a message on the channel
 Below you see where to view values in the local storage with the dev tools in MS Edge.
 
 ![Where to find Local Storage in Microsoft Edge](https://raw.githubusercontent.com/Maximinodotpy/articles/main/037%20-%20Color%20Scheme%20Store%20for%20Svelte/_blog/local_storage.gif)
+
+### Exporting the Store
 
 Lastly, we export the store object with the subscribe and toggle methods.
 
