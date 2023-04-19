@@ -2,7 +2,7 @@
 name: 'Custom Store for Svelte'
 slug: 'custom-store-for-svelte'
 tags: ['svelte', 'custom-svelte-stores', 'web_apis', 'user_interface']
-category: 'Web development'
+category: 'Webdevelopment'
 status: 'publish'
 description: "Let's make a Custom Svelte Store to manage the current color scheme of our website, that is reactive in multiple tabs and windows."
 ---
