@@ -3,7 +3,7 @@ name: 'Custom Store for Svelte'
 slug: 'custom-store-for-svelte'
 tags: ['svelte', 'custom-svelte-stores', 'web_apis', 'user_interface']
 category: 'Web development'
-status: 'draft'
+status: 'publish'
 description: "Let's make a Custom Svelte Store to manage the current color scheme of our website, that is reactive in multiple tabs and windows."
 ---
 
@@ -14,16 +14,6 @@ We will make it so the default color scheme from the Operating System is used, a
 It will also register theme changes in other tabs, windows, and iframes. To do this, we will learn about the [Broadcast API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API).
 
 Lastly, we learn how to use our custom store in our application with Tailwindcss.
-
-<!--
-# Post to
-- [ ] dev.to
-- [ ] medium.com
-- [ ] r/sveltejs
-- [ ] r/svelte
-- [ ] r/javascript
-- [ ] r/webdev
-- -->
 
 To start, we create a new [Vite](https://vitejs.dev/) project with the following command.
 
