@@ -150,7 +150,7 @@ Lastly, to toggle the color scheme, we can add a button that calls the toggle fu
 
 ### Conclusion
 
-Thats it! We now have a custom store that we can use to toggle the color scheme in our application. This store will event register changes on other tabs, windows, and iframes.
+Thats it! We now have a custom store that we can use to toggle the color scheme in our application. This store will even register changes on other tabs, windows, and iframes.
 
 In the video Below, you can see the store in action.
 

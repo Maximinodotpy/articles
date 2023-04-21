@@ -8,7 +8,7 @@ description: "Let's implement Conway's Game of Life as an interactive Website us
 
 In this Tutorial we will implement Conway's Game of Life as an interactive website using JavaScript, HTML and CSS. If you don't know what the game of life is you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). In a nut shell, Conway's Game of Life is a Zero Player game where the player can set the state of tiles in a 2D grid plane to either dead or alive and then start a simulation. Every tick/frame each tiles survival or state will be set according to its neighbors, if it has 2 or less alive neighbors it will die of loneliness, if it has four or more it will die of overpopulation, lastly tiles will stay alive or even be born if they have three or two alive neighbors.
 
-below you see some examples on wikipedia of special formations that can be created with the rules of the game of life. There are even some crazy things like glider guns that create infinite gliders.
+Below you see some examples on wikipedia of special formations that can be created with the rules of the game of life. There are even some crazy things like glider guns that create infinite gliders.
 
 **Block**
 
@@ -112,7 +112,7 @@ function renderCells() {
         cellNode.classList.toggle('live', cellData.live)
 
         playground.appendChild(cellNode)
-        
+
         if ( isRunning ) return
         cellNode.addEventListener('pointerdown', () => {
             cellData.live = !cellData.live;
@@ -163,7 +163,7 @@ copiedGridData.forEach((copiedCell, index) => {
         /* Left and Right */
         copiedGridData.find(o => o.column == cell.column + 1 && o.row == cell.row)?.live ?? false,
         copiedGridData.find(o => o.column == cell.column - 1 && o.row == cell.row)?.live ?? false,
-        
+
         /* Bottom Left and Right */
         copiedGridData.find(o => o.column == cell.column - 1 && o.row == cell.row + 1)?.live ?? false,
         copiedGridData.find(o => o.column == cell.column + 1 && o.row == cell.row + 1)?.live ?? false,
