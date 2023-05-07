@@ -1,5 +1,5 @@
 ---
-name: 'Custom Store for Svelte'
+name: 'Custom Svelte Store'
 slug: 'custom-store-for-svelte'
 tags: ['svelte', 'custom-svelte-stores', 'web_apis', 'user_interface']
 category: 'Webdevelopment'
