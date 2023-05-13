@@ -15,9 +15,15 @@ I use WordPress, and I love it, but the one thing that grinds my gears is, ironi
 
 When I write my articles, I often have source code located in a GitHub Repository somewhere, and there is also the article itself in markdown format. Before, I had to copy the content to WordPress and publish the article. When I later noticed a mistake, I had to go back and edit the GitHub Repository and reupload it via the WordPress UI.
 
+This back and forth made writing articles less fun and it could introduce mistakes in the articles rather easily.
+
+
 ## What does it do?
 
 Gitdown will read your repo according to your settings and show you an overview of all the found articles there. You can then publish/update articles in your WordPress via a few buttons.
+
+You can also make it so Gitdown automatically syncs / updates your articles as soon as you make changes to your git repository.
+
 
 ## How hard was it?
 
