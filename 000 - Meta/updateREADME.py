@@ -46,5 +46,7 @@ for i in chunks(content['items'], columns):
     
     finalString += '|\n'
 
-with open('../README.md', 'w') as f:
+with open('README.md', 'w') as f:
     f.write(finalString)
+
+print(finalString)
