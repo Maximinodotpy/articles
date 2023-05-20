@@ -21,13 +21,13 @@ In this relatively short Tutorial, we will make a JavaScript Function / Class th
 
 We will not only Learn about Animations but also a little bit about Browser Rendering and Typescript Callback Typing.
 
-For this project I use [Parcel](https://parceljs.org/) a really simple and intuitive Build Tool.
+I use [Parcel](https://parceljs.org/), a straightforward and intuitive Build Tool for this project.
 
 Let's get into it!
 
 ## Animate Function
 
-To make our function(s) look fancy we'll encapsulate them in a class called `Animations`, Below you see the rough outline of our class. It simply consist of four static Methods. Static just means we dont have to make an instance of this class and we can just call `Animations.animate()` in our code.
+To make our function(s) look fancy, we'll encapsulate them in a class called `Animations`; below, you will see the rough outline of our class. Static means we don't have to make an instance of this class; we can call `Animations.animate()` in our code. It simply consists of four static Methods.
 
 ```typescript
 class Animations {
@@ -39,11 +39,11 @@ class Animations {
 }
 ```
 
-These first three Methods are simply used for timing. In [CSS Transisions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function) there are several functions that determine how the Animation Progress is calculated, and these are essentially the same. For new only go over the `animate` function, you can view the full code on [Github](https://github.com/Maximinodotpy/articles).
+These first three Methods are used for timing. In [CSS Transisions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function), several functions determine how the Animation Progress is calculated, and these are essentially the same. For now, only go over the `animate` function; you can view the complete code on [Github](https://github.com/Maximinodotpy/articles).
 
-The Animate Function takes four Arguments: the animation duration, the progress callback, the timing function, and lastly the end/after callback.
+The Animate Function takes four Arguments: the animation duration, the progress callback, the timing function, and end/after callback.
 
-The callback will receive the progress of the animation as a float, where `0` means no progress and `1` one means finished. As you see with typescript we can type a callback like this `(arguments with their types) => return type`. We do something similar for the after calllback but we dont need arguments there. Lastly the timing function is by default `linear`.
+The callback will receive the progress of the animation as a float, where `0` means no progress and `1` means finished. As you see with typescript, we can type a callback like this `(arguments with their types) => return type`. We do something similar for the after-callback but don't need arguments there. Lastly, the timing function is, by default, `linear`.
 
 ```typescript
 static animate(
@@ -56,14 +56,14 @@ static animate(
 }
 ```
 
-Within the function we start by getting the current time with `Date.now()` that returns the current time in Milliseconds since January 1, 1970 UTC. After that we also find out the time that the animation should end by adding the start to the duration.
+Within the function, we start by getting the current time with `Date.now()`, which returns the current time in Milliseconds since January 1, 1970, UTC. After that, we also find the time the animation should end by adding the start to the duration.
 
 ```typescript
 const start = Date.now()
 const end = start + duration
 ```
 
-Continuing we create a function called cb that will be called multiple times during the animation. Skipping the function for now we call the `requestAnimationFrame` function with `cb` as a callback. Later we will learn why we use this instead of something like `setInterval`. 
+Continuing, we create a function called `cb` that will be called multiple times during the animation. Skipping the function for now, we call the `requestAnimationFrame` function with `cb` as a callback. Later we will learn why we use this instead of something like `setInterval`. 
 
 ```typescript
 function cb() {
@@ -73,7 +73,7 @@ function cb() {
 requestAnimationFrame(cb)
 ```
 
-Within this callback we start by once again getting the current time and with this information we calculate the progress of the animation. We also put this value throught the given timing function so more intresting progress values can be returned. then we call the given callback with this value so other programmers can do their thing.
+Within this callback, we start by once again getting the current time, and with this information, we calculate the progress of the animation. We also put this value through the given timing function so more exciting progress values can be returned. Then we call the given callback with this value so other programmers can do their thing.
 
 ```ts
 const timePassed = end - Date.now()
@@ -91,24 +91,24 @@ if (Date.now() < end) {
 }
 ```
 
-Lastly we check if the animation is finished according to the current time and the end time and if thats the case we once again call the `requestAnimationFrame` function and if not we simply call the after callback function if its defined.
+Lastly, we check if the animation is still ongoing according to the current and end time. If that's the case, we again call the `requestAnimationFrame` function; if not, we simply call the after-callback function if it's defined.
 
 ### Why do we use `requestAnimationFrame`?
 
-Now I have talked a lot about the `requestAnimationFrame` function but what does it actually do. For this we have to learn how Browser (re)render web pages.
+I have talked a lot about the `requestAnimationFrame` function, but what does it do? We must learn how Browsers (re) render web pages for this.
 
-[This](https://blog.openreplay.com/how-browser-rendering-works-and-why-you-should-care/) article goes into detail but the gist is that when we make changes via JavaScript the Browser goes through several steps to rerender the webpage. Depending on what we did it has to go through more or less steps.
+[This](https://blog.openreplay.com/how-browser-rendering-works-and-why-you-should-care/) article goes into detail, but the gist is that when we make changes via JavaScript, the Browser goes through several steps to rerender the webpage. It has to go through more or fewer steps depending on what we did.
 
-When we for example change the `left` css property on an element a layout change has to be recalculated and this can take a rather long time. If we put the code that triggers this in a callback called by `requestAnimationFrame` it's changes will be part of the next Frame either way so we dont trigger unnessecary recalculations.
+When we, for example, change the `left` CSS property on an element, a layout change must be recalculated, which can take a relatively long time. If we put the code that triggers this in a callback called `requestAnimationFrame,` its changes will be part of the next Frame either way, so we don't start unnecessary recalculations.
 
 ## Using the `animate` function
 
-Lastly let's look at example usage of our function.
+Lastly, let's look at the example usage of our function.
 
 
 ### Animate the scale of a Canvas Element during 5 Seconds
 
-As you we still have to do some lifting because the callback only provides the progress. there is an awesome library that makes animations really easy called [Animejs](https://animejs.com/).
+As you, we still have to do some lifting because the callback only provides the progress value. There is a great library that makes animations really easy called [Animejs](https://animejs.com/).
 
 ```ts
 Animations.animate(
@@ -119,7 +119,7 @@ Animations.animate(
 
 ### Infinite Animation
 
-As you see we can also make an infinite animation with the after callback that we implemented.
+As you see, we can also make an infinite animation with the after-callback we implemented.
 
 ```ts
 function comeIn() {
@@ -145,4 +145,4 @@ comeIn()
 
 ## Conclusion
 
-That's it we have created a function to animate values with JavaScript. I hope you had a good time reading and that you learned something new 😀.
+That's it. We have created a function to animate values with JavaScript. I hope you had a good time reading and that you learned something new 😀.
