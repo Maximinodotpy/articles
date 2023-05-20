@@ -63,7 +63,6 @@ class Animations {
     }
 }
 
-
 canvas.style.width = '100%'
 canvas.style.height = '100%'
 document.body.style.overflow = 'hidden'
