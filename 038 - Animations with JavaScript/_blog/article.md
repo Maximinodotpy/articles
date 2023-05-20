@@ -4,18 +4,8 @@ slug: 'animations-with-javascript '
 tags: ['JavaScript', 'Typescript', 'Animations']
 category: 'Utility'
 description: "Let's make a function with JavaScript/TypeScript that helps us create animation for Elements on our Webpage or other values."
-status: 'draft'
+status: 'publish'
 ---
-
-<!--
-- Anime JS Library
-- Animation API
-- && that returns the first falsy value or last value
-- || that returns the first truthy value or last value
-- `requestAnimationFrame` and Layout Shift -> https://blog.openreplay.com/how-browser-rendering-works-and-why-you-should-care/
-- static Methods / Properties
-- Typescript Callback Types
--->
 
 In this relatively short Tutorial, we will make a JavaScript Function / Class that helps us to create Animations for our Website! We'll use Typescript and JavaScript Classes with static properties.
 
