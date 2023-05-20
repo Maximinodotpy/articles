@@ -3,7 +3,7 @@ name: 'Animations with JavaScript'
 slug: 'animations-with-javascript '
 tags: ['JavaScript', 'Typescript', 'Animations']
 category: 'Utility'
-description: "Let's"
+description: "Let's make a function with JavaScript/TypeScript that helps us create animation for Elements on our Webpage or other values."
 status: 'draft'
 ---
 
@@ -17,9 +17,9 @@ status: 'draft'
 - Typescript Callback Types
 -->
 
-In this relatively short Tutorial, we will make a JavaScript Function / Class that helps us to animate our Website! We'll use Typescript and JavaScript Classes with static properties.
+In this relatively short Tutorial, we will make a JavaScript Function / Class that helps us to create Animations for our Website! We'll use Typescript and JavaScript Classes with static properties.
 
-We will not only Learn about Animations but also a little bit about Browser Rendering and Typescript Callback Typing.
+We will not only Learn about Animations but also a little bit about Browser Rendering and Typescript.
 
 I use [Parcel](https://parceljs.org/), a straightforward and intuitive Build Tool for this project.
 
@@ -98,6 +98,8 @@ Lastly, we check if the animation is still ongoing according to the current and 
 I have talked a lot about the `requestAnimationFrame` function, but what does it do? We must learn how Browsers (re) render web pages for this.
 
 [This](https://blog.openreplay.com/how-browser-rendering-works-and-why-you-should-care/) article goes into detail, but the gist is that when we make changes via JavaScript, the Browser goes through several steps to rerender the webpage. It has to go through more or fewer steps depending on what we did.
+
+![Browser Rendering Steps](https://blog.openreplay.com/images/how-browser-rendering-works-and-why-you-should-care/images/hero.jpg)
 
 When we, for example, change the `left` CSS property on an element, a layout change must be recalculated, which can take a relatively long time. If we put the code that triggers this in a callback called `requestAnimationFrame,` its changes will be part of the next Frame either way, so we don't start unnecessary recalculations.
 
