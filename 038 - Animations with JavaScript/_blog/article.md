@@ -1,6 +1,6 @@
 ---
 name: 'Animations with JavaScript'
-slug: 'animations-with-javascript '
+slug: 'animations-with-javascript'
 tags: ['JavaScript', 'Typescript', 'Animations']
 category: 'Utility'
 description: "Let's make a function with JavaScript/TypeScript that helps us create animation for Elements on our Webpage or other values."
