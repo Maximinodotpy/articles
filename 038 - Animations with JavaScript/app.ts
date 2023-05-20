@@ -21,8 +21,6 @@ if (ctx) {
     ctx.fill();
 }
 
-// Callback Type
-type Handler = (progress: number) => void
 
 // Animation Class with Static Functions
 class Animations {
@@ -36,7 +34,12 @@ class Animations {
         return 1 - Math.sin(Math.acos(timeFraction));
     }
 
-    static animate(duration: number, callback: Handler, timingFunction = Animations.linear, after_callback?: Handler) {
+    static animate(
+        duration: number,
+        callback: (progress: number) => void,
+        timingFunction = Animations.linear,
+        after_callback?: () => void
+    ) {
         const start = Date.now()
         const end = start + duration
 
@@ -52,7 +55,7 @@ class Animations {
             if (Date.now() < end) {
                 requestAnimationFrame(cb)
             } else {
-                after_callback && after_callback(1)
+                after_callback && after_callback()
             }
         }
 
