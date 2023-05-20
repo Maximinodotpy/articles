@@ -21,6 +21,8 @@ In this relatively short Tutorial, we will make a JavaScript Function / Class th
 
 We will not only Learn about Animations but also a little bit about Browser Rendering and Typescript Callback Typing.
 
+For this project I use [Parcel](https://parceljs.org/) a really simple and intuitive Build Tool.
+
 Let's get into it!
 
 ## Animate Function
@@ -101,5 +103,46 @@ When we for example change the `left` css property on an element a layout change
 
 ## Using the `animate` function
 
+Lastly let's look at example usage of our function.
+
+
+### Animate the scale of a Canvas Element during 5 Seconds
+
+As you we still have to do some lifting because the callback only provides the progress. there is an awesome library that makes animations really easy called [Animejs](https://animejs.com/).
+
+```ts
+Animations.animate(
+    5000,
+    (pr) => canvas.style.scale = `${ .1 + 0.9 * pr }`,
+)
+```
+
+### Infinite Animation
+
+As you see we can also make an infinite animation with the after callback that we implemented.
+
+```ts
+function comeIn() {
+    Animations.animate(
+        5000,
+        (pr) => canvas.style.scale = `${ .1 + 0.9 * pr }`,
+        Animations.linear,
+        goOut
+    )
+}
+
+function goOut() {
+    Animations.animate(
+        5000,
+        (pr) => canvas.style.scale = `${ .1 + 0.9 * (1 - pr) }`,
+        Animations.linear,
+        comeIn
+    )
+}
+
+comeIn()
+```
+
 ## Conclusion
 
+That's it we have created a function to animate values with JavaScript. I hope you had a good time reading and that you learned something new 😀.
