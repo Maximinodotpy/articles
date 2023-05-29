@@ -1,0 +1,192 @@
+{
+    "general": {
+        "name": "general",
+        "description": "",
+        "shortcuts": [
+            { "keys": "tab", "description": "Move Between focusable Elements" },
+            { "keys": "shift + tab", "description": "Move Between focusable Elements backwards" },
+            { "keys": "home", "description": "Jump to the start" },
+            { "keys": "end", "description": "Jump to the begining" },
+            { "keys": "ctrl + c", "description": "Copy" },
+            { "keys": "ctrl + v", "description": "Insert" },
+            { "keys": "ctrl + d / delete", "description": "Delete" },
+            { "keys": "ctrl + backspace", "description": "Delete the whole Word" },
+            { "keys": "ctrl + x", "description": "Cut" },
+            { "keys": "ctrl + z", "description": "Undo" },
+            { "keys": "ctrl + y", "description": "Redo" },
+            { "keys": "ctrl + f", "description": "Search" },
+            { "keys": "ctrl + a", "description": "Select All" },
+            { "keys": "ctrl + s", "description": "Save" },
+            { "keys": "esc", "description": "Close Popup" },
+            { "keys": "ctrl + n", "description": "New File" },
+            { "keys": "[ARROWS]", "description": "Move Cursor" },
+            { "keys": "ctrl + [ARROWS]", "description": "Move Cursor Word by Word" },
+            { "keys": "shift + [ARROWS]", "description": "Move Cursor while selecting" },
+            { "keys": "ctrl + shift + [ARROWS]", "description": "Move Cursor while selecting word by word" },
+            { "keys": "ctrl + w", "description": "Close Document" }
+        ]
+    },
+    "datei-explorer": {
+        "name": "Datei Explorer",
+        "description": "",
+        "shortcuts": [
+            { "keys": "alt + up", "description": "Go one folder up" },
+            { "keys": "alt + left", "description": "Go back in history" },
+            { "keys": "alt + right", "description": "Go forward in history" },
+            { "keys": "enter", "description": "Open File / Folder" },
+            { "keys": "alt + enter", "description": "View File / Folder Properties" },
+            { "keys": "F2", "description": "rename File / Folder" },
+            { "keys": "ctrl + shift + n", "description": "New Folder" },
+            { "keys": "ctrl + leertaste", "description": "Select/Unselect current File" },
+            { "keys": "ctrl + [ARROW_KEYS]", "description": "Move between items without losing focus" }
+        ]
+    },
+    "windows": {
+        "name": "Windows",
+        "description": "",
+        "shortcuts": [
+            { "keys": "shift + F10", "description": "Open Context Menu. Also works in a lot of programs by windows" },
+            { "keys": "alt + F4", "description": "Close Window" },
+            { "keys": "Windows + Down", "description": "Minimize Window" },
+            { "keys": "alt (hold) + tab (once)", "description": "View open Applications" },
+            { "keys": "F11", "description": "toggle Full Screen" },
+            { "keys": "Windows + [ARROWS]", "description": "Move a window on the screen" },
+            { "keys": "Windows + e", "description": "Open File Explorer" },
+            { "keys": "Windows + l", "description": "Lock Windows" },
+            { "keys": "Windows + Shift + S", "description": "Snipping Tool" },
+            { "keys": "Windows + d", "description": "Show Desktop" },
+            { "keys": "Windows + tab", "description": "View virtual desktops" },
+            
+            { "keys": "ctrl + Windows + left/right", "description": "Switch between virtual desktops" },
+            { "keys": "ctrl + Windows + d", "description": "Create new Virtual Desktop" },
+            { "keys": "ctrl + Windows + F4", "description": "Close current Virtual Desktop" },
+
+            { "keys": "shift + alt + print", "description": "High Contrast Mode" },
+            { "keys": "windowstaste + v", "description": "Open Clipboard History" }
+        ]
+    },
+    "browser-microsoft-edge": {
+        "name": "Browser (Microsoft Edge)",
+        "description": "",
+        "shortcuts": [
+            { "keys": "ctrl + [Zahl]", "description": "Switch to corresponding tab" },
+            { "keys": "ctrl + tab", "description": "Switch to right tab" },
+            { "keys": "ctrl + shift + tab", "description": "Switch to left tab" },
+            { "keys": "ctrl + click (on link)", "description": "Open tab in new tab" },
+            { "keys": "ctrl + t", "description": "New Tab" },
+            { "keys": "ctrl + shift + k", "description": "Duplicate Tab" },
+            { "keys": "F12", "description": "Open Dev Tools" },
+            { "keys": "ctrl + l", "description": "Focus URL Input" },
+            { "keys": "ctrl + shift + t", "description": "Close most recently closed tab" },
+            { "keys": "ctrl + u", "description": "Show Source Code" }
+        ]
+    },
+    "godot-3.*": {
+        "name": "Godot (3.*)",
+        "description": "",
+        "shortcuts": [
+            { "keys": "ctrl + a", "description": "Open Node Menu" },
+            { "keys": "F6", "description": "Play Current Scene" },
+            { "keys": "F5", "description": "Play Main Scene" },
+            { "keys": "ctrl + F1", "description": "Switch to 2D Editor" },
+            { "keys": "ctrl + F2", "description": "Switch to 3D Editor" },
+            { "keys": "ctrl + F3", "description": "Switch to Script" },
+            { "keys": "q", "description": "Select Mode (2D)" },
+            { "keys": "shift + g", "description": "Use Gridsnap (2D)" },
+            { "keys": "ctrl + g", "description": "Toggle Grid (2D)" },
+            { "keys": "ctrl + r", "description": "Replace (Code)" },
+            { "keys": "ctrl + d", "description": "Duplicate Line (Code)" }
+        ]
+    },
+    "visual-studio-code": {
+        "name": "Visual Studio Code",
+        "description": "",
+        "shortcuts": [
+            { "keys": "shift + alt + f", "description": "Format" },
+            { "keys": "alt + shift + [UP/DOWN]", "description": "Duplicate Line up/down" },
+            { "keys": "alt + [ZAHL]", "description": "Switch to open editor" },
+            { "keys": "alt + shift + a", "description": "Block comment" },
+            { "keys": "ctrl + alt + [UP/DOWN]", "description": "duplicate cursor up/down" },
+            { "keys": "alt + [UP/DOWN]", "description": "Move this line up/down" },
+            { "keys": "ctrl + l", "description": "Select current line" },
+            { "keys": "ctrl + shift + l", "description": "Select all occurences of the current word" },
+            { "keys": "ctrl + shift + e", "description": "Open Integrated Explorer" },
+            { "keys": "ctrl + d", "description": "Select next occurence of current word" },
+            { "keys": "ctrl + leertaste", "description": "Open Snippets" },
+            { "keys": "ctrl + shift + leertaste", "description": "Open Function Parameters" }
+        ]
+    },
+    "microsoft-word": {
+        "name": "Microsoft Word",
+        "description": "",
+        "shortcuts": [
+            { "keys": "ctrl + shift + f", "description": "Bold Selection" },
+            { "keys": "ctrl + shift + k", "description": "Italic Selection" },
+            { "keys": "ctrl + shift + u", "description": "Underline Selection" }
+        ]
+    },
+    "jupyter-notebook": {
+        "name": "Jupyter Notebook",
+        "description": "",
+        "shortcuts": [
+            { "keys": "b", "description": "add cell below" },
+            { "keys": "a", "description": "add cell ontop" },
+            { "keys": "x", "description": "cutt cell" },
+            { "keys": "enter", "description": "enter cell" },
+            { "keys": "escape", "description": "exit cell" },
+            { "keys": "shift + enter", "description": "run this cell" },
+            { "keys": "ctrl + enter", "description": "run all cells" },
+            { "keys": "m", "description": "turn cell to markdown" },
+            { "keys": "y", "description": "turn cell to code" }
+        ]
+    },
+    "adobe-allgemein": {
+        "name": "Adobe Allgemein",
+        "description": "",
+        "shortcuts": [
+            { "keys": "v", "description": "Selection Tool" },
+            { "keys": "a", "description": "Direct Selection Tool" },
+            { "keys": "ctrl + u", "description": "Intelligent Aiding Lines" },
+            { "keys": "alt", "description": "Copy Object" },
+            { "keys": "alt", "description": "Zoom" },
+            { "keys": "tab", "description": "Toggle Tools and other Windows" },
+            { "keys": "ctrl + tab", "description": "Switch through open files" },
+            { "keys": "ctrl + w", "description": "Close Document" },
+            { "keys": "leertaste", "description": "View Movement Tool" },
+            { "keys": "ctrl + alt + p", "description": "Setup Document" }
+        ]
+    },
+    "adobe-premiere-pro": {
+        "name": "Adobe Premiere Pro",
+        "description": "",
+        "shortcuts": [
+            { "keys": "m", "description": "Preview Window" },
+            { "keys": "ä", "description": "Maximize Window" },
+            { "keys": "v", "description": "Select" },
+            { "keys": "c", "description": "Cut" },
+            { "keys": "i", "description": "set in" },
+            { "keys": "o", "description": "set out" },
+            { "keys": "shift + i", "description": "go to in" },
+            { "keys": "shift + o", "description": "go to out" }
+        ]
+    },
+    "adobe-illustrator": {
+        "name": "Adobe Illustrator",
+        "description": "",
+        "shortcuts": [
+            { "keys": "p", "description": "Pen Tool" },
+            { "keys": "t", "description": "Text Tool" },
+            { "keys": "m", "description": "Square Tool" },
+            { "keys": "i", "description": "Eyedropper" },
+            { "keys": "shift + e", "description": "Eraser Tool" },
+            { "keys": "shift + w", "description": "Thicken Tool" },
+            { "keys": "shift + o", "description": "Drawing area Tool" },
+            { "keys": "shift + f", "description": "Presentation Mode" },
+            { "keys": "alt", "description": "Duplicate Object" },
+            { "keys": "d", "description": "Reset Colors for current Object" },
+            { "keys": "ctrl + shift + alt + v", "description": "Move object one layer forward" },
+            { "keys": "ctrl + shift + alt + r", "description": "Move object one layer back" },
+            { "keys": "ctrl + shift + v", "description": "Insert at the same Position" }
+        ]
+    }
+}

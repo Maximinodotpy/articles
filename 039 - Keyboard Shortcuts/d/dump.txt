@@ -1,0 +1,233 @@
+$everywhere = array(
+    array('tab', 'Zwischen Bereichen oder Buttons wechseln'),
+    array('shift + tab', 'Zwischen Bereichen Wechseln in umgekehrter Reihenfolge'),
+    array('home', 'An den Anfang springen'),
+    array('end', 'Ans Ende springen'),
+    array('ctrl + c', 'Kopieren'),
+    array('ctrl + v', 'Einfügen'),
+    array('ctrl + d / delete', 'Löschen'),
+    array('ctrl + x', 'Ausschneiden'),
+    array('ctrl + z', 'Rückgängig machen'),
+    array('ctrl + y', 'Wiederherstellen'),
+    array('ctrl + f', 'Suchen'),
+    array('ctrl + a', 'Alles auswählen'),
+    array('ctrl + s', 'Speichern'),
+    array('esc', 'Popup Schliessen'),
+    array('ctrl + backspace', 'Ganzes Wort löschen'),
+    array('ctrl + n', 'Momentane Applikation nochmal öffnen / neues Dokument'),
+    array('shift  + klick', 'um einen ganzen bereich auszuwählen'),
+    array('[PFEILE]', 'Um in textfeldern den Cursor um einen Buchstaben zu bewegen.'),
+    array('ctrl + [PFEILE]', 'Um in textfeldern den Cursor im um ein Wort zu bewegen.'),
+    array('shift + [PFEILE]', 'Um in textfeldern den Cursor im um einen Buchstaben zu bewegen und dabei zu markieren.'),
+    array('ctrl + shift + [PFEILE]', 'Um in textfeldern den Cursor im um ein Wort zu bewegen und dabei zu markieren.'),
+    array('alt', 'Dropdown buchstaben anzeigen / unterstreichen'),
+    array('alt + d / alt + f', 'Dropdown Datei öffen'),
+    array('alt + b / alt + e', 'Dropdown Bearbeiten öffen'),
+    array('alt + a / alt + v', 'Dropdown Ansicht öffen'),
+);
+
+$fileexplorer = array(
+    array('alt + up', 'Einen Ordner zurück'),
+    array('alt + left', 'Im Verlauf zurück'),
+    array('alt + right', 'Im Verlauf vorwärts'),
+    array('ctrl + d', 'Datei oder Ordner Löschen'),
+    array('enter', 'In Ordner gehen / Datei Öffnen'),
+    array('alt + enter', 'Ordner/Datei eigenschaften öffnen'),
+    array('F2', 'Ordner/Datei umbennen'),
+    array('ctrl + shift + n', 'Neuer Ordner'),
+    array('shift + F1', 'Werkzeugleiste aus / ein -blenden.'),
+    array('shift + F10', 'Kontext Menu öffnen'),
+    array('shift + ziehen', 'Datei kopieren nach ...'),
+    array('ctrl + leertaste', 'Fokus aufheben (um das kontekt menu für den Ordner und nicht die Datei öffnen zu können.)'),
+);
+
+$windows = array(
+    array('alt + F4', 'Fenster Schliessen'),
+    array('Windowstaste + Down', 'Fenster Minimieren'),
+    array('alt (halten) + tab (einmal)', 'Fenster Auswahl öffnen'),
+    array('F11', 'Vollbildmodus'),
+    array('Windowstaste + [PFEILE]', 'Fenster auf verschieden arten einpassen/andocken'),
+    array('Windowstaste + e', 'Datei Explorer öffnen'),
+    array('Windowstaste + l', 'Sperren'),
+    array('fn + Windowstaste + print', 'Screenshot'),
+    array('Windowstaste + d', 'Zwischen Desktop und Anwendungen wechseln'),
+    array('Windowstaste + tab', 'Virtuelle desktops anschauen'),
+    array('ctrl + Windowstaste + links/rechts', 'Zwischen virtuellen Desktops wechseln'),
+    array('ctrl + Windowstaste + d', 'Neuen Virtuellen Desktop erschaffen'),
+    array('ctrl + Windowstaste + F4', 'Aktuellen Virtuellen Desktop schliessen'),
+    array('alt + F4', 'Fenster Schliessen'),
+    array('Windowstaste + D', 'Alle Fenster Minimieren bzw. Desktop anzeigen.'),
+    array('shift + alt + print', 'Hohen Kontrast Modus'),
+    array('windowstaste + v', 'Zwischenablagen verlauf Öffnen'),
+);
+
+$browser = array(
+    array('ctrl + [Zahl]', 'Um zum Korrespondierenden Tab zu wechseln'),
+    array('ctrl + tab', 'Um in den offenen tabs nach rechts zu wechseln.'),
+    array('ctrl + shift + tab', 'Um in den offenen tabs nach links zu wechseln.'),
+    array('ctrl + klick (auf link)', 'Um den link in einem Neuen Tab zu öffnen, ohne dorthin zu wechseln.'),
+    array('ctrl + w', 'Tab Schliessen'),
+    array('ctrl + t', 'Neuen Tab öffnen'),
+    array('ctrl + shift + k', 'Tab Duplizieren'),
+    array('F12', 'Entwickler Tools öffnen'),
+    array('ctrl + l', 'Um mit dem Cursor in die Suchleiste zu gehen'),
+    array('ctrl + shift + t', 'Um zueletzt geschlossenen Tab wiederzuöffnen'),
+    array('ctrl + u', 'Quellcode Anzeigen'),
+    array('ctrl + shift + s', 'Browser Aufnahme Bereich.'),
+);
+
+$godot = array(
+    array('ctrl + a', 'Noden Menu öffnen'),
+    array('F6', 'Diese Szene Abspielen'),
+    array('F5', 'Hauptszene abspielen'),
+    array('ctrl + F1', 'zu 2D Editor Wechseln'),
+    array('ctrl + F2', 'zu 3D Editor Wechseln'),
+    array('ctrl + F3', 'Zu skript Editor wechseln'),
+    array('q', 'Auswahl Modus (2D)'),
+    array('shift + g', 'use Gridsnap (2D)'),
+    array('ctrl + g', 'Toggle Grid (2D)'),
+    array('ctrl + r', 'ersetzen (Code)'),
+    array('ctrl + d', 'Zeile Duplizieren (Code)'),
+);
+
+$premiere = array(
+    array('m', 'Vorschaufenster abspielen'),
+    array('ü', 'Fenster maximieren / minimieren'),
+    array('v', 'Auswählen'),
+    array('c', 'Schneiden'),
+    array('i', 'in setzen'),
+    array('o', 'Out setzen'),
+    array('shift + i', 'Zu in gehen'),
+    array('shift + o', 'Zu out gehen'),
+    array('m', 'Markierung setzen'),
+    array('alt + Klick', 'Audio und Video Spur seperat anwählen'),
+    array('alt + scroll', 'Zeitraum einstellen (Schnittfenser)'),
+);
+
+$visualcode = array(
+    array('shift + alt + f', 'Alles richtig einrücken'),
+    array('alt + shift + [UP/DOWN]', 'Zeile nach oben oder unten duplizieren'),
+    array('alt + Klick', 'um den Mauszeiger an mehreren Orten zu platzieren.'),
+    array('alt + [ZAHL]', 'um zwischen den offenen editoren zu wechseln.'),
+    array('alt + shift + a', 'Block Kommentar'),
+    array('ctrl + alt + [UP/DOWN]', 'Cursor nach Oben/Unten duplizieren'),
+    array('alt + [UP/DOWN]', 'Diese Zeile nach oben oder unter verschieben.'),
+    array('ctrl + l', 'Ganze Zeile Markieren'),
+    array('ctrl + shift + l', 'Alle vorkommnisse mit Multi-Cursor markieren.'),
+    array('ctrl + shift + e', 'In den Integrierten Datei Explorer springen. / Wieder zurück springen'),
+    array('ctrl + [ZAHL]', 'In die jeweilige Editoren Gruppe springen.'),
+    array('ctrl + ä', 'Neue Editoren Gruppe erstellen'),
+    array('ctrl + shift + b', 'Run Build Task'),
+    array('ctrl + d', 'Nächstes vorkommen der Auswahl markieren'),
+    array('ctrl + leertaste', 'Vorschlagfenster öffnen / <a href="https://code.visualstudio.com/docs/editor/emmet">Emmet</a> Snippets'),
+);
+
+$word = array(
+    array('ctrl + shift + f' , 'Auswahl Fett machen'),
+    array('ctrl + shift + k' , 'Auswahl Kursiv machen'),
+    array('ctrl + shift + u' , 'Auswahl unterstreichen'),
+    array('ctrl + *' , 'Textmarken anzeigen'),
+    array('ctrl + shift + >' , 'Auswahl Schrift verkleinern'),
+    array('ctrl + <' , 'Auswahl Schrift vergrössen'),
+);
+
+$mockflow = array(
+    array('ctrl + UP', 'Auswahl um eine Schicht nach Vorne zu verschieben'),
+    array('ctrl + DOWN', 'Auswahl um eine Schicht nach Hinten zu verschieben'),
+    array('ctrl + shift + UP', 'Auswahl ganz nach vorne zu tun.'),
+    array('ctrl + shift + DOWN', 'Auswahl ganz nach Hinten zu§ tun.'),
+    array('ctrl + g', 'Auswahl Gruppieren'),
+    array('ctrl + shift + g', 'Gruppe auflösen (Wie Beatles)'),
+    array('ctrl + l', 'Auswahl festsetzen'),
+    array('ctrl + shift + l', 'Auswahl festsetzen aufheben'),
+    array('ctrl + d', 'Auswahl duplizieren'),
+    array('[PFEILE]', 'Auswahl in die jeweilige Richtung bewgen (1px)'),
+    array('shift + [PFEILE]', 'Auswahl in die jeweilige Richtung bewgen (10px)'),
+    array('leertaste + ziehen', 'Arbeitsfläche bewegen.'),
+);
+
+$trenchbroom = array(
+    array('leertaste', 'Um zwischen den Ansichten zu wechseln.'),
+    array('c', 'Clipping Tool'),
+    array('c', 'Clipping Tool'),
+    array('ctrl + k', 'Aktuelles Brush von allen andere abziehen'),
+);
+
+
+$stackedit = array(
+    array('ctrl + shift + b', 'Bold'),
+    array('ctrl + shift + i', 'Kursiv'),
+    array('ctrl + shift + h', 'Durch überschriften wechseln'),
+    array('ctrl + shift + s', 'Durchstrich'),
+    array('ctrl + shift + u', 'Ungeordnete Liste'),
+    array('ctrl + shift + o', 'Geordnete Liste'),
+    array('ctrl + shift + c', 'Check Liste'),
+    array('ctrl + shift + q', 'Zitat'),
+    array('ctrl + shift + k', 'Code'),
+    array('ctrl + shift + t', 'Tabelle'),
+    array('ctrl + shift + l', 'Link'),
+    array('ctrl + shift + g', 'Bild'),
+);
+
+$pycharm = array(
+    array('ctrl + tab', 'Durch die Dateien Wechseln'),
+    array('dopple shift', 'Überall suchen'),
+    array('ctrl + d', 'Zeile Duplizieren'),
+    array('shift + alt + [UP/DOWN]', 'Zeile nach oben oder unten bewegen'),
+    array('ctrl + shift + a', 'Nach Befehl suchen'),
+    array('ctrl + p', 'Parameter anzeigen'),
+);
+
+
+$adobe_general = array(
+    array('v', 'Auswahl Werkzeug'),
+    array('a', 'Direkt auswahl Werkzeug'),
+    array('ctrl + u', 'Intelligente Hilfslinien umschalten'),
+    array('alt + [Objekt ziehen mit Auswahl werkzeug]', 'Objekt kopieren nach'),
+    array('alt + [scrollen auf arbeitsfläche]', 'Zoomen'),
+    array('alt + [an objekt handle ziehen]', 'Zentriert vergrössern'),
+    array('tab', 'Alle Bedienfenster ein bzw aus blenden'),
+    array('ctrl + tab', 'Durch offene Dateien wechseln'),
+    array('ctrl + w', 'Dokument schliessen'),
+    array('leertaste', 'Handwerkzeug'),
+    array('ctrl + alt + p', 'Dokuement Einrichten'),
+);
+
+$illustrator = array(
+    array('p', 'Zeichen Stift Werkzeug'),
+    array('t', 'Text Werkzeug'),
+    array('m', 'Rechteck Werkzeug'),
+    array('i', 'Pipette'),
+    array('shift + e', 'Radiergummi Werkzeug'),
+    array('shift + w', 'Breiten Werkzeug'),
+    array('shift + m', 'Formerstellungs-Werkzeug'),
+    array('shift + ö', 'Krümmungs Werkzeug'),
+    array('shift + o', 'Zeichenflächen Werkzeug'),
+    array('shift + f', 'Präsentations Modus'),
+    array('alt', '[An objekt ziehen] Objekt duplizieren nach'),
+    array('d', 'Auf standard Fläche und Kontur setzen bei Objekt'),
+    array('ctrl + shift + alt + v', 'Objekt eine Ebene nach Vorne Rücken'),
+    array('ctrl + shift + alt + r', 'Objekt eine Ebene nach Hinten Rücken'),
+    array('shift + ziehen an Ecke', '[Während Objekt ausgewählt] Proportional vergrössern'),
+    array('shift + alt + ziehen an Ecke', '[Während Objekt ausgewählt] Zentriert proportional vergrössern'),
+    array('ctrl + shift + v', 'Objekt am gleichen Ort einfügen'),
+);
+
+$photoshop = array(
+    array('x', 'Primär und Sekundär Farbe wechseln.'),
+    array('alt', '[temp] Pipette'),
+    array('m', 'Markierwerkzeug'),
+    array('g', 'Füllwerkzeug'),
+    array('g', 'Füllwerkzeug'),
+);
+
+$indesign = array(
+    array('ctrl + d', 'platzieren'),
+    array('w', 'Vorschau'), 
+    array('ctrl + e', 'Exportieren'),
+    array('ctrl + ä', 'Objekt eine Ebene nach Vorne Rücken'),
+    array('ctrl + shift + ä', 'Objekt nach Vorne Rücken'),
+    array('ctrl + ö', 'Objekt eine Ebene nach Hinten Rücken'),
+    array('ctrl + shift + ö', 'Objekt nach Hinten Rücken'),
+    array('ctrl + shift + alt + v', 'Objekt am gleichen Ort einfügen'),
+);
