@@ -53,6 +53,7 @@ These Shortcuts work in most programs so they are industry standard.
 | `shift + [ARROWS]` | Move Cursor while selecting |
 | `ctrl + shift + [ARROWS]` | Move Cursor while selecting word by word |
 | `ctrl + w` | Close Document |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -71,6 +72,7 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 | `ctrl + shift + n` | New Folder |
 | `ctrl + space` | Select/Unselect current File |
 | `ctrl + [ARROW_KEYS]` | Move between items without losing focus |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -96,6 +98,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `ctrl + Windows + F4` | Close current Virtual Desktop |
 | `shift + alt + print` | High Contrast Mode |
 | `windowstaste + v` | Open Clipboard History |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -114,6 +117,7 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + l` | Focus URL Input |
 | `ctrl + shift + t` | Close most recently closed tab |
 | `ctrl + u` | Show Source Code |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -128,6 +132,7 @@ The Browser Extension for Google Chrome and MS Edge. It allows you to navigate t
 | `t` | New Tab |
 | `gg` | Go to Start |
 | `G` | Go to End |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -148,6 +153,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + g` | Toggle Grid (2D) |
 | `ctrl + r` | Replace (Code) |
 | `ctrl + d` | Duplicate Line (Code) |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -174,6 +180,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + d` | Select next occurence of current word |
 | `ctrl + space` | Show Context Snippets |
 | `ctrl + shift + space` | Show Function Parameters |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -186,6 +193,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + shift + f` | Bold Selection |
 | `ctrl + shift + k` | Italic Selection |
 | `ctrl + shift + u` | Underline Selection |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -204,6 +212,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + enter` | run all cells |
 | `m` | turn cell to markdown |
 | `y` | turn cell to code |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -223,6 +232,7 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `ctrl + w` | Close Document |
 | `space` | View Movement Tool |
 | `ctrl + alt + p` | Setup Document |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -240,6 +250,7 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `o` | set out |
 | `shift + i` | go to in |
 | `shift + o` | go to out |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -262,6 +273,7 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `ctrl + shift + alt + v` | Move object one layer forward |
 | `ctrl + shift + alt + r` | Move object one layer back |
 | `ctrl + shift + v` | Insert at the same Position |
+
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 

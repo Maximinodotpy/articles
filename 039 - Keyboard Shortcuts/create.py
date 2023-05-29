@@ -37,7 +37,7 @@ for slug in shortcutData:
     for shortcut in application['shortcuts']:
         result += f"| `{shortcut['keys']}` | {shortcut['description']} |\n"
 
-    result += f'[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)\n'
+    result += f'\n[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)\n'
 
     result += "\n\n"
 
