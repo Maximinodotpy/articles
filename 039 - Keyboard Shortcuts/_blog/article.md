@@ -26,6 +26,8 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 
 ## General
 
+These Shortcuts work in most programs so they are industry standard.
+
 | Shortcut | Description |
 | --- | --- |
 | `tab` | Move Between focusable Elements |
@@ -49,9 +51,12 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `shift + [ARROWS]` | Move Cursor while selecting |
 | `ctrl + shift + [ARROWS]` | Move Cursor while selecting word by word |
 | `ctrl + w` | Close Document |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## File Explorer
+
+These shortcuts work in the integrated File Explorer of the Windows Operating System.
 
 | Shortcut | Description |
 | --- | --- |
@@ -64,9 +69,12 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `ctrl + shift + n` | New Folder |
 | `ctrl + leertaste` | Select/Unselect current File |
 | `ctrl + [ARROW_KEYS]` | Move between items without losing focus |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Windows
+
+
 
 | Shortcut | Description |
 | --- | --- |
@@ -86,9 +94,12 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `ctrl + Windows + F4` | Close current Virtual Desktop |
 | `shift + alt + print` | High Contrast Mode |
 | `windowstaste + v` | Open Clipboard History |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Browser (Microsoft Edge)
+
+
 
 | Shortcut | Description |
 | --- | --- |
@@ -102,9 +113,12 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `ctrl + l` | Focus URL Input |
 | `ctrl + shift + t` | Close most recently closed tab |
 | `ctrl + u` | Show Source Code |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Godot (3.*)
+
+
 
 | Shortcut | Description |
 | --- | --- |
@@ -119,9 +133,12 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `ctrl + g` | Toggle Grid (2D) |
 | `ctrl + r` | Replace (Code) |
 | `ctrl + d` | Duplicate Line (Code) |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Visual Studio Code
+
+
 
 | Shortcut | Description |
 | --- | --- |
@@ -137,18 +154,24 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `ctrl + d` | Select next occurence of current word |
 | `ctrl + leertaste` | Open Snippets |
 | `ctrl + shift + leertaste` | Open Function Parameters |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Microsoft Word
+
+
 
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + shift + f` | Bold Selection |
 | `ctrl + shift + k` | Italic Selection |
 | `ctrl + shift + u` | Underline Selection |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Jupyter Notebook
+
+
 
 | Shortcut | Description |
 | --- | --- |
@@ -161,9 +184,12 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `ctrl + enter` | run all cells |
 | `m` | turn cell to markdown |
 | `y` | turn cell to code |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Adobe Allgemein
+
+
 
 | Shortcut | Description |
 | --- | --- |
@@ -177,9 +203,12 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `ctrl + w` | Close Document |
 | `leertaste` | View Movement Tool |
 | `ctrl + alt + p` | Setup Document |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Adobe Premiere Pro
+
+
 
 | Shortcut | Description |
 | --- | --- |
@@ -191,9 +220,12 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `o` | set out |
 | `shift + i` | go to in |
 | `shift + o` | go to out |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Adobe Illustrator
+
+
 
 | Shortcut | Description |
 | --- | --- |
@@ -210,5 +242,6 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `ctrl + shift + alt + v` | Move object one layer forward |
 | `ctrl + shift + alt + r` | Move object one layer back |
 | `ctrl + shift + v` | Insert at the same Position |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 

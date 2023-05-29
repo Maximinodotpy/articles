@@ -1,7 +1,7 @@
 {
     "general": {
         "name": "General",
-        "description": "",
+        "description": "These Shortcuts work in most programs so they are industry standard.",
         "shortcuts": [
             { "keys": "tab", "description": "Move Between focusable Elements" },
             { "keys": "shift + tab", "description": "Move Between focusable Elements backwards" },
@@ -28,7 +28,7 @@
     },
     "file-explorer": {
         "name": "File Explorer",
-        "description": "",
+        "description": "These shortcuts work in the integrated File Explorer of the Windows Operating System.",
         "shortcuts": [
             { "keys": "alt + up", "description": "Go one folder up" },
             { "keys": "alt + left", "description": "Go back in history" },
@@ -56,11 +56,9 @@
             { "keys": "Windows + Shift + S", "description": "Snipping Tool" },
             { "keys": "Windows + d", "description": "Show Desktop" },
             { "keys": "Windows + tab", "description": "View virtual desktops" },
-            
             { "keys": "ctrl + Windows + left/right", "description": "Switch between virtual desktops" },
             { "keys": "ctrl + Windows + d", "description": "Create new Virtual Desktop" },
             { "keys": "ctrl + Windows + F4", "description": "Close current Virtual Desktop" },
-
             { "keys": "shift + alt + print", "description": "High Contrast Mode" },
             { "keys": "windowstaste + v", "description": "Open Clipboard History" }
         ]

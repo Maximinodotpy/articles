@@ -29,11 +29,14 @@ for slug in shortcutData:
     application = shortcutData[slug]
 
     result += f"## {application['name']}\n\n"
+    result += f"{application['description']}\n\n"
 
     result += f"| Shortcut | Description |\n"
     result += f"| --- | --- |\n"
     for shortcut in application['shortcuts']:
         result += f"| `{shortcut['keys']}` | {shortcut['description']} |\n"
+
+    result += f'[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)\n'
 
     result += "\n\n"
 
