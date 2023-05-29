@@ -37,13 +37,13 @@
             { "keys": "alt + enter", "description": "View File / Folder Properties" },
             { "keys": "F2", "description": "rename File / Folder" },
             { "keys": "ctrl + shift + n", "description": "New Folder" },
-            { "keys": "ctrl + leertaste", "description": "Select/Unselect current File" },
+            { "keys": "ctrl + space", "description": "Select/Unselect current File" },
             { "keys": "ctrl + [ARROW_KEYS]", "description": "Move between items without losing focus" }
         ]
     },
     "windows": {
         "name": "Windows",
-        "description": "",
+        "description": "These shortcuts apply to the Windows Operating System. They are mostly not specific to a program.",
         "shortcuts": [
             { "keys": "shift + F10", "description": "Open Context Menu. Also works in a lot of programs by windows" },
             { "keys": "alt + F4", "description": "Close Window" },
@@ -65,12 +65,11 @@
     },
     "browser-microsoft-edge": {
         "name": "Browser (Microsoft Edge)",
-        "description": "",
+        "description": "These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) to enhance your browsing experience even more.",
         "shortcuts": [
-            { "keys": "ctrl + [Zahl]", "description": "Switch to corresponding tab" },
+            { "keys": "ctrl + [NUMBER]", "description": "Switch to corresponding tab" },
             { "keys": "ctrl + tab", "description": "Switch to right tab" },
             { "keys": "ctrl + shift + tab", "description": "Switch to left tab" },
-            { "keys": "ctrl + click (on link)", "description": "Open tab in new tab" },
             { "keys": "ctrl + t", "description": "New Tab" },
             { "keys": "ctrl + shift + k", "description": "Duplicate Tab" },
             { "keys": "F12", "description": "Open Dev Tools" },
@@ -79,9 +78,9 @@
             { "keys": "ctrl + u", "description": "Show Source Code" }
         ]
     },
-    "godot-3.*": {
-        "name": "Godot (3.*)",
-        "description": "",
+    "godot": {
+        "name": "Godot",
+        "description": "These shortcuts are for the Godot Engine (Version 3.x, but most of them also work for 4.x).",
         "shortcuts": [
             { "keys": "ctrl + a", "description": "Open Node Menu" },
             { "keys": "F6", "description": "Play Current Scene" },
@@ -100,18 +99,23 @@
         "name": "Visual Studio Code",
         "description": "",
         "shortcuts": [
-            { "keys": "shift + alt + f", "description": "Format" },
+            { "keys": "shift + alt + f", "description": "Format all Code" },
             { "keys": "alt + shift + [UP/DOWN]", "description": "Duplicate Line up/down" },
             { "keys": "alt + [ZAHL]", "description": "Switch to open editor" },
             { "keys": "alt + shift + a", "description": "Block comment" },
             { "keys": "ctrl + alt + [UP/DOWN]", "description": "duplicate cursor up/down" },
             { "keys": "alt + [UP/DOWN]", "description": "Move this line up/down" },
             { "keys": "ctrl + l", "description": "Select current line" },
+            { "keys": "ctrl + j", "description": "Toggle Bottom Panel" },
+            { "keys": "ctrl + b", "description": "Toggle Primary Side Panel" },
             { "keys": "ctrl + shift + l", "description": "Select all occurences of the current word" },
+            { "keys": "ctrl + shift + p", "description": "Open Command Input" },
             { "keys": "ctrl + shift + e", "description": "Open Integrated Explorer" },
+            { "keys": "ctrl + shift + x", "description": "Open Extensions" },
+            { "keys": "ctrl + ,", "description": "Open Settings" },
             { "keys": "ctrl + d", "description": "Select next occurence of current word" },
-            { "keys": "ctrl + leertaste", "description": "Open Snippets" },
-            { "keys": "ctrl + shift + leertaste", "description": "Open Function Parameters" }
+            { "keys": "ctrl + space", "description": "Show Context Snippets" },
+            { "keys": "ctrl + shift + space", "description": "Show Function Parameters" }
         ]
     },
     "microsoft-word": {
@@ -150,7 +154,7 @@
             { "keys": "tab", "description": "Toggle Tools and other Windows" },
             { "keys": "ctrl + tab", "description": "Switch through open files" },
             { "keys": "ctrl + w", "description": "Close Document" },
-            { "keys": "leertaste", "description": "View Movement Tool" },
+            { "keys": "space", "description": "View Movement Tool" },
             { "keys": "ctrl + alt + p", "description": "Setup Document" }
         ]
     },
