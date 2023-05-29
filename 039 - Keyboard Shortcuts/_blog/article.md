@@ -11,17 +11,18 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 
 **Applications / Places**
 
-- [General](#content-general)
-- [File Explorer](#content-file-explorer)
-- [Windows](#content-windows)
-- [Browser (Microsoft Edge)](#content-browser-microsoft-edge)
-- [Godot (3.*)](#content-godot-3.*)
-- [Visual Studio Code](#content-visual-studio-code)
-- [Microsoft Word](#content-microsoft-word)
-- [Jupyter Notebook](#content-jupyter-notebook)
-- [Adobe General](#content-adobe-general)
-- [Adobe Premiere Pro](#content-adobe-premiere-pro)
-- [Adobe Illustrator](#content-adobe-illustrator)
+- [General](#general)
+- [File Explorer](#file-explorer)
+- [Windows](#windows)
+- [Browser (Microsoft Edge)](#browser-microsoft-edge)
+- [Vimium](#vimium)
+- [Godot](#godot)
+- [Visual Studio Code](#visual-studio-code)
+- [Microsoft Word](#microsoft-word)
+- [Jupyter Notebook](#jupyter-notebook)
+- [Adobe General](#adobe-general)
+- [Adobe Premiere Pro](#adobe-premiere-pro)
+- [Adobe Illustrator](#adobe-illustrator)
 
 
 ## General
@@ -67,14 +68,14 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 | `alt + enter` | View File / Folder Properties |
 | `F2` | rename File / Folder |
 | `ctrl + shift + n` | New Folder |
-| `ctrl + leertaste` | Select/Unselect current File |
+| `ctrl + space` | Select/Unselect current File |
 | `ctrl + [ARROW_KEYS]` | Move between items without losing focus |
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
 ## Windows
 
-
+These shortcuts apply to the Windows Operating System. They are mostly not specific to a program.
 
 | Shortcut | Description |
 | --- | --- |
@@ -99,14 +100,13 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 
 ## Browser (Microsoft Edge)
 
-
+These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) to enhance your browsing experience even more.
 
 | Shortcut | Description |
 | --- | --- |
-| `ctrl + [Zahl]` | Switch to corresponding tab |
+| `ctrl + [NUMBER]` | Switch to corresponding tab |
 | `ctrl + tab` | Switch to right tab |
 | `ctrl + shift + tab` | Switch to left tab |
-| `ctrl + click (on link)` | Open tab in new tab |
 | `ctrl + t` | New Tab |
 | `ctrl + shift + k` | Duplicate Tab |
 | `F12` | Open Dev Tools |
@@ -116,9 +116,23 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
-## Godot (3.*)
+## Vimium
+
+The Browser Extension for Google Chrome and MS Edge. It allows you to navigate the web with just your keyboard.
+
+| Shortcut | Description |
+| --- | --- |
+| `f` | Open Link Selection |
+| `shift + f` | Open Link Selection for new Tab |
+| `t` | New Tab |
+| `gg` | Go to Start |
+| `G` | Go to End |
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
+## Godot
+
+These shortcuts are for the Godot Engine (Version 3.x, but most of them also work for 4.x).
 
 | Shortcut | Description |
 | --- | --- |
@@ -142,18 +156,23 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 
 | Shortcut | Description |
 | --- | --- |
-| `shift + alt + f` | Format |
+| `shift + alt + f` | Format all Code |
 | `alt + shift + [UP/DOWN]` | Duplicate Line up/down |
 | `alt + [ZAHL]` | Switch to open editor |
 | `alt + shift + a` | Block comment |
 | `ctrl + alt + [UP/DOWN]` | duplicate cursor up/down |
 | `alt + [UP/DOWN]` | Move this line up/down |
 | `ctrl + l` | Select current line |
+| `ctrl + j` | Toggle Bottom Panel |
+| `ctrl + b` | Toggle Primary Side Panel |
 | `ctrl + shift + l` | Select all occurences of the current word |
+| `ctrl + shift + p` | Open Command Input |
 | `ctrl + shift + e` | Open Integrated Explorer |
+| `ctrl + shift + x` | Open Extensions |
+| `ctrl + ,` | Open Settings |
 | `ctrl + d` | Select next occurence of current word |
-| `ctrl + leertaste` | Open Snippets |
-| `ctrl + shift + leertaste` | Open Function Parameters |
+| `ctrl + space` | Show Context Snippets |
+| `ctrl + shift + space` | Show Function Parameters |
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
@@ -201,7 +220,7 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `tab` | Toggle Tools and other Windows |
 | `ctrl + tab` | Switch through open files |
 | `ctrl + w` | Close Document |
-| `leertaste` | View Movement Tool |
+| `space` | View Movement Tool |
 | `ctrl + alt + p` | Setup Document |
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 

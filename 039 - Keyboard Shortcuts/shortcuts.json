@@ -78,6 +78,17 @@
             { "keys": "ctrl + u", "description": "Show Source Code" }
         ]
     },
+    "vimium": {
+        "name": "Vimium",
+        "description": "The Browser Extension for Google Chrome and MS Edge. It allows you to navigate the web with just your keyboard.",
+        "shortcuts": [
+            { "keys": "f", "description": "Open Link Selection" },
+            { "keys": "shift + f", "description": "Open Link Selection for new Tab" },
+            { "keys": "t", "description": "New Tab" },
+            { "keys": "gg", "description": "Go to Start" },
+            { "keys": "G", "description": "Go to End" }
+        ]
+    },
     "godot": {
         "name": "Godot",
         "description": "These shortcuts are for the Godot Engine (Version 3.x, but most of them also work for 4.x).",
