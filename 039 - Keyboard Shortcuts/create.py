@@ -14,10 +14,18 @@ status: 'draft'
 
 This is a list of many Shortcuts I encountered / Use now in my daily life. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
 
+
+**Applications / Places**\n
 """
 
-for slug in shortcutData:
 
+for slug in shortcutData:
+    name = shortcutData[slug]['name']
+    result += f'- [{name}](#content-{slug})\n'
+
+result += "\n\n"
+
+for slug in shortcutData:
     application = shortcutData[slug]
 
     result += f"## {application['name']}\n\n"

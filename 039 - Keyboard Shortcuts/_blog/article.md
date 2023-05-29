@@ -8,7 +8,23 @@ status: 'draft'
 
 This is a list of many Shortcuts I encountered / Use now in my daily life. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
 
-## Allgemein
+
+**Applications / Places**
+
+- [General](#content-general)
+- [File Explorer](#content-file-explorer)
+- [Windows](#content-windows)
+- [Browser (Microsoft Edge)](#content-browser-microsoft-edge)
+- [Godot (3.*)](#content-godot-3.*)
+- [Visual Studio Code](#content-visual-studio-code)
+- [Microsoft Word](#content-microsoft-word)
+- [Jupyter Notebook](#content-jupyter-notebook)
+- [Adobe Allgemein](#content-adobe-allgemein)
+- [Adobe Premiere Pro](#content-adobe-premiere-pro)
+- [Adobe Illustrator](#content-adobe-illustrator)
+
+
+## General
 
 | Shortcut | Description |
 | --- | --- |
@@ -35,7 +51,7 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 | `ctrl + w` | Close Document |
 
 
-## Datei Explorer
+## File Explorer
 
 | Shortcut | Description |
 | --- | --- |

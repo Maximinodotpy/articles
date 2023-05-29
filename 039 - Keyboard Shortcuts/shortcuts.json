@@ -1,6 +1,6 @@
 {
     "general": {
-        "name": "general",
+        "name": "General",
         "description": "",
         "shortcuts": [
             { "keys": "tab", "description": "Move Between focusable Elements" },
@@ -26,8 +26,8 @@
             { "keys": "ctrl + w", "description": "Close Document" }
         ]
     },
-    "datei-explorer": {
-        "name": "Datei Explorer",
+    "file-explorer": {
+        "name": "File Explorer",
         "description": "",
         "shortcuts": [
             { "keys": "alt + up", "description": "Go one folder up" },
