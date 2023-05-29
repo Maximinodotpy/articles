@@ -1,9 +1,10 @@
 ---
-name: 'Shortcuts'
-description: 'fasdafsd'
+name: 'Keyboard Shortcuts'
+slug: 'keyboard-shortcuts'
+description: 'A list of Shortcuts I use in my daily life, feel free to skim through it and maybe learn about new things in your favourite applications.'
 tag: 'shortcuts'
 category: 'general'
-status: 'draft'
+status: 'publish'
 ---
 
 This is a list of many Shortcuts I encountered / Use now in my daily life. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
@@ -11,18 +12,18 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 
 **Applications / Places**
 
-- [General](#general)
-- [File Explorer](#file-explorer)
-- [Windows](#windows)
-- [Browser (Microsoft Edge)](#browser-microsoft-edge)
-- [Vimium](#vimium)
-- [Godot](#godot)
-- [Visual Studio Code](#visual-studio-code)
-- [Microsoft Word](#microsoft-word)
-- [Jupyter Notebook](#jupyter-notebook)
-- [Adobe General](#adobe-general)
-- [Adobe Premiere Pro](#adobe-premiere-pro)
-- [Adobe Illustrator](#adobe-illustrator)
+- [General](#content-general)
+- [File Explorer](#content-file-explorer)
+- [Windows](#content-windows)
+- [Browser (Microsoft Edge)](#content-browser-microsoft-edge)
+- [Vimium](#content-vimium)
+- [Godot](#content-godot)
+- [Visual Studio Code](#content-visual-studio-code)
+- [Microsoft Word](#content-microsoft-word)
+- [Jupyter Notebook](#content-jupyter-notebook)
+- [Adobe General](#content-adobe-general)
+- [Adobe Premiere Pro](#content-adobe-premiere-pro)
+- [Adobe Illustrator](#content-adobe-illustrator)
 
 
 ## General
