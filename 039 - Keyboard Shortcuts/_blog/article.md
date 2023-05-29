@@ -19,7 +19,7 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 - [Visual Studio Code](#content-visual-studio-code)
 - [Microsoft Word](#content-microsoft-word)
 - [Jupyter Notebook](#content-jupyter-notebook)
-- [Adobe Allgemein](#content-adobe-allgemein)
+- [Adobe General](#content-adobe-general)
 - [Adobe Premiere Pro](#content-adobe-premiere-pro)
 - [Adobe Illustrator](#content-adobe-illustrator)
 
@@ -187,9 +187,9 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
 
-## Adobe Allgemein
+## Adobe General
 
-
+Adobe offers a lot of programs in the creative sector and these shortcuts apply to most of their software.
 
 | Shortcut | Description |
 | --- | --- |

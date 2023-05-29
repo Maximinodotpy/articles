@@ -138,9 +138,9 @@
             { "keys": "y", "description": "turn cell to code" }
         ]
     },
-    "adobe-allgemein": {
-        "name": "Adobe Allgemein",
-        "description": "",
+    "adobe-general": {
+        "name": "Adobe General",
+        "description": "Adobe offers a lot of programs in the creative sector and these shortcuts apply to most of their software.",
         "shortcuts": [
             { "keys": "v", "description": "Selection Tool" },
             { "keys": "a", "description": "Direct Selection Tool" },
