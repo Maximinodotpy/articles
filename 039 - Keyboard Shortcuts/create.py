@@ -1,15 +1,16 @@
 import json
 
-print('lfaksjd')
+print('Compiling Shortcuts to Markdown Article ...')
 
 shortcutData = json.load(open('shortcuts.json', 'r'))
 
 result = """---
-name: 'Shortcuts'
-description: 'fasdafsd'
+name: 'Keyboard Shortcuts'
+slug: 'keyboard-shortcuts'
+description: 'A list of Shortcuts I use in my daily life, feel free to skim through it and maybe learn about new things in your favourite applications.'
 tag: 'shortcuts'
 category: 'general'
-status: 'draft'
+status: 'publish'
 ---
 
 This is a list of many Shortcuts I encountered / Use now in my daily life. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
