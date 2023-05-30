@@ -4,9 +4,16 @@
     "description": "A product in the catalog",
     "type": "object",
     "additionalProperties": true,
-    "patternProperties": {
-        ".*": {
-            "$ref": "#/$defs/application"
+    "required": [ "applications" ],
+    "properties": {
+        "applications": {
+            "type": "object",
+            "additionalProperties": true,
+            "patternProperties": {
+                ".*": {
+                    "$ref": "#/$defs/application"
+                }
+            }
         }
     },
     "$defs": {
