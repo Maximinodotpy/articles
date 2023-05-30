@@ -159,7 +159,8 @@
         "shortcuts": [
             { "keys": "v", "description": "Selection Tool" },
             { "keys": "a", "description": "Direct Selection Tool" },
-            { "keys": "ctrl + u", "description": "Intelligent Aiding Lines" },
+            { "keys": "t", "description": "Text Tool" },
+            { "keys": "ctrl + u", "description": "Intelligent Helper Lines" },
             { "keys": "alt", "description": "Copy Object" },
             { "keys": "alt", "description": "Zoom" },
             { "keys": "tab", "description": "Toggle Tools and other Windows" },

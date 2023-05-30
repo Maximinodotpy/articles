@@ -225,7 +225,8 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | --- | --- |
 | `v` | Selection Tool |
 | `a` | Direct Selection Tool |
-| `ctrl + u` | Intelligent Aiding Lines |
+| `t` | Text Tool |
+| `ctrl + u` | Intelligent Helper Lines |
 | `alt` | Copy Object |
 | `alt` | Zoom |
 | `tab` | Toggle Tools and other Windows |
