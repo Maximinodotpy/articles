@@ -2,7 +2,7 @@ import json
 
 print('Compiling Shortcuts to Markdown Article ...')
 
-shortcutData = json.load(open('shortcuts.json', 'r'))
+shortcutData = json.load(open('shortcuts.json', 'r'))['applications']
 
 result = """---
 name: 'Keyboard Shortcuts'

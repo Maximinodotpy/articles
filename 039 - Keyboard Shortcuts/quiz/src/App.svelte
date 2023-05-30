@@ -29,7 +29,7 @@
   fetch(url)
     .then(response => response.json())
     .then(data => {
-      for (const [key, value] of Object.entries(data)) {
+      for (const [key, value] of Object.entries(data.applications)) {
         if (blackListSoftware.includes(key)) continue;
 
         for (const shortcut of value.shortcuts) {
@@ -75,11 +75,11 @@
   });
 </script>
 
-<div class="h-screen bg-slate-700 text-slate-200 flex flex-col text-center">
-  <div class="grow text-3xl flex items-center justify-center font-mono">
+<div class="flex flex-col h-screen text-center bg-slate-700 text-slate-200">
+  <div class="flex items-center justify-center font-mono text-3xl grow">
     {lastPressed} <span class="text-neutral-500">[{currentPrompt.keys}]</span>
   </div>
-  <div class="bg-slate-800 p-6 text-3xl italic font-semibold">
+  <div class="p-6 text-3xl italic font-semibold bg-slate-800">
     "{currentPrompt.description}" <!-- [{currentPrompt.software}] -->
     <div>
       {points} Point{points != 1 ? 's' : ''}

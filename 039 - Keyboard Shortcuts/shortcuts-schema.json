@@ -10,7 +10,7 @@
             "type": "object",
             "additionalProperties": true,
             "patternProperties": {
-                ".*": {
+                "[a-z-]*": {
                     "$ref": "#/$defs/application"
                 }
             }
