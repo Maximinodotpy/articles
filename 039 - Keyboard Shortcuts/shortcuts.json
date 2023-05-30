@@ -201,5 +201,13 @@
             { "keys": "ctrl + shift + alt + r", "description": "Move object one layer back" },
             { "keys": "ctrl + shift + v", "description": "Insert at the same Position" }
         ]
+    },
+    "adobe-after-effects": {
+        "name": "Adobe After Effects",
+        "description": "",
+        "shortcuts": [
+            { "keys": "ctrl + shift + d", "description": "Split Selected Timeline" },
+            { "keys": "shift + [MOUSE]", "description": "Snap align to other layer objects in Timeline" }
+        ]
     }
 }
