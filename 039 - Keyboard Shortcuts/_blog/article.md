@@ -40,7 +40,7 @@ These Shortcuts work in most programs so they are industry standard.
 | `end` | Jump to the begining |
 | `ctrl + c` | Copy |
 | `ctrl + v` | Insert |
-| `ctrl + d / delete` | Delete |
+| `delete` | Delete |
 | `ctrl + backspace` | Delete the whole Word |
 | `ctrl + x` | Cut |
 | `ctrl + z` | Undo |
@@ -48,7 +48,7 @@ These Shortcuts work in most programs so they are industry standard.
 | `ctrl + f` | Search |
 | `ctrl + a` | Select All |
 | `ctrl + s` | Save |
-| `esc` | Close Popup |
+| `escape` | Close Popup |
 | `ctrl + n` | New File |
 | `[ARROWS]` | Move Cursor |
 | `ctrl + [ARROWS]` | Move Cursor Word by Word |
@@ -73,7 +73,7 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 | `F2` | rename File / Folder |
 | `ctrl + shift + n` | New Folder |
 | `ctrl + space` | Select/Unselect current File |
-| `ctrl + [ARROW_KEYS]` | Move between items without losing focus |
+| `ctrl + [ARROWS]` | Move between items without losing focus |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -98,7 +98,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `ctrl + Windows + left/right` | Switch between virtual desktops |
 | `ctrl + Windows + d` | Create new Virtual Desktop |
 | `ctrl + Windows + F4` | Close current Virtual Desktop |
-| `shift + alt + print` | High Contrast Mode |
+| `alt + shift + print` | High Contrast Mode |
 | `Windows + v` | Open Clipboard History |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
@@ -110,7 +110,7 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 
 | Shortcut | Description |
 | --- | --- |
-| `alt + DOWN` | Open Text Proposal Window, if in Rich Text Editor |
+| `alt + [DOWN]` | Open Text Proposal Window, if in Rich Text Editor |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -176,7 +176,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 
 | Shortcut | Description |
 | --- | --- |
-| `shift + alt + f` | Format all Code |
+| `alt + shift + f` | Format all Code |
 | `alt + shift + [UP/DOWN]` | Duplicate Line up/down |
 | `alt + [ZAHL]` | Switch to open editor |
 | `alt + shift + a` | Block comment |
@@ -218,7 +218,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | --- | --- |
 | `b` | add cell below |
 | `a` | add cell ontop |
-| `x` | cutt cell |
+| `x` | cut cell |
 | `enter` | enter cell |
 | `escape` | exit cell |
 | `shift + enter` | run this cell |
@@ -240,7 +240,7 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `t` | Text Tool |
 | `ctrl + u` | Intelligent Helper Lines |
 | `alt` | Copy Object |
-| `alt` | Zoom |
+| `alt + [SCROLL]` | Zoom |
 | `tab` | Toggle Tools and other Windows |
 | `ctrl + tab` | Switch through open files |
 | `ctrl + w` | Close Document |
@@ -278,14 +278,16 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `t` | Text Tool |
 | `m` | Square Tool |
 | `i` | Eyedropper |
+| `g` | Gradient Tool |
 | `shift + e` | Eraser Tool |
 | `shift + w` | Thicken Tool |
+| `shift + m` | Morph Tool |
 | `shift + o` | Drawing area Tool |
 | `shift + f` | Presentation Mode |
 | `alt` | Duplicate Object |
 | `d` | Reset Colors for current Object |
-| `ctrl + shift + alt + v` | Move object one layer forward |
-| `ctrl + shift + alt + r` | Move object one layer back |
+| `ctrl + alt + shift + v` | Move object one layer forward |
+| `ctrl + alt + shift + r` | Move object one layer back |
 | `ctrl + shift + v` | Insert at the same Position |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)

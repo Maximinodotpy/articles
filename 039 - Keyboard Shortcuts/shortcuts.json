@@ -18,7 +18,7 @@
                 { "keys": "ctrl + f", "description": "Search" },
                 { "keys": "ctrl + a", "description": "Select All" },
                 { "keys": "ctrl + s", "description": "Save" },
-                { "keys": "esc", "description": "Close Popup" },
+                { "keys": "escape", "description": "Close Popup" },
                 { "keys": "ctrl + n", "description": "New File" },
                 { "keys": "[ARROWS]", "description": "Move Cursor" },
                 { "keys": "ctrl + [ARROWS]", "description": "Move Cursor Word by Word" },
