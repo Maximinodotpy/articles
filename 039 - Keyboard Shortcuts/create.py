@@ -8,7 +8,7 @@ result = """---
 name: 'Keyboard Shortcuts'
 slug: 'keyboard-shortcuts'
 description: 'A list of Shortcuts I use in my daily life, feel free to skim through it and maybe learn about new things in your favourite applications.'
-tag: 'shortcuts'
+tags: ['shortcuts']
 category: 'general'
 status: 'publish'
 ---

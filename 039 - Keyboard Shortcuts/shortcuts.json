@@ -9,7 +9,7 @@
             { "keys": "end", "description": "Jump to the begining" },
             { "keys": "ctrl + c", "description": "Copy" },
             { "keys": "ctrl + v", "description": "Insert" },
-            { "keys": "ctrl + d / delete", "description": "Delete" },
+            { "keys": "delete", "description": "Delete" },
             { "keys": "ctrl + backspace", "description": "Delete the whole Word" },
             { "keys": "ctrl + x", "description": "Cut" },
             { "keys": "ctrl + z", "description": "Undo" },
@@ -59,8 +59,15 @@
             { "keys": "ctrl + Windows + left/right", "description": "Switch between virtual desktops" },
             { "keys": "ctrl + Windows + d", "description": "Create new Virtual Desktop" },
             { "keys": "ctrl + Windows + F4", "description": "Close current Virtual Desktop" },
-            { "keys": "shift + alt + print", "description": "High Contrast Mode" },
-            { "keys": "windowstaste + v", "description": "Open Clipboard History" }
+            { "keys": "alt + shift + print", "description": "High Contrast Mode" },
+            { "keys": "Windows + v", "description": "Open Clipboard History" }
+        ]
+    },
+    "microsoft-general": {
+        "name": "Microsoft General",
+        "description": "These shortcuts apply to Microsoft Office and other Microsoft programs.",
+        "shortcuts": [
+            { "keys": "alt + DOWN", "description": "Open Text Proposal Window, if in Rich Text Editor" }
         ]
     },
     "browser-microsoft-edge": {
@@ -110,7 +117,7 @@
         "name": "Visual Studio Code",
         "description": "",
         "shortcuts": [
-            { "keys": "shift + alt + f", "description": "Format all Code" },
+            { "keys": "alt + shift + f", "description": "Format all Code" },
             { "keys": "alt + shift + [UP/DOWN]", "description": "Duplicate Line up/down" },
             { "keys": "alt + [ZAHL]", "description": "Switch to open editor" },
             { "keys": "alt + shift + a", "description": "Block comment" },
@@ -162,7 +169,7 @@
             { "keys": "t", "description": "Text Tool" },
             { "keys": "ctrl + u", "description": "Intelligent Helper Lines" },
             { "keys": "alt", "description": "Copy Object" },
-            { "keys": "alt", "description": "Zoom" },
+            { "keys": "alt + [SCROLL]", "description": "Zoom" },
             { "keys": "tab", "description": "Toggle Tools and other Windows" },
             { "keys": "ctrl + tab", "description": "Switch through open files" },
             { "keys": "ctrl + w", "description": "Close Document" },
@@ -192,14 +199,16 @@
             { "keys": "t", "description": "Text Tool" },
             { "keys": "m", "description": "Square Tool" },
             { "keys": "i", "description": "Eyedropper" },
+            { "keys": "g", "description": "Gradient Tool" },
             { "keys": "shift + e", "description": "Eraser Tool" },
             { "keys": "shift + w", "description": "Thicken Tool" },
+            { "keys": "shift + m", "description": "Morph Tool" },
             { "keys": "shift + o", "description": "Drawing area Tool" },
             { "keys": "shift + f", "description": "Presentation Mode" },
             { "keys": "alt", "description": "Duplicate Object" },
             { "keys": "d", "description": "Reset Colors for current Object" },
-            { "keys": "ctrl + shift + alt + v", "description": "Move object one layer forward" },
-            { "keys": "ctrl + shift + alt + r", "description": "Move object one layer back" },
+            { "keys": "ctrl + alt + shift + v", "description": "Move object one layer forward" },
+            { "keys": "ctrl + alt + shift + r", "description": "Move object one layer back" },
             { "keys": "ctrl + shift + v", "description": "Insert at the same Position" }
         ]
     },

@@ -2,7 +2,7 @@
 name: 'Keyboard Shortcuts'
 slug: 'keyboard-shortcuts'
 description: 'A list of Shortcuts I use in my daily life, feel free to skim through it and maybe learn about new things in your favourite applications.'
-tag: 'shortcuts'
+tags: ['shortcuts']
 category: 'general'
 status: 'publish'
 ---
@@ -15,6 +15,7 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 - [General](#content-general)
 - [File Explorer](#content-file-explorer)
 - [Windows](#content-windows)
+- [Microsoft General](#content-microsoft-general)
 - [Browser (Microsoft Edge)](#content-browser-microsoft-edge)
 - [Vimium](#content-vimium)
 - [Godot](#content-godot)
@@ -98,7 +99,18 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `ctrl + Windows + d` | Create new Virtual Desktop |
 | `ctrl + Windows + F4` | Close current Virtual Desktop |
 | `shift + alt + print` | High Contrast Mode |
-| `windowstaste + v` | Open Clipboard History |
+| `Windows + v` | Open Clipboard History |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+
+
+## Microsoft General
+
+These shortcuts apply to Microsoft Office and other Microsoft programs.
+
+| Shortcut | Description |
+| --- | --- |
+| `alt + DOWN` | Open Text Proposal Window, if in Rich Text Editor |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 

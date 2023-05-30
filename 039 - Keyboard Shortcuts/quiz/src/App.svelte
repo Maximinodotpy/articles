@@ -9,8 +9,15 @@
     'ctrl + shift + tab',
     'ctrl + w',
     'ctrl + shift + w',
+    'alt',
+    'ARROWS',
+    'ctrl + [ARROWS]',
+    'alt + up',
+    'alt + left',
+    'alt + right',
+    'ctrl + shift + n',
   ]
-  const blackListSoftware = ['windows', 'browser-microsoft-edge']
+  const blackListSoftware = ['windows', 'browser-microsoft-edge', 'vimium']
   const url = 'https://raw.githubusercontent.com/Maximinodotpy/articles/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json'
 
   fetch(url)
@@ -20,6 +27,9 @@
         if (blackListSoftware.includes(key)) continue;
 
         for (const shortcut of value.shortcuts) {
+          if (blackListShortcuts.includes(shortcut.keys)) continue;
+          if (shortcut.keys.includes('[ARROWS]')) continue;
+
           shortcutData.push({
             keys: shortcut.keys,
             description: shortcut.description,
@@ -27,18 +37,19 @@
           })
         }
       }
-      console.log(shortcutData);
 
-      currentPrompt = getRandomPrompt()
+      getRandomPrompt()
     })
 
   function getRandomPrompt() {
     const randomIndex = Math.floor(Math.random() * shortcutData.length);
-    return shortcutData[randomIndex];
+    currentPrompt = shortcutData[randomIndex];
   }
 
   document.addEventListener('keydown', (event) => {
-    const key = event.key.toLowerCase();
+    console.log(event);
+    
+    const key = event.key == ' ' ? 'space' : event.key.toLowerCase();
     const ctrl = event.ctrlKey;
     const alt = event.altKey;
     const shift = event.shiftKey;
@@ -48,17 +59,22 @@
     if (['alt', 'control', 'shift'].includes(key)) return;
 
     lastPressed = `${ctrl ? 'ctrl + ' : ''}${alt ? 'alt + ' : ''}${shift ? 'shift + ' : ''}${key}`;
+
+    if (lastPressed.toLowerCase() == currentPrompt.keys.toLowerCase()) {
+      points++;
+      getRandomPrompt()
+    }
   });
 </script>
 
 <div class="h-screen bg-slate-700 text-slate-200 flex flex-col text-center">
   <div class="grow text-3xl flex items-center justify-center font-mono">
-    {lastPressed} - {currentPrompt.keys}
+    {lastPressed} [{currentPrompt.keys}]
   </div>
   <div class="bg-slate-800 p-6 text-3xl italic font-semibold">
     "{currentPrompt.description}" [{currentPrompt.software}]
     <div>
-      fölaksjdöflakjsds
+      {points}
     </div>
   </div>
 </div>
