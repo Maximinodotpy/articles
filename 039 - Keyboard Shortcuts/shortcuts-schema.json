@@ -4,5 +4,38 @@
     "description": "A product in the catalog",
     "type": "object",
     "additionalProperties": true,
-    "properties": {}
+    "patternProperties": {
+        ".*": {
+            "$ref": "#/$defs/application"
+        }
+    },
+    "$defs": {
+        "application": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "shortcuts": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "keys": {
+                                "type": "string"
+                            },
+                            "description": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
