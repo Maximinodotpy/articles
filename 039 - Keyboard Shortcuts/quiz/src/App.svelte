@@ -12,10 +12,16 @@
     'alt',
     'ARROWS',
     'ctrl + [ARROWS]',
+    'ctrl + [DOWN]',
     'alt + up',
     'alt + left',
     'alt + right',
     'ctrl + shift + n',
+    'shift + [MOUSE]',
+    'ctrl + alt + [UP/DOWN]',
+    'alt + [DOWN]',
+    'ctrl + n',
+    'alt + [UP/DOWN]',
   ]
   const blackListSoftware = ['windows', 'browser-microsoft-edge', 'vimium']
   const url = 'https://raw.githubusercontent.com/Maximinodotpy/articles/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json'
@@ -63,18 +69,20 @@
     if (lastPressed.toLowerCase() == currentPrompt.keys.toLowerCase()) {
       points++;
       getRandomPrompt()
+
+      lastPressed = 'Press any key ...'
     }
   });
 </script>
 
 <div class="h-screen bg-slate-700 text-slate-200 flex flex-col text-center">
   <div class="grow text-3xl flex items-center justify-center font-mono">
-    {lastPressed} [{currentPrompt.keys}]
+    {lastPressed} <span class="text-neutral-500">[{currentPrompt.keys}]</span>
   </div>
   <div class="bg-slate-800 p-6 text-3xl italic font-semibold">
-    "{currentPrompt.description}" [{currentPrompt.software}]
+    "{currentPrompt.description}" <!-- [{currentPrompt.software}] -->
     <div>
-      {points}
+      {points} Point{points != 1 ? 's' : ''}
     </div>
   </div>
 </div>

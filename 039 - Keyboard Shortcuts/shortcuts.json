@@ -1,4 +1,6 @@
 {
+    "$schema": "./shortcut-schema.json",
+
     "general": {
         "name": "General",
         "description": "These Shortcuts work in most programs so they are industry standard.",
@@ -38,7 +40,7 @@
             { "keys": "F2", "description": "rename File / Folder" },
             { "keys": "ctrl + shift + n", "description": "New Folder" },
             { "keys": "ctrl + space", "description": "Select/Unselect current File" },
-            { "keys": "ctrl + [ARROW_KEYS]", "description": "Move between items without losing focus" }
+            { "keys": "ctrl + [ARROWS]", "description": "Move between items without losing focus" }
         ]
     },
     "windows": {
@@ -67,7 +69,7 @@
         "name": "Microsoft General",
         "description": "These shortcuts apply to Microsoft Office and other Microsoft programs.",
         "shortcuts": [
-            { "keys": "alt + DOWN", "description": "Open Text Proposal Window, if in Rich Text Editor" }
+            { "keys": "alt + [DOWN]", "description": "Open Text Proposal Window, if in Rich Text Editor" }
         ]
     },
     "browser-microsoft-edge": {
@@ -151,7 +153,7 @@
         "shortcuts": [
             { "keys": "b", "description": "add cell below" },
             { "keys": "a", "description": "add cell ontop" },
-            { "keys": "x", "description": "cutt cell" },
+            { "keys": "x", "description": "cut cell" },
             { "keys": "enter", "description": "enter cell" },
             { "keys": "escape", "description": "exit cell" },
             { "keys": "shift + enter", "description": "run this cell" },
