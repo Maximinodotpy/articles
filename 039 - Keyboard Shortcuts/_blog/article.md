@@ -88,15 +88,15 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `alt + F4` | Close Window |
 | `Windows + Down` | Minimize Window |
 | `alt (hold) + tab (once)` | View open Applications |
-| `F11` | toggle Full Screen |
-| `Windows + [ARROWS]` | Move a window on the screen |
-| `Windows + shift + [ARROWS]` | Move a window to another Screen |
+| `F11` | Toggle Full Screen |
+| `Windows + [ARROWS]` | Move active window on the screen |
+| `Windows + shift + [ARROWS]` | Move active window to another Screen |
 | `Windows + e` | Open File Explorer |
 | `Windows + l` | Lock Windows |
-| `Windows + Shift + S` | Snipping Tool |
+| `Windows + Shift + S` | Start Snipping Tool |
 | `Windows + d` | Show Desktop |
-| `Windows + tab` | View virtual desktops |
-| `ctrl + Windows + left/right` | Switch between virtual desktops |
+| `Windows + tab` | Show Virtual Desktops |
+| `ctrl + Windows + left/right` | Switch between Virtual Desktops |
 | `ctrl + Windows + d` | Create new Virtual Desktop |
 | `ctrl + Windows + F4` | Close current Virtual Desktop |
 | `alt + shift + print` | High Contrast Mode |
