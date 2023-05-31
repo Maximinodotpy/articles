@@ -1,11 +1,13 @@
 import json
 import base64
+import os
 
 print('Compiling Shortcuts to Markdown Article ...')
 
 shortcutData = json.load(open('shortcuts.json', 'r'))['applications']
 shortcutBlacklist = json.load(open('quiz-blacklist.json', 'r'))
 
+""" os.system('cd quiz && npm run build') """
 quizHTMLContent = open('quiz/dist/index.html', 'r').read()
 
 result = """---
