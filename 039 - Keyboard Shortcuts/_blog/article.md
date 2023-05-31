@@ -90,6 +90,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `alt (hold) + tab (once)` | View open Applications |
 | `F11` | toggle Full Screen |
 | `Windows + [ARROWS]` | Move a window on the screen |
+| `Windows + shift + [ARROWS]` | Move a window to another Screen |
 | `Windows + e` | Open File Explorer |
 | `Windows + l` | Lock Windows |
 | `Windows + Shift + S` | Snipping Tool |
