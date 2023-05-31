@@ -4,7 +4,8 @@
     let points = 0;
     
     // This will be inserted by the Python Script
-    const target_application = '__INSERT_APPLICATION__';
+    let searchParams = new URLSearchParams(document.location.search);
+    const target_application = searchParams.get("app") ?? 'general';
     
     // Named Import
     import blacklist from '../../quiz-blacklist.json';
@@ -13,11 +14,15 @@
     let shortcutData = [];
 
     for (const [key, value] of Object.entries(applications)) {
-        if (blacklist.software.includes(key)) continue;
+        if (key != target_application) continue;
 
         for (const shortcut of value.shortcuts) {
             if (blacklist.shortcuts.includes(shortcut.keys)) continue;
             if (shortcut.keys.includes("[ARROWS]")) continue;
+            if (shortcut.keys.includes("UP")) continue;
+            if (shortcut.keys.includes("DOWN")) continue;
+            if (shortcut.keys.includes("LEFT")) continue;
+            if (shortcut.keys.includes("RIGHT")) continue;
 
             shortcutData.push({
                 keys: shortcut.keys,

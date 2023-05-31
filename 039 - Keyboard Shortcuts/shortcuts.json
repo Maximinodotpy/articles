@@ -6,8 +6,8 @@
             "shortcuts": [
                 { "keys": "tab", "description": "Move Between focusable Elements" },
                 { "keys": "shift + tab", "description": "Move Between focusable Elements backwards" },
-                { "keys": "home", "description": "Jump to the start" },
-                { "keys": "end", "description": "Jump to the begining" },
+                { "keys": "home", "description": "Jump to the Start" },
+                { "keys": "end", "description": "Jump to the End" },
                 { "keys": "ctrl + c", "description": "Copy" },
                 { "keys": "ctrl + v", "description": "Insert" },
                 { "keys": "delete", "description": "Delete" },

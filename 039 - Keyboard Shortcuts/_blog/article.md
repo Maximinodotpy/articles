@@ -12,20 +12,20 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 
 **Applications / Places**
 
-- [General](#content-general)
-- [File Explorer](#content-file-explorer)
-- [Windows](#content-windows)
-- [Microsoft General](#content-microsoft-general)
-- [Browser (Microsoft Edge)](#content-browser-microsoft-edge)
-- [Vimium](#content-vimium)
-- [Godot](#content-godot)
-- [Visual Studio Code](#content-visual-studio-code)
-- [Microsoft Word](#content-microsoft-word)
-- [Jupyter Notebook](#content-jupyter-notebook)
-- [Adobe General](#content-adobe-general)
-- [Adobe Premiere Pro](#content-adobe-premiere-pro)
-- [Adobe Illustrator](#content-adobe-illustrator)
-- [Adobe After Effects](#content-adobe-after-effects)
+- [General](#general)
+- [File Explorer](#file-explorer)
+- [Windows](#windows)
+- [Microsoft General](#microsoft-general)
+- [Browser (Microsoft Edge)](#browser-microsoft-edge)
+- [Vimium](#vimium)
+- [Godot](#godot)
+- [Visual Studio Code](#visual-studio-code)
+- [Microsoft Word](#microsoft-word)
+- [Jupyter Notebook](#jupyter-notebook)
+- [Adobe General](#adobe-general)
+- [Adobe Premiere Pro](#adobe-premiere-pro)
+- [Adobe Illustrator](#adobe-illustrator)
+- [Adobe After Effects](#adobe-after-effects)
 
 
 ## General
@@ -36,8 +36,8 @@ These Shortcuts work in most programs so they are industry standard.
 | --- | --- |
 | `tab` | Move Between focusable Elements |
 | `shift + tab` | Move Between focusable Elements backwards |
-| `home` | Jump to the start |
-| `end` | Jump to the begining |
+| `home` | Jump to the Start |
+| `end` | Jump to the End |
 | `ctrl + c` | Copy |
 | `ctrl + v` | Insert |
 | `delete` | Delete |
