@@ -130,6 +130,7 @@
                 { "keys": "ctrl + shift + l", "description": "Select all occurences of the current word" },
                 { "keys": "ctrl + shift + p", "description": "Open Command Input" },
                 { "keys": "ctrl + shift + e", "description": "Open Integrated Explorer" },
+                { "keys": "alt + shift + r", "description": "Open File in OS Explorer (While in Integrated Explorer)" },
                 { "keys": "ctrl + shift + x", "description": "Open Extensions" },
                 { "keys": "ctrl + ,", "description": "Open Settings" },
                 { "keys": "ctrl + d", "description": "Select next occurence of current word" },

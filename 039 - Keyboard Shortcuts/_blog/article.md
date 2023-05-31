@@ -188,6 +188,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + shift + l` | Select all occurences of the current word |
 | `ctrl + shift + p` | Open Command Input |
 | `ctrl + shift + e` | Open Integrated Explorer |
+| `alt + shift + r` | Open File in OS Explorer (While in Integrated Explorer) |
 | `ctrl + shift + x` | Open Extensions |
 | `ctrl + ,` | Open Settings |
 | `ctrl + d` | Select next occurence of current word |
