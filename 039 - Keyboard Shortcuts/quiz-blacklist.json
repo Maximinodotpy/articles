@@ -1,0 +1,27 @@
+{
+    "shortcuts": [
+        "ctrl + tab",
+        "ctrl + shift + tab",
+        "ctrl + w",
+        "ctrl + shift + w",
+        "alt",
+        "ARROWS",
+        "ctrl + [ARROWS]",
+        "ctrl + [DOWN]",
+        "alt + up",
+        "alt + left",
+        "alt + right",
+        "ctrl + shift + n",
+        "shift + [MOUSE]",
+        "ctrl + alt + [UP/DOWN]",
+        "alt + [DOWN]",
+        "ctrl + n",
+        "alt + [UP/DOWN]"
+    ],
+    "software": [
+        "windows",
+        "browser-microsoft-edge",
+        "vimium",
+        "godot"
+    ]
+}

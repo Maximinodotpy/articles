@@ -1,69 +1,34 @@
 <script lang="ts">
-    let currentPrompt = { keys: "", description: "" };
-    let lastPressed = "Ctrl + j";
-    let shortcutData = [];
-    let allSoftware = [];
+    let currentPrompt = { keys: "", description: "", software: "" };
+    let lastPressed = "";
     let points = 0;
+    
+    // This will be inserted by the Python Script
+    const target_application = '__INSERT_APPLICATION__';
+    
+    // Named Import
+    import blacklist from '../../quiz-blacklist.json';
+    
+    import { applications } from '../../shortcuts.json';
+    let shortcutData = [];
 
-    const blackListShortcuts = [
-        "ctrl + tab",
-        "ctrl + shift + tab",
-        "ctrl + w",
-        "ctrl + shift + w",
-        "alt",
-        "ARROWS",
-        "ctrl + [ARROWS]",
-        "ctrl + [DOWN]",
-        "alt + up",
-        "alt + left",
-        "alt + right",
-        "ctrl + shift + n",
-        "shift + [MOUSE]",
-        "ctrl + alt + [UP/DOWN]",
-        "alt + [DOWN]",
-        "ctrl + n",
-        "alt + [UP/DOWN]",
-    ];
-    const blackListSoftware = [
-        "windows",
-        "browser-microsoft-edge",
-        "vimium",
-        "godot",
-    ];
-    const url =
-        "https://raw.githubusercontent.com/Maximinodotpy/articles/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json";
+    for (const [key, value] of Object.entries(applications)) {
+        if (blacklist.software.includes(key)) continue;
 
-    fetch(url)
-        .then((response) => response.json())
-        .then((data) => {
-            console.log(data);
-            data = data.applications;
-            console.log(data);
+        for (const shortcut of value.shortcuts) {
+            if (blacklist.shortcuts.includes(shortcut.keys)) continue;
+            if (shortcut.keys.includes("[ARROWS]")) continue;
 
-            for (const [key, value] of Object.entries(data)) {
-                if (blackListSoftware.includes(key)) continue;
+            shortcutData.push({
+                keys: shortcut.keys,
+                description: shortcut.description,
+                software: value.name,
+            });
+        }
+    }
+    newPrompt();
 
-                allSoftware.push(key);
-
-                for (const shortcut of value.shortcuts) {
-                    if (blackListShortcuts.includes(shortcut.keys)) continue;
-                    if (shortcut.keys.includes("[ARROWS]")) continue;
-
-                    shortcutData.push({
-                        keys: shortcut.keys,
-                        description: shortcut.description,
-                        software: value.name,
-                    });
-                }
-            }
-
-            console.log(allSoftware);
-            
-
-            getRandomPrompt();
-        });
-
-    function getRandomPrompt() {
+    function newPrompt() {
         const randomIndex = Math.floor(Math.random() * shortcutData.length);
         currentPrompt = shortcutData[randomIndex];
     }
@@ -86,7 +51,7 @@
 
         if (lastPressed.toLowerCase() == currentPrompt.keys.toLowerCase()) {
             points++;
-            getRandomPrompt();
+            newPrompt();
 
             lastPressed = "Press any key ...";
         }
@@ -104,6 +69,5 @@
         </div>
     </div>
 
-
-    <button class="p-5 font-mono font-bold bg-slate-900" on:click={getRandomPrompt}>Skip</button>
+    <button class="p-5 font-mono font-bold bg-slate-900" on:click={newPrompt}>Skip</button>
 </div>
