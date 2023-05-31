@@ -44,12 +44,13 @@ for application_slug in shortcutData:
     for shortcut in application['shortcuts']:
         result += f"| `{shortcut['keys']}` | {shortcut['description']} |\n"
 
-    customQuizHtmlContent = quizHTMLContent.replace('__INSERT_APPLICATION__', application_slug)
+    """ customQuizHtmlContent = quizHTMLContent.replace('__INSERT_APPLICATION__', application_slug)
 
     practiceUrl = base64.b64encode(customQuizHtmlContent.encode("utf-8")).decode("utf-8")
     practiceUrl = f'data:text/html;base64,{practiceUrl}'
 
-    result += f'[Practise these Keyboard Shortcuts]({practiceUrl})\n'
+    result += f'[Practise these Keyboard Shortcuts]({practiceUrl})\n' """
+    
     result += f'\n[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)\n'
 
     result += "\n\n"
