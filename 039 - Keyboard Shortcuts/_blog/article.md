@@ -12,20 +12,21 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 
 **Applications / Places**
 
-- [General](#general)
-- [File Explorer](#file-explorer)
-- [Windows](#windows)
-- [Microsoft General](#microsoft-general)
-- [Browser (Microsoft Edge)](#browser-microsoft-edge)
-- [Vimium](#vimium)
-- [Godot](#godot)
-- [Visual Studio Code](#visual-studio-code)
-- [Microsoft Word](#microsoft-word)
-- [Jupyter Notebook](#jupyter-notebook)
-- [Adobe General](#adobe-general)
-- [Adobe Premiere Pro](#adobe-premiere-pro)
-- [Adobe Illustrator](#adobe-illustrator)
-- [Adobe After Effects](#adobe-after-effects)
+- [General](#content-general)
+- [File Explorer](#content-file-explorer)
+- [Windows](#content-windows)
+- [Microsoft General](#content-microsoft-general)
+- [Browser (Microsoft Edge)](#content-browser-microsoft-edge)
+- [Vimium](#content-vimium)
+- [Godot](#content-godot)
+- [Visual Studio Code](#content-visual-studio-code)
+- [Microsoft Word](#content-microsoft-word)
+- [Jupyter Notebook](#content-jupyter-notebook)
+- [Adobe General](#content-adobe-general)
+- [Adobe Premiere Pro](#content-adobe-premiere-pro)
+- [Adobe Illustrator](#content-adobe-illustrator)
+- [Adobe After Effects](#content-adobe-after-effects)
+- [Wordpress](#content-wordpress)
 
 
 ## General
@@ -144,6 +145,9 @@ The Browser Extension for Google Chrome and MS Edge. It allows you to navigate t
 | `f` | Open Link Selection |
 | `shift + f` | Open Link Selection for new Tab |
 | `t` | New Tab |
+| `x` | Close Tab |
+| `j` | Scroll Down |
+| `k` | Scroll Up |
 | `gg` | Go to Start |
 | `G` | Go to End |
 
@@ -178,6 +182,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | Shortcut | Description |
 | --- | --- |
 | `alt + shift + f` | Format all Code |
+| `alt + shift + i` | Add cursors to ends of all currently selected lines |
 | `alt + shift + [UP/DOWN]` | Duplicate Line up/down |
 | `alt + [ZAHL]` | Switch to open editor |
 | `alt + shift + a` | Block comment |
@@ -303,6 +308,17 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | --- | --- |
 | `ctrl + shift + d` | Split Selected Timeline |
 | `shift + [MOUSE]` | Snap align to other layer objects in Timeline |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+
+
+## Wordpress
+
+
+
+| Shortcut | Description |
+| --- | --- |
+| `ctrl + alt + m` | Toggle Code Editor in Post Edit View |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 

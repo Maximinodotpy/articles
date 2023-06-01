@@ -96,6 +96,9 @@
                 { "keys": "f", "description": "Open Link Selection" },
                 { "keys": "shift + f", "description": "Open Link Selection for new Tab" },
                 { "keys": "t", "description": "New Tab" },
+                { "keys": "x", "description": "Close Tab" },
+                { "keys": "j", "description": "Scroll Down" },
+                { "keys": "k", "description": "Scroll Up" },
                 { "keys": "gg", "description": "Go to Start" },
                 { "keys": "G", "description": "Go to End" }
             ]
@@ -122,6 +125,7 @@
             "description": "",
             "shortcuts": [
                 { "keys": "alt + shift + f", "description": "Format all Code" },
+                { "keys": "alt + shift + i", "description": "Add cursors to ends of all currently selected lines" },
                 { "keys": "alt + shift + [UP/DOWN]", "description": "Duplicate Line up/down" },
                 { "keys": "alt + [ZAHL]", "description": "Switch to open editor" },
                 { "keys": "alt + shift + a", "description": "Block comment" },
@@ -223,6 +227,13 @@
             "shortcuts": [
                 { "keys": "ctrl + shift + d", "description": "Split Selected Timeline" },
                 { "keys": "shift + [MOUSE]", "description": "Snap align to other layer objects in Timeline" }
+            ]
+        },
+        "wordpress": {
+            "name": "Wordpress",
+            "description": "",
+            "shortcuts": [
+                { "keys": "ctrl + alt + m", "description": "Toggle Code Editor in Post Edit View" }
             ]
         }
     }
