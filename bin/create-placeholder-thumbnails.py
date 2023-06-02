@@ -2,6 +2,7 @@ import os
 import glob
 import pathlib as pl
 import cairo
+import re
 
 print("Creating placeholder images...")
 
@@ -13,6 +14,10 @@ for file in foundMarkdownFiles:
 
     if (not os.path.exists(potentialThumbnailPath)):
         print("No thumbnail found for " + str(articleDirectory))
+
+        txt = open(file).read()
+        x = re.findall("name: ?'?([a-zA-Z ]*)'?", txt)
+        name = x[0]
 
         surface = cairo.SVGSurface('bin/example.svg', 1000, 500)
 
@@ -34,7 +39,7 @@ for file in foundMarkdownFiles:
         context.fill()
 
         # ölkafsdj
-        context.set_font_size(50)
+        context.set_font_size(25)
         context.set_source_rgb(1, 1, 1)
       
         # Font Style
@@ -44,7 +49,7 @@ for file in foundMarkdownFiles:
         context.move_to(50, 200)
         
         # displays the text
-        context.show_text("GeeksForGeeks")
+        context.show_text(name)
         
         # stroke out the color and width property
         context.stroke()
