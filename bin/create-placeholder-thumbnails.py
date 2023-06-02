@@ -1,7 +1,7 @@
 import os
 import glob
 import pathlib as pl
-import cairo
+""" import cairo """
 import re
 
 print("Creating placeholder images...")
@@ -14,6 +14,7 @@ for file in foundMarkdownFiles:
 
     if (not os.path.exists(potentialThumbnailPath)):
         print("No thumbnail found for " + str(articleDirectory))
+        continue
 
         txt = open(file).read()
         x = re.findall("name: ?'?([a-zA-Z ]*)'?", txt)
