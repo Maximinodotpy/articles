@@ -20,9 +20,13 @@ status: 'draft'
 
 ## Line Chart Component
 
-> klfajsd  flaskdj  flaskd  faslk jfasld lfaöskdasfdlk
+> klfajsd  **flaskdj**  flaskd  *faslk* jfasld lfaöskdasfdlk
 > flaksd
-> fa sdfasdfs
+> fa `sdfasdfs`
+> ```
+> fasdfasd
+> lfkaslkfja
+> ```
 
 ## Using the Line Chart Component
 
