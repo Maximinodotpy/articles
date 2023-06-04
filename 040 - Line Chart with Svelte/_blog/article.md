@@ -13,7 +13,7 @@ We'll also style it with CSS / SCSS. Below you will see what we will create toda
 
 ![Line Chart with Svelte](https://raw.githubusercontent.com/Maximinodotpy/articles/main/040%20-%20Line%20Chart%20with%20Svelte/_blog/line-diagram-screenshot.png)
 
-Within the Component, we will distribute the given data into a range to fit into the Diagram; this Behavior may be nothing for you, so your main takeaway could be how incredible SVG is and how easy it is to create Graphics with it.
+Within the Component,  we'll distribute the given data into a range to fit into the Diagram; this Behavior may be nothing for you, so your main takeaway could be how incredible SVG is and how easy it is to create Graphics with it.
 
 First, we will create the Line Chart Component. Then we will use it in a Svelte Application.
 
@@ -35,7 +35,7 @@ Within our `line-diagram.svelte` file, we start by exporting a `name` and `value
 
 Next up, we define the Diagram's height, width, and vertical padding; these numbers are mainly arbitrarily chosen to fit the Diagram. Because later down the line, we will fit all the data within this range. 
 
-Furthermore, we will get the highest and lowest value of the dataset. and calculate the proportions between our desired range and the range of the data. This will be used to scale the data to fit the Diagram.
+Furthermore, we will get the highest and lowest value of the dataset, and calculate the proportions between our desired range and the range of the data. This will be used to scale the data to fit the Diagram.
 
 This all sounds rather complicated, but bear with me here.
 
@@ -58,7 +58,7 @@ This all sounds rather complicated, but bear with me here.
 </script>
 ```
 
-Lastly, within the script tag, we define a reactive variable, `path` which will be used to draw the Diagram. Then we use a reactive block to calculate the path. The path is a string containing the [SVG Path commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths) to draw the Diagram.
+Lastly, within the script tag, we'll define a reactive variable, `path` which will be used to draw the Diagram. Then we use a reactive block to calculate the path. The path is a string containing the [SVG Path commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths) to draw the Diagram.
 
 ```ts
 let path = ''
