@@ -1,36 +1,15 @@
 <script>
   import LineDiagram from "./lib/line-diagram.svelte";
-
-  /* let randomData = {
-    name: 'Random Diagram',
-    values: Array(30).fill(1).map(x => Math.random() * 100 + 10),
-  }
-
-  setTimeout(() => {
-    console.log('New Random Data');
-
-    randomData.values = [10, 10]
-    /* randomData = randomData
-  }, 1000) */
-
-  let lon = 13.41
-  let lat = 52.52
   
   async function getWeatherData() {
-    const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=temperature_2m`)
+    const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m`)
     return await response.json()
   }
   let weatherDataPromise = getWeatherData()
-  $: {
-    console.log(lat, lon);
-    weatherDataPromise = getWeatherData()
-  }
 </script>
 
 <div class="container">
   <h2>My Cool Line Diagram</h2>
-
-  <input type="text" bind:value={lat}>
 
   <br> 
   <div class="weather_container">
