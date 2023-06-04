@@ -11,7 +11,7 @@ In this Tutorial, we will create a Line Chart Svelte Component, which we can use
 
 We'll also style it with CSS / SCSS. Below you will see what we will create today.
 
-![Line Chart with Svelte](line-diagram-screenshot.png)
+![Line Chart with Svelte](https://raw.githubusercontent.com/Maximinodotpy/articles/main/040%20-%20Line%20Chart%20with%20Svelte/_blog/line-diagram-screenshot.png)
 
 Within the Component, we will distribute the given data into a range to fit into the Diagram; this Behavior may be nothing for you, so your main takeaway could be how incredible SVG is and how easy it is to create Graphics with it.
 
