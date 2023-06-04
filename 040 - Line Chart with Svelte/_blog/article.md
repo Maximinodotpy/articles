@@ -7,21 +7,17 @@ category: 'general'
 status: 'draft'
 ---
 
+In this Tutorial, we will create a Line Chart Svelte Component, which we can use in our Svelte Applications. We will use Scalable Vector Graphics (SVG) which are HTML. With SVG's help, we can create a Line Chart with a few lines of code. We will also use Svelte's reactive variables to make the Line Chart interactive.
 
-
-In this Tutorial we will create a Line Chart Svelte Component, which we can use in our Svelte Applications. We will make use of Scalable Vector Graphics (SVG) which are basically HTML. With the help of SVG we can create a Line Chart with a few lines of code. We will also make use of Svelte's reactive variables to make the Line Chart interactive.
-
-We'll also style it with CSS / SCSS. Below you see what we will create today.
+We'll also style it with CSS / SCSS. Below you will see what we will create today.
 
 ![Line Chart with Svelte](line-diagram-screenshot.png)
 
-Within the component we will distribute the given data into a range so it will fit into the Diagram, this Behavior may be nothing for you so your main take away could simply be how awesome SVG is and how easy it is to create a Graphics with it.
+Within the Component, we will distribute the given data into a range to fit into the Diagram; this Behavior may be nothing for you, so your main takeaway could be how incredible SVG is and how easy it is to create Graphics with it.
 
-First we will create the Line Chart Component, then we will use it in a Svelte Application.
+First, we will create the Line Chart Component. Then we will use it in a Svelte Application.
 
-Lets get started.
-
-<!-- Introduction -->
+Let's get started.
 
 <!-- 
 - Array(30).fill(1).map(x => Math.random() * 100 + 10)
@@ -31,15 +27,15 @@ Lets get started.
 
 ## Line Chart Component
 
-The Component consist of a script tag, a div container with an SVG and a style tag.
+The Component consists of a script tag, a div container with an SVG, and a style tag.
 
 ### Script of the Line Chart Component
 
-Within our line-diagram.svelte file we start by exporting a `name` and `values` property. The `name` property will be used as the title of the diagram and the `values` property will be used to draw the diagram. The `values` property is an array of numbers.
+Within our `line-diagram.svelte` file, we start by exporting a `name` and `values` property. The `name` property will be used as the title of the Diagram, and the `values` property will be used to draw the Diagram. The `values` property is an array of numbers.
 
-Next up we define the height, width and vertical padding of the diagram, these numbers are mainly arbitrarly chosen to fit the diagram. Because later down the line we will fit all the data within this range. 
+Next up, we define the Diagram's height, width, and vertical padding; these numbers are mainly arbitrarily chosen to fit the Diagram. Because later down the line, we will fit all the data within this range. 
 
-Furthermore we will get the highest and lowest value of the dataset. and calculate the proportions between our desired range and the range of the data. This will be used to scale the data to fit the diagram.
+Furthermore, we will get the highest and lowest value of the dataset. and calculate the proportions between our desired range and the range of the data. This will be used to scale the data to fit the Diagram.
 
 This all sounds rather complicated, but bear with me here.
 
@@ -48,7 +44,7 @@ This all sounds rather complicated, but bear with me here.
     export let name : string = ''
     export let values : number[]
 
-    // These values are arbitrarly chosen to fit the diagramm
+    // These values are arbitrarily chosen to fit the Diagram
     let height = 50;
     let width = 100;
     let padding = 5;
@@ -62,7 +58,7 @@ This all sounds rather complicated, but bear with me here.
 </script>
 ```
 
-Lastly within the script tag we define a reactive variable `path` which will be used to draw the diagram. Then we use a reactive block to calculate the path. The path is basically a string which contains the [SVG Path commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths) to draw the diagram.
+Lastly, within the script tag, we define a reactive variable, `path` which will be used to draw the Diagram. Then we use a reactive block to calculate the path. The path is a string containing the [SVG Path commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths) to draw the Diagram.
 
 ```ts
 let path = ''
@@ -83,7 +79,7 @@ $: {
 
 ### HTML of the Line Chart Component
 
-Next up we will create the HTMl for our Component, it simply consist of a div container with an SVG. The SVG has a viewBox which defines the size of the SVG. The viewBox is a string which contains the x and y position of the top left corner and the width and height of the SVG. We will use the width and height variables we defined earlier.
+Next, we will create the HTML for our Component, consisting of a div container with an SVG. The SVG has a viewBox which defines the size of the SVG. The viewBox is a string that contains the x and y position of the top left corner and the width and height of the SVG. We will use the width and height variables we defined earlier.
 
 We also set the `preserveAspectRatio` attribute to `none` so the SVG will scale to fit the container.
 
@@ -101,9 +97,9 @@ We also set the `preserveAspectRatio` attribute to `none` so the SVG will scale 
 </div>
 ```
 
-Within the SVG we start by defining a [`defs`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/defs) tag. The `defs` tag is used to define SVG Elements which can be reused within the SVG. In our case we will define a linear gradient which we will use to fill the line of the diagram.
+We start by defining a [`defs`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/defs) tag within the SVG. The `defs` tag is used to define SVG Elements, which can be reused within the SVG. In our case, we will define a linear gradient which we will use to fill the line of the Diagram.
 
-right after that we create this line with a `path` element. This path element uses the gradient by referencing it by its id in the fill attribute. The path is defined by the `path` variable we defined earlier.
+After that, we create this line with a `path` element. The path is defined by the `path` variable we defined earlier. This path element uses the gradient by referencing it by its id in the fill attribute.
 
 ```svelte
 <defs>
@@ -116,7 +112,7 @@ right after that we create this line with a `path` element. This path element us
 <path d={path} class="line" fill="url(#gradient)"/>
 ```
 
-Lastly we add text labels to our diagram. Mind the `text-anchor` and `dominant-baseline` attributes.
+Lastly, we add text labels to our Diagram. Mind the `text-anchor` and `dominant-baseline` attributes.
 
 ```svelte
 <!-- Show Labels -->
@@ -131,7 +127,7 @@ Lastly we add text labels to our diagram. Mind the `text-anchor` and `dominant-b
 
 ### CSS of the Line Chart Component
 
-Lastly we add some CSS to our Component. We will use SCSS for this. We start by defining the container and the SVG. We also add a border to the SVG so we can see the size of it. I won't go over it but you see the code below.
+Lastly, we add some CSS to our Component. We will use SCSS for this. We start by defining the container and the SVG. We also add a border to the SVG so we can see the size of it. I won't go over it, but you see the code below.
 
 ```scss
 .container {
@@ -168,9 +164,9 @@ Lastly we add some CSS to our Component. We will use SCSS for this. We start by 
 
 ## Using the Line Chart Component
 
-Now how do we use this Component? To demonstrate this will use the Weather API that I have used in [this articles](https://maximmaeder.com/weather-app-with-html-sass-and-javascript/) already, to make a simple diagram.
+Now how do we use this Component? To demonstrate this, I will use the Weather API that I have used in [this article](https://maximmaeder.com/weather-app-with-html-sass-and-javascript/) to make a simple diagram.
 
-We start by fetching the api url and getting the json for it we can then put this data into the weatherDataPromise variable.
+We start by fetching the API URL and getting the json for it. We can then put this data into the weatherDataPromise variable.
 
 ```js
 async function getWeatherData() {
@@ -180,7 +176,7 @@ async function getWeatherData() {
 let weatherDataPromise = getWeatherData()
 ```
 
-Lastly we use sveltes await block to wait for the promise to resolve. We then pass the data to our LineDiagram Component.
+Lastly, we use the svelte await block to wait for the promise to resolve. We then pass the data to our LineDiagram Component.
 
 ```svelte
 <div class="container">
@@ -202,4 +198,4 @@ Lastly we use sveltes await block to wait for the promise to resolve. We then pa
 
 ## Conclusion
 
-That's it, I hope you had a good time reading and that you learned something new. As you see SVG is really powerful when used correctly and dynamically. You can for example make a [Responsive Dog](https://www.reddit.com/r/ProgrammerHumor/comments/13zn0k1/responsive_dog/?utm_source=share&utm_medium=web2x&context=3).
+That's it; I hope you had a good time reading and that you learned something new. As you see, SVG is mighty when used correctly and dynamically. You can, for example, make a [Responsive Dog](https://www.reddit.com/r/ProgrammerHumor/comments/13zn0k1/responsive_dog/?utm_source=share&utm_medium=web2x&context=3).
