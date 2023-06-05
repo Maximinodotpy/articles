@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "title": "Product",
-    "description": "A product in the catalog",
+    "title": "Shortcuts",
+    "description": "Shortcut Data for Different Applications",
     "type": "object",
     "additionalProperties": true,
     "required": [ "applications" ],
@@ -35,7 +35,7 @@
                         "properties": {
                             "keys": {
                                 "type": "string",
-                                "pattern": "^((ctrl \\+ )?(Windows \\+ )?(alt \\+ )?(shift \\+ )?((F\\d{1,2})|home|return|enter|tab|end|escape|delete|backspace|arrows|left|right|down|up|left/right|up/down|arrows/mouse|click|scroll|mouse|number|space|print|[a-z]|ä|,|\\.|\\^|'|\\?))$"
+                                "pattern": "^((ctrl \\+ )?(Windows \\+ )?(alt \\+ )?(shift \\+ )?((F\\d{1,2})|home|return|enter|tab|end|escape|delete|backspace|arrows|left|right|down|up|left/right|up/down|arrows/mouse|click|scroll|mouse|number|space|print|pagedown|pageup|[a-zä]{1,2}|,|\\.|\\^|'|\\?))$"
                             },
                             "description": {
                                 "type": "string",

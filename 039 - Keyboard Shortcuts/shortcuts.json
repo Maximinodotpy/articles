@@ -102,7 +102,7 @@
                 { "keys": "x", "description": "Close Tab" },
                 { "keys": "j", "description": "Scroll Down" },
                 { "keys": "k", "description": "Scroll Up" },
-                { "keys": "gg", "description": "Go to Start" },
+                { "keys": "g", "description": "Go to Start" },
                 { "keys": "shift + g", "description": "Go to End" }
             ]
         },
@@ -152,7 +152,9 @@
                 { "keys": "ctrl + shift + ^", "description": "Fold Current Level" },
                 { "keys": "ctrl + shift + '", "description": "Unfold Current Level" },
                 { "keys": "ctrl + ,", "description": "Open Settings" },
-                { "keys": "ctrl + .", "description": "View Code Actions" }
+                { "keys": "ctrl + .", "description": "View Code Actions" },
+                { "keys": "ctrl + pagedown", "description": "Switch to right File in Group" },
+                { "keys": "ctrl + pageup", "description": "Switch to left File in Group" }
             ]
         },
         "microsoft-word": {
