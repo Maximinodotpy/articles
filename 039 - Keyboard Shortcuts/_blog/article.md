@@ -51,10 +51,10 @@ These Shortcuts work in most programs so they are industry standard.
 | `ctrl + s` | Save |
 | `escape` | Close Popup |
 | `ctrl + n` | New File |
-| `[ARROWS]` | Move Cursor |
-| `ctrl + [ARROWS]` | Move Cursor Word by Word |
-| `shift + [ARROWS]` | Move Cursor while selecting |
-| `ctrl + shift + [ARROWS]` | Move Cursor while selecting word by word |
+| `arrows` | Move Cursor |
+| `ctrl + arrows` | Move Cursor Word by Word |
+| `shift + arrows` | Move Cursor while selecting |
+| `ctrl + shift + arrows` | Move Cursor while selecting word by word |
 | `ctrl + w` | Close Document |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
@@ -71,10 +71,10 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 | `alt + right` | Go forward in history |
 | `enter` | Open File / Folder |
 | `alt + enter` | View File / Folder Properties |
-| `F2` | rename File / Folder |
+| `F2` | Rename File / Folder |
 | `ctrl + shift + n` | New Folder |
-| `ctrl + space` | Select/Unselect current File |
-| `ctrl + [ARROWS]` | Move between items without losing focus |
+| `ctrl + space` | Toggle selection of current File |
+| `ctrl + arrows` | Move between items without losing focus |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -85,23 +85,24 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 
 | Shortcut | Description |
 | --- | --- |
-| `shift + F10` | Open Context Menu. Also works in a lot of programs by windows |
+| `shift + F10` | Open Context Menu, also works in a lot of programs by windows |
 | `alt + F4` | Close Window |
-| `Windows + Down` | Minimize Window |
-| `alt (hold) + tab (once)` | View open Applications |
+| `Windows + down` | Minimize Window |
+| `alt + tab` | View open Applications |
 | `F11` | Toggle Full Screen |
-| `Windows + [ARROWS]` | Move active window on the screen |
-| `Windows + shift + [ARROWS]` | Move active window to another Screen |
+| `Windows + arrows` | Move active window on the screen |
+| `Windows + shift + arrows` | Move active window to another Screen |
 | `Windows + e` | Open File Explorer |
 | `Windows + l` | Lock Windows |
-| `Windows + Shift + S` | Start Snipping Tool |
+| `Windows + shift + s` | Start Snipping Tool |
 | `Windows + d` | Show Desktop |
 | `Windows + tab` | Show Virtual Desktops |
 | `ctrl + Windows + left/right` | Switch between Virtual Desktops |
 | `ctrl + Windows + d` | Create new Virtual Desktop |
 | `ctrl + Windows + F4` | Close current Virtual Desktop |
-| `alt + shift + print` | High Contrast Mode |
+| `alt + shift + print` | Toggle High Contrast Mode |
 | `Windows + v` | Open Clipboard History |
+| `Windows + space` | Switch Language Mode |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -112,7 +113,7 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 
 | Shortcut | Description |
 | --- | --- |
-| `alt + [DOWN]` | Open Text Proposal Window, if in Rich Text Editor |
+| `alt + down` | Open Text Proposal Window, if in Rich Text Editor |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -123,7 +124,7 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 
 | Shortcut | Description |
 | --- | --- |
-| `ctrl + [NUMBER]` | Switch to corresponding tab |
+| `ctrl + number` | Switch to corresponding tab |
 | `ctrl + tab` | Switch to right tab |
 | `ctrl + shift + tab` | Switch to left tab |
 | `ctrl + t` | New Tab |
@@ -149,7 +150,7 @@ The Browser Extension for Google Chrome and MS Edge. It allows you to navigate t
 | `j` | Scroll Down |
 | `k` | Scroll Up |
 | `gg` | Go to Start |
-| `G` | Go to End |
+| `shift + g` | Go to End |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -166,11 +167,11 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + F1` | Switch to 2D Editor |
 | `ctrl + F2` | Switch to 3D Editor |
 | `ctrl + F3` | Switch to Script |
-| `q` | Select Mode (2D) |
-| `shift + g` | Use Gridsnap (2D) |
-| `ctrl + g` | Toggle Grid (2D) |
-| `ctrl + r` | Replace (Code) |
-| `ctrl + d` | Duplicate Line (Code) |
+| `q` | Select Mode [When in 2D] |
+| `shift + g` | Use Gridsnap [When in 2D] |
+| `ctrl + g` | Toggle Grid [When in 2D] |
+| `ctrl + r` | Replace [When in Code] |
+| `ctrl + d` | Duplicate Line [When in Code] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -183,23 +184,30 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | --- | --- |
 | `alt + shift + f` | Format all Code |
 | `alt + shift + i` | Add cursors to ends of all currently selected lines |
-| `alt + shift + [UP/DOWN]` | Duplicate Line up/down |
-| `alt + [ZAHL]` | Switch to open editor |
+| `alt + shift + up/down` | Duplicate Line up/down |
+| `alt + number` | Switch to open editor |
 | `alt + shift + a` | Block comment |
-| `ctrl + alt + [UP/DOWN]` | duplicate cursor up/down |
-| `alt + [UP/DOWN]` | Move this line up/down |
+| `ctrl + alt + up/down` | Duplicate cursor up/down |
+| `alt + up/down` | Move this line up/down |
 | `ctrl + l` | Select current line |
 | `ctrl + j` | Toggle Bottom Panel |
 | `ctrl + b` | Toggle Primary Side Panel |
 | `ctrl + shift + l` | Select all occurences of the current word |
 | `ctrl + shift + p` | Open Command Input |
 | `ctrl + shift + e` | Open Integrated Explorer |
-| `alt + shift + r` | Open File in OS Explorer (While in Integrated Explorer) |
+| `alt + shift + r` | Open File in OS Explorer [When in Integrated Explorer] |
 | `ctrl + shift + x` | Open Extensions |
 | `ctrl + ,` | Open Settings |
 | `ctrl + d` | Select next occurence of current word |
 | `ctrl + space` | Show Context Snippets |
 | `ctrl + shift + space` | Show Function Parameters |
+| `alt + enter` | Select all found occurences [When in Code Search] |
+| `alt + r` | Toggle Regex [When in Code Search] |
+| `F12` | Jump to definition |
+| `ctrl + shift + ^` | Fold Current Level |
+| `ctrl + shift + '` | Unfold Current Level |
+| `ctrl + ,` | Open Settings |
+| `ctrl + .` | View Code Actions |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -223,15 +231,15 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 
 | Shortcut | Description |
 | --- | --- |
-| `b` | add cell below |
-| `a` | add cell ontop |
-| `x` | cut cell |
-| `enter` | enter cell |
-| `escape` | exit cell |
-| `shift + enter` | run this cell |
-| `ctrl + enter` | run all cells |
-| `m` | turn cell to markdown |
-| `y` | turn cell to code |
+| `b` | Add cell below |
+| `a` | Add cell ontop |
+| `x` | Cut cell |
+| `enter` | Enter cell |
+| `escape` | Exit cell |
+| `shift + enter` | Run this cell |
+| `ctrl + enter` | Run all cells |
+| `m` | Turn cell to markdown |
+| `y` | Turn cell to code |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -242,12 +250,12 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 
 | Shortcut | Description |
 | --- | --- |
-| `v` | Selection Tool |
-| `a` | Direct Selection Tool |
-| `t` | Text Tool |
-| `ctrl + u` | Intelligent Helper Lines |
-| `alt` | Copy Object |
-| `alt + [SCROLL]` | Zoom |
+| `v` | Switch to selection Tool |
+| `a` | Switch to Direct Selection Tool |
+| `t` | Switch to Text Tool |
+| `ctrl + y` | Toggle Intelligent Helper Lines |
+| `alt + arrows/mouse` | Copy Object |
+| `alt + scroll` | Zoom  |
 | `tab` | Toggle Tools and other Windows |
 | `ctrl + tab` | Switch through open files |
 | `ctrl + w` | Close Document |
@@ -267,10 +275,10 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `ä` | Maximize Window |
 | `v` | Select |
 | `c` | Cut |
-| `i` | set in |
-| `o` | set out |
-| `shift + i` | go to in |
-| `shift + o` | go to out |
+| `i` | Set in |
+| `o` | Set out |
+| `shift + i` | Go to in |
+| `shift + o` | Go to out |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 
@@ -281,17 +289,16 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 
 | Shortcut | Description |
 | --- | --- |
-| `p` | Pen Tool |
-| `t` | Text Tool |
-| `m` | Square Tool |
-| `i` | Eyedropper |
-| `g` | Gradient Tool |
-| `shift + e` | Eraser Tool |
-| `shift + w` | Thicken Tool |
-| `shift + m` | Morph Tool |
-| `shift + o` | Drawing area Tool |
-| `shift + f` | Presentation Mode |
-| `alt` | Duplicate Object |
+| `p` | Switch to Pen Tool |
+| `t` | Switch to Text Tool |
+| `m` | Switch to Square Tool |
+| `i` | Switch to Eyedropper |
+| `g` | Switch to Gradient Tool |
+| `shift + e` | Switch to Eraser Tool |
+| `shift + w` | Switch to Thicken Tool |
+| `shift + m` | Switch to Morph Tool |
+| `shift + o` | Switch to Drawing area Tool |
+| `shift + f` | Switch to Presentation Mode |
 | `d` | Reset Colors for current Object |
 | `ctrl + alt + shift + v` | Move object one layer forward |
 | `ctrl + alt + shift + r` | Move object one layer back |
@@ -307,7 +314,7 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + shift + d` | Split Selected Timeline |
-| `shift + [MOUSE]` | Snap align to other layer objects in Timeline |
+| `shift + mouse` | Snap align to other layer objects in Timeline |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
 

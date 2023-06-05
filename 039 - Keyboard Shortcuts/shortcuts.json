@@ -40,7 +40,7 @@
                 { "keys": "alt + enter", "description": "View File / Folder Properties" },
                 { "keys": "F2", "description": "Rename File / Folder" },
                 { "keys": "ctrl + shift + n", "description": "New Folder" },
-                { "keys": "ctrl + space", "description": "Select/Unselect current File" },
+                { "keys": "ctrl + space", "description": "Toggle selection of current File" },
                 { "keys": "ctrl + arrows", "description": "Move between items without losing focus" }
             ]
         },
@@ -48,10 +48,10 @@
             "name": "Windows",
             "description": "These shortcuts apply to the Windows Operating System. They are mostly not specific to a program.",
             "shortcuts": [
-                { "keys": "shift + F10", "description": "Open Context Menu. Also works in a lot of programs by windows" },
+                { "keys": "shift + F10", "description": "Open Context Menu, also works in a lot of programs by windows" },
                 { "keys": "alt + F4", "description": "Close Window" },
                 { "keys": "Windows + down", "description": "Minimize Window" },
-                { "keys": "alt (hold) + tab (once)", "description": "View open Applications" },
+                { "keys": "alt + tab", "description": "View open Applications" },
                 { "keys": "F11", "description": "Toggle Full Screen" },
                 { "keys": "Windows + arrows", "description": "Move active window on the screen" },
                 { "keys": "Windows + shift + arrows", "description": "Move active window to another Screen" },
@@ -65,8 +65,9 @@
                 { "keys": "ctrl + Windows + d", "description": "Create new Virtual Desktop" },
                 { "keys": "ctrl + Windows + F4", "description": "Close current Virtual Desktop" },
 
-                { "keys": "alt + shift + print", "description": "High Contrast Mode" },
-                { "keys": "Windows + v", "description": "Open Clipboard History" }
+                { "keys": "alt + shift + print", "description": "Toggle High Contrast Mode" },
+                { "keys": "Windows + v", "description": "Open Clipboard History" },
+                { "keys": "Windows + space", "description": "Switch Language Mode" }
             ]
         },
         "microsoft-general": {
@@ -102,7 +103,7 @@
                 { "keys": "j", "description": "Scroll Down" },
                 { "keys": "k", "description": "Scroll Up" },
                 { "keys": "gg", "description": "Go to Start" },
-                { "keys": "G", "description": "Go to End" }
+                { "keys": "shift + g", "description": "Go to End" }
             ]
         },
         "godot": {
@@ -115,11 +116,11 @@
                 { "keys": "ctrl + F1", "description": "Switch to 2D Editor" },
                 { "keys": "ctrl + F2", "description": "Switch to 3D Editor" },
                 { "keys": "ctrl + F3", "description": "Switch to Script" },
-                { "keys": "q", "description": "Select Mode (2D)" },
-                { "keys": "shift + g", "description": "Use Gridsnap (2D)" },
-                { "keys": "ctrl + g", "description": "Toggle Grid (2D)" },
-                { "keys": "ctrl + r", "description": "Replace (Code)" },
-                { "keys": "ctrl + d", "description": "Duplicate Line (Code)" }
+                { "keys": "q", "description": "Select Mode [When in 2D]" },
+                { "keys": "shift + g", "description": "Use Gridsnap [When in 2D]" },
+                { "keys": "ctrl + g", "description": "Toggle Grid [When in 2D]" },
+                { "keys": "ctrl + r", "description": "Replace [When in Code]" },
+                { "keys": "ctrl + d", "description": "Duplicate Line [When in Code]" }
             ]
         },
         "visual-studio-code": {
@@ -131,7 +132,7 @@
                 { "keys": "alt + shift + up/down", "description": "Duplicate Line up/down" },
                 { "keys": "alt + number", "description": "Switch to open editor" },
                 { "keys": "alt + shift + a", "description": "Block comment" },
-                { "keys": "ctrl + alt + up/down", "description": "duplicate cursor up/down" },
+                { "keys": "ctrl + alt + up/down", "description": "Duplicate cursor up/down" },
                 { "keys": "alt + up/down", "description": "Move this line up/down" },
                 { "keys": "ctrl + l", "description": "Select current line" },
                 { "keys": "ctrl + j", "description": "Toggle Bottom Panel" },
@@ -139,12 +140,19 @@
                 { "keys": "ctrl + shift + l", "description": "Select all occurences of the current word" },
                 { "keys": "ctrl + shift + p", "description": "Open Command Input" },
                 { "keys": "ctrl + shift + e", "description": "Open Integrated Explorer" },
-                { "keys": "alt + shift + r", "description": "Open File in OS Explorer (While in Integrated Explorer)" },
+                { "keys": "alt + shift + r", "description": "Open File in OS Explorer [When in Integrated Explorer]" },
                 { "keys": "ctrl + shift + x", "description": "Open Extensions" },
                 { "keys": "ctrl + ,", "description": "Open Settings" },
                 { "keys": "ctrl + d", "description": "Select next occurence of current word" },
                 { "keys": "ctrl + space", "description": "Show Context Snippets" },
-                { "keys": "ctrl + shift + space", "description": "Show Function Parameters" }
+                { "keys": "ctrl + shift + space", "description": "Show Function Parameters" },
+                { "keys": "alt + enter", "description": "Select all found occurences [When in Code Search]" },
+                { "keys": "alt + r", "description": "Toggle Regex [When in Code Search]" },
+                { "keys": "F12", "description": "Jump to definition" },
+                { "keys": "ctrl + shift + ^", "description": "Fold Current Level" },
+                { "keys": "ctrl + shift + '", "description": "Unfold Current Level" },
+                { "keys": "ctrl + ,", "description": "Open Settings" },
+                { "keys": "ctrl + .", "description": "View Code Actions" }
             ]
         },
         "microsoft-word": {
@@ -160,27 +168,27 @@
             "name": "Jupyter Notebook",
             "description": "",
             "shortcuts": [
-                { "keys": "b", "description": "add cell below" },
-                { "keys": "a", "description": "add cell ontop" },
-                { "keys": "x", "description": "cut cell" },
-                { "keys": "enter", "description": "enter cell" },
-                { "keys": "escape", "description": "exit cell" },
-                { "keys": "shift + enter", "description": "run this cell" },
-                { "keys": "ctrl + enter", "description": "run all cells" },
-                { "keys": "m", "description": "turn cell to markdown" },
-                { "keys": "y", "description": "turn cell to code" }
+                { "keys": "b", "description": "Add cell below" },
+                { "keys": "a", "description": "Add cell ontop" },
+                { "keys": "x", "description": "Cut cell" },
+                { "keys": "enter", "description": "Enter cell" },
+                { "keys": "escape", "description": "Exit cell" },
+                { "keys": "shift + enter", "description": "Run this cell" },
+                { "keys": "ctrl + enter", "description": "Run all cells" },
+                { "keys": "m", "description": "Turn cell to markdown" },
+                { "keys": "y", "description": "Turn cell to code" }
             ]
         },
         "adobe-general": {
             "name": "Adobe General",
             "description": "Adobe offers a lot of programs in the creative sector and these shortcuts apply to most of their software.",
             "shortcuts": [
-                { "keys": "v", "description": "Selection Tool" },
-                { "keys": "a", "description": "Direct Selection Tool" },
-                { "keys": "t", "description": "Text Tool" },
-                { "keys": "ctrl + u", "description": "Intelligent Helper Lines" },
+                { "keys": "v", "description": "Switch to selection Tool" },
+                { "keys": "a", "description": "Switch to Direct Selection Tool" },
+                { "keys": "t", "description": "Switch to Text Tool" },
+                { "keys": "ctrl + y", "description": "Toggle Intelligent Helper Lines" },
                 { "keys": "alt + arrows/mouse", "description": "Copy Object" },
-                { "keys": "alt + scroll", "description": "Zoom" },
+                { "keys": "alt + scroll", "description": "Zoom " },
                 { "keys": "tab", "description": "Toggle Tools and other Windows" },
                 { "keys": "ctrl + tab", "description": "Switch through open files" },
                 { "keys": "ctrl + w", "description": "Close Document" },
@@ -196,26 +204,26 @@
                 { "keys": "ä", "description": "Maximize Window" },
                 { "keys": "v", "description": "Select" },
                 { "keys": "c", "description": "Cut" },
-                { "keys": "i", "description": "set in" },
-                { "keys": "o", "description": "set out" },
-                { "keys": "shift + i", "description": "go to in" },
-                { "keys": "shift + o", "description": "go to out" }
+                { "keys": "i", "description": "Set in" },
+                { "keys": "o", "description": "Set out" },
+                { "keys": "shift + i", "description": "Go to in" },
+                { "keys": "shift + o", "description": "Go to out" }
             ]
         },
         "adobe-illustrator": {
             "name": "Adobe Illustrator",
             "description": "",
             "shortcuts": [
-                { "keys": "p", "description": "Pen Tool" },
-                { "keys": "t", "description": "Text Tool" },
-                { "keys": "m", "description": "Square Tool" },
-                { "keys": "i", "description": "Eyedropper" },
-                { "keys": "g", "description": "Gradient Tool" },
-                { "keys": "shift + e", "description": "Eraser Tool" },
-                { "keys": "shift + w", "description": "Thicken Tool" },
-                { "keys": "shift + m", "description": "Morph Tool" },
-                { "keys": "shift + o", "description": "Drawing area Tool" },
-                { "keys": "shift + f", "description": "Presentation Mode" },
+                { "keys": "p", "description": "Switch to Pen Tool" },
+                { "keys": "t", "description": "Switch to Text Tool" },
+                { "keys": "m", "description": "Switch to Square Tool" },
+                { "keys": "i", "description": "Switch to Eyedropper" },
+                { "keys": "g", "description": "Switch to Gradient Tool" },
+                { "keys": "shift + e", "description": "Switch to Eraser Tool" },
+                { "keys": "shift + w", "description": "Switch to Thicken Tool" },
+                { "keys": "shift + m", "description": "Switch to Morph Tool" },
+                { "keys": "shift + o", "description": "Switch to Drawing area Tool" },
+                { "keys": "shift + f", "description": "Switch to Presentation Mode" },
                 { "keys": "d", "description": "Reset Colors for current Object" },
                 { "keys": "ctrl + alt + shift + v", "description": "Move object one layer forward" },
                 { "keys": "ctrl + alt + shift + r", "description": "Move object one layer back" },
