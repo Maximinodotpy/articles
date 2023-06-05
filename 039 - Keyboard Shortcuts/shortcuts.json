@@ -1,4 +1,6 @@
-{    
+{
+    "$schema": "shortcuts-schema.json",
+
     "applications": {
         "general": {
             "name": "General",
@@ -20,10 +22,10 @@
                 { "keys": "ctrl + s", "description": "Save" },
                 { "keys": "escape", "description": "Close Popup" },
                 { "keys": "ctrl + n", "description": "New File" },
-                { "keys": "[ARROWS]", "description": "Move Cursor" },
-                { "keys": "ctrl + [ARROWS]", "description": "Move Cursor Word by Word" },
-                { "keys": "shift + [ARROWS]", "description": "Move Cursor while selecting" },
-                { "keys": "ctrl + shift + [ARROWS]", "description": "Move Cursor while selecting word by word" },
+                { "keys": "arrows", "description": "Move Cursor" },
+                { "keys": "ctrl + arrows", "description": "Move Cursor Word by Word" },
+                { "keys": "shift + arrows", "description": "Move Cursor while selecting" },
+                { "keys": "ctrl + shift + arrows", "description": "Move Cursor while selecting word by word" },
                 { "keys": "ctrl + w", "description": "Close Document" }
             ]
         },
@@ -36,10 +38,10 @@
                 { "keys": "alt + right", "description": "Go forward in history" },
                 { "keys": "enter", "description": "Open File / Folder" },
                 { "keys": "alt + enter", "description": "View File / Folder Properties" },
-                { "keys": "F2", "description": "rename File / Folder" },
+                { "keys": "F2", "description": "Rename File / Folder" },
                 { "keys": "ctrl + shift + n", "description": "New Folder" },
                 { "keys": "ctrl + space", "description": "Select/Unselect current File" },
-                { "keys": "ctrl + [ARROWS]", "description": "Move between items without losing focus" }
+                { "keys": "ctrl + arrows", "description": "Move between items without losing focus" }
             ]
         },
         "windows": {
@@ -48,14 +50,14 @@
             "shortcuts": [
                 { "keys": "shift + F10", "description": "Open Context Menu. Also works in a lot of programs by windows" },
                 { "keys": "alt + F4", "description": "Close Window" },
-                { "keys": "Windows + Down", "description": "Minimize Window" },
+                { "keys": "Windows + down", "description": "Minimize Window" },
                 { "keys": "alt (hold) + tab (once)", "description": "View open Applications" },
                 { "keys": "F11", "description": "Toggle Full Screen" },
-                { "keys": "Windows + [ARROWS]", "description": "Move active window on the screen" },
-                { "keys": "Windows + shift + [ARROWS]", "description": "Move active window to another Screen" },
+                { "keys": "Windows + arrows", "description": "Move active window on the screen" },
+                { "keys": "Windows + shift + arrows", "description": "Move active window to another Screen" },
                 { "keys": "Windows + e", "description": "Open File Explorer" },
                 { "keys": "Windows + l", "description": "Lock Windows" },
-                { "keys": "Windows + Shift + S", "description": "Start Snipping Tool" },
+                { "keys": "Windows + shift + s", "description": "Start Snipping Tool" },
                 { "keys": "Windows + d", "description": "Show Desktop" },
 
                 { "keys": "Windows + tab", "description": "Show Virtual Desktops" },
@@ -71,14 +73,14 @@
             "name": "Microsoft General",
             "description": "These shortcuts apply to Microsoft Office and other Microsoft programs.",
             "shortcuts": [
-                { "keys": "alt + [DOWN]", "description": "Open Text Proposal Window, if in Rich Text Editor" }
+                { "keys": "alt + down", "description": "Open Text Proposal Window, if in Rich Text Editor" }
             ]
         },
         "browser-microsoft-edge": {
             "name": "Browser (Microsoft Edge)",
             "description": "These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) to enhance your browsing experience even more.",
             "shortcuts": [
-                { "keys": "ctrl + [NUMBER]", "description": "Switch to corresponding tab" },
+                { "keys": "ctrl + number", "description": "Switch to corresponding tab" },
                 { "keys": "ctrl + tab", "description": "Switch to right tab" },
                 { "keys": "ctrl + shift + tab", "description": "Switch to left tab" },
                 { "keys": "ctrl + t", "description": "New Tab" },
@@ -126,11 +128,11 @@
             "shortcuts": [
                 { "keys": "alt + shift + f", "description": "Format all Code" },
                 { "keys": "alt + shift + i", "description": "Add cursors to ends of all currently selected lines" },
-                { "keys": "alt + shift + [UP/DOWN]", "description": "Duplicate Line up/down" },
-                { "keys": "alt + [ZAHL]", "description": "Switch to open editor" },
+                { "keys": "alt + shift + up/down", "description": "Duplicate Line up/down" },
+                { "keys": "alt + number", "description": "Switch to open editor" },
                 { "keys": "alt + shift + a", "description": "Block comment" },
-                { "keys": "ctrl + alt + [UP/DOWN]", "description": "duplicate cursor up/down" },
-                { "keys": "alt + [UP/DOWN]", "description": "Move this line up/down" },
+                { "keys": "ctrl + alt + up/down", "description": "duplicate cursor up/down" },
+                { "keys": "alt + up/down", "description": "Move this line up/down" },
                 { "keys": "ctrl + l", "description": "Select current line" },
                 { "keys": "ctrl + j", "description": "Toggle Bottom Panel" },
                 { "keys": "ctrl + b", "description": "Toggle Primary Side Panel" },
@@ -177,8 +179,8 @@
                 { "keys": "a", "description": "Direct Selection Tool" },
                 { "keys": "t", "description": "Text Tool" },
                 { "keys": "ctrl + u", "description": "Intelligent Helper Lines" },
-                { "keys": "alt", "description": "Copy Object" },
-                { "keys": "alt + [SCROLL]", "description": "Zoom" },
+                { "keys": "alt + arrows/mouse", "description": "Copy Object" },
+                { "keys": "alt + scroll", "description": "Zoom" },
                 { "keys": "tab", "description": "Toggle Tools and other Windows" },
                 { "keys": "ctrl + tab", "description": "Switch through open files" },
                 { "keys": "ctrl + w", "description": "Close Document" },
@@ -214,7 +216,6 @@
                 { "keys": "shift + m", "description": "Morph Tool" },
                 { "keys": "shift + o", "description": "Drawing area Tool" },
                 { "keys": "shift + f", "description": "Presentation Mode" },
-                { "keys": "alt", "description": "Duplicate Object" },
                 { "keys": "d", "description": "Reset Colors for current Object" },
                 { "keys": "ctrl + alt + shift + v", "description": "Move object one layer forward" },
                 { "keys": "ctrl + alt + shift + r", "description": "Move object one layer back" },
@@ -226,7 +227,7 @@
             "description": "",
             "shortcuts": [
                 { "keys": "ctrl + shift + d", "description": "Split Selected Timeline" },
-                { "keys": "shift + [MOUSE]", "description": "Snap align to other layer objects in Timeline" }
+                { "keys": "shift + mouse", "description": "Snap align to other layer objects in Timeline" }
             ]
         },
         "wordpress": {

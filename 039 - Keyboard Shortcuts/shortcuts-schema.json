@@ -34,10 +34,12 @@
                         "additionalProperties": false,
                         "properties": {
                             "keys": {
-                                "type": "string"
+                                "type": "string",
+                                "pattern": "^((ctrl \\+ )?(Windows \\+ )?(alt \\+ )?(shift \\+ )?((F\\d{1,2})|home|return|enter|tab|end|escape|delete|backspace|arrows|left|right|down|up|left/right|up/down|arrows/mouse|click|scroll|mouse|number|space|print|[a-z]|ä|,|\\.))$"
                             },
                             "description": {
-                                "type": "string"
+                                "type": "string",
+                                "pattern": "^.*\\[When .*\\]$"
                             }
                         }
                     }
