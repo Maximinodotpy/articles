@@ -1,4 +1,6 @@
 .parcel-cache
 node_modules
 dist
-.vscode
+./.vscode/
+.vscode/**
+.vscode/*.*

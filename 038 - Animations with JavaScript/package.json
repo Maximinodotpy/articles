@@ -1,10 +1,11 @@
 {
-  "name": "jsonquery",
+  "name": "animations-with-javascript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "src": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
