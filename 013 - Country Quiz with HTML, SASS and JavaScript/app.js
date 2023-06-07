@@ -24,7 +24,7 @@ function next() {
     currentPool.push(currentCountry)
 
     /* Show the searched country in the img tag, by setting the source attribute*/
-    document.querySelector('img').setAttribute('src', `output/${currentCountry}.svg`)
+    document.querySelector('img').setAttribute('src', `countries/${currentCountry}.svg`)
 
     /* Add three random and distinct countries to the current pool */
     for (let i = 0; i < amountButtons - 1; i++) {
