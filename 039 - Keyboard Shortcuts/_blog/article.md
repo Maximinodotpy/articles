@@ -1,14 +1,15 @@
 ---
 name: 'Keyboard Shortcuts'
 slug: 'keyboard-shortcuts'
-description: 'A list of Shortcuts I use in my daily life, feel free to skim through it and maybe learn about new things in your favourite applications.'
+description: 'A list of Shortcuts I use in my Work with Computers, feel free to skim through it and maybe learn about new things in your favourite applications.'
 tags: ['shortcuts']
 category: 'general'
 status: 'publish'
 ---
 
-This is a list of many Shortcuts I encountered / Use now in my daily life. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
+This is a list of many Shortcuts I encountered / Use now in my work with Computers. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
 
+The `.json` file for all the Keyboard Shortcuts is [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json).
 
 **Applications / Places**
 
@@ -27,6 +28,7 @@ This is a list of many Shortcuts I encountered / Use now in my daily life. I wil
 - [Adobe Illustrator](#content-adobe-illustrator)
 - [Adobe After Effects](#content-adobe-after-effects)
 - [Wordpress](#content-wordpress)
+- [Github Desktop](#content-github-desktop)
 
 
 ## General
@@ -57,7 +59,7 @@ These Shortcuts work in most programs so they are industry standard.
 | `ctrl + shift + arrows` | Move Cursor while selecting word by word |
 | `ctrl + w` | Close Document |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## File Explorer
@@ -76,7 +78,7 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 | `ctrl + space` | Toggle selection of current File |
 | `ctrl + arrows` | Move between items without losing focus |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Windows
@@ -104,7 +106,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + v` | Open Clipboard History |
 | `Windows + space` | Switch Language Mode |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Microsoft General
@@ -113,9 +115,9 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 
 | Shortcut | Description |
 | --- | --- |
-| `alt + down` | Open Text Proposal Window, if in Rich Text Editor |
+| `alt + down` | Open Text Proposal Window [When in Rich Text Editor] |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Browser (Microsoft Edge)
@@ -134,7 +136,7 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + shift + t` | Close most recently closed tab |
 | `ctrl + u` | Show Source Code |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Vimium
@@ -149,10 +151,10 @@ The Browser Extension for Google Chrome and MS Edge. It allows you to navigate t
 | `x` | Close Tab |
 | `j` | Scroll Down |
 | `k` | Scroll Up |
-| `gg` | Go to Start |
+| `g` | Go to Start |
 | `shift + g` | Go to End |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Godot
@@ -173,7 +175,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + r` | Replace [When in Code] |
 | `ctrl + d` | Duplicate Line [When in Code] |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Visual Studio Code
@@ -208,8 +210,10 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + shift + '` | Unfold Current Level |
 | `ctrl + ,` | Open Settings |
 | `ctrl + .` | View Code Actions |
+| `ctrl + pagedown` | Switch to right File in Group |
+| `ctrl + pageup` | Switch to left File in Group |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Microsoft Word
@@ -222,7 +226,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + shift + k` | Italic Selection |
 | `ctrl + shift + u` | Underline Selection |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Jupyter Notebook
@@ -241,7 +245,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `m` | Turn cell to markdown |
 | `y` | Turn cell to code |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Adobe General
@@ -262,12 +266,12 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `space` | View Movement Tool |
 | `ctrl + alt + p` | Setup Document |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Adobe Premiere Pro
 
-
+Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
 
 | Shortcut | Description |
 | --- | --- |
@@ -280,12 +284,12 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `shift + i` | Go to in |
 | `shift + o` | Go to out |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Adobe Illustrator
 
-
+These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. I think it's really great and I use it a lot. I think you will love it too and if you do, you can use these shortcuts to speed up your workflow. Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
 
 | Shortcut | Description |
 | --- | --- |
@@ -302,21 +306,23 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `d` | Reset Colors for current Object |
 | `ctrl + alt + shift + v` | Move object one layer forward |
 | `ctrl + alt + shift + r` | Move object one layer back |
+| `ctrl + shift + (` | Move Object to back |
+| `ctrl + shift + )` | Move Object to front |
 | `ctrl + shift + v` | Insert at the same Position |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Adobe After Effects
 
-
+Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
 
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + shift + d` | Split Selected Timeline |
 | `shift + mouse` | Snap align to other layer objects in Timeline |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Wordpress
@@ -327,6 +333,19 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | --- | --- |
 | `ctrl + alt + m` | Toggle Code Editor in Post Edit View |
 
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/tree/main/039%20-%20Keyboard%20Shortcuts)
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
+
+
+## Github Desktop
+
+Githubs Desktop Client
+
+| Shortcut | Description |
+| --- | --- |
+| `ctrl + shift + a` | Open current Repository in Editor |
+| `ctrl + p` | Push changes |
+| `ctrl + enter` | Commit Changes [When the Commit Message is filled out or only one file is staged] |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 

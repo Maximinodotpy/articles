@@ -35,11 +35,11 @@
                         "properties": {
                             "keys": {
                                 "type": "string",
-                                "pattern": "^((ctrl \\+ )?(Windows \\+ )?(alt \\+ )?(shift \\+ )?((F\\d{1,2})|home|return|enter|tab|end|escape|delete|backspace|arrows|left|right|down|up|left/right|up/down|arrows/mouse|click|scroll|mouse|number|space|print|pagedown|pageup|[a-zä]{1,2}|,|\\.|\\^|'|\\?))$"
+                                "pattern": "^((ctrl \\+ )?(Windows \\+ )?(alt \\+ )?(shift \\+ )?((F\\d{1,2})|home|return|enter|tab|end|escape|delete|backspace|arrows|left|right|down|up|left/right|up/down|arrows/mouse|click|scroll|mouse|number|space|print|pagedown|pageup|[a-zä]{1,2}|,|\\.|\\^|\\(|\\)|'|\\?))$"
                             },
                             "description": {
                                 "type": "string",
-                                "pattern": "((Snap|Go|Exit|Turn|Set|Maximize|Italic|Underline|Cut|Copy|Enter|Move|Duplicate|Replace|Save|Zoom|New|Select|Insert|Bold|Add|Scroll|Go|Close|Inser|Run|Jump|Use|Block|View|Search|Start|Play|Focus|Reset|Minimize|Lock|Split|Delete|Rename|Toggle|Create|Show|Open|Preview|Switch|Setup|Format|Zoom|Undo|Redo|Fold|Unfold))(?=$| )[\\w /,]*(\\[When .*\\])?$"
+                                "pattern": "((Snap|Go|Push|Commit|Exit|Turn|Set|Maximize|Italic|Underline|Cut|Copy|Enter|Move|Duplicate|Replace|Save|Zoom|New|Select|Insert|Bold|Add|Scroll|Go|Close|Inser|Run|Jump|Use|Block|View|Search|Start|Play|Focus|Reset|Minimize|Lock|Split|Delete|Rename|Toggle|Create|Show|Open|Preview|Switch|Setup|Format|Zoom|Undo|Redo|Fold|Unfold))(?=$| )[\\w /,]*(\\[When .*\\])?$"
                             }
                         }
                     }

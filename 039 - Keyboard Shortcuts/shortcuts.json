@@ -74,7 +74,7 @@
             "name": "Microsoft General",
             "description": "These shortcuts apply to Microsoft Office and other Microsoft programs.",
             "shortcuts": [
-                { "keys": "alt + down", "description": "Open Text Proposal Window, if in Rich Text Editor" }
+                { "keys": "alt + down", "description": "Open Text Proposal Window [When in Rich Text Editor]" }
             ]
         },
         "browser-microsoft-edge": {
@@ -200,7 +200,7 @@
         },
         "adobe-premiere-pro": {
             "name": "Adobe Premiere Pro",
-            "description": "",
+            "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": "m", "description": "Preview Window" },
                 { "keys": "ä", "description": "Maximize Window" },
@@ -214,7 +214,7 @@
         },
         "adobe-illustrator": {
             "name": "Adobe Illustrator",
-            "description": "",
+            "description": "These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. I think it's really great and I use it a lot. I think you will love it too and if you do, you can use these shortcuts to speed up your workflow. Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": "p", "description": "Switch to Pen Tool" },
                 { "keys": "t", "description": "Switch to Text Tool" },
@@ -229,12 +229,14 @@
                 { "keys": "d", "description": "Reset Colors for current Object" },
                 { "keys": "ctrl + alt + shift + v", "description": "Move object one layer forward" },
                 { "keys": "ctrl + alt + shift + r", "description": "Move object one layer back" },
+                { "keys": "ctrl + shift + (", "description": "Move Object to back" },
+                { "keys": "ctrl + shift + )", "description": "Move Object to front" },
                 { "keys": "ctrl + shift + v", "description": "Insert at the same Position" }
             ]
         },
         "adobe-after-effects": {
             "name": "Adobe After Effects",
-            "description": "",
+            "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": "ctrl + shift + d", "description": "Split Selected Timeline" },
                 { "keys": "shift + mouse", "description": "Snap align to other layer objects in Timeline" }
@@ -246,6 +248,16 @@
             "shortcuts": [
                 { "keys": "ctrl + alt + m", "description": "Toggle Code Editor in Post Edit View" }
             ]
+        },
+        "github-desktop": {
+            "name": "Github Desktop",
+            "description": "Githubs Desktop Client",
+            "shortcuts": [
+                { "keys": "ctrl + shift + a", "description": "Open current Repository in Editor" },
+                { "keys": "ctrl + p", "description": "Push changes" },
+                { "keys": "ctrl + enter", "description": "Commit Changes [When the Commit Message is filled out or only one file is staged]" }
+            ]
         }
     }
+    
 }
