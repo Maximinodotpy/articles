@@ -20,6 +20,8 @@ This is a list of many Shortcuts I encountered / Use now in my work with Compute
 
 The `.json` file for all the Keyboard Shortcuts is [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json).
 
+I also defined a json schema for the file, which you can find [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts-schema.json). It's a lot of fun and it really streamlines the process of adding new shortcuts, because they have to adhere to the schema. It really pays of to learn about [json schema](https://json-schema.org/).
+
 **Applications / Places**\n
 """
 
