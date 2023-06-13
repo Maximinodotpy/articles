@@ -97,7 +97,7 @@ Below you find the CSS code where it is important that we set the position attri
 
 In the Links below you can find a live demo of the Project and the source code on GitHub.
 
-[Visit the Demonstration](https://articles.maximmaeder.com/a/Link%20Previews/)
+[Demo](https://demos.maximmaeder.com/d/link-preview/)
 [Look at the Code](https://github.com/Maximinodotpy/articles/tree/main/article%2019%20-%20Link%20Preview)
 
 ## Conclusion

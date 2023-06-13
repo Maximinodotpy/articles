@@ -8,7 +8,7 @@ description: 'Learn how to make a country quiz with HTML javascript and the CSS 
 
 In this Tutorial, we will make a Country Quiz  Website with HTML, SASS, and JavaScript. We will make it so the user sees a country silhouette and they have to choose from 4 Countries, where one is the right one. You can download the SVG images of the Countries from the [Repository](https://github.com/Maximinodotpy/articles/tree/main/article%2013%20-%20Country%20Quiz%20with%20HTML,%20SASS%20and%20JavaScript), you find them in the `output` folder.
 
-[Demo](https://country-quiz.maximmaeder.com/)
+[Demo](https://demos.maximmaeder.com/d/country-quiz-with-html-sass-and-javascript/index.html)
 [Github Repo](https://github.com/Maximinodotpy/articles/tree/main/article%2013%20-%20Country%20Quiz%20with%20HTML,%20SASS%20and%20JavaScript)
 
 Let us get coding.

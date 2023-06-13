@@ -15,6 +15,8 @@ It will also register theme changes in other tabs, windows, and iframes. To do t
 
 Lastly, we learn how to use our custom store in our application with Tailwindcss.
 
+You'll find the Demo for the finished code [here](https://demos.maximmaeder.com/d/color-scheme-store-for-svelte/).
+
 To start, we create a new [Vite](https://vitejs.dev/) project with the following command.
 
 ```sh

@@ -6,7 +6,7 @@ category: 'Utility'
 description: 'Build a function that spawns an Advanced Modal with a form that will return a promise and the Data in the form.'
 ---
 
-Today we will make something hard to explain: A Modal with a (somewhat) custom form that a programmer or we could use to ask the user something quickly and get the inputted data. Look at the [demo](https://articles.maximmaeder.com/a/advancedModal/) to see what I mean. It's going to be a function that will take in some config parameters for the form and the looks of the modal, and it will return a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that will resolve once the user has successfully submitted the form. This way, the function will be a little like `prompt()` but on steroids, if you get where I'm going.
+Today we will make something hard to explain: A Modal with a (somewhat) custom form that a programmer or we could use to ask the user something quickly and get the inputted data. Look at the [demo](https://demos.maximmaeder.com/d/advanced-form-modal-with-javascript-and-scss/) to see what I mean. It's going to be a function that will take in some config parameters for the form and the looks of the modal, and it will return a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that will resolve once the user has successfully submitted the form. This way, the function will be a little like `prompt()` but on steroids, if you get where I'm going.
 
 To keep this Tutorial a little bit shorter, I won't go over the CSS used for this Modal as it is purely cosmetic.
 
@@ -199,7 +199,7 @@ Below you see the showcase that you also can visit yourself. I used one of my [p
 
 ![Advanced Form Modal Showcase Gif](https://maximmaeder.com/wp-content/uploads/2022/12/modal.gif)
 
-[Visit the Demonstration](https://articles.maximmaeder.com/a/advancedModal/)
+[Visit the Demonstration](https://demos.maximmaeder.com/d/advanced-form-modal-with-javascript-and-scss/)
 [Look at the Code](https://github.com/Maximinodotpy/articles/tree/main/article%2026%20-%20Advanced%20Form%20Modal%20with%20JavaScript%20and%20SCSS)
 
 ## Conclusion

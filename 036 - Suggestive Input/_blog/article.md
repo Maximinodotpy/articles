@@ -15,6 +15,8 @@ We make it so a panel appears whenever the user focuses on the text input, which
 
 Lastly, we make this panel appear for every text input with the `data-suggestions` attribute.
 
+You'll find the Demo for the finished code [here](https://demos.maximmaeder.com/d/suggestive-input/).
+
 ## Setup of the Autocomplete Input
 
 We start by query selecting all elements with the `data-suggestions` attribute, and we save the resulting array in a variable that we will later loop over so we can add the logic to each input field.

@@ -22,7 +22,9 @@ Below you see some examples on wikipedia of special formations that can be creat
 
 ![Glider](https://upload.wikimedia.org/wikipedia/commons/f/f2/Game_of_life_animated_glider.gif)
 
-You can also visit the website we create today [here](https://demos.maximmaeder.com/demo/conway/). So let's get started.
+You'll find the Demo for the finished code [here](https://demos.maximmaeder.com/d/conways-game-of-life/).
+
+So let's get started.
 
 ## Markup for the User Interface
 

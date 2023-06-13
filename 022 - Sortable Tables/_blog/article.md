@@ -113,7 +113,7 @@ Now that we have the JavaScript part out of the way we can look at how such a ta
 
 ## Links
 
-[Visit the Demonstration](https://articles.maximmaeder.com/a/Sortable%20Table/)
+[Demo](https://demos.maximmaeder.com/d/sortable-tables/)
 [Look at the Code](https://articles.maximmaeder.com/a/Sortable%20Table/)
 
 ## Conclusion

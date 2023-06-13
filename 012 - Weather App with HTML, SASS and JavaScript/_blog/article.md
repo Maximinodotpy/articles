@@ -10,7 +10,7 @@ Before we get into it, I want to stress that I am no JavaScript Pro; therefore, 
 
 Today we will make a little Website that shows us the hourly temperatures in the next seven days for a certain choosable city. We will make the graph ourselves using the power of SVG. We get the data from the [Open Meteo API](https://open-meteo.com) ([Licence](https://creativecommons.org/licenses/by-nc/4.0/)). Before we get into coding, we look at how SVG will help us and what kind of data the API returns.
 
-[Live Demo](%5BWeather%20App%20%28maximmaeder.com%29%5D%28http://weather-app.maximmaeder.com/)
+[Demo](https://demos.maximmaeder.com/d/weather-app-with-html-sass-and-javascript/)
 
 ### SVG
 

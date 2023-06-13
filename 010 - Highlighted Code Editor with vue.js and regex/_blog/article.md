@@ -10,8 +10,7 @@ Today we will create a dummy code editor that supports syntax highlighting. We u
 
 ![Code Editor in Action](https://maximmaeder.com/wp-content/uploads/2022/07/code.gif)
 
-You find the Live Demo [here](https://dummy-editor.maximmaeder.com/).
-
+[Demo](https://demos.maximmaeder.com/d/highlighted-code-editor-with-vuejs-and-regex/)
 
 ## HTML
 

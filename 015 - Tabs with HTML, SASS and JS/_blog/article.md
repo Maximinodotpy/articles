@@ -139,7 +139,7 @@ Below you see the sass/CSS code of the program. We won't go into detail.
 
 ## Showcase
 
-[Visit the Demo](https://articles.maximmaeder.com/a/Tabs/)
+[Demo](https://demos.maximmaeder.com/d/tabs-with-html-sass-and-js/)
 [Visit the Repository](https://github.com/Maximinodotpy/articles/tree/main/article%2015%20-%20Tabs%20with%20HTML,%20SASS%20and%20JS)
 
 ## Conclusion

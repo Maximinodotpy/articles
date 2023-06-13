@@ -231,7 +231,7 @@ Now that we have the code we can use the element in our HTML with its custom nam
 
 ![Showcase](https://maximmaeder.com/wp-content/uploads/2022/09/split.gif)
 
-[Visit the Demonstration](https://articles.maximmaeder.com/a/Vertical%20Split%20Container/)
+[Demo](https://demos.maximmaeder.com/d/vertical-split-web-component/)
 [Look at the Code](https://github.com/Maximinodotpy/articles/tree/main/article%2018%20-%20Vertical%20Split%20Web%20Component)
 
 

@@ -19,11 +19,7 @@ First, we will create the Line Chart Component. Then we will use it in a Svelte 
 
 Let's get started.
 
-<!-- 
-- Array(30).fill(1).map(x => Math.random() * 100 + 10)
-- Mention Weather App Article
-- Mention [Reddit Post with Dog](https://www.reddit.com/r/ProgrammerHumor/comments/13zn0k1/responsive_dog/?utm_source=share&utm_medium=web2x&context=3)
--->
+You'll find the Demo for the finished code [here](https://demos.maximmaeder.com/d/line-chart-with-svelte/).
 
 ## Line Chart Component
 

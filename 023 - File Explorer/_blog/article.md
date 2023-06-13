@@ -10,8 +10,8 @@ In this Tutorial, we will utilize the JavaScript Framework [Vue.js](https://vuej
 
 We first go over the HTML of the page and then we will cover the JavaScript and CSS. Below you see a GIF showcasing the Explorer. you can also visit the Live Demo.
 
-![enter image description here](https://maximmaeder.com/wp-content/uploads/2022/10/explorer.gif)
-[Visit the Demonstration](https://articles.maximmaeder.com/a/File%20Explorer/)
+![Explorer in Action](https://maximmaeder.com/wp-content/uploads/2022/10/explorer.gif)
+[Demo](https://demos.maximmaeder.com/d/file-explorer/)
 
 ## HTML
 

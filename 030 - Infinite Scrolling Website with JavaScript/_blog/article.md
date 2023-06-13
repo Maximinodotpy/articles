@@ -8,7 +8,7 @@ description: 'Learn how to make an infinitely scrolling website with JavaScript,
 
 In this Tutorial, I will teach you how to make an infinite-scrolling website via the [IntersectionObserver API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) in JavaScript. Our website will show random pictures of cats, so we will also learn how to fetch JSON from an [API](https://thecatapi.com/). Lastly, we add a little loading animation that plays while the image is loading to indicate to the user that more content is coming.
 
-Visit the [Demo](https://demos.maximmaeder.com/demo/catstragam/) to understand better what we are about to do. Below you also see it.
+You'll find the Demo for the finished code [here](https://demos.maximmaeder.com/d/infinite-scrolling-website-with-javascript/). Below you also see it.
 
 ![Showcase Video of Catstagram](showcase.gif)
 

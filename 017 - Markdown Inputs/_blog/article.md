@@ -6,7 +6,7 @@ category: 'Utility'
 description: 'Learn how to make input and textarea tags that allow and show markdown.'
 ---
 
-In this Tutorial, we will make input areas that allow simple markdown markup to show itself when the user is not currently focused on the input itself. Visit the [Demo](https://articles.maximmaeder.com/a/Markdown%20Input/) to get a clearer Idea of what we are trying to accomplish here. Input areas like these are used in [Trello](http://trello.com/) and other software by [Atlassian](https://www.atlassian.com/software/jira). One could say this approach is somewhere between only unformatted text and a full Rich Text Editor.
+In this Tutorial, we will make input areas that allow simple markdown markup to show itself when the user is not currently focused on the input itself. Visit the [demo](https://demos.maximmaeder.com/d/markdown-inputs) to get a clearer Idea of what we are trying to accomplish here. Input areas like these are used in [Trello](http://trello.com/) and other software by [Atlassian](https://www.atlassian.com/software/jira). One could say this approach is somewhere between only unformatted text and a full Rich Text Editor.
 
 Let us get into it!
 
@@ -228,7 +228,7 @@ Now we also need to make it so the input element won't show by default only when
 
 ![enter image description here](https://maximmaeder.com/wp-content/uploads/2022/09/markdown-input.gif)
 
-[Visit the Demonstration](https://articles.maximmaeder.com/a/Markdown%20Input/)
+[Demo](https://demos.maximmaeder.com/d/markdown-inputs/)
 [Look at the Code](https://github.com/Maximinodotpy/articles/tree/main/article%2017%20-%20Markdown%20Inputs)
 
 ## Conclusion

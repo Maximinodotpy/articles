@@ -6,7 +6,7 @@ category: 'Utility'
 description: 'Learn how to make a Product Tour with JavaScript to showcase the features of a Website to your Users.'
 ---
 
-In this article, we will try to make a Product Tour with JavaScript. A **Product Tour** or **Feature Tour** shows users what a Website or Software can do interactively. We will make a function that will handle rendering the panel and the focus element and switching through the different steps. This function will receive a list of destinations for the tour. To keep it simple, we won't go into websites that have scrollbars, and it won't be fully responsive. For this to work, we will need the CSS Clip-Path Property and JavaScripts `getBoundingClientRect()` function. Look at the [demo page](https://articles.maximmaeder.com/a/uitour/) to get a better idea of what I mean. Lastly, we will make use of SCSS to style our Product Tour Elements
+In this article, we will try to make a Product Tour with JavaScript. A **Product Tour** or **Feature Tour** shows users what a Website or Software can do interactively. We will make a function that will handle rendering the panel and the focus element and switching through the different steps. This function will receive a list of destinations for the tour. To keep it simple, we won't go into websites that have scrollbars, and it won't be fully responsive. For this to work, we will need the CSS Clip-Path Property and JavaScripts `getBoundingClientRect()` function. Look at the [demo](https://demos.maximmaeder.com/d/product-tour-with-javascript-and-scss/) to get a better idea of what I mean. Lastly, we will make use of SCSS to style our Product Tour Elements
 
 ## JavaScript for the Product Tour
 
@@ -288,7 +288,7 @@ Below you will see a demo of the program in action.
 
 ![UI Tour Showcase GIF](https://maximmaeder.com/wp-content/uploads/2022/12/tour.gif)
 
-[Visit the Demonstration](https://articles.maximmaeder.com/a/uitour/)
+[Demo](https://demos.maximmaeder.com/d/product-tour-with-javascript-and-scss/)
 [Look at the Code](https://github.com/Maximinodotpy/articles/tree/main/article%2025%20-%20Product%20Tour%20with%20JavaScript%20and%20SCSS)
 
 ## Conclusion

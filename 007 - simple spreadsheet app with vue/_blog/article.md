@@ -330,8 +330,7 @@ So that's it. Let us look at our little app.
 
 ![Spreadsheet app in action](https://maximmaeder.com/wp-content/uploads/2022/07/spreadsheet-2.gif)
 
-
-[simple spreadsheet app with vue](https://ai.quuli.ch/examples/)
+[Demo](https://demos.maximmaeder.com/d/simple-spreadsheet-app-with-vue/)
 
 ## Conclusion
 

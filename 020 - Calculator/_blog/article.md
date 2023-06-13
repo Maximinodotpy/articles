@@ -8,7 +8,7 @@ description: 'Learn how to make a simple calculator with a history function usin
 
 In this Tutorial, we will make a simple Calculator with a history function utilizing JavaScript, HTML, and CSS. We will use the eval function to evaluate the expression, but keep in mind that this is somewhat dangerous and it should be used with great care in Production Environments. We will also make use of the [Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) API to store a list of expressions that were previously typed into the calculator.
 
-[Visit the Demonstration](https://articles.maximmaeder.com/a/Calculator/)
+[Demo](https://demos.maximmaeder.com/d/calculator/)
 [Look at the Code](https://github.com/Maximinodotpy/articles/tree/main/article%2020%20-%20Calculator)
 
 ## HTML
@@ -323,7 +323,7 @@ input {
 
 ## Conclusion
 
-[Visit the Demonstration](https://articles.maximmaeder.com/a/Calculator/)
+[Demo](https://demos.maximmaeder.com/d/calculator/)
 
 Excellent! You have successfully created a Calculator using HTML, CSS, and JavaScript code!
 
