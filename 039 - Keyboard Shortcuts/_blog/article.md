@@ -15,22 +15,22 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 **Applications / Places**
 
-- [General](#content-general)^21^
-- [File Explorer](#content-file-explorer)^9^
-- [Windows](#content-windows)^18^
-- [Microsoft General](#content-microsoft-general)^1^
-- [Browser (Microsoft Edge)](#content-browser-microsoft-edge)^10^
-- [Vimium](#content-vimium)^8^
-- [Godot](#content-godot)^11^
-- [Visual Studio Code](#content-visual-studio-code)^29^
-- [Microsoft Word](#content-microsoft-word)^3^
-- [Jupyter Notebook](#content-jupyter-notebook)^9^
-- [Adobe General](#content-adobe-general)^11^
-- [Adobe Premiere Pro](#content-adobe-premiere-pro)^8^
-- [Adobe Illustrator](#content-adobe-illustrator)^16^
-- [Adobe After Effects](#content-adobe-after-effects)^2^
-- [Wordpress](#content-wordpress)^1^
-- [Github Desktop](#content-github-desktop)^4^
+- [General](#content-general) *(21 Shortcuts)*
+- [File Explorer](#content-file-explorer) *(9 Shortcuts)*
+- [Windows](#content-windows) *(18 Shortcuts)*
+- [Microsoft General](#content-microsoft-general) *(1 Shortcuts)*
+- [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(10 Shortcuts)*
+- [Vimium](#content-vimium) *(8 Shortcuts)*
+- [Godot](#content-godot) *(11 Shortcuts)*
+- [Visual Studio Code](#content-visual-studio-code) *(29 Shortcuts)*
+- [Microsoft Word](#content-microsoft-word) *(3 Shortcuts)*
+- [Jupyter Notebook](#content-jupyter-notebook) *(9 Shortcuts)*
+- [Adobe General](#content-adobe-general) *(11 Shortcuts)*
+- [Adobe Premiere Pro](#content-adobe-premiere-pro) *(8 Shortcuts)*
+- [Adobe Illustrator](#content-adobe-illustrator) *(16 Shortcuts)*
+- [Adobe After Effects](#content-adobe-after-effects) *(2 Shortcuts)*
+- [Wordpress](#content-wordpress) *(1 Shortcuts)*
+- [Github Desktop](#content-github-desktop) *(4 Shortcuts)*
 
 
 ## General

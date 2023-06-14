@@ -28,7 +28,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 for application_slug in shortcutData:
     name = shortcutData[application_slug]['name']
     shortcutCount = len(shortcutData[application_slug]['shortcuts'])
-    result += f'- [{name}](#content-{application_slug})^{shortcutCount}^\n'
+    result += f'- [{name}](#content-{application_slug}) *({shortcutCount} Shortcuts)*\n'
 
 result += "\n\n"
 
