@@ -46,7 +46,7 @@
         },
         "windows": {
             "name": "Windows",
-            "description": "These shortcuts apply to the Windows Operating System. They are mostly not specific to a program.",
+            "description": "These shortcuts apply to the Windows Operating System. They are mostly not specific to a program. There's also this funny [website for taking screenshots](https://www.take-a-screenshot.org/).",
             "shortcuts": [
                 { "keys": "shift + F10", "description": "Open Context Menu, also works in a lot of programs by windows" },
                 { "keys": "alt + F4", "description": "Close Window" },
@@ -85,10 +85,11 @@
                 { "keys": "ctrl + tab", "description": "Switch to right tab" },
                 { "keys": "ctrl + shift + tab", "description": "Switch to left tab" },
                 { "keys": "ctrl + t", "description": "New Tab" },
+                { "keys": "ctrl + w", "description": "Close Tab" },
                 { "keys": "ctrl + shift + k", "description": "Duplicate Tab" },
                 { "keys": "F12", "description": "Open Dev Tools" },
                 { "keys": "ctrl + l", "description": "Focus URL Input" },
-                { "keys": "ctrl + shift + t", "description": "Close most recently closed tab" },
+                { "keys": "ctrl + shift + t", "description": "Open most recently closed tab or if edge is started freshly open all recent tabs from the last session" },
                 { "keys": "ctrl + u", "description": "Show Source Code" }
             ]
         },
@@ -130,7 +131,8 @@
                 { "keys": "alt + shift + f", "description": "Format all Code" },
                 { "keys": "alt + shift + i", "description": "Add cursors to ends of all currently selected lines" },
                 { "keys": "alt + shift + up/down", "description": "Duplicate Line up/down" },
-                { "keys": "alt + number", "description": "Switch to open editor" },
+                { "keys": "alt + number", "description": "Switch to open editor within group" },
+                { "keys": "ctrl + number", "description": "Switch to corresponding Editor Group" },
                 { "keys": "alt + shift + a", "description": "Block comment" },
                 { "keys": "ctrl + alt + up/down", "description": "Duplicate cursor up/down" },
                 { "keys": "alt + up/down", "description": "Move this line up/down" },
@@ -142,19 +144,19 @@
                 { "keys": "ctrl + shift + e", "description": "Open Integrated Explorer" },
                 { "keys": "alt + shift + r", "description": "Open File in OS Explorer [When in Integrated Explorer]" },
                 { "keys": "ctrl + shift + x", "description": "Open Extensions" },
-                { "keys": "ctrl + ,", "description": "Open Settings" },
                 { "keys": "ctrl + d", "description": "Select next occurence of current word" },
                 { "keys": "ctrl + space", "description": "Show Context Snippets" },
                 { "keys": "ctrl + shift + space", "description": "Show Function Parameters" },
                 { "keys": "alt + enter", "description": "Select all found occurences [When in Code Search]" },
                 { "keys": "alt + r", "description": "Toggle Regex [When in Code Search]" },
                 { "keys": "F12", "description": "Jump to definition" },
-                { "keys": "ctrl + shift + ^", "description": "Fold Current Level" },
-                { "keys": "ctrl + shift + '", "description": "Unfold Current Level" },
+                { "keys": "ctrl + shift + '", "description": "Fold Current Level" },
+                { "keys": "ctrl + shift + ^", "description": "Unfold Current Level" },
                 { "keys": "ctrl + ,", "description": "Open Settings" },
                 { "keys": "ctrl + .", "description": "View Code Actions" },
                 { "keys": "ctrl + pagedown", "description": "Switch to right File in Group" },
-                { "keys": "ctrl + pageup", "description": "Switch to left File in Group" }
+                { "keys": "ctrl + pageup", "description": "Switch to left File in Group" },
+                { "keys": "ctrl + shift + 5", "description": "Split Current Terminal [When in Terminal]" }
             ]
         },
         "microsoft-word": {
@@ -255,6 +257,7 @@
             "shortcuts": [
                 { "keys": "ctrl + shift + a", "description": "Open current Repository in Editor" },
                 { "keys": "ctrl + p", "description": "Push changes" },
+                { "keys": "ctrl + g", "description": "Focus Summary" },
                 { "keys": "ctrl + enter", "description": "Commit Changes [When the Commit Message is filled out or only one file is staged]" }
             ]
         }

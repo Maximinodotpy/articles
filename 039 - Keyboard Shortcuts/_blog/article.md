@@ -15,22 +15,22 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 **Applications / Places**
 
-- [General](#content-general)
-- [File Explorer](#content-file-explorer)
-- [Windows](#content-windows)
-- [Microsoft General](#content-microsoft-general)
-- [Browser (Microsoft Edge)](#content-browser-microsoft-edge)
-- [Vimium](#content-vimium)
-- [Godot](#content-godot)
-- [Visual Studio Code](#content-visual-studio-code)
-- [Microsoft Word](#content-microsoft-word)
-- [Jupyter Notebook](#content-jupyter-notebook)
-- [Adobe General](#content-adobe-general)
-- [Adobe Premiere Pro](#content-adobe-premiere-pro)
-- [Adobe Illustrator](#content-adobe-illustrator)
-- [Adobe After Effects](#content-adobe-after-effects)
-- [Wordpress](#content-wordpress)
-- [Github Desktop](#content-github-desktop)
+- [General](#content-general)^21^
+- [File Explorer](#content-file-explorer)^9^
+- [Windows](#content-windows)^18^
+- [Microsoft General](#content-microsoft-general)^1^
+- [Browser (Microsoft Edge)](#content-browser-microsoft-edge)^10^
+- [Vimium](#content-vimium)^8^
+- [Godot](#content-godot)^11^
+- [Visual Studio Code](#content-visual-studio-code)^29^
+- [Microsoft Word](#content-microsoft-word)^3^
+- [Jupyter Notebook](#content-jupyter-notebook)^9^
+- [Adobe General](#content-adobe-general)^11^
+- [Adobe Premiere Pro](#content-adobe-premiere-pro)^8^
+- [Adobe Illustrator](#content-adobe-illustrator)^16^
+- [Adobe After Effects](#content-adobe-after-effects)^2^
+- [Wordpress](#content-wordpress)^1^
+- [Github Desktop](#content-github-desktop)^4^
 
 
 ## General
@@ -85,7 +85,7 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 
 ## Windows
 
-These shortcuts apply to the Windows Operating System. They are mostly not specific to a program.
+These shortcuts apply to the Windows Operating System. They are mostly not specific to a program. There's also this funny [website for taking screenshots](https://www.take-a-screenshot.org/).
 
 | Shortcut | Description |
 | --- | --- |
@@ -132,10 +132,11 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + tab` | Switch to right tab |
 | `ctrl + shift + tab` | Switch to left tab |
 | `ctrl + t` | New Tab |
+| `ctrl + w` | Close Tab |
 | `ctrl + shift + k` | Duplicate Tab |
 | `F12` | Open Dev Tools |
 | `ctrl + l` | Focus URL Input |
-| `ctrl + shift + t` | Close most recently closed tab |
+| `ctrl + shift + t` | Open most recently closed tab or if edge is started freshly open all recent tabs from the last session |
 | `ctrl + u` | Show Source Code |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
@@ -189,7 +190,8 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `alt + shift + f` | Format all Code |
 | `alt + shift + i` | Add cursors to ends of all currently selected lines |
 | `alt + shift + up/down` | Duplicate Line up/down |
-| `alt + number` | Switch to open editor |
+| `alt + number` | Switch to open editor within group |
+| `ctrl + number` | Switch to corresponding Editor Group |
 | `alt + shift + a` | Block comment |
 | `ctrl + alt + up/down` | Duplicate cursor up/down |
 | `alt + up/down` | Move this line up/down |
@@ -201,19 +203,19 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + shift + e` | Open Integrated Explorer |
 | `alt + shift + r` | Open File in OS Explorer [When in Integrated Explorer] |
 | `ctrl + shift + x` | Open Extensions |
-| `ctrl + ,` | Open Settings |
 | `ctrl + d` | Select next occurence of current word |
 | `ctrl + space` | Show Context Snippets |
 | `ctrl + shift + space` | Show Function Parameters |
 | `alt + enter` | Select all found occurences [When in Code Search] |
 | `alt + r` | Toggle Regex [When in Code Search] |
 | `F12` | Jump to definition |
-| `ctrl + shift + ^` | Fold Current Level |
-| `ctrl + shift + '` | Unfold Current Level |
+| `ctrl + shift + '` | Fold Current Level |
+| `ctrl + shift + ^` | Unfold Current Level |
 | `ctrl + ,` | Open Settings |
 | `ctrl + .` | View Code Actions |
 | `ctrl + pagedown` | Switch to right File in Group |
 | `ctrl + pageup` | Switch to left File in Group |
+| `ctrl + shift + 5` | Split Current Terminal [When in Terminal] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
@@ -346,6 +348,7 @@ Githubs Desktop Client
 | --- | --- |
 | `ctrl + shift + a` | Open current Repository in Editor |
 | `ctrl + p` | Push changes |
+| `ctrl + g` | Focus Summary |
 | `ctrl + enter` | Commit Changes [When the Commit Message is filled out or only one file is staged] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)

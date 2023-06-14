@@ -29,7 +29,8 @@ I also defined a json schema for the file, which you can find [here](https://git
 """ result += f'- [Quiz]({quizLocations})\n' """
 for application_slug in shortcutData:
     name = shortcutData[application_slug]['name']
-    result += f'- [{name}](#content-{application_slug})\n'
+    shortcutCount = len(shortcutData[application_slug]['shortcuts'])
+    result += f'- [{name}](#content-{application_slug})^{shortcutCount}^\n'
 
 result += "\n\n"
 
