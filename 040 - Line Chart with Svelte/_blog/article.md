@@ -1,7 +1,7 @@
 ---
 name: 'Line Chart with Svelte'
 slug: 'line-chart-with-svelte'
-description: ''
+description: "Let's make a Line Chart with Svelte and Scalable Vector Graphics (SVG). We will use Svelte's reactive variables to make the Line Chart interactive."
 tags: ['shortcuts']
 category: 'general'
 status: 'publish'
