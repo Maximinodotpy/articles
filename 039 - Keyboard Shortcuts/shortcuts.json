@@ -264,6 +264,5 @@
                 { "keys": "ctrl + enter", "description": "Commit Changes [When the Commit Message is filled out or only one file is staged]" }
             ]
         }
-    }
-    
+    }   
 }
