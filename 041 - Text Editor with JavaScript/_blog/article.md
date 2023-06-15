@@ -8,3 +8,9 @@ status: 'draft'
 ---
 
 fasdfas
+
+<!-- 
+- Mention other Text File Editors with Godot and Python
+- File System Access API
+- 
+ -->
