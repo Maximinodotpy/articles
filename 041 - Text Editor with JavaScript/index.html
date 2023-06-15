@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Text File Editor</title>
+
+    <script src="main.js" defer></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col h-screen text-2xl font-mono">
+    <div class="shadow-md bg-blue-500 text-blue-100 flex select-none">
+        <button class="p-2 hover:bg-blue-600 hover:text-white transition-all" id="open-button">Open</button>
+        <button class="p-2 hover:bg-blue-600 hover:text-white transition-all" id="save-button">Save</button>
+        <button class="p-2 hover:bg-blue-600 hover:text-white transition-all" id="save_as-button">Save As</button>
+
+        <div id="current_file-label" class="ml-auto p-2"></div>
+    </div>
+
+    <textarea name="" id="editor-textarea" class="flex-grow resize-none bg-blue-300 p-2 text-blue-900 selection:bg-blue-100 focus:outline-none"></textarea>
+</body>
+
+</html>

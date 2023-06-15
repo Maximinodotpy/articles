@@ -33,6 +33,7 @@
             "name": "File Explorer",
             "description": "These shortcuts work in the integrated File Explorer of the Windows Operating System.",
             "shortcuts": [
+                { "keys": "ctrl + l", "description": "Focus Path Input" },
                 { "keys": "alt + up", "description": "Go one folder up" },
                 { "keys": "alt + left", "description": "Go back in history" },
                 { "keys": "alt + right", "description": "Go forward in history" },
@@ -51,7 +52,7 @@
                 { "keys": "shift + F10", "description": "Open Context Menu, also works in a lot of programs by windows" },
                 { "keys": "alt + F4", "description": "Close Window" },
                 { "keys": "Windows + down", "description": "Minimize Window" },
-                { "keys": "alt + tab", "description": "View open Applications" },
+                { "keys": "alt + tab", "description": "View open Applications, in current virtual desktop" },
                 { "keys": "F11", "description": "Toggle Full Screen" },
                 { "keys": "Windows + arrows", "description": "Move active window on the screen" },
                 { "keys": "Windows + shift + arrows", "description": "Move active window to another Screen" },
@@ -59,6 +60,7 @@
                 { "keys": "Windows + l", "description": "Lock Windows" },
                 { "keys": "Windows + shift + s", "description": "Start Snipping Tool" },
                 { "keys": "Windows + d", "description": "Show Desktop" },
+                { "keys": "Windows + a", "description": "Open Notification Center" },
 
                 { "keys": "Windows + tab", "description": "Show Virtual Desktops" },
                 { "keys": "ctrl + Windows + left/right", "description": "Switch between Virtual Desktops" },
@@ -86,6 +88,7 @@
                 { "keys": "ctrl + shift + tab", "description": "Switch to left tab" },
                 { "keys": "ctrl + t", "description": "New Tab" },
                 { "keys": "ctrl + w", "description": "Close Tab" },
+                { "keys": "ctrl + j", "description": "Show Downloads" },
                 { "keys": "ctrl + shift + k", "description": "Duplicate Tab" },
                 { "keys": "F12", "description": "Open Dev Tools" },
                 { "keys": "ctrl + l", "description": "Focus URL Input" },

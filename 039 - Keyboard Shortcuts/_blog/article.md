@@ -16,10 +16,10 @@ I also defined a json schema for the file, which you can find [here](https://git
 **Applications / Places**
 
 - [General](#content-general) *(21 Shortcuts)*
-- [File Explorer](#content-file-explorer) *(9 Shortcuts)*
-- [Windows](#content-windows) *(18 Shortcuts)*
+- [File Explorer](#content-file-explorer) *(10 Shortcuts)*
+- [Windows](#content-windows) *(19 Shortcuts)*
 - [Microsoft General](#content-microsoft-general) *(1 Shortcuts)*
-- [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(10 Shortcuts)*
+- [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(11 Shortcuts)*
 - [Vimium](#content-vimium) *(8 Shortcuts)*
 - [Godot](#content-godot) *(11 Shortcuts)*
 - [Visual Studio Code](#content-visual-studio-code) *(29 Shortcuts)*
@@ -70,6 +70,7 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 
 | Shortcut | Description |
 | --- | --- |
+| `ctrl + l` | Focus Path Input |
 | `alt + up` | Go one folder up |
 | `alt + left` | Go back in history |
 | `alt + right` | Go forward in history |
@@ -92,7 +93,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `shift + F10` | Open Context Menu, also works in a lot of programs by windows |
 | `alt + F4` | Close Window |
 | `Windows + down` | Minimize Window |
-| `alt + tab` | View open Applications |
+| `alt + tab` | View open Applications, in current virtual desktop |
 | `F11` | Toggle Full Screen |
 | `Windows + arrows` | Move active window on the screen |
 | `Windows + shift + arrows` | Move active window to another Screen |
@@ -100,6 +101,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + l` | Lock Windows |
 | `Windows + shift + s` | Start Snipping Tool |
 | `Windows + d` | Show Desktop |
+| `Windows + a` | Open Notification Center |
 | `Windows + tab` | Show Virtual Desktops |
 | `ctrl + Windows + left/right` | Switch between Virtual Desktops |
 | `ctrl + Windows + d` | Create new Virtual Desktop |
@@ -133,6 +135,7 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + shift + tab` | Switch to left tab |
 | `ctrl + t` | New Tab |
 | `ctrl + w` | Close Tab |
+| `ctrl + j` | Show Downloads |
 | `ctrl + shift + k` | Duplicate Tab |
 | `F12` | Open Dev Tools |
 | `ctrl + l` | Focus URL Input |
