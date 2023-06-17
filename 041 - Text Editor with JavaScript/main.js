@@ -13,7 +13,7 @@ const fileTypeOptions = {
         {
             description: 'Text Files',
             accept: {
-                'text/plain': ['.txt', '.md', 'py'],
+                'text/plain': ['.txt', '.md', '.py'],
             },
         },
     ],
