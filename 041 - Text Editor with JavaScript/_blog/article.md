@@ -99,4 +99,4 @@ Now let's look at these four funtions.
 
 ## Conclusion
 
-Add a usnaved tab close mechanism.
+<!-- Add a usnaved tab close mechanism. -->
