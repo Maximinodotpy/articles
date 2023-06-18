@@ -1,8 +1,8 @@
 ---
 name: 'Text Editor with JavaScript'
 slug: 'text-editor-with-javascript'
-description: ""
-tags: ['']
+description: "Let's create a text file editor with JavaScript that can open and save files to the local file system using the File system access API."
+tags: ['JavaScript', 'Web Development', 'File System Access API']
 category: 'general'
 status: 'draft'
 ---
@@ -80,18 +80,68 @@ editor_textarea.addEventListener('input', () => {
 setCurrentFileLabel('Untitled')
 ```
 
-Now let's look at these four funtions.
+Now let's look at these four functions.
 
 ### Opening a File
 
+To open a file we first have to ask to user to select a file. We do this by calling the `showOpenFilePicker` function and passing in the file options we defined earlier. This function returns an array of file handles which we destructure into a single variable. Then we set the current file label to the name of the file and we get the file object from the file handle. Lastly we set the content of the text editor to the content of the file.
 
+```js
+async function openFileCallback() {
+    [file_handle] = await window.showOpenFilePicker(fileTypeOptions)
+
+    setCurrentFileLabel(file_handle.name)
+    
+    const file = await file_handle.getFile()
+    
+    editor_textarea.value = await file.text()
+}
+```
 
 ### Saving a File
 
+Saving a file is very similar to opening a file. We first check if there is a file handle and if there is we get the file object from it. Then we write the content of the text editor to the file and we set the current file label to the name of the file. In case there is no file handle we save the file as a new file.
+
+```js
+async function saveFileCallback() {
+    if (file_handle) {
+        const stream = await file_handle.createWritable()
+        await stream.write(editor_textarea.value)
+        stream.close()
+        setCurrentFileLabel(file_handle.name)
+    } else {
+        saveAsFileCallback()
+    }
+}
+```
+
 ### Saving a new File
+
+Saving a new file is very similar to saving a file. We first ask the user to select a file and then we get the file object from the file handle. Then we write the content of the text editor to the file and we set the current file label to the name of the file.
+
+```js
+async function saveAsFileCallback() {
+    file_handle = await window.showSaveFilePicker(fileTypeOptions)
+
+    setCurrentFileLabel(file_handle.name)
+
+    const writable = await file_handle.createWritable()
+    await writable.write(editor_textarea.value)
+    await writable.close()
+}
+```
 
 ### Setting the label
 
+Lastly we also have a function that sets the current file label. This function takes a string as an argument and sets the inner text of the current file label and the title of the document.
+
+```js
+async function setCurrentFileLabel(text) {
+    const labelText = `${APPLICATION_NAME} - ${text}`
+    current_file_label.innerText = labelText
+    document.querySelector('title').innerText = labelText
+}
+```
 
 ## Text Editor Showcase
 
@@ -99,4 +149,4 @@ Now let's look at these four funtions.
 
 ## Conclusion
 
-<!-- Add a usnaved tab close mechanism. -->
+As you see it is rather simple to create a text file editor with this API. I hope that you learned something new today. You could now build something awesome with this newly ganied knowledge. If you have any questions or suggestions feel free to contact me.
