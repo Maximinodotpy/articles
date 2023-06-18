@@ -4,7 +4,7 @@ slug: 'text-editor-with-javascript'
 description: "Let's create a text file editor with JavaScript that can open and save files to the local file system using the File system access API."
 tags: ['JavaScript', 'Web Development', 'File System Access API']
 category: 'general'
-status: 'draft'
+status: 'publish'
 ---
 
 In today's tutorial we will utilize the [File System Access API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API) to create a web based text file editor that can open and even write/save files back to the local file system.
@@ -143,10 +143,8 @@ async function setCurrentFileLabel(text) {
 }
 ```
 
-## Text Editor Showcase
+## Conclusion
 
 [Demo](https://demos.maximmaeder.com/d/text-editor-with-javascript/)
-
-## Conclusion
 
 As you see it is rather simple to create a text file editor with this API. I hope that you learned something new today. You could now build something awesome with this newly ganied knowledge. If you have any questions or suggestions feel free to contact me.
