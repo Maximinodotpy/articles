@@ -17,7 +17,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 - [General](#content-general) *(21 Shortcuts)*
 - [File Explorer](#content-file-explorer) *(10 Shortcuts)*
-- [Windows](#content-windows) *(19 Shortcuts)*
+- [Windows](#content-windows) *(20 Shortcuts)*
 - [Microsoft General](#content-microsoft-general) *(1 Shortcuts)*
 - [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(11 Shortcuts)*
 - [Vimium](#content-vimium) *(8 Shortcuts)*
@@ -26,7 +26,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Microsoft Word](#content-microsoft-word) *(3 Shortcuts)*
 - [Jupyter Notebook](#content-jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#content-adobe-general) *(11 Shortcuts)*
-- [Adobe Premiere Pro](#content-adobe-premiere-pro) *(8 Shortcuts)*
+- [Adobe Premiere Pro](#content-adobe-premiere-pro) *(9 Shortcuts)*
 - [Adobe Illustrator](#content-adobe-illustrator) *(16 Shortcuts)*
 - [Adobe After Effects](#content-adobe-after-effects) *(2 Shortcuts)*
 - [Wordpress](#content-wordpress) *(1 Shortcuts)*
@@ -102,6 +102,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + shift + s` | Start Snipping Tool |
 | `Windows + d` | Show Desktop |
 | `Windows + a` | Open Notification Center |
+| `Windows + x` | Open the Quick Link Menu |
 | `Windows + tab` | Show Virtual Desktops |
 | `ctrl + Windows + left/right` | Switch between Virtual Desktops |
 | `ctrl + Windows + d` | Create new Virtual Desktop |
@@ -285,7 +286,8 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 | `m` | Preview Window |
 | `ä` | Maximize Window |
 | `v` | Select |
-| `c` | Cut |
+| `c` | Switch to the Cut Tool |
+| `a` | Switch to the Track Selection to the right Tool |
 | `i` | Set in |
 | `o` | Set out |
 | `shift + i` | Go to in |

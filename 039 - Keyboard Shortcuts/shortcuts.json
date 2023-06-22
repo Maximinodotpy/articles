@@ -61,6 +61,7 @@
                 { "keys": "Windows + shift + s", "description": "Start Snipping Tool" },
                 { "keys": "Windows + d", "description": "Show Desktop" },
                 { "keys": "Windows + a", "description": "Open Notification Center" },
+                { "keys": "Windows + x", "description": "Open the Quick Link Menu" },
 
                 { "keys": "Windows + tab", "description": "Show Virtual Desktops" },
                 { "keys": "ctrl + Windows + left/right", "description": "Switch between Virtual Desktops" },
@@ -210,7 +211,8 @@
                 { "keys": "m", "description": "Preview Window" },
                 { "keys": "ä", "description": "Maximize Window" },
                 { "keys": "v", "description": "Select" },
-                { "keys": "c", "description": "Cut" },
+                { "keys": "c", "description": "Switch to the Cut Tool" },
+                { "keys": "a", "description": "Switch to the Track Selection to the right Tool" },
                 { "keys": "i", "description": "Set in" },
                 { "keys": "o", "description": "Set out" },
                 { "keys": "shift + i", "description": "Go to in" },
