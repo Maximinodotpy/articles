@@ -125,7 +125,9 @@
                 { "keys": "shift + g", "description": "Use Gridsnap [When in 2D]" },
                 { "keys": "ctrl + g", "description": "Toggle Grid [When in 2D]" },
                 { "keys": "ctrl + r", "description": "Replace [When in Code]" },
-                { "keys": "ctrl + d", "description": "Duplicate Line [When in Code]" }
+                { "keys": "ctrl + d", "description": "Duplicate Line [When in Code]" },
+                { "keys": "ctrl + shift + F11", "description": "Toggle distraction Free Mode" },
+                { "keys": "ctrl + shift + p", "description": "Open Command Palette" }
             ]
         },
         "visual-studio-code": {
@@ -144,7 +146,7 @@
                 { "keys": "ctrl + j", "description": "Toggle Bottom Panel" },
                 { "keys": "ctrl + b", "description": "Toggle Primary Side Panel" },
                 { "keys": "ctrl + shift + l", "description": "Select all occurences of the current word" },
-                { "keys": "ctrl + shift + p", "description": "Open Command Input" },
+                { "keys": "ctrl + shift + p", "description": "Open Command Palette" },
                 { "keys": "ctrl + shift + e", "description": "Open Integrated Explorer" },
                 { "keys": "alt + shift + r", "description": "Open File in OS Explorer [When in Integrated Explorer]" },
                 { "keys": "ctrl + shift + x", "description": "Open Extensions" },

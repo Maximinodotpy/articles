@@ -21,7 +21,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Microsoft General](#content-microsoft-general) *(1 Shortcuts)*
 - [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(11 Shortcuts)*
 - [Vimium](#content-vimium) *(8 Shortcuts)*
-- [Godot](#content-godot) *(11 Shortcuts)*
+- [Godot](#content-godot) *(13 Shortcuts)*
 - [Visual Studio Code](#content-visual-studio-code) *(29 Shortcuts)*
 - [Microsoft Word](#content-microsoft-word) *(3 Shortcuts)*
 - [Jupyter Notebook](#content-jupyter-notebook) *(9 Shortcuts)*
@@ -181,6 +181,8 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + g` | Toggle Grid [When in 2D] |
 | `ctrl + r` | Replace [When in Code] |
 | `ctrl + d` | Duplicate Line [When in Code] |
+| `ctrl + shift + F11` | Toggle distraction Free Mode |
+| `ctrl + shift + p` | Open Command Palette |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
@@ -203,7 +205,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + j` | Toggle Bottom Panel |
 | `ctrl + b` | Toggle Primary Side Panel |
 | `ctrl + shift + l` | Select all occurences of the current word |
-| `ctrl + shift + p` | Open Command Input |
+| `ctrl + shift + p` | Open Command Palette |
 | `ctrl + shift + e` | Open Integrated Explorer |
 | `alt + shift + r` | Open File in OS Explorer [When in Integrated Explorer] |
 | `ctrl + shift + x` | Open Extensions |
