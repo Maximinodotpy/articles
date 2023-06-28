@@ -60,7 +60,7 @@ function next() {
 function clicked(el) {
 
     /* Get the clicked element */
-    let clickedEl = el.path[0];
+    let clickedEl = el.target;
     
     /* Color the pressed Button with Red */
     /* If the right button was pressed this will be overwritten*/
