@@ -162,7 +162,8 @@
                 { "keys": "ctrl + .", "description": "View Code Actions" },
                 { "keys": "ctrl + pagedown", "description": "Switch to right File in Group" },
                 { "keys": "ctrl + pageup", "description": "Switch to left File in Group" },
-                { "keys": "ctrl + shift + 5", "description": "Split Current Terminal [When in Terminal]" }
+                { "keys": "ctrl + shift + 5", "description": "Split Current Terminal [When in Terminal]" },
+                { "keys": "ctrl + k z", "description": "Enter Zen Mode" }
             ]
         },
         "microsoft-word": {
