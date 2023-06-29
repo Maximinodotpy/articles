@@ -7,7 +7,7 @@ status: 'draft'
 description: "Let's create a Carousel Component with Svelte."
 ---
 
-I'm in love! there I said it and im not embarrased whatsoever. Svelte is awesome, its intuitive, fast and it has all the things I want. Thats why today we are gonna build a carousel component with it. We'll look at the `scroll-snap` property in CSS and how we can make a our component themable via CSS variables.
+I'm in love! There I said it, and I'm not embarrassed whatsoever. Svelte is incredible, it's intuitive and fast, and it has all the things I want. That's why today we will build a carousel component with it. We'll look at CSS's `scroll-snap` property and how to make our component themeable via CSS variables.
 
 [Demo](https://demos.maximmaeder.com/d/carousel-component-with-svelte/index.html).
 
@@ -15,9 +15,9 @@ Let's get right into it.
 
 ## Carousel Component Markup
 
-Let us first go over the markup of the Carousel Component
+Let us first go over the Markup of the Carousel Component.
 
-The Markup consist of a div with a class called container which we'll later use to align the left and right button and the actual content on one horizontal axis via flex box. Inside the container we have two buttons one for scrolling left and one for scrolling right. We also have a div with a class called items-container which will hold all the items we want to scroll through. Inside the items-container we have a slot with no name so all passed elements with no slot property will be put there. Within the button we all have named slots so another developer can easily change the buttons without having to edit the component it self.
+The Markup consists of a div with a class called `container`, which we'll later use to align the left and right buttons and the actual content on one horizontal axis via flexbox. Inside the container, we have two buttons, one for scrolling left and one for scrolling right. We also have a div with a class called items-container which will hold all the items we want to scroll through. We have a slot with no name inside the things container, so all passed elements with no slot property will be put there. Within the button, we have named slots so another developer can easily change the buttons without editing the component itself.
 
 ```svelte
 <div class="container">
@@ -37,17 +37,17 @@ The Markup consist of a div with a class called container which we'll later use 
 </div>
 ```
 
-As you see we also set the opacity of the buttons depending on wether the scroll container has been scrolled all to the left or right. For this we need to get the `scroll_left` property of the element its width and scroll width (The full width of the element that may be hidden with a scroll bar).
+As you see, we also set the opacity of the buttons depending on whether the scroll container has been scrolled all to the left or right. For this, we need to get the `scroll_left` property of the element and its width and scroll width (The total width of the element that may be hidden with a scroll bar).
 
-Sadly we cant bind the `scroll_left` and `scroll_width` properties to the container element, so we have to create a function which will get that for us via a dom binding that is done with the `bind:this` attribute.
+Sadly we can't bind the `scroll_left` and `scroll_width` properties to the container element, so we have to create a function that will get that for us via a dom binding that is done with the `bind:this` attribute.
 
 ## Carousel Component JavaScript
 
-Next up in the JavaScript or better said the TypeScript of our program we dont do much. We just create the variables we need and the functions to scroll left and right. We also create a function to get the scroll left and scroll width of the container element.
+Next up in the JavaScript or, better said, the TypeScript of our program, we only do a little. We create the necessary variables and the functions to scroll left and right. We also made a function to get the scroll left and scroll width of the container element.
 
-These values and functions are set and called within the markup of the component.
+These values and functions are set and called within the Markup of the component.
 
-Mind the `scrolBy` function tha as it's name suggests allows us to scroll an overflowing element however we want.
+Mind the `scrolBy` function that, as its name suggests, allows us to scroll an overflowing element however we want.
 
 ```svelte
 <script lang="ts">
@@ -72,11 +72,11 @@ Mind the `scrolBy` function tha as it's name suggests allows us to scroll an ove
 
 ## Carousel Component CSS
 
-I also have another mistress her name is tailwind, often times when I spend time with my girlfriend CSS I say stuff like `flex-col` instead of `flex-direction: column`. No but really I have used so much tailwind It's almost painful going back to regular CSS, but lets try it anyway 😀. Also it's alway good to know and have a deep understanding of the basics / the underlying features.
+I also have another mistress. Her name is a Tailwind, often when I spend time with my girlfriend CSS, I say stuff like `flex-col` instead of `flex-direction: column`. No, but really, I have used so much tailwind. Going back to regular CSS is almost painful, but let's try it anyway 😀. Also, it's always good to know and deeply understand the basics / underlying features.
 
 So let's also look at the CSS.
 
-As you see for the buttons and some other properties we use CSS variables. This allows us to theme the component without having to edit the component itself. We can just change the CSS variables and the component will look different. Actually its also possible to pass a css variable as a prop in svelte.
+As you see, we use CSS variables for the buttons and some other properties. This allows us to theme the component without editing the component itself. We can change the CSS variables, and the component will look different. It's also possible to pass a css variable as a prop in Svelte.
 
 ```svelte
 <style>
@@ -121,13 +121,13 @@ As you see for the buttons and some other properties we use CSS variables. This 
 </style>
 ```
 
-Also mind the `scroll-snap-type: x mandatory;` property. This is the property that allows us to snap to the next element when scrolling. This is the property that makes the carousel work.
+Also mind the `scroll-snap-type: x mandatory;` property. This property allows us to snap to the next element when scrolling. This is the property that makes the carousel work.
 
-Ssince Svelte styles are scoped to just this component we have to use the `:global()` selector to select the children of the items-container.
+Since Svelte styles are scoped to just this component, we have to use the `:global()` selector to select the children of the items container.
 
 ## Carousel in action
 
-Now let's see how we can use the carousel component. For this example I have used [fakerjs](https://fakerjs.dev/guide/).
+Now let's see how we can use the carousel component. For this example, I have used [fakerjs](https://fakerjs.dev/guide/).
 
 ```svelte
 <Carousel>
@@ -182,4 +182,4 @@ We can also apply our own styles to the component.
 </style>
 ```
 
-So thats it, I hope you had a good time and that you learned something new! Svelte is really worth checking out and I hope you will give it a try. If you have any questions or suggestions feel free to [contact](https://maximmaeder.com/contact/) me.
+So that's it; I hope you had a good time and learned something new! Svelte is worth checking out, and I hope you will try it. If you have any questions or suggestions, feel free to [contact](https://maximmaeder.com/contact/) me.
