@@ -11,6 +11,10 @@
     function right() {
         container.scrollBy(current_width, 0)
     }
+    function scroll() {
+        scroll_left = container.scrollLeft; 
+        scroll_width = container.scrollWidth;
+    }
 </script>
 
 <div class="container">
@@ -21,7 +25,7 @@
         class="items-container"
         bind:clientWidth={current_width}
         bind:this={container}
-        on:scroll={() => { scroll_left = container.scrollLeft; scroll_width = container.scrollWidth;}}>
+        on:scroll={scroll}>
         <slot></slot>
     </div>
     <button on:pointerdown={right} style="opacity: { (Math.abs((scroll_left + current_width) - scroll_width) < 3) ? '0' : '1' }">
