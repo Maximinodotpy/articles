@@ -7,11 +7,12 @@
     let searchParams = new URLSearchParams(document.location.search);
     const target_application = searchParams.get("app") ?? 'general';
     
-    // Named Import
-    import blacklist from '../../quiz-blacklist.json';
     
-    import { applications } from '../../shortcuts.json';
-    let shortcutData = [];
+    // Named Import
+    import blacklist from '../shortcut-data/quiz-blacklist.json';
+    
+    import { applications } from '../shortcut-data/shortcuts.json';
+    let filtered_shortcuts = [];
 
     for (const [key, value] of Object.entries(applications)) {
         if (key != target_application) continue;
@@ -24,7 +25,7 @@
             if (shortcut.keys.includes("LEFT")) continue;
             if (shortcut.keys.includes("RIGHT")) continue;
 
-            shortcutData.push({
+            filtered_shortcuts.push({
                 keys: shortcut.keys,
                 description: shortcut.description,
                 software: value.name,
@@ -34,8 +35,8 @@
     newPrompt();
 
     function newPrompt() {
-        const randomIndex = Math.floor(Math.random() * shortcutData.length);
-        currentPrompt = shortcutData[randomIndex];
+        const randomIndex = Math.floor(Math.random() * filtered_shortcuts.length);
+        currentPrompt = filtered_shortcuts[randomIndex];
     }
 
     document.addEventListener("keydown", (event) => {

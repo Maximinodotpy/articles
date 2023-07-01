@@ -1,6 +1,4 @@
 import json
-import base64
-import os
 
 print('Compiling Shortcuts to Markdown Article ...')
 
@@ -18,9 +16,9 @@ status: 'publish'
 
 This is a list of many Shortcuts I encountered / Use now in my work with Computers. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
 
-The `.json` file for all the Keyboard Shortcuts is [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json).
+The `.json` file for all the Keyboard Shortcuts is [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcut-data/shortcuts.json).
 
-I also defined a json schema for the file, which you can find [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts-schema.json). It's a lot of fun and it really streamlines the process of adding new shortcuts, because they have to adhere to the schema. It really pays of to learn about [json schema](https://json-schema.org/).
+I also defined a json schema for the file, which you can find [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcut-data/shortcuts-schema.json). It's a lot of fun and it really streamlines the process of adding new shortcuts, because they have to adhere to the schema. It really pays of to learn about [json schema](https://json-schema.org/).
 
 **Applications / Places**\n
 """
