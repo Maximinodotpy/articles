@@ -37,7 +37,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 These Shortcuts work in most programs so they are industry standard.
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=general)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=general)
 
 | Shortcut | Description |
 | --- | --- |
@@ -70,7 +70,7 @@ These Shortcuts work in most programs so they are industry standard.
 
 These shortcuts work in the integrated File Explorer of the Windows Operating System.
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=file-explorer)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=file-explorer)
 
 | Shortcut | Description |
 | --- | --- |
@@ -122,7 +122,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 
 These shortcuts apply to Microsoft Office and other Microsoft programs.
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=microsoft-general)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-general)
 
 | Shortcut | Description |
 | --- | --- |
@@ -197,7 +197,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 
 
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=visual-studio-code)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=visual-studio-code)
 
 | Shortcut | Description |
 | --- | --- |
@@ -241,7 +241,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 
 
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=microsoft-word)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-word)
 
 | Shortcut | Description |
 | --- | --- |
@@ -256,7 +256,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 
 
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=jupyter-notebook)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=jupyter-notebook)
 
 | Shortcut | Description |
 | --- | --- |
@@ -277,7 +277,7 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 
 Adobe offers a lot of programs in the creative sector and these shortcuts apply to most of their software.
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=adobe-general)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-general)
 
 | Shortcut | Description |
 | --- | --- |
@@ -300,7 +300,7 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 
 Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=adobe-premiere-pro)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-premiere-pro)
 
 | Shortcut | Description |
 | --- | --- |
@@ -321,7 +321,7 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 
 These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. I think it's really great and I use it a lot. I think you will love it too and if you do, you can use these shortcuts to speed up your workflow. Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=adobe-illustrator)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-illustrator)
 
 | Shortcut | Description |
 | --- | --- |
@@ -352,7 +352,7 @@ These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. 
 
 Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=adobe-after-effects)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-after-effects)
 
 | Shortcut | Description |
 | --- | --- |
@@ -366,7 +366,7 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 
 
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=wordpress)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=wordpress)
 
 | Shortcut | Description |
 | --- | --- |
@@ -379,7 +379,7 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 
 Githubs Desktop Client
 
-[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=github-desktop)
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=github-desktop)
 
 | Shortcut | Description |
 | --- | --- |

@@ -37,7 +37,7 @@ for application_slug in shortcutData:
     result += f"{application['description']}\n\n"
 
     if not application_slug in shortcutBlacklist['applications']:
-        result += f"[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app={application_slug})\n\n"
+        result += f"[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app={application_slug})\n\n"
 
     result += f"| Shortcut | Description |\n"
     result += f"| --- | --- |\n"
