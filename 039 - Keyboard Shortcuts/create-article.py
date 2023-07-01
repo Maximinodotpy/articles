@@ -2,8 +2,8 @@ import json
 
 print('Compiling Shortcuts to Markdown Article ...')
 
-shortcutData = json.load(open('shortcuts.json', 'r'))['applications']
-shortcutBlacklist = json.load(open('quiz-blacklist.json', 'r'))
+shortcutData = json.load(open('shortcut-data/shortcuts.json', 'r'))['applications']
+shortcutBlacklist = json.load(open('shortcut-data/quiz-blacklist.json', 'r'))
 
 result = """---
 name: 'Keyboard Shortcuts'
@@ -35,6 +35,9 @@ for application_slug in shortcutData:
 
     result += f"## {application['name']}\n\n"
     result += f"{application['description']}\n\n"
+
+    if not application_slug in shortcutBlacklist['applications']:
+        result += f"[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app={application_slug})\n\n"
 
     result += f"| Shortcut | Description |\n"
     result += f"| --- | --- |\n"

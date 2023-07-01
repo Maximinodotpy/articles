@@ -9,9 +9,9 @@ status: 'publish'
 
 This is a list of many Shortcuts I encountered / Use now in my work with Computers. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
 
-The `.json` file for all the Keyboard Shortcuts is [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json).
+The `.json` file for all the Keyboard Shortcuts is [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcut-data/shortcuts.json).
 
-I also defined a json schema for the file, which you can find [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts-schema.json). It's a lot of fun and it really streamlines the process of adding new shortcuts, because they have to adhere to the schema. It really pays of to learn about [json schema](https://json-schema.org/).
+I also defined a json schema for the file, which you can find [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcut-data/shortcuts-schema.json). It's a lot of fun and it really streamlines the process of adding new shortcuts, because they have to adhere to the schema. It really pays of to learn about [json schema](https://json-schema.org/).
 
 **Applications / Places**
 
@@ -36,6 +36,8 @@ I also defined a json schema for the file, which you can find [here](https://git
 ## General
 
 These Shortcuts work in most programs so they are industry standard.
+
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=general)
 
 | Shortcut | Description |
 | --- | --- |
@@ -67,6 +69,8 @@ These Shortcuts work in most programs so they are industry standard.
 ## File Explorer
 
 These shortcuts work in the integrated File Explorer of the Windows Operating System.
+
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=file-explorer)
 
 | Shortcut | Description |
 | --- | --- |
@@ -117,6 +121,8 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 ## Microsoft General
 
 These shortcuts apply to Microsoft Office and other Microsoft programs.
+
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=microsoft-general)
 
 | Shortcut | Description |
 | --- | --- |
@@ -191,6 +197,8 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 
 
 
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=visual-studio-code)
+
 | Shortcut | Description |
 | --- | --- |
 | `alt + shift + f` | Format all Code |
@@ -233,6 +241,8 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 
 
 
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=microsoft-word)
+
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + shift + f` | Bold Selection |
@@ -245,6 +255,8 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 ## Jupyter Notebook
 
 
+
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=jupyter-notebook)
 
 | Shortcut | Description |
 | --- | --- |
@@ -264,6 +276,8 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 ## Adobe General
 
 Adobe offers a lot of programs in the creative sector and these shortcuts apply to most of their software.
+
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=adobe-general)
 
 | Shortcut | Description |
 | --- | --- |
@@ -286,6 +300,8 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 
 Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
 
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=adobe-premiere-pro)
+
 | Shortcut | Description |
 | --- | --- |
 | `m` | Preview Window |
@@ -304,6 +320,8 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 ## Adobe Illustrator
 
 These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. I think it's really great and I use it a lot. I think you will love it too and if you do, you can use these shortcuts to speed up your workflow. Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
+
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=adobe-illustrator)
 
 | Shortcut | Description |
 | --- | --- |
@@ -334,6 +352,8 @@ These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. 
 
 Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
 
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=adobe-after-effects)
+
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + shift + d` | Split Selected Timeline |
@@ -346,6 +366,8 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 
 
 
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=wordpress)
+
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + alt + m` | Toggle Code Editor in Post Edit View |
@@ -356,6 +378,8 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 ## Github Desktop
 
 Githubs Desktop Client
+
+[Practice these Shortcuts](https://demos.maximmaeder.com/keyboard-shortcuts/?app=github-desktop)
 
 | Shortcut | Description |
 | --- | --- |
