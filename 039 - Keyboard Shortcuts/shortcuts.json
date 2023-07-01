@@ -138,7 +138,8 @@
                 { "keys": "alt + shift + i", "description": "Add cursors to ends of all currently selected lines" },
                 { "keys": "alt + shift + up/down", "description": "Duplicate Line up/down" },
                 { "keys": "alt + number", "description": "Switch to open editor within group" },
-                { "keys": "ctrl + number", "description": "Switch to corresponding Editor Group" },
+                { "keys": "ctrl + number", "description": "Switch to or Create corresponding Editor Group" },
+                { "keys": "ctrl + F4", "description": "Close Editor Group" },
                 { "keys": "alt + shift + a", "description": "Block comment" },
                 { "keys": "ctrl + alt + up/down", "description": "Duplicate cursor up/down" },
                 { "keys": "alt + up/down", "description": "Move this line up/down" },
@@ -163,7 +164,8 @@
                 { "keys": "ctrl + pagedown", "description": "Switch to right File in Group" },
                 { "keys": "ctrl + pageup", "description": "Switch to left File in Group" },
                 { "keys": "ctrl + shift + 5", "description": "Split Current Terminal [When in Terminal]" },
-                { "keys": "ctrl + k z", "description": "Enter Zen Mode" }
+                { "keys": "ctrl + k z", "description": "Enter Zen Mode" },
+                { "keys": "ctrl + k m", "description": "Choose Language Mode" }
             ]
         },
         "microsoft-word": {
@@ -241,7 +243,10 @@
                 { "keys": "ctrl + alt + shift + r", "description": "Move object one layer back" },
                 { "keys": "ctrl + shift + (", "description": "Move Object to back" },
                 { "keys": "ctrl + shift + )", "description": "Move Object to front" },
-                { "keys": "ctrl + shift + v", "description": "Insert at the same Position" }
+                { "keys": "ctrl + shift + v", "description": "Insert at the same Position" },
+                { "keys": "ctrl + r", "description": "Toggle rulers" },
+                { "keys": "ctrl + shift + b", "description": "Toggle Bounding Box" },
+                { "keys": "ctrl + shift + d", "description": "Toggle Transparence Grid" }
             ]
         },
         "adobe-after-effects": {

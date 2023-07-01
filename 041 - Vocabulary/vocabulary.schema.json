@@ -1,0 +1,33 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "words": {
+            "type": "array",
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "array",
+                    "prefixItems": [
+                        {
+                            "enum": [ "en", "de", "es" ]
+                        },
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "string",
+                            "pattern": "^(V|N|A|O)$"
+                        },
+                        {
+                            "name": "Description",
+                            "type": "string"
+                        }
+                    ],
+                    "minItems": 3
+                },
+                "minItems": 2
+            }
+        }
+    }
+}

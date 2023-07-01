@@ -22,12 +22,12 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(11 Shortcuts)*
 - [Vimium](#content-vimium) *(8 Shortcuts)*
 - [Godot](#content-godot) *(13 Shortcuts)*
-- [Visual Studio Code](#content-visual-studio-code) *(29 Shortcuts)*
+- [Visual Studio Code](#content-visual-studio-code) *(32 Shortcuts)*
 - [Microsoft Word](#content-microsoft-word) *(3 Shortcuts)*
 - [Jupyter Notebook](#content-jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#content-adobe-general) *(11 Shortcuts)*
 - [Adobe Premiere Pro](#content-adobe-premiere-pro) *(9 Shortcuts)*
-- [Adobe Illustrator](#content-adobe-illustrator) *(16 Shortcuts)*
+- [Adobe Illustrator](#content-adobe-illustrator) *(19 Shortcuts)*
 - [Adobe After Effects](#content-adobe-after-effects) *(2 Shortcuts)*
 - [Wordpress](#content-wordpress) *(1 Shortcuts)*
 - [Github Desktop](#content-github-desktop) *(4 Shortcuts)*
@@ -197,7 +197,8 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `alt + shift + i` | Add cursors to ends of all currently selected lines |
 | `alt + shift + up/down` | Duplicate Line up/down |
 | `alt + number` | Switch to open editor within group |
-| `ctrl + number` | Switch to corresponding Editor Group |
+| `ctrl + number` | Switch to or Create corresponding Editor Group |
+| `ctrl + F4` | Close Editor Group |
 | `alt + shift + a` | Block comment |
 | `ctrl + alt + up/down` | Duplicate cursor up/down |
 | `alt + up/down` | Move this line up/down |
@@ -222,6 +223,8 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + pagedown` | Switch to right File in Group |
 | `ctrl + pageup` | Switch to left File in Group |
 | `ctrl + shift + 5` | Split Current Terminal [When in Terminal] |
+| `ctrl + k z` | Enter Zen Mode |
+| `ctrl + k m` | Choose Language Mode |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
@@ -320,6 +323,9 @@ These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. 
 | `ctrl + shift + (` | Move Object to back |
 | `ctrl + shift + )` | Move Object to front |
 | `ctrl + shift + v` | Insert at the same Position |
+| `ctrl + r` | Toggle rulers |
+| `ctrl + shift + b` | Toggle Bounding Box |
+| `ctrl + shift + d` | Toggle Transparence Grid |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 

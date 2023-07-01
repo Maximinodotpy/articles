@@ -1,0 +1,115 @@
+{
+    "$schema": "./vocabulary.schema.json",
+    "words": [
+        [
+            [ "de", "Hallo", "O" ],
+            [ "en", "Hello", "O" ],
+            [ "es", "Hola", "O" ]
+        ],
+        [
+            [ "de", "Der Baum", "N" ],
+            [ "en", "The tree", "N" ],
+            [ "es", "El árbol", "N" ]
+        ],
+        [
+            [ "de", "Das Haus", "N" ],
+            [ "en", "The house", "N" ],
+            [ "es", "La casa", "N" ]
+        ],
+        [
+            [ "de", "Die Stadt", "N" ],
+            [ "en", "The city", "N" ],
+            [ "es", "La ciudad", "N" ]
+        ],
+        [
+            [ "de", "Das Dorf", "N" ],
+            [ "en", "The village", "N" ],
+            [ "es", "El pueblo", "N" ]
+        ],
+        [
+            [ "de", "Die Strasse", "N" ],
+            [ "en", "The street", "N" ],
+            [ "es", "La carretera", "N" ]
+        ],
+        [
+            [ "de", "Der Weg", "N" ],
+            [ "en", "The way", "N" ],
+            [ "es", "El camino", "N" ]
+        ],
+        [
+            [ "de", "Die Lampe", "N" ],
+            [ "en", "The lamp", "N" ],
+            [ "es", "Lámpara", "N" ]
+        ],
+        [
+            [ "de", "Die Brille", "N" ],
+            [ "en", "The glasses", "N" ],
+            [ "es", "Las gafas", "N" ]
+        ],
+        [
+            [ "de", "Die Pflanze", "N" ],
+            [ "en", "The plant", "N" ],
+            [ "es", "La planta", "N" ]
+        ],
+        [
+            [ "de", "Das Wasser", "N" ],
+            [ "en", "The water", "N" ],
+            [ "es", "El agua", "N" ]
+        ],
+        [
+            [ "de", "Das Auto", "N" ],
+            [ "en", "The car", "N" ],
+            [ "es", "El automovil", "N" ]
+        ],
+        [
+            [ "de", "Der Rucksack", "N" ],
+            [ "en", "The backpack", "N" ],
+            [ "es", "La mochila", "N" ]
+        ],
+        [
+            [ "de", "Die Freizeit", "N" ],
+            [ "en", "The freetime", "N" ],
+            [ "es", "El tiempo libre", "N" ]
+        ],
+        [
+            [ "de", "Die Zeit", "N" ],
+            [ "en", "The time", "N" ],
+            [ "es", "El tiempo", "N" ]
+        ],
+        [
+            [ "de", "Frei", "A" ],
+            [ "en", "free", "A" ],
+            [ "es", "libre", "A" ]
+        ],
+        [
+            [ "de", "Die Flasche", "N" ],
+            [ "en", "The bottle", "N" ],
+            [ "es", "La botella", "N" ]
+        ],
+        [
+            [ "de", "Die Wahrheit", "N" ],
+            [ "en", "The truth", "N" ],
+            [ "es", "La verdad", "N" ]
+        ],
+        [
+            [ "de", "Die Arbeit", "N" ],
+            [ "en", "The work", "N" ],
+            [ "es", "El trabajo", "N" ]
+        ],
+        [
+            [ "de", "Die Musik", "N" ],
+            [ "en", "The music", "N" ],
+            [ "es", "La música", "N" ]
+        ],
+        [
+            [ "de", "", "" ],
+            [ "en", "", "" ],
+            [ "es", "", "" ]
+        ],
+        [
+            [ "de", "", "" ],
+            [ "en", "", "" ],
+            [ "es", "", "" ]
+        ],
+    ]
+}
