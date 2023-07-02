@@ -1,6 +1,7 @@
 <script lang="ts">
     import type { Shortcut } from "./types";
     import { shuffle } from "./helpers";
+    import { Keyboard, MoveRight, RedoDot } from 'lucide-svelte'
 
     // This will be inserted by the Python Script
     let searchParams = new URLSearchParams(document.location.search);
@@ -104,21 +105,26 @@
 
 <svelte:head>
     <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.10.1/tsparticles.confetti.bundle.min.js"></script>
+
+    <title>{target_application[0].toUpperCase() + target_application.substr(1)} Keyboard Shortcuts</title>
 </svelte:head>
 
-<div class="flex flex-col h-screen text-2xl bg-zinc-800 text-zinc-400">
-    <div class="flex flex-col justify-center divide-y-[1px] grow divide-zinc-700 text-center">
+<div class="flex flex-col h-screen bg-zinc-800 text-zinc-400">
+    <div class="flex flex-col justify-center divide-y-[1px] grow divide-zinc-700 text-center text-4xl">
         <div class="py-5" id="shortcut-description">
             "{ current_shortcut?.description }"
         </div>
-        <div class="py-5 font-mono">
-            <span class="font-bold">
-                {#if lastPressed}
-                    { lastPressed }
-                {:else}
-                    Press any key ...
-                {/if}
-            </span>
+        <div class="flex justify-center gap-3 py-5 font-mono">
+
+            {#if !show_shortcut}
+                <span class="flex items-center gap-2 font-bold">
+                    {#if lastPressed}
+                        { lastPressed }
+                    {:else}
+                        <Keyboard size="40"/> Press the shortcut
+                    {/if}
+                </span>
+            {/if}
             
             {#if show_shortcut}
                 = { current_shortcut?.keys }
@@ -126,17 +132,20 @@
         </div>
     </div>
 
-    <div class="p-4 m-8 bg-zinc-800 border-[1px] border-zinc-700 shadow-md shadow-zinc-900 rounded-2xl flex justify-between items-center">
+    <div class="p-4 m-8 bg-zinc-800 border-[1px] border-zinc-700 shadow-md shadow-zinc-900 rounded-2xl flex justify-between items-center text-xl">
         { shortcut_pool.length } { applications[target_application].name } Shortcuts
 
         <button class="border-[1px] border-zinc-700 rounded-xl flex items-stretch"
             on:click={skipButton}>
-            <div class="px-3 py-1 bg-zinc-900 rounded-l-xl">
+            <div class="flex items-center gap-2 px-3 py-1 bg-zinc-900 rounded-l-xl">
                 {#if show_shortcut}
                     Next
+                    <MoveRight />
                 {:else}
                     Show
+                    <RedoDot  />
                 {/if}
+                
             </div>
 
             <div class="flex items-center px-3 py-1 text-sm bg-zinc-800 rounded-r-xl">ctrl + alt + shift + enter</div>
