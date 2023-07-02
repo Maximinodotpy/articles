@@ -5,18 +5,23 @@
         "ctrl + w",
         "ctrl + shift + w",
         "alt",
-        "ARROWS",
-        "ctrl + [ARROWS]",
-        "ctrl + [DOWN]",
         "alt + up",
         "alt + left",
         "alt + right",
         "ctrl + shift + n",
-        "shift + [MOUSE]",
-        "ctrl + alt + [UP/DOWN]",
-        "alt + [DOWN]",
-        "ctrl + n",
-        "alt + [UP/DOWN]"
+        "ctrl + n"
+    ],
+    "illegal_strings": [
+        "left",
+        "right",
+        "up",
+        "down",
+        "dblclick",
+        "scroll",
+        "mouse",
+        "number",
+        "windows",
+        "arrows"
     ],
     "applications": [
         "windows",

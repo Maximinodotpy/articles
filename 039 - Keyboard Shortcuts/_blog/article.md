@@ -24,6 +24,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Godot](#content-godot) *(13 Shortcuts)*
 - [Visual Studio Code](#content-visual-studio-code) *(32 Shortcuts)*
 - [Microsoft Word](#content-microsoft-word) *(3 Shortcuts)*
+- [Microsoft Excel](#content-microsoft-excl) *(4 Shortcuts)*
 - [Jupyter Notebook](#content-jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#content-adobe-general) *(11 Shortcuts)*
 - [Adobe Premiere Pro](#content-adobe-premiere-pro) *(9 Shortcuts)*
@@ -248,6 +249,22 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + shift + f` | Bold Selection |
 | `ctrl + shift + k` | Italic Selection |
 | `ctrl + shift + u` | Underline Selection |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
+
+
+## Microsoft Excel
+
+
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-excl)
+
+| Shortcut | Description |
+| --- | --- |
+| `shift + dblclick` | Set same width/height to auto fit its content for selected cells [When clicking on a column or row division border] |
+| `ctrl + pagedown` | Switch to next Sheet in Workbook |
+| `ctrl + pageup` | Switch to previous Sheet in Workbook |
+| `F4` | Switch through anchor mode [When the cursor is within a cell reference] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 

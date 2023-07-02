@@ -22,11 +22,7 @@
 
         for (const shortcut of value.shortcuts) {
             if (blacklist.shortcuts.includes(shortcut.keys)) continue;
-            if (shortcut.keys.includes("[ARROWS]")) continue;
-            if (shortcut.keys.includes("UP")) continue;
-            if (shortcut.keys.includes("DOWN")) continue;
-            if (shortcut.keys.includes("LEFT")) continue;
-            if (shortcut.keys.includes("RIGHT")) continue;
+            if (blacklist.illegal_strings.some(el => { return shortcut.keys.includes(el) })) continue;
 
             shortcut_pool.push({
                 keys: shortcut.keys,
@@ -70,12 +66,35 @@
             lastPressed = "";
 
             console.log('Right');
-            
+
+            fireConfetti()
         } else if (lastPressed == 'ctrl + alt + shift + enter') {
             skipButton();
             lastPressed = "";
         }
     });
+
+    function fireConfetti () {
+        const particleCount = 50
+        const rotation = 70
+        const spread = 5
+
+        // @ts-ignore
+        confetti({
+            particleCount: particleCount,
+            spread: spread,
+            angle: rotation,
+            origin: { y: 1.0, x: 0 },
+        });
+        
+        // @ts-ignore
+        confetti({
+            particleCount: particleCount,
+            spread: spread,
+            angle: 180 - rotation,
+            origin: { y: 1.0, x: 1 },
+        });
+    }
 
     function skipButton() {
         if (show_shortcut) countUpIndex();
@@ -83,8 +102,12 @@
     }
 </script>
 
-<div class="flex flex-col h-screen text-2xl bg-neutral-800 text-neutral-400">
-    <div class="flex flex-col justify-center divide-y-[1px] grow divide-neutral-700 text-center">
+<svelte:head>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.10.1/tsparticles.confetti.bundle.min.js"></script>
+</svelte:head>
+
+<div class="flex flex-col h-screen text-2xl bg-zinc-800 text-zinc-400">
+    <div class="flex flex-col justify-center divide-y-[1px] grow divide-zinc-700 text-center">
         <div class="py-5" id="shortcut-description">
             "{ current_shortcut?.description }"
         </div>
@@ -100,22 +123,23 @@
             {#if show_shortcut}
                 = { current_shortcut?.keys }
             {/if}
-            
-            <!-- { target_application } -->
         </div>
     </div>
 
-    <div class="p-4 m-8 bg-neutral-700 border-[1px] border-neutral-500 shadow-md shadow-neutral-900 rounded-2xl flex justify-between items-center">
+    <div class="p-4 m-8 bg-zinc-800 border-[1px] border-zinc-700 shadow-md shadow-zinc-900 rounded-2xl flex justify-between items-center">
         { shortcut_pool.length } { applications[target_application].name } Shortcuts
 
-        <button 
-            class="px-3 py-1 border-[1px] border-neutral-500 rounded-xl"
+        <button class="border-[1px] border-zinc-700 rounded-xl flex items-stretch"
             on:click={skipButton}>
-            {#if show_shortcut}
-                Next
-            {:else}
-                Show
-            {/if}
+            <div class="px-3 py-1 bg-zinc-900 rounded-l-xl">
+                {#if show_shortcut}
+                    Next
+                {:else}
+                    Show
+                {/if}
+            </div>
+
+            <div class="flex items-center px-3 py-1 text-sm bg-zinc-800 rounded-r-xl">ctrl + alt + shift + enter</div>
         </button>
     </div>
 </div>

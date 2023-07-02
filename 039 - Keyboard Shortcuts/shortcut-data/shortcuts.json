@@ -177,6 +177,16 @@
                 { "keys": "ctrl + shift + u", "description": "Underline Selection" }
             ]
         },
+        "microsoft-excl": {
+            "name": "Microsoft Excel",
+            "description": "",
+            "shortcuts": [
+                { "keys": "shift + dblclick", "description": "Set same width/height to auto fit its content for selected cells [When clicking on a column or row division border]" },
+                { "keys": "ctrl + pagedown", "description": "Switch to next Sheet in Workbook" },
+                { "keys": "ctrl + pageup", "description": "Switch to previous Sheet in Workbook" },
+                { "keys": "F4", "description": "Switch through anchor mode [When the cursor is within a cell reference]" }
+            ]
+        },
         "jupyter-notebook": {
             "name": "Jupyter Notebook",
             "description": "",

@@ -35,7 +35,7 @@
                         "properties": {
                             "keys": {
                                 "type": "string",
-                                "pattern": "^((?:ctrl \\+ )?(?:Windows \\+ )?(?:alt \\+ )?(?:shift \\+ )?(?:(?:F\\d{1,2})|\\d|home|return|enter|tab|end|escape|delete|backspace|arrows|left|right|down|up|left\/right|up\/down|arrows\/mouse|click|scroll|mouse|number|space|print|pagedown|pageup|[a-zäüö]{1,2}|,|\\.|\\^|\\(|\\)|'|\\?)(?:((?<=\\S) (?=\\S))|((?=$))))*$"
+                                "pattern": "^((?:ctrl \\+ )?(?:Windows \\+ )?(?:alt \\+ )?(?:shift \\+ )?(?:(?:F\\d{1,2})|\\d|home|return|enter|tab|end|escape|delete|backspace|arrows|left|right|down|up|left\/right|up\/down|arrows\/mouse|click|dblclick|scroll|mouse|number|space|print|pagedown|pageup|[a-zäüö]{1,2}|,|\\.|\\^|\\(|\\)|'|\\?)(?:((?<=\\S) (?=\\S))|((?=$)))){1,}$"
                             },
                             "description": {
                                 "type": "string",
