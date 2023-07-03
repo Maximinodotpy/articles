@@ -46,8 +46,10 @@
 
     document.addEventListener("keydown", (event) => {
         console.log(event);
+        const firstStroke = lastPressed
 
         const key = event.key == " " ? "space" : event.key.toLowerCase();
+        
         const ctrl = event.ctrlKey;
         const alt = event.altKey;
         const shift = event.shiftKey;
@@ -56,11 +58,21 @@
 
         if (["alt", "control", "shift"].includes(key)) return;
 
-        lastPressed = `${ctrl ? "ctrl + " : ""}${alt ? "alt + " : ""}${
+        lastPressed = (`${ctrl ? "ctrl + " : ""}${alt ? "alt + " : ""}${
             shift ? "shift + " : ""
-        }${key}`;
+        }${key}`).toLowerCase();
 
-        if (lastPressed.toLowerCase() == current_shortcut.keys.toLowerCase()) {
+        const target_shortcut = current_shortcut.keys.toLowerCase()
+        const two_stroke_shortcut = `${firstStroke} ${lastPressed}`
+
+        console.log({
+            two_stroke_shortcut,
+            target_shortcut,
+            lastPressed
+        });
+        
+
+        if (lastPressed == target_shortcut || two_stroke_shortcut == target_shortcut) {
             /* points++; */
             countUpIndex();
 
