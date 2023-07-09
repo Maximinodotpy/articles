@@ -17,18 +17,18 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 - [General](#content-general) *(21 Shortcuts)*
 - [File Explorer](#content-file-explorer) *(10 Shortcuts)*
-- [Windows](#content-windows) *(20 Shortcuts)*
+- [Windows](#content-windows) *(21 Shortcuts)*
 - [Microsoft General](#content-microsoft-general) *(1 Shortcuts)*
 - [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(11 Shortcuts)*
 - [Vimium](#content-vimium) *(8 Shortcuts)*
 - [Godot](#content-godot) *(13 Shortcuts)*
-- [Visual Studio Code](#content-visual-studio-code) *(32 Shortcuts)*
-- [Microsoft Word](#content-microsoft-word) *(3 Shortcuts)*
+- [Visual Studio Code](#content-visual-studio-code) *(34 Shortcuts)*
+- [Microsoft Word](#content-microsoft-word) *(7 Shortcuts)*
 - [Microsoft Excel](#content-microsoft-excl) *(4 Shortcuts)*
 - [Jupyter Notebook](#content-jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#content-adobe-general) *(11 Shortcuts)*
 - [Adobe Premiere Pro](#content-adobe-premiere-pro) *(9 Shortcuts)*
-- [Adobe Illustrator](#content-adobe-illustrator) *(19 Shortcuts)*
+- [Adobe Illustrator](#content-adobe-illustrator) *(20 Shortcuts)*
 - [Adobe After Effects](#content-adobe-after-effects) *(2 Shortcuts)*
 - [Wordpress](#content-wordpress) *(1 Shortcuts)*
 - [Github Desktop](#content-github-desktop) *(4 Shortcuts)*
@@ -101,7 +101,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `alt + tab` | View open Applications, in current virtual desktop |
 | `F11` | Toggle Full Screen |
 | `Windows + arrows` | Move active window on the screen |
-| `Windows + shift + arrows` | Move active window to another Screen |
+| `Windows + shift + arrows` | Move active window to another Screen in the same manner as on the current one |
 | `Windows + e` | Open File Explorer |
 | `Windows + l` | Lock Windows |
 | `Windows + shift + s` | Start Snipping Tool |
@@ -115,6 +115,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `alt + shift + print` | Toggle High Contrast Mode |
 | `Windows + v` | Open Clipboard History |
 | `Windows + space` | Switch Language Mode |
+| `F1` | Open Help Menu, also works in a lot of programs |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
@@ -155,7 +156,7 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 
 ## Vimium
 
-The Browser Extension for Google Chrome and MS Edge. It allows you to navigate the web with just your keyboard.
+The Browser Extension for Google Chrome and MS Edge. It allows you to navigate the web with just your keyboard. It's Awesome!
 
 | Shortcut | Description |
 | --- | --- |
@@ -219,7 +220,8 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + shift + e` | Open Integrated Explorer |
 | `alt + shift + r` | Open File in OS Explorer [When in Integrated Explorer] |
 | `ctrl + shift + x` | Open Extensions |
-| `ctrl + d` | Select next occurence of current word |
+| `ctrl + d` | Select next occurence of the current word |
+| `ctrl + k ctrl + d` | Select next but one occurence of the current word |
 | `ctrl + space` | Show Context Snippets |
 | `ctrl + shift + space` | Show Function Parameters |
 | `alt + enter` | Select all found occurences [When in Code Search] |
@@ -234,13 +236,14 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + shift + 5` | Split Current Terminal [When in Terminal] |
 | `ctrl + k z` | Enter Zen Mode |
 | `ctrl + k m` | Choose Language Mode |
+| `ctrl + shift + enter` | Insert Empty Line |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
 
 ## Microsoft Word
 
-
+Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#content-windows) because some of these also apply.
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-word)
 
@@ -249,6 +252,10 @@ These shortcuts are for the Godot Engine (Version 3.x, but most of them also wor
 | `ctrl + shift + f` | Bold Selection |
 | `ctrl + shift + k` | Italic Selection |
 | `ctrl + shift + u` | Underline Selection |
+| `ctrl + enter` | Insert Page Break |
+| `F11` | Select Next Link |
+| `shift + F11` | Select previous Link |
+| `dblclick` | Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
@@ -361,6 +368,7 @@ These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. 
 | `ctrl + r` | Toggle rulers |
 | `ctrl + shift + b` | Toggle Bounding Box |
 | `ctrl + shift + d` | Toggle Transparence Grid |
+| `ctrl + shift + 7` | Create Clip Mask with current objects [When having selected atleast two objects] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 

@@ -55,7 +55,7 @@
                 { "keys": "alt + tab", "description": "View open Applications, in current virtual desktop" },
                 { "keys": "F11", "description": "Toggle Full Screen" },
                 { "keys": "Windows + arrows", "description": "Move active window on the screen" },
-                { "keys": "Windows + shift + arrows", "description": "Move active window to another Screen" },
+                { "keys": "Windows + shift + arrows", "description": "Move active window to another Screen in the same manner as on the current one" },
                 { "keys": "Windows + e", "description": "Open File Explorer" },
                 { "keys": "Windows + l", "description": "Lock Windows" },
                 { "keys": "Windows + shift + s", "description": "Start Snipping Tool" },
@@ -70,7 +70,9 @@
 
                 { "keys": "alt + shift + print", "description": "Toggle High Contrast Mode" },
                 { "keys": "Windows + v", "description": "Open Clipboard History" },
-                { "keys": "Windows + space", "description": "Switch Language Mode" }
+                { "keys": "Windows + space", "description": "Switch Language Mode" },
+
+                { "keys": "F1", "description": "Open Help Menu, also works in a lot of programs" }
             ]
         },
         "microsoft-general": {
@@ -99,7 +101,7 @@
         },
         "vimium": {
             "name": "Vimium",
-            "description": "The Browser Extension for Google Chrome and MS Edge. It allows you to navigate the web with just your keyboard.",
+            "description": "The Browser Extension for Google Chrome and MS Edge. It allows you to navigate the web with just your keyboard. It's Awesome!",
             "shortcuts": [
                 { "keys": "f", "description": "Open Link Selection" },
                 { "keys": "shift + f", "description": "Open Link Selection for new Tab" },
@@ -151,7 +153,8 @@
                 { "keys": "ctrl + shift + e", "description": "Open Integrated Explorer" },
                 { "keys": "alt + shift + r", "description": "Open File in OS Explorer [When in Integrated Explorer]" },
                 { "keys": "ctrl + shift + x", "description": "Open Extensions" },
-                { "keys": "ctrl + d", "description": "Select next occurence of current word" },
+                { "keys": "ctrl + d", "description": "Select next occurence of the current word" },
+                { "keys": "ctrl + k ctrl + d", "description": "Select next but one occurence of the current word" },
                 { "keys": "ctrl + space", "description": "Show Context Snippets" },
                 { "keys": "ctrl + shift + space", "description": "Show Function Parameters" },
                 { "keys": "alt + enter", "description": "Select all found occurences [When in Code Search]" },
@@ -165,16 +168,21 @@
                 { "keys": "ctrl + pageup", "description": "Switch to left File in Group" },
                 { "keys": "ctrl + shift + 5", "description": "Split Current Terminal [When in Terminal]" },
                 { "keys": "ctrl + k z", "description": "Enter Zen Mode" },
-                { "keys": "ctrl + k m", "description": "Choose Language Mode" }
+                { "keys": "ctrl + k m", "description": "Choose Language Mode" },
+                { "keys": "ctrl + shift + enter", "description": "Insert Empty Line" }
             ]
         },
         "microsoft-word": {
             "name": "Microsoft Word",
-            "description": "",
+            "description": "Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#content-windows) because some of these also apply.",
             "shortcuts": [
                 { "keys": "ctrl + shift + f", "description": "Bold Selection" },
                 { "keys": "ctrl + shift + k", "description": "Italic Selection" },
-                { "keys": "ctrl + shift + u", "description": "Underline Selection" }
+                { "keys": "ctrl + shift + u", "description": "Underline Selection" },
+                { "keys": "ctrl + enter", "description": "Insert Page Break" },
+                { "keys": "F11", "description": "Select Next Link" },
+                { "keys": "shift + F11", "description": "Select previous Link" },
+                { "keys": "dblclick", "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" }
             ]
         },
         "microsoft-excl": {
@@ -256,7 +264,8 @@
                 { "keys": "ctrl + shift + v", "description": "Insert at the same Position" },
                 { "keys": "ctrl + r", "description": "Toggle rulers" },
                 { "keys": "ctrl + shift + b", "description": "Toggle Bounding Box" },
-                { "keys": "ctrl + shift + d", "description": "Toggle Transparence Grid" }
+                { "keys": "ctrl + shift + d", "description": "Toggle Transparence Grid" },
+                { "keys": "ctrl + shift + 7", "description": "Create Clip Mask with current objects [When having selected atleast two objects]" }
             ]
         },
         "adobe-after-effects": {
