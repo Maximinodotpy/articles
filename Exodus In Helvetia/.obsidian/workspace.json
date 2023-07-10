@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "963d7f5449594665",
+        "id": "f5f803728967067e",
         "type": "tabs",
         "children": [
           {
-            "id": "2f1efcc7e6b4020a",
+            "id": "3a9cc13e88ab2985",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Characters and Groups/Maria Bachmeier.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e70f2830ab821aa9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Characters and Groups/Maxim Maeder.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8a8586eabdaaf87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Characters and Groups/Maeder-Bachmeier Bande.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Characters and Groups/Maeder-Bachmeier Bande.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Characters and Groups/Maeder-Bachmeier Bande.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Characters and Groups/Maeder-Bachmeier Bande.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,18 +138,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8a8586eabdaaf87",
+  "active": "3a9cc13e88ab2985",
   "lastOpenFiles": [
-    "Characters and Groups/Maxim Maeder.md",
     "Characters and Groups/Maria Bachmeier.md",
-    "Characters and Groups/Maeder-Bachmeier Bande.md",
+    "Characters and Groups/Maxim Maeder.md",
+    "World/World.md",
     "Introduction.md",
+    "Characters and Groups/Maeder-Bachmeier Bande.md",
     "Untitled 1.md",
     "2023-07-10.md",
     "Story",
     "Characters and Groups",
-    "images/flag.pdf",
-    "images/map.png",
-    "images/flag__dirty.png"
+    "Images/flag.pdf",
+    "Images/map.png",
+    "Images/flag__dirty.png"
   ]
 }
