@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f5f803728967067e",
+        "id": "d475246764b23b0a",
         "type": "tabs",
         "children": [
           {
-            "id": "3a9cc13e88ab2985",
+            "id": "1d3033c1c75bb331",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a9cc13e88ab2985",
+  "active": "38be0af817f97860",
   "lastOpenFiles": [
     "Characters and Groups/Maria Bachmeier.md",
     "Characters and Groups/Maxim Maeder.md",
