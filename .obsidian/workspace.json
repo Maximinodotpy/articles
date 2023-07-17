@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -150,11 +149,13 @@
   },
   "active": "6a4b0db5d085ba3e",
   "lastOpenFiles": [
+    "033 - Programming Project Ideas/_blog/article.md",
+    "004 - What is programming/_blog/article.md",
+    "043 - Tree View with Svelte/_blog/article.md",
     "043 - Tree View with Svelte/_tmp_15696_516d93a713d65a0461a1589a06e8754f",
     "043 - Tree View with Svelte/_blog/views",
     "043 - Tree View with Svelte/_blog/views/edit_view.png",
     "043 - Tree View with Svelte/_blog/views/styled_view.png",
-    "043 - Tree View with Svelte/_blog/article.md",
     "043 - Tree View with Svelte/_blog/views/raw_view.png",
     "043 - Tree View with Svelte/_blog/preview.png",
     "043 - Tree View with Svelte/README.md",
@@ -171,7 +172,6 @@
     "043 - Tree View with Svelte/vite.config.ts",
     "043 - Tree View with Svelte/tsconfig.node.json",
     "043 - Tree View with Svelte/tsconfig.json",
-    "043 - Tree View with Svelte/svelte.config.js",
     "043 - Tree View with Svelte/public/vite.svg",
     "001 - Quiz Game/_blog/article.md"
   ]

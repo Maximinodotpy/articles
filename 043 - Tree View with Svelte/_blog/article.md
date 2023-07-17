@@ -3,7 +3,7 @@ name: 'Tree View with Svelte'
 slug: 'tree-view-with-svelte'
 tags: []
 category: 'General'
-status: 'draft'
+status: 'publish'
 description: "Let's create a Tree View Component with Svelte."
 ---
 
