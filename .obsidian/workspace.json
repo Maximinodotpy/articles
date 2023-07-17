@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a83a8f7b4cb5ea12",
+        "id": "c7d65ec9bbd7f701",
         "type": "tabs",
         "children": [
           {
-            "id": "b40fe5db22a680ee",
+            "id": "6a4b0db5d085ba3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -129,7 +130,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,24 +148,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b40fe5db22a680ee",
+  "active": "6a4b0db5d085ba3e",
   "lastOpenFiles": [
+    "043 - Tree View with Svelte/_tmp_15696_516d93a713d65a0461a1589a06e8754f",
+    "043 - Tree View with Svelte/_blog/views",
+    "043 - Tree View with Svelte/_blog/views/edit_view.png",
+    "043 - Tree View with Svelte/_blog/views/styled_view.png",
+    "043 - Tree View with Svelte/_blog/article.md",
+    "043 - Tree View with Svelte/_blog/views/raw_view.png",
+    "043 - Tree View with Svelte/_blog/preview.png",
+    "043 - Tree View with Svelte/README.md",
     "043 - Tree View with Svelte/_blog/screenshot.png",
+    "043 - Tree View with Svelte/_blog/preview.png.tmp$$",
+    "043 - Tree View with Svelte/_blog/preview.svg",
+    "043 - Tree View with Svelte/_blog/preview.ai",
+    "043 - Tree View with Svelte/_blog/A9R1mw9k5r_1gqgi1s_940.tmp",
+    "043 - Tree View with Svelte/_blog/~ai-4567ebf1-2c63-41cd-9911-6edc72df3b24_.tmp",
+    "043 - Tree View with Svelte/_blog/A9R88iwjq_zbz6ob_3xs.tmp",
     "043 - Tree View with Svelte/_blog/screenshot 1.png",
     "README.md",
-    "043 - Tree View with Svelte/_blog/article.md",
     "042 - Carousel Component with Svelte/_blog/article.md",
     "043 - Tree View with Svelte/vite.config.ts",
     "043 - Tree View with Svelte/tsconfig.node.json",
     "043 - Tree View with Svelte/tsconfig.json",
     "043 - Tree View with Svelte/svelte.config.js",
-    "043 - Tree View with Svelte/README.md",
-    "043 - Tree View with Svelte/pnpm-lock.yaml",
-    "043 - Tree View with Svelte/package.json",
-    "043 - Tree View with Svelte/index.html",
-    "043 - Tree View with Svelte/src/TreeView.svelte",
-    "043 - Tree View with Svelte/src/vite-env.d.ts",
-    "043 - Tree View with Svelte/src/TreeView copy.svelte",
     "043 - Tree View with Svelte/public/vite.svg",
     "001 - Quiz Game/_blog/article.md"
   ]

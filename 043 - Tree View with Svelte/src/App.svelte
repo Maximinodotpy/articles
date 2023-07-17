@@ -116,12 +116,12 @@
       <div class="border border-blue-500 bg-blue-950/50 divide-x divide-blue-500 rounded-md grid grid-cols-2">
         <div class="p-6">
           <div class="text-xl font-bold mb-2">Raw</div>
-          <TreeView bind:tree_data={tree_data} />
+          <TreeView tree_data={tree_data} />
         </div>
       
         <div class="p-6">
           <div class="text-xl font-bold mb-2">Styled</div>
-          <TreeView bind:tree_data={tree_data} let:item>
+          <TreeView tree_data={tree_data} let:item>
             <div class="flex w-full group border-b border-b-blue-700 py-2">
               {#if item.children}
                 <div class="grow">
