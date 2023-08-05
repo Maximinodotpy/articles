@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c7d65ec9bbd7f701",
+        "id": "c0040b8afe7ed30c",
         "type": "tabs",
         "children": [
           {
-            "id": "6a4b0db5d085ba3e",
+            "id": "3ca9038cf9af631b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "043 - Tree View with Svelte/_blog/article.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#FF0000",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "043 - Tree View with Svelte/_blog/article.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "043 - Tree View with Svelte/_blog/article.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "043 - Tree View with Svelte/_blog/article.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,11 +139,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a4b0db5d085ba3e",
+  "active": "3ca9038cf9af631b",
   "lastOpenFiles": [
+    "040 - Line Chart with Svelte/node_modules/chalk/readme.md",
+    "043 - Tree View with Svelte/_blog/article.md",
     "033 - Programming Project Ideas/_blog/article.md",
     "004 - What is programming/_blog/article.md",
-    "043 - Tree View with Svelte/_blog/article.md",
     "043 - Tree View with Svelte/_tmp_15696_516d93a713d65a0461a1589a06e8754f",
     "043 - Tree View with Svelte/_blog/views",
     "043 - Tree View with Svelte/_blog/views/edit_view.png",

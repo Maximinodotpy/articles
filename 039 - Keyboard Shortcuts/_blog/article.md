@@ -19,11 +19,12 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [File Explorer](#content-file-explorer) *(10 Shortcuts)*
 - [Windows](#content-windows) *(21 Shortcuts)*
 - [Microsoft General](#content-microsoft-general) *(1 Shortcuts)*
-- [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(11 Shortcuts)*
+- [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(12 Shortcuts)*
 - [Vimium](#content-vimium) *(8 Shortcuts)*
 - [Godot](#content-godot) *(13 Shortcuts)*
 - [Visual Studio Code](#content-visual-studio-code) *(34 Shortcuts)*
 - [Microsoft Word](#content-microsoft-word) *(7 Shortcuts)*
+- [Microsoft Powerpoint](#content-microsoft-powerpoint) *(2 Shortcuts)*
 - [Microsoft Excel](#content-microsoft-excl) *(4 Shortcuts)*
 - [Jupyter Notebook](#content-jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#content-adobe-general) *(11 Shortcuts)*
@@ -32,6 +33,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Adobe After Effects](#content-adobe-after-effects) *(2 Shortcuts)*
 - [Wordpress](#content-wordpress) *(1 Shortcuts)*
 - [Github Desktop](#content-github-desktop) *(4 Shortcuts)*
+- [Obsidian MD](#content-obsidian-md) *(7 Shortcuts)*
 
 
 ## General
@@ -150,6 +152,7 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + l` | Focus URL Input |
 | `ctrl + shift + t` | Open most recently closed tab or if edge is started freshly open all recent tabs from the last session |
 | `ctrl + u` | Show Source Code |
+| `ctrl + shift + 2` | Toggle split screen |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
@@ -256,6 +259,20 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `F11` | Select Next Link |
 | `shift + F11` | Select previous Link |
 | `dblclick` | Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button] |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
+
+
+## Microsoft Powerpoint
+
+
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-powerpoint)
+
+| Shortcut | Description |
+| --- | --- |
+| `shift + F5` | Start Presentation from here |
+| `F5` | Start Presentation |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 
@@ -412,6 +429,25 @@ Githubs Desktop Client
 | `ctrl + p` | Push changes |
 | `ctrl + g` | Focus Summary |
 | `ctrl + enter` | Commit Changes [When the Commit Message is filled out or only one file is staged] |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
+
+
+## Obsidian MD
+
+[Obsidian](https://obsidian.md/) is an awesome Markdown based Notetaking tool that I just recently (July 2023) discovered for myself and best of all its also has a lot of keyboard shortcuts. Keep in mind that many shortcuts known from other programs like `ctrl + tab` also apply here. Also common formatting Keyboards like `ctrl + i` for emphasised text can be used in Obsidian.
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=obsidian-md)
+
+| Shortcut | Description |
+| --- | --- |
+| `ctrl + p` | Open Command Palette |
+| `arrows` | Pan around [When in Graph View] |
+| `shift + 1` | Fit all items into view [When in Canvas File] |
+| `shift + 2` | Fit current selection into view [When in Canvas File] |
+| `ctrl + o` | Open Quick Switcher |
+| `ctrl + alt + left` | Go back in History |
+| `ctrl + alt + right` | Go forward in History |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)
 

@@ -96,7 +96,8 @@
                 { "keys": "F12", "description": "Open Dev Tools" },
                 { "keys": "ctrl + l", "description": "Focus URL Input" },
                 { "keys": "ctrl + shift + t", "description": "Open most recently closed tab or if edge is started freshly open all recent tabs from the last session" },
-                { "keys": "ctrl + u", "description": "Show Source Code" }
+                { "keys": "ctrl + u", "description": "Show Source Code" },
+                { "keys": "ctrl + shift + 2", "description": "Toggle split screen" }
             ]
         },
         "vimium": {
@@ -183,6 +184,14 @@
                 { "keys": "F11", "description": "Select Next Link" },
                 { "keys": "shift + F11", "description": "Select previous Link" },
                 { "keys": "dblclick", "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" }
+            ]
+        },
+        "microsoft-powerpoint": {
+            "name": "Microsoft Powerpoint",
+            "description": "",
+            "shortcuts": [
+                { "keys": "shift + F5", "description": "Start Presentation from here" },
+                { "keys": "F5", "description": "Start Presentation" }
             ]
         },
         "microsoft-excl": {
@@ -291,6 +300,19 @@
                 { "keys": "ctrl + p", "description": "Push changes" },
                 { "keys": "ctrl + g", "description": "Focus Summary" },
                 { "keys": "ctrl + enter", "description": "Commit Changes [When the Commit Message is filled out or only one file is staged]" }
+            ]
+        },
+        "obsidian-md": {
+            "name": "Obsidian MD",
+            "description": "[Obsidian](https://obsidian.md/) is an awesome Markdown based Notetaking tool that I just recently (July 2023) discovered for myself and best of all its also has a lot of keyboard shortcuts. Keep in mind that many shortcuts known from other programs like `ctrl + tab` also apply here. Also common formatting Keyboards like `ctrl + i` for emphasised text can be used in Obsidian.",
+            "shortcuts": [
+                { "keys": "ctrl + p", "description": "Open Command Palette" },
+                { "keys": "arrows", "description":  "Pan around [When in Graph View]" },
+                { "keys": "shift + 1", "description": "Fit all items into view [When in Canvas File]" },
+                { "keys": "shift + 2", "description": "Fit current selection into view [When in Canvas File]" },
+                { "keys": "ctrl + o", "description": "Open Quick Switcher" },
+                { "keys": "ctrl + alt + left", "description": "Go back in History" },
+                { "keys": "ctrl + alt + right", "description": "Go forward in History" }
             ]
         }
     }   
