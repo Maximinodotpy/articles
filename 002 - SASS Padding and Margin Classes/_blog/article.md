@@ -1,5 +1,6 @@
 ---
 name: 'Padding and Margin Classes with Sass'
+aliases: ["Padding and Margin Classes with Sass", ]
 slug: 'padding-and-margin-classes-with-sass'
 tags: []
 category: 'Utility'
