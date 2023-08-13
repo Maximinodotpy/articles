@@ -4,7 +4,7 @@ slug: 'regular-expressions'
 tags: []
 category: 'General'
 status: 'draft'
-description: "Regular Expressions one of programmings most dreaded topics ... let's learn about it."
+description: "Regular Expressions one of programmings most dreaded topics, let us learn about it."
 ---
 
 Regular Expressions are probably one of the most dreaded topics in programming, when you need you copy it off Stack Overflow or ChatGPT does the Job. For me it seems like most or a lot of programmers don't know regex despite it being such an important topic and useful skill. 
