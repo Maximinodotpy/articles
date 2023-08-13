@@ -129,8 +129,8 @@ Anchors are a way of "snapping" your pattern to certain points in your test stri
 | ------ | ------------------- |
 | ^      | Start of the String |
 | $      | End of the String   |
-| \\b    | Word Boundary       |
-| \\B    | Non Word Boundary   | 
+| \\\b    | Word Boundary       |
+| \\\B    | Non Word Boundary   | 
 
 The end and start anchors are useful when you want to whole test string to match the pattern.
 
