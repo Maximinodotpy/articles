@@ -51,12 +51,14 @@ there are several built-in metacharacters.
 
 | Metacharacter | Description              |
 | ------------- | ------------------------ |
-| \\d           | Digits                   |
-| \\w           | Word Characters          |
+| \d           | Digits                   |
+| \w           | Word Characters          |
 | .             | Any Character            |
-| \\s           | Any Whitespace Character | 
+| \s           | Any Whitespace Character | 
 
-All the metacharacters with a slash (`\`) in front of them can be "reversed" by capitalizing the given letter for example `\D` matches all characters but digits.
+&bsol;
+
+All the metacharacters with a slash (`\\`) in front of them can be "reversed" by capitalizing the given letter for example `\\D` matches all characters but digits.
 #### Character Classes
 
 Let's say you want to make your own "Placeholder" character, here Character Classes come in Handy. In one of the [Basic Examples](#basic-examples) we saw these in action in the regex pattern `seriali[sz]e` which use a character class with the contents `s` and `z` meaning it could be any of the characters within the brackets.
