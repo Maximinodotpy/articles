@@ -51,12 +51,10 @@ there are several built-in metacharacters.
 
 | Metacharacter | Description              |
 | ------------- | ------------------------ |
-| \d           | Digits                   |
-| \w           | Word Characters          |
+| \\\d           | Digits                   |
+| \\\w           | Word Characters          |
 | .             | Any Character            |
-| \s           | Any Whitespace Character | 
-
-&bsol;
+| \\\s           | Any Whitespace Character | 
 
 All the metacharacters with a slash (`\\`) in front of them can be "reversed" by capitalizing the given letter for example `\\D` matches all characters but digits.
 #### Character Classes
@@ -149,10 +147,10 @@ So there are four Lookarounds.
 
 | Pattern Template | Description          |
 | ---------------- | -------------------- |
-| (?=...)          | Positive Lookahead   |
-| (?!...)          | Negative Lookahead   |
-| (?<=...)         | Positive Lookbehind  |
-| (?<!...)         | Negative Lookbehinde |
+| `(?=...)`          | Positive Lookahead   |
+| `(?!...)`          | Negative Lookahead   |
+| `(?<=...)`         | Positive Lookbehind  |
+| `(?<!...)`         | Negative Lookbehinde |
 
 The important thing is that a lookaround wont be part of the Match. 
 
