@@ -3,7 +3,7 @@ name: 'Regular Expressions'
 slug: 'regular-expressions'
 tags: []
 category: 'General'
-status: 'publish'
+status: 'published'
 description: "Regular Expressions one of programmings most dreaded topics, let us learn about them."
 ---
 
