@@ -1,18 +1,33 @@
 {
-  "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./",
+  "spellcheckLanguages": null,
   "pdfExportSettings": {
-    "includeName": false,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
-  "userIgnoreFilters": [
-    "/.node_modules/",
-    "/node_modules/",
-    "/.*node_modules.*/"
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root",
+  "promptDelete": false,
+  "spellcheck": true,
+  "trashOption": "local",
+  "mobileToolbarCommands": [
+    "editor:insert-wikilink",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:insert-link",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:toggle-keyboard",
+    "editor:configure-toolbar",
+    "editor:swap-line-up",
+    "editor:swap-line-down",
+    "editor:toggle-source",
+    "table-editor-obsidian:next-cell"
   ],
-  "useMarkdownLinks": true
+  "attachmentFolderPath": "Attachments",
+  "showUnsupportedFiles": true,
+  "vimMode": false
 }
