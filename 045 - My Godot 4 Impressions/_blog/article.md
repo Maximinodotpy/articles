@@ -3,7 +3,7 @@ name: 'My Godot 4 Impressions'
 slug: 'my-godot-4-impressions'
 tags: []
 category: 'General'
-status: 'draft'
+status: 'publish'
 description: "In this Article I want to go over my Impressions of Godot 4"
 ---
 
