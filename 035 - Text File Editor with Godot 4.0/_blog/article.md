@@ -1,7 +1,8 @@
 ---
 name: Text Editor with Godot 4
 slug: text-file-editor-with-godot-4
-tags: ""
+tags:
+  - GD Script
 category: Godot Game Engine
 status: publish
 description: Let's celebrate the Release of Godot 4.0 by making a Text File

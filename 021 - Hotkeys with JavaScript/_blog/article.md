@@ -1,9 +1,11 @@
 ---
-name: 'Keyboard Shortcuts with JavaScript'
-slug: 'shortcuts-with-javascript'
-tags: []
-category: 'Utility'
-description: 'Learn how to make functions to set up keyboard shortcuts easily in JavaScript'
+name: Keyboard Shortcuts with JavaScript
+slug: shortcuts-with-javascript
+tags:
+  - Component
+  - JavaScript
+category: Utility
+description: Learn how to make functions to set up keyboard shortcuts easily in JavaScript
 ---
 
 In this short Tutorial, we will make two functions that will make it easy to set up keyboard shortcuts. one function will accept an object as a parameter, and another will receive a string in the likes of `ctrl+a` or `shift-alt-for and a callback function. The second one will call the first one because it is essentially the same, just easier for programming. Let's get started!

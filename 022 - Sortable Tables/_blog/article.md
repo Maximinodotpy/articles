@@ -1,9 +1,12 @@
 ---
-name: 'Sortable Table with JavaScript'
-slug: 'sortable-table-with-javascript'
-tags: []
-category: 'Utility'
-description: 'Learn how to make sortable tables with JavaScript. We utilize the map and filter methods of Arrays.'
+name: Sortable Table with JavaScript
+slug: sortable-table-with-javascript
+tags:
+  - Component
+  - JavaScript
+category: Utility
+description: Learn how to make sortable tables with JavaScript. We utilize the
+  map and filter methods of Arrays.
 ---
 
 

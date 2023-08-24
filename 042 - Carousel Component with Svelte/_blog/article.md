@@ -1,10 +1,12 @@
 ---
-name: 'Carousel Component with Svelte'
-slug: 'carousel-component-with-svelte'
-tags: []
-category: 'General'
-status: 'publish'
-description: "Let's create a Carousel Component with Svelte."
+name: Carousel Component with Svelte
+slug: carousel-component-with-svelte
+tags:
+  - Component
+  - Svelte
+category: General
+status: publish
+description: Let's create a Carousel Component with Svelte.
 ---
 
 I'm in love! There I said it, and I'm not embarrassed whatsoever. Svelte is incredible, it's intuitive and fast, and it has all the things I want. That's why today we will build a carousel component with it. We'll look at CSS's `scroll-snap` property and how to make our component themeable via CSS variables.

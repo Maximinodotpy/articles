@@ -1,9 +1,12 @@
 ---
-name: 'How to set up and configure the Tailwindcss Framework.'
-slug: 'how-to-set-up-and-configure-the-tailwind-framework'
-tags: []
-category: 'General'
-description: 'Tailwind is pretty awesome; with this CSS Framework, one can write utility classes like `p-4` or `cursor-pointer`, and thanks to its bundler, it will only give you the classes you have used'
+name: How to set up and configure the Tailwindcss Framework.
+slug: how-to-set-up-and-configure-the-tailwind-framework
+tags:
+  - Concept
+category: General
+description: Tailwind is pretty awesome; with this CSS Framework, one can write
+  utility classes like `p-4` or `cursor-pointer`, and thanks to its bundler, it
+  will only give you the classes you have used
 ---
 
 Tailwind is pretty awesome; with this CSS Framework, one can write utility classes like `p-4` or `cursor-pointer`, and thanks to its bundler, it will only give you the classes you have used. So today, we will go over how to set up and configure tailwind for your project.

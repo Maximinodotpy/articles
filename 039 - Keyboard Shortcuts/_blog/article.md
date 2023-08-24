@@ -4,8 +4,9 @@ slug: keyboard-shortcuts
 description: A list of Shortcuts I use in my Work with Computers, feel free to
   skim through it and maybe learn about new things in your favourite
   applications.
-tags: ""
-category: general
+tags:
+  - Component
+category: General
 status: publish
 ---
 

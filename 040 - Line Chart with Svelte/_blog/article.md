@@ -4,8 +4,9 @@ slug: line-chart-with-svelte
 description: Let's make a Line Chart with Svelte and Scalable Vector Graphics
   (SVG). We will use Svelte's reactive variables to make the Line Chart
   interactive.
-tags: ""
-category: general
+tags:
+  - Component
+category: General
 status: publish
 ---
 

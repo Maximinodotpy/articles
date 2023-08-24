@@ -1,7 +1,8 @@
 ---
 name: Simple spreadsheet app with vue
 slug: simple-spreadsheet-app-with-vue
-tags: ""
+tags:
+  - VueJS
 category: Project
 description: Learn how to make a simple spreadsheet app with the javascript
   framework vue. We will create it so you can reference other cells.

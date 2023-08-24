@@ -1,9 +1,10 @@
 ---
-name: 'How to hide text in images with python.'
-slug: 'how-to-hide-text-in-images-with-python'
-tags: []
-category: 'Utility'
-description: 'Hiding and Reading Text that is hidden in uncompressed images with PIL.'
+name: How to hide text in images with python.
+slug: how-to-hide-text-in-images-with-python
+tags:
+  - Python
+category: Utility
+description: Hiding and Reading Text that is hidden in uncompressed images with PIL.
 ---
 
 As Wikipedia states *Steganography is the practice of concealing a message within another message or a physical object* and today, we are going to do this. We will make a program that writes text to images and reads it from there. We assign pixel values to each possible character. This is just a barebones version that you can use as a basis or inspiration for other programs like this.

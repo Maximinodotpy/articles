@@ -1,7 +1,8 @@
 ---
 name: Custom Svelte Store
 slug: custom-store-for-svelte
-tags: ""
+tags:
+  - Component
 category: Webdevelopment
 status: publish
 description: Let's make a Custom Svelte Store to manage the current color scheme

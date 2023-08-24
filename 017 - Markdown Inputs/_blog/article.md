@@ -1,9 +1,13 @@
 ---
-name: 'Markdown Inputs with HTML, CSS and JavaScript'
-slug: 'markdown-inputs-with-html-css-and-javascript'
-tags: []
-category: 'Utility'
-description: 'Learn how to make input and textarea tags that allow and show markdown.'
+name: Markdown Inputs with HTML, CSS and JavaScript
+slug: markdown-inputs-with-html-css-and-javascript
+tags:
+  - Markdown
+  - CSS
+  - JavaScript
+  - HTML
+category: Utility
+description: Learn how to make input and textarea tags that allow and show markdown.
 ---
 
 In this Tutorial, we will make input areas that allow simple markdown markup to show itself when the user is not currently focused on the input itself. Visit the [demo](https://demos.maximmaeder.com/d/markdown-inputs) to get a clearer Idea of what we are trying to accomplish here. Input areas like these are used in [Trello](http://trello.com/) and other software by [Atlassian](https://www.atlassian.com/software/jira). One could say this approach is somewhere between only unformatted text and a full Rich Text Editor.

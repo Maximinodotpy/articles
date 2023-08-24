@@ -1,9 +1,13 @@
 ---
-name: 'Calculator with History Function in HTML, CSS, and JavaScript'
-slug: 'calculator-with-history-function-in-html-css-and-javascript'
-tags: []
-category: 'Project'
-description: 'Learn how to make a simple calculator with a history function using web technologies.'
+name: Calculator with History Function in HTML, CSS, and JavaScript
+slug: calculator-with-history-function-in-html-css-and-javascript
+tags:
+  - JavaScript
+  - CSS
+  - HTML
+category: Project
+description: Learn how to make a simple calculator with a history function using
+  web technologies.
 ---
 
 In this Tutorial, we will make a simple Calculator with a history function utilizing JavaScript, HTML, and CSS. We will use the eval function to evaluate the expression, but keep in mind that this is somewhat dangerous and it should be used with great care in Production Environments. We will also make use of the [Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) API to store a list of expressions that were previously typed into the calculator.

@@ -1,9 +1,13 @@
 ---
-name: 'Link Previews with JavaScript and PHP'
-slug: 'link-previews-with-javascript-and-php'
-tags: []
-category: 'Utility'
-description: 'In this short Tutorial we will make it so the links of our page show a little preview window panel that shows the title and description of the linked page.'
+name: Link Previews with JavaScript and PHP
+slug: link-previews-with-javascript-and-php
+tags:
+  - PHP
+  - JavaScript
+category: Utility
+description: In this short Tutorial we will make it so the links of our page
+  show a little preview window panel that shows the title and description of the
+  linked page.
 ---
 
 On Wikipedia, its links are a little bit different than on other Pages, if you hover over one it displays a short description and an image of the page that this link leads to and today we will try to do this ourselves with JavaScript and a little bit of PHP. Just keep in mind this will be a quick and dirty solution to the problem you could work it out work consistently. The PHP part will be just one file with one function so we simply go over it in the JavaScript part.

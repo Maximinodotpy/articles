@@ -3,8 +3,10 @@ name: Text Editor with JavaScript
 slug: text-editor-with-javascript
 description: Let's create a text file editor with JavaScript that can open and
   save files to the local file system using the File system access API.
-tags: ""
-category: general
+tags:
+  - JavaScript
+  - Web API's
+category: General
 status: publish
 ---
 

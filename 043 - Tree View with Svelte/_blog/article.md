@@ -1,10 +1,12 @@
 ---
-name: 'Tree View with Svelte'
-slug: 'tree-view-with-svelte'
-tags: []
-category: 'General'
-status: 'publish'
-description: "Let's create a Tree View Component with Svelte."
+name: Tree View with Svelte
+slug: tree-view-with-svelte
+tags:
+  - Component
+  - Svelte
+category: General
+status: publish
+description: Let's create a Tree View Component with Svelte.
 ---
 
 Welcome to another Svelte Tutorial; this time, we will build an interactive Tree View with Svelte. File Explorers or UI elements of similar nature often use Tree Views; therefore, they are very good at showing that one item is "part" of another.

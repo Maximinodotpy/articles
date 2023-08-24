@@ -1,9 +1,13 @@
 ---
-name: 'Display JSON with HTML, CSS, and Javascript'
-slug: 'display-json-with-html-css-and-javascript'
-tags: []
-category: 'Utility'
-description: 'Learn how to display nested JavaScript Objects the same way the console in the developer tools does.'
+name: Display JSON with HTML, CSS, and Javascript
+slug: display-json-with-html-css-and-javascript
+tags:
+  - JavaScript
+  - CSS
+  - HTML
+category: Utility
+description: Learn how to display nested JavaScript Objects the same way the
+  console in the developer tools does.
 ---
 
 

@@ -1,9 +1,13 @@
 ---
-name: 'Product Tour with JavaScript and SCSS'
-slug: 'product-tour-with-javascript-and-scss'
-tags: []
-category: 'Utility'
-description: 'Learn how to make a Product Tour with JavaScript to showcase the features of a Website to your Users.'
+name: Product Tour with JavaScript and SCSS
+slug: product-tour-with-javascript-and-scss
+tags:
+  - Component
+  - JavaScript
+  - SCSS
+category: Utility
+description: Learn how to make a Product Tour with JavaScript to showcase the
+  features of a Website to your Users.
 ---
 
 In this article, we will try to make a Product Tour with JavaScript. A **Product Tour** or **Feature Tour** shows users what a Website or Software can do interactively. We will make a function that will handle rendering the panel and the focus element and switching through the different steps. This function will receive a list of destinations for the tour. To keep it simple, we won't go into websites that have scrollbars, and it won't be fully responsive. For this to work, we will need the CSS Clip-Path Property and JavaScripts `getBoundingClientRect()` function. Look at the [demo](https://demos.maximmaeder.com/d/product-tour-with-javascript-and-scss/) to get a better idea of what I mean. Lastly, we will make use of SCSS to style our Product Tour Elements

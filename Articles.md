@@ -18,7 +18,7 @@ columns:
     skipPersist: false
     isDragDisabled: false
     csvCandidate: true
-    position: 0
+    position: 1
     isHidden: false
     sortIndex: 1
     width: 189
@@ -39,11 +39,11 @@ columns:
     key: name
     id: name
     label: name
-    position: 100
+    position: 2
     skipPersist: false
     isHidden: false
     sortIndex: -1
-    width: 442
+    width: 330
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -54,6 +54,34 @@ columns:
       footer_type: none
       persist_changes: false
       content_alignment: text-align-left
+  category:
+    input: select
+    accessorKey: category
+    key: category
+    id: category
+    label: category
+    position: 3
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    width: 166
+    options:
+      - { label: "Project", value: "Project", color: "hsl(116, 95%, 90%)"}
+      - { label: "Utility", value: "Utility", color: "hsl(114, 95%, 90%)"}
+      - { label: "General", value: "General", color: "hsl(328, 95%, 90%)"}
+      - { label: "Godot Game Engine", value: "Godot Game Engine", color: "hsl(153, 95%, 90%)"}
+      - { label: "Webdevelopment", value: "Webdevelopment", color: "hsl(312, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+      content_alignment: text-align-left
+      option_source: manual
   tags:
     input: tags
     accessorKey: tags
@@ -64,32 +92,24 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
-    width: 289
+    width: 386
     options:
-      - { label: "gdscript,godot,editor,ui", value: "gdscript,godot,editor,ui", color: "hsl(303, 95%, 90%)"}
-      - { label: "JavaScript,Typescript", value: "JavaScript,Typescript", color: "hsl(143, 95%, 90%)"}
-      - { label: "svelte,custom-svelte-stores,web_apis,user_interface", value: "svelte,custom-svelte-stores,web_apis,user_interface", color: "hsl(310, 95%, 90%)"}
-      - { label: "JavaScript,Typescript,Animations", value: "JavaScript,Typescript,Animations", color: "hsl(163, 95%, 90%)"}
-      - { label: "shortcuts", value: "shortcuts", color: "hsl(330, 95%, 90%)"}
-      - { label: "JavaScript,Web Development,File System Access API", value: "JavaScript,Web Development,File System Access API", color: "hsl(211, 95%, 90%)"}
-      - { label: "gdscript", value: "gdscript", color: "hsl(31, 95%, 90%)"}
-      - { label: "godot", value: "godot", color: "hsl(248, 95%, 90%)"}
-      - { label: "editor", value: "editor", color: "hsl(131, 95%, 90%)"}
-      - { label: "ui", value: "ui", color: "hsl(247, 95%, 90%)"}
-      - { label: "JavaScript", value: "JavaScript", color: "hsl(170, 95%, 90%)"}
-      - { label: "Typescript", value: "Typescript", color: "hsl(355, 95%, 90%)"}
-      - { label: "svelte", value: "svelte", color: "hsl(65, 95%, 90%)"}
-      - { label: "custom-svelte-stores", value: "custom-svelte-stores", color: "hsl(221, 95%, 90%)"}
-      - { label: "web_apis", value: "web_apis", color: "hsl(334, 95%, 90%)"}
-      - { label: "user_interface", value: "user_interface", color: "hsl(149, 95%, 90%)"}
-      - { label: "Animations", value: "Animations", color: "hsl(198, 95%, 90%)"}
-      - { label: "Web Development", value: "Web Development", color: "hsl(220, 95%, 90%)"}
-      - { label: "File System Access API", value: "File System Access API", color: "hsl(345, 95%, 90%)"}
-      - { label: "HTML", value: "HTML", color: "hsl(132, 95%, 90%)"}
-      - { label: "CSS", value: "CSS", color: "hsl(95, 95%, 90%)"}
-      - { label: "VueJS", value: "VueJS", color: "hsl(315, 95%, 90%)"}
-      - { label: "Web API's", value: "Web API's", color: "hsl(202, 95%, 90%)"}
-      - { label: "SASS", value: "SASS", color: "hsl(349, 95%, 90%)"}
+      - { label: "Web API's", value: "Web API's", color: "hsl(63, 95%, 90%)"}
+      - { label: "JavaScript", value: "JavaScript", color: "hsl(313, 95%, 90%)"}
+      - { label: "HTML", value: "HTML", color: "hsl(231, 95%, 90%)"}
+      - { label: "CSS", value: "CSS", color: "hsl(164, 95%, 90%)"}
+      - { label: "VueJS", value: "VueJS", color: "hsl(75, 95%, 90%)"}
+      - { label: "SASS", value: "SASS", color: "hsl(57, 95%, 90%)"}
+      - { label: "Typescript", value: "Typescript", color: "hsl(239, 95%, 90%)"}
+      - { label: "GD Script", value: "GD Script", color: "hsl(139, 95%, 90%)"}
+      - { label: "Component", value: "Component", color: "hsl(28, 95%, 90%)"}
+      - { label: "Svelte", value: "Svelte", color: "hsl(42, 95%, 90%)"}
+      - { label: "Game", value: "Game", color: "hsl(149, 95%, 90%)"}
+      - { label: "Concept", value: "Concept", color: "hsl(36, 95%, 90%)"}
+      - { label: "SCSS", value: "SCSS", color: "hsl(155, 95%, 90%)"}
+      - { label: "Python", value: "Python", color: "hsl(148, 95%, 90%)"}
+      - { label: "Markdown", value: "Markdown", color: "hsl(330, 95%, 90%)"}
+      - { label: "PHP", value: "PHP", color: "hsl(294, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -99,8 +119,8 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-      option_source: manual
       content_alignment: text-align-left
+      option_source: manual
 config:
   remove_field_when_delete_column: false
   cell_size: normal

@@ -1,9 +1,12 @@
 ---
-name: 'File Explorer with Vue.js'
-slug: 'file-explorer-with-vue-js'
-tags: []
-category: 'Project'
-description: "let's make a small JSON-based File Explorer with vue.js, Learn about methods, computed properties, and other awesome things you can do with vue."
+name: File Explorer with Vue.js
+slug: file-explorer-with-vue-js
+tags:
+  - VueJS
+category: Project
+description: let's make a small JSON-based File Explorer with vue.js, Learn
+  about methods, computed properties, and other awesome things you can do with
+  vue.
 ---
 
 In this Tutorial, we will utilize the JavaScript Framework [Vue.js](https://vuejs.org/) to make a small dummy file explorer, where we can add, rename and delete files and folders via buttons. We will make it so we can enter folders via their content and for the files, we make their text content editable. This program served the purpose of learning Vue for me and it could very well be that I do something not the best way so keep that in mind. To keep it simple we won't use components and we will not use a build step.

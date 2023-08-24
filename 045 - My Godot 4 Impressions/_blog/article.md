@@ -1,10 +1,12 @@
 ---
-name: 'My Godot 4 Impressions'
-slug: 'my-godot-4-impressions'
-tags: []
-category: 'General'
-status: 'publish'
-description: "In this Article I want to go over my Impressions of Godot 4"
+name: My Godot 4 Impressions
+slug: my-godot-4-impressions
+tags:
+  - GD Script
+  - Game
+category: Godot Game Engine
+status: publish
+description: In this Article I want to go over my Impressions of Godot 4
 ---
 
 I have be honest, Until just this weekend I did not really dive into Godot 4. I did make a [text editor](https://maximmaeder.com/text-file-editor-with-godot-4/) with Godot  but that was as far as it went. But now I really got into it by making another Platformer based on my last one: [Tile Jumper Exodus](https://maximino.itch.io/tile-jumper-exodus). So now I want to share my Experiences with you, going over the Major and Minor things I learned / remembered about the Engine. I hope this will be useful for you.

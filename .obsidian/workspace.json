@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c271693280710750",
+            "id": "7463e48e9d5c385b",
             "type": "leaf",
             "state": {
               "type": "database-plugin",
@@ -146,10 +146,22 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "c271693280710750",
+  "active": "7463e48e9d5c385b",
   "lastOpenFiles": [
-    "010 - Highlighted Code Editor with vue.js and regex/_blog/article.md",
+    "016 - Display Objects Recursively with JavaScript/_blog/article.md",
+    "017 - Markdown Inputs/_blog/article.md",
+    "018 - Vertical Split Web Component/_blog/article.md",
+    "019 - Link Preview/_blog/article.md",
+    "020 - Calculator/_blog/article.md",
+    "021 - Hotkeys with JavaScript/_blog/article.md",
+    "022 - Sortable Tables/_blog/article.md",
+    "023 - File Explorer/_blog/article.md",
+    "024 - Godot Platformer Character with Walljumping/_blog/article.md",
+    "039 - Keyboard Shortcuts/_blog/article.md",
+    "040 - Line Chart with Svelte/_blog/article.md",
+    "041 - Text Editor with JavaScript/_blog/article.md",
     "Articles.md",
+    "010 - Highlighted Code Editor with vue.js and regex/_blog/article.md",
     "007 - simple spreadsheet app with vue/_blog/article.md",
     "015 - Tabs with HTML, SASS and JS/_blog/article.md",
     "Overview.md",
@@ -181,9 +193,6 @@
     "043 - Tree View with Svelte/README.md",
     "043 - Tree View with Svelte/_blog/screenshot.png",
     "043 - Tree View with Svelte/_blog/preview.svg",
-    "043 - Tree View with Svelte/_blog/screenshot 1.png",
-    "README.md",
-    "042 - Carousel Component with Svelte/_blog/article.md",
-    "001 - Quiz Game/_blog/article.md"
+    "043 - Tree View with Svelte/_blog/screenshot 1.png"
   ]
 }

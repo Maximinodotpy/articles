@@ -1,9 +1,11 @@
 ---
-name: 'Godot Platformer Character with Wall jumping'
-slug: 'godot-platformer-character-with-wall-jumping'
-tags: []
-category: 'Utility'
-description: 'Learn how to make a platformer character in Godot that also has wall jumping.'
+name: Godot Platformer Character with Wall jumping
+slug: godot-platformer-character-with-wall-jumping
+tags:
+  - GD Script
+  - Game
+category: Utility
+description: Learn how to make a platformer character in Godot that also has wall jumping.
 ---
 
 In this short Tutorial, we will go over how to make a platformer character in the [Godot Game Engine](https://godotengine.org/) that also has wall jumping. We will use the raycast and timer nodes for the wall jumping. I will show you the Node Setup and the script needed for this program.
