@@ -1,9 +1,14 @@
 ---
-name: 'Highlighted Dummy Code Editor with HTML CSS JavaScript (vue.js)'
-slug: 'highlighted-dummy-code-editor-with-html-css-javascript-vue-js'
-tags: []
-category: 'Project'
-description: 'Learn about HTML, CSS, JavaScript (vue.js), and Regular Expressions by creating a dummy code editor that looks like VS-Code'
+name: Highlighted Dummy Code Editor with HTML CSS JavaScript (vue.js)
+slug: highlighted-dummy-code-editor-with-html-css-javascript-vue-js
+tags:
+  - JavaScript
+  - HTML
+  - CSS
+  - VueJS
+category: Project
+description: Learn about HTML, CSS, JavaScript (vue.js), and Regular Expressions
+  by creating a dummy code editor that looks like VS-Code
 ---
 
 Today we will create a dummy code editor that supports syntax highlighting. We use HTML, CSS and JavaScript (Vue.js). We are also going to learn about RegularExpressions for the highlighting. Below you see the Editor already in action, so you better understand what we will do.

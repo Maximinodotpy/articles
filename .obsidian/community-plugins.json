@@ -1,4 +1,6 @@
 [
   "obsidian-imgur-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "dataview",
+  "dbfolder"
 ]

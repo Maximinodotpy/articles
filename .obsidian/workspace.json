@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "320a94a6447c9aa2",
+        "id": "e59b1ae8a6976a0f",
         "type": "tabs",
         "children": [
           {
-            "id": "b0cd90a40f4a6891",
+            "id": "c271693280710750",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "database-plugin",
               "state": {
-                "file": "045 - My Godot 4 Impressions/_blog/article.md",
-                "mode": "source",
-                "source": false
+                "file": "Articles.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "045 - My Godot 4 Impressions/_blog/article.md",
+                "file": "Articles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "045 - My Godot 4 Impressions/_blog/article.md",
+                "file": "Articles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "045 - My Godot 4 Impressions/_blog/article.md"
+                "file": "Articles.md"
               }
             }
           }
@@ -134,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 242.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,11 +142,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "b0cd90a40f4a6891",
+  "active": "c271693280710750",
   "lastOpenFiles": [
+    "010 - Highlighted Code Editor with vue.js and regex/_blog/article.md",
+    "Articles.md",
+    "007 - simple spreadsheet app with vue/_blog/article.md",
+    "015 - Tabs with HTML, SASS and JS/_blog/article.md",
+    "Overview.md",
+    "045 - My Godot 4 Impressions/_blog/article.md",
     "045 - My Godot 4 Impressions/_blog/preview.png",
     "045 - My Godot 4 Impressions/_blog/preview.png.tmp$$",
     "045 - My Godot 4 Impressions/_blog/A9Rxesyku_ouygjq_4d0.tmp",
@@ -159,7 +164,6 @@
     "045 - My Godot 4 Impressions/_blog/~ai-ec964a51-d037-4ce3-902b-c040ed686660_.tmp",
     "045 - My Godot 4 Impressions/_blog/A9Reixqyf_1lk37de_4vc.tmp",
     "044 - Regular Expressions/_blog/article.md",
-    "045 - My Godot 4 Impressions/_blog/article.md",
     "045 - My Godot 4 Impressions/_blog",
     "045 - My Godot 4 Impressions",
     "043 - Tree View with Svelte/_blog/article.md",
@@ -180,7 +184,6 @@
     "043 - Tree View with Svelte/_blog/screenshot 1.png",
     "README.md",
     "042 - Carousel Component with Svelte/_blog/article.md",
-    "043 - Tree View with Svelte/public/vite.svg",
     "001 - Quiz Game/_blog/article.md"
   ]
 }

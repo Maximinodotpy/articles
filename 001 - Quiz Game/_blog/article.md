@@ -1,9 +1,10 @@
 ---
-name: 'Simple quiz in the console with python.'
-tags: []
-category: 'Project'
-slug: 'simple-quiz-in-the-console-with-python'
-description: 'How to make a simple quiz with python and some modules like os, colored, and json.'
+name: Simple quiz in the console with python.
+tags: ""
+category: Project
+slug: simple-quiz-in-the-console-with-python
+description: How to make a simple quiz with python and some modules like os,
+  colored, and json.
 ---
 
 In this tutorial, we will make a simple quiz program with python and some excellent modules like json, colored and random.

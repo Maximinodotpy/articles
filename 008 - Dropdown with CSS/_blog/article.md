@@ -1,9 +1,10 @@
 ---
-name: 'Dropdown with SASS/CSS'
-slug: 'dropdown-with-sass-css'
-tags: []
-category: 'Utility'
-description: 'Learn how to make a dropdown class to be used in HTML with the CSS preprocessor SASS.'
+name: Dropdown with SASS/CSS
+slug: dropdown-with-sass-css
+tags: ""
+category: Utility
+description: Learn how to make a dropdown class to be used in HTML with the CSS
+  preprocessor SASS.
 ---
 
 This tutorial will make dropdown classes for us to use in our code. We use the CSS preprocessor SASS. SASS allows us to extend our CSS, which will be more organized easily, but this is also a CSS Tutorial because we will not use many of the complex SASS features.
