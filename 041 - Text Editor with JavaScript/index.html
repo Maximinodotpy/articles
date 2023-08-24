@@ -6,21 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Text File Editor</title>
 
+    <!-- CONONICAL_LINK -->
+    <link rel="canonical" href="https://maximmaeder.com/text-editor-with-javascript/" />
+
     <script src="main.js" defer></script>
 
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="flex flex-col h-screen text-2xl font-mono">
-    <div class="shadow-md bg-blue-500 text-blue-100 flex select-none">
-        <button class="p-2 hover:bg-blue-600 hover:text-white transition-all" id="open-button">Open</button>
-        <button class="p-2 hover:bg-blue-600 hover:text-white transition-all" id="save-button">Save</button>
-        <button class="p-2 hover:bg-blue-600 hover:text-white transition-all" id="save_as-button">Save As</button>
+<body class="flex flex-col h-screen font-mono text-2xl">
+    <div class="flex text-blue-100 bg-blue-500 shadow-md select-none">
+        <button class="p-2 transition-all hover:bg-blue-600 hover:text-white" id="open-button">Open</button>
+        <button class="p-2 transition-all hover:bg-blue-600 hover:text-white" id="save-button">Save</button>
+        <button class="p-2 transition-all hover:bg-blue-600 hover:text-white" id="save_as-button">Save As</button>
 
-        <div id="current_file-label" class="ml-auto p-2"></div>
+        <div id="current_file-label" class="p-2 ml-auto"></div>
     </div>
 
-    <textarea name="" id="editor-textarea" class="flex-grow resize-none bg-blue-300 p-2 text-blue-900 selection:bg-blue-100 focus:outline-none"></textarea>
+    <textarea name="" id="editor-textarea" class="flex-grow p-2 text-blue-900 bg-blue-300 resize-none selection:bg-blue-100 focus:outline-none"></textarea>
 </body>
 
 </html>

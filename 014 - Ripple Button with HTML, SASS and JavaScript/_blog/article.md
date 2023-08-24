@@ -178,4 +178,4 @@ Excellent! You have successfully created a ripple effect button!
 Keep in mind that I am also just a beginner, so it could be that my way of solving these problems is not the best or that I use functions or features that aren't advised to use. Always ask questions and try to solve problems your way!
 
 [Visit the Demonstration](https://articles.maximmaeder.com/a/ripple-button/index.html)
-[Look at the Source Code](https://github.com/Maximinodotpy/articles/tree/main/article%2014%20-%20Ripple%20Button%20with%20HTML,%20SASS%20and%20JavaScript)
+[Look at the Source Code](https://github.com/Maximinodotpy/articles/)
