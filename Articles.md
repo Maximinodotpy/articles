@@ -21,7 +21,7 @@ columns:
     position: 1
     isHidden: false
     sortIndex: 1
-    width: 189
+    width: 63
     isSorted: true
     isSortedDesc: false
     config:
