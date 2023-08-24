@@ -1,10 +1,11 @@
 ---
-name: 'Text Editor with Godot 4'
-slug: 'text-file-editor-with-godot-4'
-tags: ['gdscript', 'godot', 'editor', 'ui']
-category: 'Godot Game Engine'
-status: 'publish'
-description: "Let's celebrate the Release of Godot 4.0 by making a Text File Editor with this awesome Game Engine."
+name: Text Editor with Godot 4
+slug: text-file-editor-with-godot-4
+tags: ""
+category: Godot Game Engine
+status: publish
+description: Let's celebrate the Release of Godot 4.0 by making a Text File
+  Editor with this awesome Game Engine.
 ---
 
 It is finally here: [Godot 4.0](https://godotengine.org/article/godot-4-0-sets-sail/) just released, and I want to celebrate that by diving back into this excellent game engine and making a text file editor with it.

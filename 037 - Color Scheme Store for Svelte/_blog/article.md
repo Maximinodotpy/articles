@@ -1,10 +1,11 @@
 ---
-name: 'Custom Svelte Store'
-slug: 'custom-store-for-svelte'
-tags: ['svelte', 'custom-svelte-stores', 'web_apis', 'user_interface']
-category: 'Webdevelopment'
-status: 'publish'
-description: "Let's make a Custom Svelte Store to manage the current color scheme of our website, that is reactive in multiple tabs and windows."
+name: Custom Svelte Store
+slug: custom-store-for-svelte
+tags: ""
+category: Webdevelopment
+status: publish
+description: Let's make a Custom Svelte Store to manage the current color scheme
+  of our website, that is reactive in multiple tabs and windows.
 ---
 
 Welcome to this relatively short and simple tutorial on creating a [Custom Svelte Store](https://svelte.dev/tutorial/custom-stores) that manages the current color scheme.

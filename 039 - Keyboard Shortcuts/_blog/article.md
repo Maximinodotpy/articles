@@ -1,10 +1,12 @@
 ---
-name: 'Keyboard Shortcuts'
-slug: 'keyboard-shortcuts'
-description: 'A list of Shortcuts I use in my Work with Computers, feel free to skim through it and maybe learn about new things in your favourite applications.'
-tags: ['shortcuts']
-category: 'general'
-status: 'publish'
+name: Keyboard Shortcuts
+slug: keyboard-shortcuts
+description: A list of Shortcuts I use in my Work with Computers, feel free to
+  skim through it and maybe learn about new things in your favourite
+  applications.
+tags: ""
+category: general
+status: publish
 ---
 
 This is a list of many Shortcuts I encountered / Use now in my work with Computers. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.

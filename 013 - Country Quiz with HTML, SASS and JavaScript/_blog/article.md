@@ -1,9 +1,14 @@
 ---
-name: 'Country Quiz with HTML, SASS, and JavaScript.'
-slug: 'country-quiz-with-html-sass-and-javascript'
-tags: []
-category: 'Project'
-description: 'Learn how to make a country quiz with HTML javascript and the CSS Pre-Processor SASS'
+name: Country Quiz with HTML, SASS, and JavaScript.
+slug: country-quiz-with-html-sass-and-javascript
+tags:
+  - CSS
+  - HTML
+  - JavaScript
+  - SASS
+category: Project
+description: Learn how to make a country quiz with HTML javascript and the CSS
+  Pre-Processor SASS
 ---
 
 In this Tutorial, we will make a Country Quiz  Website with HTML, SASS, and JavaScript. We will make it so the user sees a country silhouette and they have to choose from 4 Countries, where one is the right one. You can download the SVG images of the Countries from the [Repository](https://github.com/Maximinodotpy/articles/tree/main/article%2013%20-%20Country%20Quiz%20with%20HTML,%20SASS%20and%20JavaScript), you find them in the `output` folder.

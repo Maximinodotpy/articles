@@ -1,9 +1,14 @@
 ---
-name: 'Ripple Button with HTML, SASS, and JavaScript'
-slug: 'ripple-button-with-html-sass-and-javascript'
-tags: []
-category: 'Utility'
-description: 'Learn how to make a button that has a ripple effect when you click it. We will use HTML, SASS and JavaScript.'
+name: Ripple Button with HTML, SASS, and JavaScript
+slug: ripple-button-with-html-sass-and-javascript
+tags:
+  - HTML
+  - SASS
+  - CSS
+  - JavaScript
+category: Utility
+description: Learn how to make a button that has a ripple effect when you click
+  it. We will use HTML, SASS and JavaScript.
 ---
 
 In this Tutorial, we will make a button component usable in HTML that will show a little splash when clicking on it. We will learn about CSS Keyframe Animations and JavaScript. We will make it so we can simply add a class to a button in order for it to work. We will also make variations of the button for colors and sizes.

@@ -1,9 +1,14 @@
 ---
-name: 'Tabs with HTML, SASS, and JS'
-slug: 'tabs-with-html-sass-and-js'
-tags: []
-category: 'Utility'
-description: 'Learn how to make functional tabs for your website with HTML, Sass, and JavaScript.'
+name: Tabs with HTML, SASS, and JS
+slug: tabs-with-html-sass-and-js
+tags:
+  - JavaScript
+  - HTML
+  - CSS
+  - SASS
+category: Utility
+description: Learn how to make functional tabs for your website with HTML, Sass,
+  and JavaScript.
 ---
 
 This Tutorial will make functional tabs with HTML, SASS, and JavaScript. We will make it so you can add the CSS and js file to the page and apply some classes to nested divs for it to work. We will also try to make it semantically correct by adding ARIA Attributes to the formal elements. However, don't take this too seriously because I am unsure if I did it correctly. Still, it is always essential to give your HTML meaning.

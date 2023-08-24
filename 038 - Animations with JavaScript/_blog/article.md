@@ -1,10 +1,11 @@
 ---
-name: 'Animations with JavaScript'
-slug: 'animations-with-javascript'
-tags: ['JavaScript', 'Typescript', 'Animations']
-category: 'Utility'
-description: "Let's make a function with JavaScript/TypeScript that helps us create animation for Elements on our Webpage or other values."
-status: 'publish'
+name: Animations with JavaScript
+slug: animations-with-javascript
+tags: ""
+category: Utility
+description: Let's make a function with JavaScript/TypeScript that helps us
+  create animation for Elements on our Webpage or other values.
+status: publish
 ---
 
 In this relatively short Tutorial, we will make a JavaScript Function / Class that helps us to create Animations for our Website! We'll use Typescript and JavaScript Classes with static properties.

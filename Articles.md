@@ -88,6 +88,8 @@ columns:
       - { label: "HTML", value: "HTML", color: "hsl(132, 95%, 90%)"}
       - { label: "CSS", value: "CSS", color: "hsl(95, 95%, 90%)"}
       - { label: "VueJS", value: "VueJS", color: "hsl(315, 95%, 90%)"}
+      - { label: "Web API's", value: "Web API's", color: "hsl(202, 95%, 90%)"}
+      - { label: "SASS", value: "SASS", color: "hsl(349, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -97,6 +99,8 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+      option_source: manual
+      content_alignment: text-align-left
 config:
   remove_field_when_delete_column: false
   cell_size: normal
