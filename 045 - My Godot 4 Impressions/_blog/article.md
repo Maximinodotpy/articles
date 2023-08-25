@@ -4,6 +4,7 @@ slug: my-godot-4-impressions
 tags:
   - GD Script
   - Game
+  - Dev Story
 category: Godot Game Engine
 status: publish
 description: In this Article I want to go over my Impressions of Godot 4

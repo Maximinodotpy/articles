@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e59b1ae8a6976a0f",
+        "id": "4124511d9402f7eb",
         "type": "tabs",
         "children": [
           {
-            "id": "7463e48e9d5c385b",
+            "id": "44575f52339c1a8b",
             "type": "leaf",
             "state": {
               "type": "database-plugin",
@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 552.5
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -148,10 +147,11 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "7463e48e9d5c385b",
+  "active": "44575f52339c1a8b",
   "lastOpenFiles": [
-    "004 - What is programming/_blog/article.md",
+    "013 - Country Quiz with HTML, SASS and JavaScript/_blog/article.md",
     "Articles.md",
+    "004 - What is programming/_blog/article.md",
     "016 - Display Objects Recursively with JavaScript/_blog/article.md",
     "017 - Markdown Inputs/_blog/article.md",
     "018 - Vertical Split Web Component/_blog/article.md",
@@ -192,7 +192,6 @@
     "043 - Tree View with Svelte/_blog/views/styled_view.png",
     "043 - Tree View with Svelte/_blog/views/raw_view.png",
     "043 - Tree View with Svelte/_blog/preview.png",
-    "043 - Tree View with Svelte/README.md",
     "043 - Tree View with Svelte/_blog/screenshot.png",
     "043 - Tree View with Svelte/_blog/preview.svg",
     "043 - Tree View with Svelte/_blog/screenshot 1.png"

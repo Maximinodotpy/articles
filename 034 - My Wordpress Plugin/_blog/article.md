@@ -1,10 +1,12 @@
 ---
-name: 'My Wordpress Plugin: Gitdown'
-slug: 'my-wordpress-plugin'
-tags: []
-category: 'General'
-status: 'publish'
-description: "I made a wordpress plugin to manage my git articles, and now I want to tell you about it!"
+name: "My Wordpress Plugin: Gitdown"
+slug: my-wordpress-plugin
+tags:
+  - Dev Story
+category: General
+status: publish
+description: I made a wordpress plugin to manage my git articles, and now I want
+  to tell you about it!
 ---
 
 I made my own [WordPress plugin](https://wordpress.org/plugins/gitdown/) and am proud! Gitdown helps WordPress bloggers upload content from their remote repository (most likely GitHub) to their WordPress blog.

@@ -1,10 +1,11 @@
 ---
-name: 'Programming Project Ideas'
-slug: 'programming-project-ideas'
-tags: []
-category: 'General'
-status: 'publish'
-description: "Let's review some project ideas you could work on. Learning by Doing."
+name: Programming Project Ideas
+slug: programming-project-ideas
+tags:
+  - Development
+category: General
+status: publish
+description: Let's review some project ideas you could work on. Learning by Doing.
 ---
 
 The best way to learn is to do, and that's why I want to inspire you by presenting Ideas for programming projects that you could work on in your free time. This

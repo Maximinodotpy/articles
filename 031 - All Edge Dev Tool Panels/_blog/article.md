@@ -1,9 +1,10 @@
 ---
-name: 'All Edge Dev Tool Panels'
-slug: 'all-edge-dev-tool-panels'
-tags: []
-category: 'General'
-description: "Let's take a quick look at every Dev Tool Panel / Tool in Microsoft Edge."
+name: All Edge Dev Tool Panels
+slug: all-edge-dev-tool-panels
+tags:
+  - Development
+category: General
+description: Let's take a quick look at every Dev Tool Panel / Tool in Microsoft Edge.
 ---
 
 I am one of those few people that use Microsoft Edge for development and everything else, but I have yet to look at the Dev Tools in detail. So until now, I only used/knew about *Elements*, *Console* and maybe *Sources*. But for the sake of learning and this article, I want to explain every Panel of the [dev tools](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/about-tools) in my own words. Keep in mind that there also is official documentation so please interpret this article as an inspirational source rather than a container of knowledge, if you get what I mean. So let's go ahead.

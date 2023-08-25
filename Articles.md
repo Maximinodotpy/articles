@@ -110,6 +110,8 @@ columns:
       - { label: "Python", value: "Python", color: "hsl(148, 95%, 90%)"}
       - { label: "Markdown", value: "Markdown", color: "hsl(330, 95%, 90%)"}
       - { label: "PHP", value: "PHP", color: "hsl(294, 95%, 90%)"}
+      - { label: "Development", value: "Development", color: "hsl(9, 95%, 90%)"}
+      - { label: "Dev Story", value: "Dev Story", color: "hsl(95, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
