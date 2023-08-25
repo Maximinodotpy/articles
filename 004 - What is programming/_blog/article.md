@@ -30,16 +30,11 @@ As you see, the program starts at the top, creating a new variable called `x.` A
 
 But to make computer programs, you need to have *Computation Thinking*, which means that you can or understand five things.
 
-- Decomposition
-	- Split up the problem into smaller, more manageable parts. (functions)
-- Generalisation
-	- The program should be able to solve problems like this, not only this one.
-- Pattern Recognition
-	- You need to see the similarities between problems and work them out. (Loops)
-- Abstraction
-	- You need to be able to take out the detail and ignore irrelevant information.
-- Algorithm
-	- You need to be able to define simple rules or processes by which the program acts.
+- Decomposition: Split up the problem into smaller, more manageable parts. (functions)
+- Generalisation: The program should be able to solve problems like this, not only this one.
+- Pattern Recognition: You need to see the similarities between problems and work them out. (Loops)
+- Abstraction: You need to be able to take out the detail and ignore irrelevant information.
+- Algorithm: You need to be able to define simple rules or processes by which the program acts.
 
 The last one, `algorithm,` is pretty important. Even people that don't program encounter an algorithm. You can get out of any labyrinth by sticking to the left side, but this does not work if the maze has *islands*. If you press the reset button on the frame below, you will see that the white rectangle will navigate out of the labyrinth by sticking to the left wall and by using the [pledge algorithm](https://en.wikipedia.org/wiki/Maze-solving_algorithm)
 
