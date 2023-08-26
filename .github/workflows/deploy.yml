@@ -1,0 +1,11 @@
+on:
+    push:
+      branches: [ master, main ]
+jobs:
+    deployment:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Deploy Stage
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://maximmaeder.com/wp-json/mgd/v1/update_outdated'
