@@ -45,3 +45,5 @@ Here also some things I think are not that Good or atleast that I misunderstood,
 
 
 These things are probably subject to change and that's why the [Interactive Changelog](https://godotengine.github.io/godot-interactive-changelog/) is really cool.
+
+So I hope you had a good time reading!
