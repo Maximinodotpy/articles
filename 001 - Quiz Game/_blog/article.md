@@ -5,8 +5,7 @@ tags:
   - Game
 category: Project
 slug: simple-quiz-in-the-console-with-python
-description: How to make a simple quiz with python and some modules like os,
-  colored, and json.
+description: How to make a simple quiz with python and some modules like os, colored, and json. This Projekt is good for learning the Basics.
 ---
 
 In this tutorial, we will make a simple quiz program with python and some excellent modules like json, colored and random.
@@ -35,7 +34,7 @@ from random import shuffle
 import colored
 ```
 
-## Setup
+## Quiz Setup
 
 Now we continue with the setup which includes all the stuff we do before the question loop.
 
@@ -86,7 +85,7 @@ def colorText(text, color):
     return f'{colored.fg(color)}{text}{colored.fg(15)}' # Reset color to white`
 ```
 
-## Question Loop
+## Quiz Question Loop
 
 Now let's get into the main part of the program: The Question Loop. We loop over the previously shuffled list of questions and unpack it into two variables. We then clear the console.
 

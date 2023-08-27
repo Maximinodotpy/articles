@@ -78,7 +78,7 @@ With this Tool, you can analyze the memory usage of your Website and optimize it
 
 ### Network
 
-With this Tool, you can see all network requests made after the initial page load. For example, on my little Website [Catstagram](https://demos.maximmaeder.com/demo/catstragam/) you can see the fetch requests and images loaded in as the user scrolls down. You can also simulate a slower bandwidth or even offline to see how your Website behaves in case there is no connection.
+With this Tool, you can see all network requests made after the initial page load. For example, on my little Website [Catstagram](https://demos.maximmaeder.com/demo/catstragam/) you can see the fetch requests and images loaded in as the user scrolls down. You can also simulate a slower bandwidth or even offline to see how your Website behaves in case there is no connection. Here you can also disable the cache and see how your Website behaves in case the user has to reload the page every time.
 
 [Official Documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/network/)
 

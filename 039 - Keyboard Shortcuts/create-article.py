@@ -8,13 +8,13 @@ shortcutBlacklist = json.load(open('shortcut-data/quiz-blacklist.json', 'r'))
 result = """---
 name: 'Keyboard Shortcuts'
 slug: 'keyboard-shortcuts'
-description: 'A list of Shortcuts I use in my Work with Computers, feel free to skim through it and maybe learn about new things in your favourite applications.'
+description: 'A list of Keyboard Shortcuts I use in my Work with Computers, feel free to skim through it and maybe learn about new things in your applications.'
 tags: ['shortcuts']
 category: 'general'
 status: 'publish'
 ---
 
-This is a list of many Shortcuts I encountered / Use now in my work with Computers. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
+This is a list of many Keyboard Shortcuts I encountered / Use now in my work with Computers. I will try to keep this list up to date. If you have any suggestions, please let me know by opening an [issue](https://github.com/Maximinodotpy/articles/issues) on Github.
 
 The `.json` file for all the Keyboard Shortcuts is [here](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcut-data/shortcuts.json).
 
