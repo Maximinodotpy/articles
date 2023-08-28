@@ -9,7 +9,7 @@ result = """---
 name: 'Keyboard Shortcuts'
 slug: 'keyboard-shortcuts'
 description: 'A list of Keyboard Shortcuts I use in my Work with Computers, feel free to skim through it and maybe learn about new things in your applications.'
-tags: ['shortcuts']
+tags: ['Shortcuts']
 category: 'general'
 status: 'publish'
 ---
@@ -26,7 +26,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 for application_slug in shortcutData:
     name = shortcutData[application_slug]['name']
     shortcutCount = len(shortcutData[application_slug]['shortcuts'])
-    result += f'- [{name}](#content-{application_slug}) *({shortcutCount} Shortcuts)*\n'
+    result += f'- [{name}](#{application_slug}) *({shortcutCount} Shortcuts)*\n'
 
 result += "\n\n"
 

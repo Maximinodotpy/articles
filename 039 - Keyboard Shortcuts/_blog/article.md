@@ -1,8 +1,8 @@
 ---
 name: 'Keyboard Shortcuts'
 slug: 'keyboard-shortcuts'
-description: 'A list of Shortcuts I use in my Work with Computers, feel free to skim through it and maybe learn about new things in your favourite applications.'
-tags: ['shortcuts']
+description: 'A list of Keyboard Shortcuts I use in my Work with Computers, feel free to skim through it and maybe learn about new things in your applications.'
+tags: ['Shortcuts']
 category: 'general'
 status: 'publish'
 ---
@@ -15,25 +15,25 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 **Applications / Places**
 
-- [General](#content-general) *(21 Shortcuts)*
-- [File Explorer](#content-file-explorer) *(10 Shortcuts)*
-- [Windows](#content-windows) *(21 Shortcuts)*
-- [Microsoft General](#content-microsoft-general) *(1 Shortcuts)*
-- [Browser (Microsoft Edge)](#content-browser-microsoft-edge) *(12 Shortcuts)*
-- [Vimium](#content-vimium) *(8 Shortcuts)*
-- [Godot](#content-godot) *(13 Shortcuts)*
-- [Visual Studio Code](#content-visual-studio-code) *(34 Shortcuts)*
-- [Microsoft Word](#content-microsoft-word) *(7 Shortcuts)*
-- [Microsoft Powerpoint](#content-microsoft-powerpoint) *(2 Shortcuts)*
-- [Microsoft Excel](#content-microsoft-excl) *(4 Shortcuts)*
-- [Jupyter Notebook](#content-jupyter-notebook) *(9 Shortcuts)*
-- [Adobe General](#content-adobe-general) *(11 Shortcuts)*
-- [Adobe Premiere Pro](#content-adobe-premiere-pro) *(9 Shortcuts)*
-- [Adobe Illustrator](#content-adobe-illustrator) *(20 Shortcuts)*
-- [Adobe After Effects](#content-adobe-after-effects) *(2 Shortcuts)*
-- [Wordpress](#content-wordpress) *(1 Shortcuts)*
-- [Github Desktop](#content-github-desktop) *(4 Shortcuts)*
-- [Obsidian MD](#content-obsidian-md) *(7 Shortcuts)*
+- [General](#general) *(21 Shortcuts)*
+- [File Explorer](#file-explorer) *(10 Shortcuts)*
+- [Windows](#windows) *(21 Shortcuts)*
+- [Microsoft General](#microsoft-general) *(1 Shortcuts)*
+- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(12 Shortcuts)*
+- [Vimium](#vimium) *(8 Shortcuts)*
+- [Godot](#godot) *(13 Shortcuts)*
+- [Visual Studio Code](#visual-studio-code) *(34 Shortcuts)*
+- [Microsoft Word](#microsoft-word) *(7 Shortcuts)*
+- [Microsoft Powerpoint](#microsoft-powerpoint) *(2 Shortcuts)*
+- [Microsoft Excel](#microsoft-excl) *(4 Shortcuts)*
+- [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
+- [Adobe General](#adobe-general) *(11 Shortcuts)*
+- [Adobe Premiere Pro](#adobe-premiere-pro) *(9 Shortcuts)*
+- [Adobe Illustrator](#adobe-illustrator) *(20 Shortcuts)*
+- [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
+- [Wordpress](#wordpress) *(1 Shortcuts)*
+- [Github Desktop](#github-desktop) *(4 Shortcuts)*
+- [Obsidian MD](#obsidian-md) *(7 Shortcuts)*
 
 
 ## General
