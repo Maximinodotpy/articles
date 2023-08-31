@@ -113,10 +113,9 @@ const svgNode = document.querySelector('svg')
 const handsContainer = document.getElementById('hands')
 ```
 
-Continuing we 
+Continuing we create the lines that run along the edge of the clock that are the seconds, minutes and hours. To do this we use the `addHand` function that we go over later.
 
-
-```
+```js
 const numTimes = 60
 for (i = 0; i < numTimes; i++) {
     const handRotationOffset = 360 / numTimes
@@ -134,17 +133,61 @@ for (i = 0; i < numTimes; i++) {
 }
 ```
 
+
+After that we also create the actual hands that indicate the seconds, minutes and hours. We save these for later.
+
+```js
+const secondHand = addHand({ color: 'hsl(0, 0%, 90%)', width: 40, x: 0, height: 1 })
+const minuteHand = addHand({ color: 'hsl(0, 0%, 90%)', width: 25, x: 0, height: 1.5 })
+const hourHand = addHand({ color: 'hsl(0, 0%, 90%)', width: 15, x: 0, height: 2 })
+```
+
+Lastly we create a function called render which will check the time and adjust the hands appropriately. We use the `requestAnimationFrame` function for rerendering the clock automatically but also for [Performance](https://maximmaeder.com/animations-with-javascript/#why-do-we-use-requestanimationframe).
+
+```js
+render()
+function render() {
+    const time = new Date()
+
+    const secondsDegrees = (time.getSeconds() * 6) + 90;
+    const minutesDegrees = (time.getMinutes() * 6) - 90;
+    const hoursDegrees = (time.getHours() * 30) - 90;
+    
+    secondHand.style.transform = `rotate(${secondsDegrees}deg)`
+    minuteHand.style.transform = `rotate(${minutesDegrees}deg)`
+    hourHand.style.transform = `rotate(${hoursDegrees}deg)`
+
+    requestAnimationFrame(render)
+}
+```
 ## `addHand` Function
 
-g as a Pivot
+Below you also see the Implementation of the Add Hand. As you see we use the `g` as a pivot to rotate the rect to the correct Position.
 
+```js
+function addHand({ width = 10, height = 1.5, x = 35, rotation = 0, color = 'black' } = {}) {
+    const handNode = document.createElementNS('http://www.w3.org/2000/svg', 'rect')
+    const handNodeGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g')
 
-## ___ in Action
+    handNode.setAttribute('width', width)
+    handNode.setAttribute('height', height)
+    handNode.setAttribute('x', x)
+    handNode.setAttribute('fill', color)
 
+    handNodeGroup.style.transform = `rotate(${rotation - 90}deg)`
+    handNodeGroup.style.transformOrigin = `0px ${height / 2}px`
+    handNodeGroup.style.translate = `0px -${height / 2}px`
 
+    handNodeGroup.appendChild(handNode)
+
+    svgNode.appendChild(handNodeGroup)
+
+    return handNodeGroup
+}
+```
 
 ## Conclusion
 
+So that's it I hope you had a good time and that you learned something!
 
-
-Visit the [Demo]().
+Visit the [Demo](https://demos.maximmaeder.com/d/analog-clock-with-javascript).
