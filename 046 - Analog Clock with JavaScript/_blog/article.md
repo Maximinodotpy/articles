@@ -7,9 +7,9 @@ tags:
   - CSS
   - Web API's
 category: Webdevelopment
-status: draft
-description: Let's create a Analog Clock by utilizing the Power of Scalable
-  Vector Graphics and JavaScript.
+status: publish
+description: Let's create a Website with an Analog Clock by utilizing the Power
+  of Scalable Vector Graphics and JavaScript.
 ---
 
 <!--

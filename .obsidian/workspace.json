@@ -11,12 +11,9 @@
             "id": "113015358bc5d647",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "database-plugin",
               "state": {
-                "file": "046 - Analog Clock with JavaScript/_blog/article.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Articles.md"
               }
             }
           }
@@ -62,8 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5,
-    "collapsed": true
+    "width": 425.5
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -79,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "046 - Analog Clock with JavaScript/_blog/article.md"
+                "file": "Articles.md"
               }
             }
           }
@@ -100,10 +96,10 @@
   },
   "active": "113015358bc5d647",
   "lastOpenFiles": [
+    "046 - Analog Clock with JavaScript/_blog/article.md",
     "046 - Analog Clock with JavaScript/_blog/preview.png",
     "046 - Analog Clock with JavaScript/_blog/Screenshot 2023-08-31 102116.png",
     "Articles.md",
-    "046 - Analog Clock with JavaScript/_blog/article.md",
     "Templates/article_v1.md",
     "041 - Text Editor with JavaScript/_blog/article.md",
     "045 - My Godot 4 Impressions/_blog/article.md",
@@ -144,7 +140,6 @@
     "043 - Tree View with Svelte/_blog/views/styled_view.png",
     "043 - Tree View with Svelte/_blog/views/raw_view.png",
     "043 - Tree View with Svelte/_blog/preview.png",
-    "043 - Tree View with Svelte/_blog/screenshot.png",
-    "043 - Tree View with Svelte/_blog/preview.svg"
+    "043 - Tree View with Svelte/_blog/screenshot.png"
   ]
 }
