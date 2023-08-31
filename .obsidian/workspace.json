@@ -19,16 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f634ba7a32d1bdfd",
-            "type": "leaf",
-            "state": {
-              "type": "database-plugin",
-              "state": {
-                "file": "Articles.md"
-              }
-            }
           }
         ]
       }
@@ -72,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 486.5,
-    "collapsed": true
+    "width": 486.5
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -102,14 +91,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "templates:Insert template": false,
+      "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "113015358bc5d647",
+  "active": "243fd8e1bf8469d0",
   "lastOpenFiles": [
+    "046 - Analog Clock with JavaScript/_blog/Screenshot 2023-08-31 102116.png",
     "Articles.md",
     "046 - Analog Clock with JavaScript/_blog/article.md",
     "Templates/article_v1.md",
@@ -148,7 +138,6 @@
     "044 - Regular Expressions/_blog/preview.png",
     "044 - Regular Expressions/_blog/cat.jpeg",
     "pages/My Setup/article.md",
-    "002 - SASS Padding and Margin Classes/_blog/article.md",
     "043 - Tree View with Svelte/_blog/views/edit_view.png",
     "043 - Tree View with Svelte/_blog/views/styled_view.png",
     "043 - Tree View with Svelte/_blog/views/raw_view.png",
