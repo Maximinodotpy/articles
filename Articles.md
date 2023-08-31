@@ -43,7 +43,7 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
-    width: 330
+    width: 258
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -71,6 +71,7 @@ columns:
       - { label: "General", value: "General", color: "hsl(328, 95%, 90%)"}
       - { label: "Godot Game Engine", value: "Godot Game Engine", color: "hsl(153, 95%, 90%)"}
       - { label: "Webdevelopment", value: "Webdevelopment", color: "hsl(312, 95%, 90%)"}
+      - { label: "general", value: "general", color: "hsl(49, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -112,6 +113,7 @@ columns:
       - { label: "PHP", value: "PHP", color: "hsl(294, 95%, 90%)"}
       - { label: "Development", value: "Development", color: "hsl(9, 95%, 90%)"}
       - { label: "Dev Story", value: "Dev Story", color: "hsl(95, 95%, 90%)"}
+      - { label: "Shortcuts", value: "Shortcuts", color: "hsl(310, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -123,6 +125,50 @@ columns:
       persist_changes: false
       content_alignment: text-align-left
       option_source: manual
+  description:
+    input: text
+    accessorKey: description
+    key: description
+    id: description
+    label: description
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    width: 454
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+      wrap_content: true
+      content_alignment: text-align-left
+  status:
+    input: select
+    accessorKey: status
+    key: status
+    id: status
+    label: status
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    options:
+      - { label: "Publish", value: "publish", color: "hsl(192, 95%, 90%)"}
+      - { label: "Draft", value: "draft", color: "hsl(321, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
 config:
   remove_field_when_delete_column: false
   cell_size: normal

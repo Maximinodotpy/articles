@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 13%);
+}
+
+svg {
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    overflow: visible;
+}
+
+.clock {
+    box-shadow: 0 0 5px hsl(0, 0%, 0%);
+    stroke: hsl(0, 0%, 30%);
+    fill: hsl(0, 0%, 20%);
+}
+
+.clock-joint {
+    fill: hsl(0, 0%, 90%);
+}

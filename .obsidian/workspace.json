@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4124511d9402f7eb",
+        "id": "a653c3288a24fedc",
         "type": "tabs",
         "children": [
           {
-            "id": "44575f52339c1a8b",
+            "id": "113015358bc5d647",
             "type": "leaf",
             "state": {
-              "type": "database-plugin",
-              "state": {
-                "file": "Articles.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -67,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5
+    "width": 252.5,
+    "collapsed": true
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -83,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Articles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Articles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Articles.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,10 +142,11 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "44575f52339c1a8b",
+  "active": "113015358bc5d647",
   "lastOpenFiles": [
-    "013 - Country Quiz with HTML, SASS and JavaScript/_blog/article.md",
     "Articles.md",
+    "045 - My Godot 4 Impressions/_blog/article.md",
+    "013 - Country Quiz with HTML, SASS and JavaScript/_blog/article.md",
     "004 - What is programming/_blog/article.md",
     "016 - Display Objects Recursively with JavaScript/_blog/article.md",
     "017 - Markdown Inputs/_blog/article.md",
@@ -168,7 +164,6 @@
     "007 - simple spreadsheet app with vue/_blog/article.md",
     "015 - Tabs with HTML, SASS and JS/_blog/article.md",
     "Overview.md",
-    "045 - My Godot 4 Impressions/_blog/article.md",
     "045 - My Godot 4 Impressions/_blog/preview.png",
     "045 - My Godot 4 Impressions/_blog/preview.png.tmp$$",
     "045 - My Godot 4 Impressions/_blog/A9Rxesyku_ouygjq_4d0.tmp",
