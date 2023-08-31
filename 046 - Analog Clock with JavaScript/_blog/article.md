@@ -37,7 +37,7 @@ The clock will look like this.
 
 ## HTML for the Analog Clock
 
-Let's start by going over the Markup for our little Website, as you see we mostly have the HTML Boilerplate, we just add a script and link tag to your JavaScript and CSS files. We also create an SVG with a view box of `-50 -50 100 100` which means elements placed at 0 0 will be in the middle, like the two circle we add within our SVG.
+Let's start by going over the Markup for our little Website, as you see we mostly have the HTML Boilerplate, we just add a script and link tag to your JavaScript and CSS files. We also create an SVG with a view box of `-50 -50 100 100` which means elements placed at 0 0 will be in the middle, like the two circles we add within our SVG.
 
 ```html
 <!DOCTYPE html>
@@ -61,7 +61,7 @@ Let's start by going over the Markup for our little Website, as you see we mostl
 
 ## CSS for the Analog Clock
 
-Next lets go over the 
+Next lets go over the CSS. We start by simply settings `box-sizing` to `border-box` to every element,  this makes working with padding and margin a lot easier.
 
 
 ## JavaScript for the Analog Clock

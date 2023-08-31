@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 486.5
+    "width": 425.5
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -97,8 +97,9 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "243fd8e1bf8469d0",
+  "active": "113015358bc5d647",
   "lastOpenFiles": [
+    "046 - Analog Clock with JavaScript/_blog/preview.png",
     "046 - Analog Clock with JavaScript/_blog/Screenshot 2023-08-31 102116.png",
     "Articles.md",
     "046 - Analog Clock with JavaScript/_blog/article.md",
@@ -143,7 +144,6 @@
     "043 - Tree View with Svelte/_blog/views/raw_view.png",
     "043 - Tree View with Svelte/_blog/preview.png",
     "043 - Tree View with Svelte/_blog/screenshot.png",
-    "043 - Tree View with Svelte/_blog/preview.svg",
-    "043 - Tree View with Svelte/_blog/screenshot 1.png"
+    "043 - Tree View with Svelte/_blog/preview.svg"
   ]
 }
