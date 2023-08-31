@@ -16,7 +16,6 @@ description: Let's create a Analog Clock by utilizing the Power of Scalable
 Notes:
 - HTML Structure
 - CSS Styling
-	- Overflow
 	- Fill
 	- Stroke
 	- Max -Width and Height
@@ -63,8 +62,58 @@ Let's start by going over the Markup for our little Website, as you see we mostl
 
 Next lets go over the CSS. We start by simply settings `box-sizing` to `border-box` to every element,  this makes working with padding and margin a lot easier.
 
+```css
+* {
+    box-sizing: border-box;
+}
+```
+
+
+Then we make it so the Body has no margin, a little bit of padding and that it is as as the Viewport.
+
+```css
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 2rem;
+    background-color: hsl(0, 0%, 13%);
+}
+```
+
+After that we make it so the SVG which will be the clock cant be wider or higher than the Screen but we want it to grow as much as possible. To also center it we can add `margin: auto`.
+
+```css
+.clock {
+    box-shadow: 0 0 5px hsl(0, 0%, 0%);
+    stroke: hsl(0, 0%, 30%);
+    fill: hsl(0, 0%, 20%);
+}
+```
+
+Lastly we set the Fill and stroke colors for the circles. Stroke is like the Border and Fill is the Background Color.
+
+```css
+.clock {
+    stroke: hsl(0, 0%, 30%);
+    fill: hsl(0, 0%, 20%);
+}
+
+.clock-joint {
+    fill: hsl(0, 0%, 90%);
+}
+```
 
 ## JavaScript for the Analog Clock
+
+```js
+const clockNode = document.getElementById('clock')
+const svgNode = document.querySelector('svg')
+const handsContainer = document.getElementById('hands')
+```
+
+## `addHand` Function
+
+g as a Pivot
 
 
 ## ___ in Action
