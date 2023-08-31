@@ -114,6 +114,7 @@ columns:
       - { label: "Development", value: "Development", color: "hsl(9, 95%, 90%)"}
       - { label: "Dev Story", value: "Dev Story", color: "hsl(95, 95%, 90%)"}
       - { label: "Shortcuts", value: "Shortcuts", color: "hsl(310, 95%, 90%)"}
+      - { label: "SVG", value: "SVG", color: "hsl(281, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true

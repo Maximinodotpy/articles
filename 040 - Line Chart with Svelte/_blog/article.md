@@ -6,6 +6,7 @@ description: Let's make a Line Chart with Svelte and Scalable Vector Graphics
   interactive.
 tags:
   - Component
+  - SVG
 category: General
 status: publish
 ---
