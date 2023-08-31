@@ -105,10 +105,33 @@ Lastly we set the Fill and stroke colors for the circles. Stroke is like the Bor
 
 ## JavaScript for the Analog Clock
 
+In the JavaScript file we start by getting References for several DOM Nodes that we will need later.
+
 ```js
 const clockNode = document.getElementById('clock')
 const svgNode = document.querySelector('svg')
 const handsContainer = document.getElementById('hands')
+```
+
+Continuing we 
+
+
+```
+const numTimes = 60
+for (i = 0; i < numTimes; i++) {
+    const handRotationOffset = 360 / numTimes
+
+    if ((i % 15 == 0 || i == 0) && numTimes != i + 1) {
+        console.log('15er');
+	        addHand({ rotation: i * handRotationOffset, color: 'hsl(0, 0%, 80%)', width: 15 })
+    } else if (i % 5 == 0 && numTimes != i + 1) {
+        console.log('5er');
+        addHand({ rotation: i * handRotationOffset, color: 'hsl(0, 0%, 40%)', width: 12 })
+    }
+    else {
+        addHand({ rotation: i * handRotationOffset, color: 'hsl(0, 0%, 30%)' })
+    }
+}
 ```
 
 ## `addHand` Function
