@@ -27,7 +27,7 @@ Notes:
 - Add Other Articles where i used SVG -> New SVG Tag
 -->
 
-Today we are going to once again use the Power of Scalable Vector Graphics (SVG) to build something awesome: A analog clock. By analog I simply mean Watch with hands if that makes sense.
+Today, we will again use the Power of Scalable Vector Graphics (SVG) to build something awesome: An analog clock. By analog, I mean Watch with hands, if that makes sense.
 
 The clock will look like this.
 
@@ -36,7 +36,7 @@ The clock will look like this.
 
 ## HTML for the Analog Clock
 
-Let's start by going over the Markup for our little Website, as you see we mostly have the HTML Boilerplate, we just add a script and link tag to your JavaScript and CSS files. We also create an SVG with a view box of `-50 -50 100 100` which means elements placed at 0 0 will be in the middle, like the two circles we add within our SVG.
+Let's start by reviewing the Markup for our little Website. We mostly have the HTML Boilerplate; we just add a script and link tag to your JavaScript and CSS files. We also create an SVG with a view box of `-50 -50 100 100`, which means elements placed at 0 0 will be in the middle, like the two circles we add within our SVG.
 
 ```html
 <!DOCTYPE html>
@@ -60,7 +60,7 @@ Let's start by going over the Markup for our little Website, as you see we mostl
 
 ## CSS for the Analog Clock
 
-Next lets go over the CSS. We start by simply settings `box-sizing` to `border-box` to every element,  this makes working with padding and margin a lot easier.
+Next, let's go over the CSS. We start by simply setting `box-sizing` to `border-box` for every element; this makes working with padding and margin much easier.
 
 ```css
 * {
@@ -69,7 +69,7 @@ Next lets go over the CSS. We start by simply settings `box-sizing` to `border-b
 ```
 
 
-Then we make it so the Body has no margin, a little bit of padding and that it is as as the Viewport.
+Then we make it so the Body has no margin, a little padding, and it is as high as the Viewport.
 
 ```css
 body {
@@ -80,7 +80,7 @@ body {
 }
 ```
 
-After that we make it so the SVG which will be the clock cant be wider or higher than the Screen but we want it to grow as much as possible. To also center it we can add `margin: auto`.
+After that, we make it so the SVG, which will be the clock, can't be wider or higher than the screen, but we want it to grow as much as possible. To also center it, we can add `margin: auto`.
 
 ```css
 .clock {
@@ -90,7 +90,7 @@ After that we make it so the SVG which will be the clock cant be wider or higher
 }
 ```
 
-Lastly we set the Fill and stroke colors for the circles. Stroke is like the Border and Fill is the Background Color.
+Lastly, we set the Fill and stroke colors for the circles. Stroke is like the border, and fill is the background color.
 
 ```css
 .clock {
@@ -105,7 +105,7 @@ Lastly we set the Fill and stroke colors for the circles. Stroke is like the Bor
 
 ## JavaScript for the Analog Clock
 
-In the JavaScript file we start by getting References for several DOM Nodes that we will need later.
+In the JavaScript file, we start by getting references for several DOM Nodes that we will need later.
 
 ```js
 const clockNode = document.getElementById('clock')
@@ -113,7 +113,7 @@ const svgNode = document.querySelector('svg')
 const handsContainer = document.getElementById('hands')
 ```
 
-Continuing we create the lines that run along the edge of the clock that are the seconds, minutes and hours. To do this we use the `addHand` function that we go over later.
+Continuing, we create the lines that run along the edge of the clock: the seconds, minutes, and hours. To do this, we use the `addHand` function that we go over later.
 
 ```js
 const numTimes = 60
@@ -134,7 +134,7 @@ for (i = 0; i < numTimes; i++) {
 ```
 
 
-After that we also create the actual hands that indicate the seconds, minutes and hours. We save these for later.
+After that, we create the actual hands that indicate the seconds, minutes, and hours. We save these for later.
 
 ```js
 const secondHand = addHand({ color: 'hsl(0, 0%, 90%)', width: 40, x: 0, height: 1 })
@@ -142,7 +142,7 @@ const minuteHand = addHand({ color: 'hsl(0, 0%, 90%)', width: 25, x: 0, height: 
 const hourHand = addHand({ color: 'hsl(0, 0%, 90%)', width: 15, x: 0, height: 2 })
 ```
 
-Lastly we create a function called render which will check the time and adjust the hands appropriately. We use the `requestAnimationFrame` function for rerendering the clock automatically but also for [Performance](https://maximmaeder.com/animations-with-javascript/#why-do-we-use-requestanimationframe).
+Lastly, we create a function called render, which will check the time and adjust the hands appropriately. We use the `requestAnimationFrame` function for rerendering the clock automatically but also for [Performance](https://maximmaeder.com/animations-with-javascript/#why-do-we-use-requestanimationframe).
 
 ```js
 render()
@@ -162,7 +162,7 @@ function render() {
 ```
 ## `addHand` Function
 
-Below you also see the Implementation of the Add Hand. As you see we use the `g` as a pivot to rotate the rect to the correct Position.
+Below, you also see the Implementation of the Add Hand. As you see, we use the `g` as a pivot to rotate the rect to the correct Position.
 
 ```js
 function addHand({ width = 10, height = 1.5, x = 35, rotation = 0, color = 'black' } = {}) {
@@ -188,6 +188,6 @@ function addHand({ width = 10, height = 1.5, x = 35, rotation = 0, color = 'blac
 
 ## Conclusion
 
-So that's it I hope you had a good time and that you learned something!
+So that's it. I hope you had a good time and that you learned something!
 
 Visit the [Demo](https://demos.maximmaeder.com/d/analog-clock-with-javascript).
