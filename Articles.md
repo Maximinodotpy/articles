@@ -33,6 +33,7 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+      content_alignment: text-align-left
   name:
     input: text
     accessorKey: name
@@ -64,7 +65,7 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
-    width: 166
+    width: 181
     options:
       - { label: "Project", value: "Project", color: "hsl(116, 95%, 90%)"}
       - { label: "Utility", value: "Utility", color: "hsl(114, 95%, 90%)"}
@@ -115,6 +116,7 @@ columns:
       - { label: "Dev Story", value: "Dev Story", color: "hsl(95, 95%, 90%)"}
       - { label: "Shortcuts", value: "Shortcuts", color: "hsl(310, 95%, 90%)"}
       - { label: "SVG", value: "SVG", color: "hsl(281, 95%, 90%)"}
+      - { label: "CI and CD", value: "CI and CD", color: "hsl(164, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
