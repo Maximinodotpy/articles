@@ -72,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5,
-    "collapsed": true
+    "width": 425.5
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -108,13 +107,21 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "113015358bc5d647",
+  "active": "243fd8e1bf8469d0",
   "lastOpenFiles": [
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png.tmp$$",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R12v11y6_vcv0gi_794.tmp",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/~ai-82e69e44-8e73-49d5-8b82-f4fcedef27a8_.tmp",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R1y4t1yq_nav565_cwc.tmp",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.ai",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R1e387v3_vcv0fm_794.tmp",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/~ai-b13c5fc0-39e7-4987-a264-9d8552cea020_.tmp",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R7mqaz5_nav55k_cwc.tmp",
     "Articles.md",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog",
     "Untitled",
-    "047 - How to Automate Publishing Godot Games to Itch.io",
     "010 - Highlighted Code Editor with vue.js and regex/_blog/article.md",
     "046 - Analog Clock with JavaScript/_blog/article.md",
     "046 - Analog Clock with JavaScript/_blog/preview.png",
@@ -139,18 +146,10 @@
     "015 - Tabs with HTML, SASS and JS/_blog/article.md",
     "Overview.md",
     "045 - My Godot 4 Impressions/_blog/preview.png",
-    "045 - My Godot 4 Impressions/_blog/preview.png.tmp$$",
-    "045 - My Godot 4 Impressions/_blog/A9Rxesyku_ouygjq_4d0.tmp",
-    "045 - My Godot 4 Impressions/_blog/~ai-09fde975-fc5e-4069-9938-5c8a1a94de3f_.tmp",
-    "045 - My Godot 4 Impressions/_blog/A9Rcy6rbo_1lk37dh_4vc.tmp",
-    "045 - My Godot 4 Impressions/_blog/preview.ai",
-    "045 - My Godot 4 Impressions/_blog/A9Rv889b3_ouygjn_4d0.tmp",
-    "045 - My Godot 4 Impressions/_blog/~ai-ec964a51-d037-4ce3-902b-c040ed686660_.tmp",
     "044 - Regular Expressions/_blog/article.md",
     "043 - Tree View with Svelte/_blog/article.md",
     "044 - Regular Expressions/_blog/preview.png",
     "044 - Regular Expressions/_blog/cat.jpeg",
-    "pages/My Setup/article.md",
     "043 - Tree View with Svelte/_blog/views/edit_view.png",
     "043 - Tree View with Svelte/_blog/views/styled_view.png",
     "043 - Tree View with Svelte/_blog/views/raw_view.png",
