@@ -4,7 +4,7 @@ slug: how-to-automate-publishing-godot-games-to-itch-io
 tags:
   - CI and CD
 category: Godot Game Engine
-status: draft
+status: publish
 description: Let's learn together how we can use the Power of Github Action to automate our Games Deployment to Itch.io
 ---
 I'm a programmer so I like to automate tasks for 6 hours that I could have just done in 5 Minutes manually.

@@ -72,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 425.5,
+    "collapsed": true
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -107,8 +108,10 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "243fd8e1bf8469d0",
+  "active": "113015358bc5d647",
   "lastOpenFiles": [
+    "Articles.md",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png.tmp$$",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R12v11y6_vcv0gi_794.tmp",
@@ -118,8 +121,6 @@
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R1e387v3_vcv0fm_794.tmp",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/~ai-b13c5fc0-39e7-4987-a264-9d8552cea020_.tmp",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R7mqaz5_nav55k_cwc.tmp",
-    "Articles.md",
-    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog",
     "Untitled",
     "010 - Highlighted Code Editor with vue.js and regex/_blog/article.md",
@@ -153,7 +154,6 @@
     "043 - Tree View with Svelte/_blog/views/edit_view.png",
     "043 - Tree View with Svelte/_blog/views/styled_view.png",
     "043 - Tree View with Svelte/_blog/views/raw_view.png",
-    "043 - Tree View with Svelte/_blog/preview.png",
-    "043 - Tree View with Svelte/_blog/screenshot.png"
+    "043 - Tree View with Svelte/_blog/preview.png"
   ]
 }
