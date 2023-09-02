@@ -7,8 +7,7 @@ tags:
   - CSS
   - VueJS
 category: Project
-description: Learn about HTML, CSS, JavaScript (vue.js), and Regular Expressions
-  by creating a dummy code editor that looks like VS-Code
+description: Learn about HTML, CSS, JavaScript (vue.js), and Regular Expressions by creating a dummy code editor that looks like VS-Code
 ---
 
 Today we will create a dummy code editor that supports syntax highlighting. We use HTML, CSS and JavaScript (Vue.js). We are also going to learn about RegularExpressions for the highlighting. Below you see the Editor already in action, so you better understand what we will do.

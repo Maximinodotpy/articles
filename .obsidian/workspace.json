@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#FF0000",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,12 +55,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 425.5,
-    "collapsed": true
+    "width": 425.5
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -97,10 +96,11 @@
   },
   "active": "113015358bc5d647",
   "lastOpenFiles": [
+    "010 - Highlighted Code Editor with vue.js and regex/_blog/article.md",
+    "Articles.md",
     "046 - Analog Clock with JavaScript/_blog/article.md",
     "046 - Analog Clock with JavaScript/_blog/preview.png",
     "046 - Analog Clock with JavaScript/_blog/Screenshot 2023-08-31 102116.png",
-    "Articles.md",
     "Templates/article_v1.md",
     "041 - Text Editor with JavaScript/_blog/article.md",
     "045 - My Godot 4 Impressions/_blog/article.md",
@@ -117,7 +117,6 @@
     "024 - Godot Platformer Character with Walljumping/_blog/article.md",
     "039 - Keyboard Shortcuts/_blog/article.md",
     "040 - Line Chart with Svelte/_blog/article.md",
-    "010 - Highlighted Code Editor with vue.js and regex/_blog/article.md",
     "007 - simple spreadsheet app with vue/_blog/article.md",
     "015 - Tabs with HTML, SASS and JS/_blog/article.md",
     "Overview.md",
