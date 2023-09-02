@@ -24,7 +24,7 @@ HERE YOU FIND THE FULL FILE IF YOU WANT TO SIMPLY COPY IT
 
 So these Automation are basically Yaml file that will hold the Infos about your Action like how its called when it runs and what it runs. These files reside in the  `.github/workflows` subfolder of your project. You see the Yaml file we work on [here](https://github.com/Maximinodotpy/Tile-Jumper-Exodus/blob/master/.github/workflows/deploy.yml).
 
-We start by setting a name for this Action and telling it when to run in this case on every push (on every branch). Next up we create a job called `export-web` 
+We start by setting a name for this Action and telling it when to run in this case on every push (on every branch). Next up we create a job called `export-web` that runs on Ubuntu.
 
 ```yml
 name: "Godot Export and Upload"
@@ -34,6 +34,7 @@ jobs:
     name: Web Export
     runs-on: ubuntu-20.04
     steps:
+	    ... More Magic ...
 ```
 
 
