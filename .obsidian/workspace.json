@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "113015358bc5d647",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "07f1d9cd1163b829",
             "type": "leaf",
             "state": {
@@ -89,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md"
+                "file": "Articles.md"
               }
             }
           }
@@ -108,10 +95,10 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "113015358bc5d647",
+  "active": "07f1d9cd1163b829",
   "lastOpenFiles": [
-    "Articles.md",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
+    "Articles.md",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png.tmp$$",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R12v11y6_vcv0gi_794.tmp",
