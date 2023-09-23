@@ -44,9 +44,17 @@ for application_slug in shortcutData:
     for shortcut in application['shortcuts']:
         result += f"| `{shortcut['keys']}` | {shortcut['description']} |\n"
 
-    result += f'\n[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles/blob/main/039%20-%20Keyboard%20Shortcuts/shortcuts.json)\n'
+    result += f'\n[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)\n'
 
     result += "\n\n"
+
+    # Check for duplicate shortcuts
+    shortcutKeys = []
+    for shortcut in application['shortcuts']:
+        if shortcut['keys'] in shortcutKeys:
+            print(f"Duplicate Shortcut in {application['name']}: {shortcut['keys']}")
+        else:
+            shortcutKeys.append(shortcut['keys'])
 
 with open('_blog/article.md', 'w') as f:
     f.write(result)

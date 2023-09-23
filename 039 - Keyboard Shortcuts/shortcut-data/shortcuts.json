@@ -52,7 +52,10 @@
                 { "keys": "shift + F10", "description": "Open Context Menu, also works in a lot of programs by windows" },
                 { "keys": "alt + F4", "description": "Close Window" },
                 { "keys": "Windows + down", "description": "Minimize Window" },
+
                 { "keys": "alt + tab", "description": "View open Applications, in current virtual desktop" },
+                { "keys": "alt + escape", "description": "Go back in Window Focus History" },
+
                 { "keys": "F11", "description": "Toggle Full Screen" },
                 { "keys": "Windows + arrows", "description": "Move active window on the screen" },
                 { "keys": "Windows + shift + arrows", "description": "Move active window to another Screen in the same manner as on the current one" },
@@ -110,27 +113,54 @@
                 { "keys": "x", "description": "Close Tab" },
                 { "keys": "j", "description": "Scroll Down" },
                 { "keys": "k", "description": "Scroll Up" },
-                { "keys": "g", "description": "Go to Start" },
+                { "keys": "g g", "description": "Go to Start" },
                 { "keys": "shift + g", "description": "Go to End" }
             ]
         },
         "godot": {
             "name": "Godot",
-            "description": "These shortcuts are for the Godot Engine (Version 3.x, but most of them also work for 4.x).",
+            "description": "These shortcuts are for the Godot Engine (Version 3.x and 4.x).",
             "shortcuts": [
+                { "keys": "q", "description": "Select Mode [When in 2D]" },
+                { "keys": "w", "description": "Move Mode [When in 2D]" },
+                { "keys": "r", "description": "Rotate Mode [When in 2D]" },
+                { "keys": "s", "description": "Scale Mode [When in 2D]" },
+
                 { "keys": "ctrl + a", "description": "Open Node Menu" },
-                { "keys": "F6", "description": "Play Current Scene" },
                 { "keys": "F5", "description": "Play Main Scene" },
+                { "keys": "F6", "description": "Play Current Scene" },
+                { "keys": "F7", "description": "Pause Running Project" },
                 { "keys": "ctrl + F1", "description": "Switch to 2D Editor" },
                 { "keys": "ctrl + F2", "description": "Switch to 3D Editor" },
                 { "keys": "ctrl + F3", "description": "Switch to Script" },
-                { "keys": "q", "description": "Select Mode [When in 2D]" },
                 { "keys": "shift + g", "description": "Use Gridsnap [When in 2D]" },
                 { "keys": "ctrl + g", "description": "Toggle Grid [When in 2D]" },
                 { "keys": "ctrl + r", "description": "Replace [When in Code]" },
-                { "keys": "ctrl + d", "description": "Duplicate Line [When in Code]" },
+                { "keys": "ctrl + shift + d", "description": "Duplicate Line [When in Code]" },
                 { "keys": "ctrl + shift + F11", "description": "Toggle distraction Free Mode" },
-                { "keys": "ctrl + shift + p", "description": "Open Command Palette" }
+                { "keys": "ctrl + shift + p", "description": "Open Command Palette" },
+                { "keys": "ctrl + shift + .", "description": "Switch to next Script [When in Script Editor]" },
+                { "keys": "ctrl + shift + ,", "description": "Switch to previous Script [When in Script Editor]" },
+                { "keys": "ctrl + shift + r", "description": "Replace in Files [When in Script Editor]" },
+                { "keys": "alt + shift + up", "description": "Move Script up [When in Script Editor]" },
+                { "keys": "alt + shift + down", "description": "Move Script down [When in Script Editor]" },
+                { "keys": "ctrl + k", "description": "Toggle Comment [When in Script Editor]" },
+                { "keys": "alt + f", "description": "Toggle Line Folding [When in Script Editor]" },
+                { "keys": "ctrl + shift + c", "description": "Copy Path [When in FileSystem Dock]" },
+                { "keys": "ctrl + shift + c", "description": "Copy Property Path [When in Property Inspector]" },
+                { "keys": "shift + F12", "description": "Expand Bottom Panel" },
+                { "keys": "shift + F11", "description": "Toggle Fullscreen" },
+                
+                { "keys": "ctrl + g", "description": "Group Current Node" },
+                { "keys": "ctrl + shift + g", "description": "Ungroup Current Node" },
+                
+                { "keys": "ctrl + l", "description": "Lock Current Node" },
+                { "keys": "ctrl + shift + l", "description": "Unlock Current Node" },
+
+                { "keys": "ctrl + n", "description": "New Scene" },
+                { "keys": "ctrl + shift + n", "description": "New Inherited Scene" },
+                { "keys": "f", "description": "Center Selection [When in 2D]" },
+                { "keys": "shift + f", "description": "Fit Selection to Viewport [When in 2D]" }
             ]
         },
         "visual-studio-code": {

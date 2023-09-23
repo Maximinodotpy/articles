@@ -39,7 +39,7 @@
                             },
                             "description": {
                                 "type": "string",
-                                "pattern": "((Snap|Choose|Go|Push|Commit|Exit|Turn|Set|Maximize|Italic|Underline|Cut|Fit|Pan|Copy|Enter|Move|Duplicate|Replace|Save|Zoom|New|Select|Insert|Bold|Add|Scroll|Go|Close|Inser|Run|Jump|Use|Block|View|Search|Start|Play|Focus|Reset|Minimize|Lock|Split|Delete|Rename|Toggle|Create|Show|Open|Preview|Switch|Setup|Format|Zoom|Undo|Redo|Fold|Unfold))(?=$| )[\\w /,]*(\\[When .*\\])?$"
+                                "pattern": "((Snap|Choose|Go|Push|Commit|Exit|Turn|Set|Maximize|Italic|Underline|Cut|Fit|Pan|Copy|Enter|Move|Duplicate|Replace|Save|Zoom|New|Select|Insert|Bold|Add|Scroll|Go|Close|Rotate|Scale|Inser|Run|Jump|Use|Block|View|Search|Start|Play|Group|Pause|Center|Ungroup|Focus|Reset|Expand|Minimize|Lock|Unlock|Split|Delete|Rename|Toggle|Create|Show|Open|Preview|Switch|Setup|Format|Zoom|Undo|Redo|Fold|Unfold))(?=$| )[\\w /,]*(\\[When .*\\])?$"
                             }
                         }
                     }
