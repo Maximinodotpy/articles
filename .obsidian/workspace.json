@@ -11,13 +11,27 @@
             "id": "07f1d9cd1163b829",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "048 - Godot Tips and Tricks/_blog/article.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4172d06efb7dbe08",
+            "type": "leaf",
+            "state": {
               "type": "database-plugin",
               "state": {
                 "file": "Articles.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -59,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5,
-    "collapsed": true
+    "width": 425.5
   },
   "right": {
     "id": "22897e49f5380afa",
@@ -105,10 +118,15 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "07f1d9cd1163b829",
+  "active": "243fd8e1bf8469d0",
   "lastOpenFiles": [
-    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
+    "048 - Godot Tips and Tricks/_blog/preview.png",
+    "000 - Singleton Articles/002_Godot tips and Tricks/preview.png.tmp$$",
+    "048 - Godot Tips and Tricks/_blog/article.md",
     "Articles.md",
+    "048 - Godot Tips and Tricks/_blog",
+    "048 - Godot Tips and Tricks",
+    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png.tmp$$",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R12v11y6_vcv0gi_794.tmp",
@@ -117,9 +135,6 @@
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.ai",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R1e387v3_vcv0fm_794.tmp",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/~ai-b13c5fc0-39e7-4987-a264-9d8552cea020_.tmp",
-    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R7mqaz5_nav55k_cwc.tmp",
-    "047 - How to Automate Publishing Godot Games to Itch.io/_blog",
-    "Untitled",
     "010 - Highlighted Code Editor with vue.js and regex/_blog/article.md",
     "046 - Analog Clock with JavaScript/_blog/article.md",
     "046 - Analog Clock with JavaScript/_blog/preview.png",
@@ -145,7 +160,6 @@
     "Overview.md",
     "045 - My Godot 4 Impressions/_blog/preview.png",
     "044 - Regular Expressions/_blog/article.md",
-    "043 - Tree View with Svelte/_blog/article.md",
     "044 - Regular Expressions/_blog/preview.png",
     "044 - Regular Expressions/_blog/cat.jpeg",
     "043 - Tree View with Svelte/_blog/views/edit_view.png",
