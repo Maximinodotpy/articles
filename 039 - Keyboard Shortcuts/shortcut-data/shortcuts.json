@@ -200,7 +200,8 @@
                 { "keys": "ctrl + shift + 5", "description": "Split Current Terminal [When in Terminal]" },
                 { "keys": "ctrl + k z", "description": "Enter Zen Mode" },
                 { "keys": "ctrl + k m", "description": "Choose Language Mode" },
-                { "keys": "ctrl + shift + enter", "description": "Insert Empty Line" }
+                { "keys": "ctrl + shift + enter", "description": "Insert Empty Line" },
+                { "keys": "ctrl + shift + c", "description": "Open New External Terminal" }
             ]
         },
         "microsoft-word": {

@@ -2,8 +2,8 @@
 name: 'Keyboard Shortcuts'
 slug: 'keyboard-shortcuts'
 description: 'A list of Keyboard Shortcuts I use in my Work with Computers, feel free to skim through it and maybe learn about new things in your applications.'
-tags: ['Shortcuts']
-category: 'general'
+tags: []
+category: 'General'
 status: 'publish'
 ---
 
@@ -22,7 +22,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(12 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
-- [Visual Studio Code](#visual-studio-code) *(34 Shortcuts)*
+- [Visual Studio Code](#visual-studio-code) *(35 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(7 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(2 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(4 Shortcuts)*
@@ -180,6 +180,8 @@ The Browser Extension for Google Chrome and MS Edge. It allows you to navigate t
 
 These shortcuts are for the Godot Engine (Version 3.x and 4.x).
 
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=godot)
+
 | Shortcut | Description |
 | --- | --- |
 | `q` | Select Mode [When in 2D] |
@@ -264,6 +266,7 @@ These shortcuts are for the Godot Engine (Version 3.x and 4.x).
 | `ctrl + k z` | Enter Zen Mode |
 | `ctrl + k m` | Choose Language Mode |
 | `ctrl + shift + enter` | Insert Empty Line |
+| `ctrl + shift + c` | Open New External Terminal |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -475,4 +478,14 @@ Githubs Desktop Client
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
+
+## Summary
+
+Total Shortcuts: 221
+
+Application with most Shortcuts: Godot (36)
+
+Application with least Shortcuts: Microsoft General (1)
+
+Average Shortcuts per Application: 11.63
 

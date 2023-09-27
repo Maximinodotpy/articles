@@ -64,6 +64,28 @@ for application_slug in shortcutData:
 result += f"## Summary\n\n"
 result += f"Total Shortcuts: {shortcutCount}\n\n"
 
+# Programm with most Shortcuts
+mostShortcuts = 0
+mostShortcutsName = ''
+for application_slug in shortcutData:
+    if len(shortcutData[application_slug]['shortcuts']) > mostShortcuts:
+        mostShortcuts = len(shortcutData[application_slug]['shortcuts'])
+        mostShortcutsName = shortcutData[application_slug]['name']
+
+result +=   f"Application with most Shortcuts: {mostShortcutsName} ({mostShortcuts})\n\n"
+
+# Programm with least Shortcuts
+leastShortcuts = 1000
+leastShortcutsName = ''
+for application_slug in shortcutData:
+    if len(shortcutData[application_slug]['shortcuts']) < leastShortcuts:
+        leastShortcuts = len(shortcutData[application_slug]['shortcuts'])
+        leastShortcutsName = shortcutData[application_slug]['name']
+
+result +=   f"Application with least Shortcuts: {leastShortcutsName} ({leastShortcuts})\n\n"
+
+# Average Shortcuts
+result += f"Average Shortcuts per Application: {round(shortcutCount / len(shortcutData), 2)}\n\n"
 
 with open('_blog/article.md', 'w') as f:
     f.write(result)
