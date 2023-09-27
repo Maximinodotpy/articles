@@ -30,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles.md"
+                "file": "048 - Godot Tips and Tricks/_blog/article.md"
               }
             }
           },
@@ -118,12 +117,12 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "243fd8e1bf8469d0",
+  "active": "07f1d9cd1163b829",
   "lastOpenFiles": [
+    "Articles.md",
     "048 - Godot Tips and Tricks/_blog/preview.png",
     "000 - Singleton Articles/002_Godot tips and Tricks/preview.png.tmp$$",
     "048 - Godot Tips and Tricks/_blog/article.md",
-    "Articles.md",
     "048 - Godot Tips and Tricks/_blog",
     "048 - Godot Tips and Tricks",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
@@ -164,7 +163,6 @@
     "044 - Regular Expressions/_blog/cat.jpeg",
     "043 - Tree View with Svelte/_blog/views/edit_view.png",
     "043 - Tree View with Svelte/_blog/views/styled_view.png",
-    "043 - Tree View with Svelte/_blog/views/raw_view.png",
-    "043 - Tree View with Svelte/_blog/preview.png"
+    "043 - Tree View with Svelte/_blog/views/raw_view.png"
   ]
 }

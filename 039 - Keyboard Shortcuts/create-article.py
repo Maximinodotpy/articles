@@ -9,8 +9,8 @@ result = """---
 name: 'Keyboard Shortcuts'
 slug: 'keyboard-shortcuts'
 description: 'A list of Keyboard Shortcuts I use in my Work with Computers, feel free to skim through it and maybe learn about new things in your applications.'
-tags: ['Shortcuts']
-category: 'general'
+tags: []
+category: 'General'
 status: 'publish'
 ---
 
@@ -55,6 +55,15 @@ for application_slug in shortcutData:
             print(f"Duplicate Shortcut in {application['name']}: {shortcut['keys']}")
         else:
             shortcutKeys.append(shortcut['keys'])
+    
+# Count all Shortcuts
+shortcutCount = 0
+for application_slug in shortcutData:
+    shortcutCount += len(shortcutData[application_slug]['shortcuts'])
+
+result += f"## Summary\n\n"
+result += f"Total Shortcuts: {shortcutCount}\n\n"
+
 
 with open('_blog/article.md', 'w') as f:
     f.write(result)
