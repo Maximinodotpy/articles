@@ -79,6 +79,16 @@
                 "file": "Articles.md"
               }
             }
+          },
+          {
+            "id": "eff53ea50a6ca14d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
