@@ -117,6 +117,8 @@ columns:
       - { label: "Shortcuts", value: "Shortcuts", color: "hsl(310, 95%, 90%)"}
       - { label: "SVG", value: "SVG", color: "hsl(281, 95%, 90%)"}
       - { label: "CI and CD", value: "CI and CD", color: "hsl(164, 95%, 90%)"}
+      - { label: "GD", value: "GD", color: "hsl(4, 95%, 90%)"}
+      - { label: "Script", value: "Script", color: "hsl(88, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true

@@ -3,13 +3,16 @@ name: Godot Tips and Tricks
 slug: godot-tips-and-tricks
 tags:
   - Game
-  - GD Script
+  - GD
+  - Script
 category: Godot Game Engine
-status: draft
+status: publish
 description: A bunch of Tips and Tricks for the Open Source Game Engine Godot.
 ---
 
-INTRO TEXT
+Hey what's up Friends, This time around I simply want to shower you with Tips and Tricks for the Godot Game Engine. Enjoy.
+
+Contact me if you have some Tips and Tricks you are missing from this page.
 
 ## Run Multiple Instances
 
@@ -53,21 +56,20 @@ If you did not know, Godot will create custom Documentation for your Script File
 
 ## Shortcuts
 
-[Godot Keyboard Shortcuts (maximmaeder.com)](https://maximmaeder.com/keyboard-shortcuts/#godot)
-
+Everything is better with Shortcuts -> [Godot Keyboard Shortcuts (maximmaeder.com)](https://maximmaeder.com/keyboard-shortcuts/#godot)
 
 ## Commonly Needed Functions
 
 ### Root Element
 
 ```gdscript
-
+get_tree().root.get_child(-1)
 ```
 
 ### Viewport Size
 
 ```gdscript
-
+get_viewport().get_visible_rect().size
 ```
 
 ### Active Viewport Control Element
@@ -78,10 +80,8 @@ get_viewport()
 
 ### Current Mouse Position
 
-(Global and Local)
-
 ```gdscript
-
+get_viewport().get_mouse_position()
 ```
 
 ### More Helpers

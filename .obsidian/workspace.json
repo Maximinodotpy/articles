@@ -11,6 +11,16 @@
             "id": "07f1d9cd1163b829",
             "type": "leaf",
             "state": {
+              "type": "database-plugin",
+              "state": {
+                "file": "Articles.md"
+              }
+            }
+          },
+          {
+            "id": "ec053274aa1c4ca9",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "048 - Godot Tips and Tricks/_blog/article.md",
@@ -19,18 +29,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4172d06efb7dbe08",
-            "type": "leaf",
-            "state": {
-              "type": "database-plugin",
-              "state": {
-                "file": "Articles.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,12 +118,12 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "07f1d9cd1163b829",
+  "active": "ec053274aa1c4ca9",
   "lastOpenFiles": [
     "Articles.md",
+    "048 - Godot Tips and Tricks/_blog/article.md",
     "048 - Godot Tips and Tricks/_blog/preview.png",
     "000 - Singleton Articles/002_Godot tips and Tricks/preview.png.tmp$$",
-    "048 - Godot Tips and Tricks/_blog/article.md",
     "048 - Godot Tips and Tricks/_blog",
     "048 - Godot Tips and Tricks",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
