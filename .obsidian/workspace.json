@@ -21,16 +21,6 @@
             }
           },
           {
-            "id": "b50cd9ca6701be04",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
-          },
-          {
             "id": "4172d06efb7dbe08",
             "type": "leaf",
             "state": {
@@ -40,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +117,7 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "b50cd9ca6701be04",
+  "active": "07f1d9cd1163b829",
   "lastOpenFiles": [
     "Articles.md",
     "048 - Godot Tips and Tricks/_blog/preview.png",
