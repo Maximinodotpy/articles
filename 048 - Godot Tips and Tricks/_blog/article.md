@@ -95,4 +95,4 @@ For more Helpers you take a look at my [Godot Plugin](https://godotengine.org/as
 - [Godot Tips 'n Tricks 'n Gotchas (pythonforengineers.com)](https://new.pythonforengineers.com/blog/godot-tips-n-tricks-n-gotchas/)
 - [Godot Tips and Tricks (gdscript.com)](https://gdscript.com/articles/godot-tips-and-tricks/)
 - [Godot 3 Tips - GoTut: Godot Tutorials & Tips](https://www.gotut.net/godot-3-tips/)
-- [me2beats/godot-tips-and-tricks: Tips and tricks you should know when using Godot Engine! (github.com)](https://github.com/me2beats/godot-tips-and-tricks)>)
+- [me2beats/godot-tips-and-tricks: Tips and tricks you should know when using Godot Engine! (github.com)](https://github.com/me2beats/godot-tips-and-tricks)
