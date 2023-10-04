@@ -20,13 +20,16 @@
                 { "keys": "ctrl + f", "description": "Search" },
                 { "keys": "ctrl + a", "description": "Select All" },
                 { "keys": "ctrl + s", "description": "Save" },
+                { "keys": "ctrl + shift + s", "description": "Save As" },
                 { "keys": "escape", "description": "Close Popup" },
                 { "keys": "ctrl + n", "description": "New File" },
                 { "keys": "arrows", "description": "Move Cursor" },
                 { "keys": "ctrl + arrows", "description": "Move Cursor Word by Word" },
                 { "keys": "shift + arrows", "description": "Move Cursor while selecting" },
                 { "keys": "ctrl + shift + arrows", "description": "Move Cursor while selecting word by word" },
-                { "keys": "ctrl + w", "description": "Close Document" }
+                { "keys": "ctrl + w", "description": "Close Document" },
+                { "keys": "ctrl + p", "description": "Print" },
+                { "keys": "F2", "description": "Rename" }
             ]
         },
         "file-explorer": {
@@ -65,6 +68,9 @@
                 { "keys": "Windows + d", "description": "Show Desktop" },
                 { "keys": "Windows + a", "description": "Open Notification Center" },
                 { "keys": "Windows + x", "description": "Open the Quick Link Menu" },
+                { "keys": "Windows + m", "description": "Minimize all windows" },
+                { "keys": "Windows + home", "description": "Minimize all windows but the active one" },
+                { "keys": "Windows + pause", "description": "Show computer infos" },
 
                 { "keys": "Windows + tab", "description": "Show Virtual Desktops" },
                 { "keys": "ctrl + Windows + left/right", "description": "Switch between Virtual Desktops" },
@@ -73,9 +79,10 @@
 
                 { "keys": "alt + shift + print", "description": "Toggle High Contrast Mode" },
                 { "keys": "Windows + v", "description": "Open Clipboard History" },
+                { "keys": "Windows + i", "description": "Open Settings" },
                 { "keys": "Windows + space", "description": "Switch Language Mode" },
-
-                { "keys": "F1", "description": "Open Help Menu, also works in a lot of programs" }
+                { "keys": "F1", "description": "Open Help Menu, also works in a lot of programs" },
+                { "keys": "ctrl + shift + escape", "description": "Open Task Manager" }
             ]
         },
         "microsoft-general": {
@@ -204,6 +211,14 @@
                 { "keys": "ctrl + shift + c", "description": "Open New External Terminal" }
             ]
         },
+        "office-general": {
+            "name": "Office General",
+            "description": "These shortcuts apply to Microsoft Office and other Microsoft programs.",
+            "shortcuts": [
+                { "keys": "ctrl + F1", "description": "Toggle Ribbon Menu visibility" },
+                { "keys": "dblclick", "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" }
+            ]
+        },
         "microsoft-word": {
             "name": "Microsoft Word",
             "description": "Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#content-windows) because some of these also apply.",
@@ -212,9 +227,9 @@
                 { "keys": "ctrl + shift + k", "description": "Italic Selection" },
                 { "keys": "ctrl + shift + u", "description": "Underline Selection" },
                 { "keys": "ctrl + enter", "description": "Insert Page Break" },
+                { "keys": "shift + enter", "description": "Insert Line Break" },
                 { "keys": "F11", "description": "Select Next Link" },
-                { "keys": "shift + F11", "description": "Select previous Link" },
-                { "keys": "dblclick", "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" }
+                { "keys": "shift + F11", "description": "Select previous Link" }
             ]
         },
         "microsoft-powerpoint": {
@@ -222,7 +237,8 @@
             "description": "",
             "shortcuts": [
                 { "keys": "shift + F5", "description": "Start Presentation from here" },
-                { "keys": "F5", "description": "Start Presentation" }
+                { "keys": "F5", "description": "Start Presentation" },
+                { "keys": "ctrl + m", "description": "Create new Slide" }
             ]
         },
         "microsoft-excl": {
@@ -233,6 +249,16 @@
                 { "keys": "ctrl + pagedown", "description": "Switch to next Sheet in Workbook" },
                 { "keys": "ctrl + pageup", "description": "Switch to previous Sheet in Workbook" },
                 { "keys": "F4", "description": "Switch through anchor mode [When the cursor is within a cell reference]" }
+            ]
+        },
+        "microsoft-outlook": {
+            "name": "Microsoft Outlook",
+            "description": "",
+            "shortcuts": [
+                { "keys": "ctrl + r", "description": "Reply" },
+                { "keys": "ctrl + shift + r", "description": "Reply to all" },
+                { "keys": "ctrl + shift + a", "description": "Create new Appointment" },
+                { "keys": "ctrl + enter", "description": "Send Mail [When in E-Mail Editor]" }
             ]
         },
         "jupyter-notebook": {

@@ -15,17 +15,19 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 **Applications / Places**
 
-- [General](#general) *(21 Shortcuts)*
+- [General](#general) *(24 Shortcuts)*
 - [File Explorer](#file-explorer) *(10 Shortcuts)*
-- [Windows](#windows) *(22 Shortcuts)*
+- [Windows](#windows) *(27 Shortcuts)*
 - [Microsoft General](#microsoft-general) *(1 Shortcuts)*
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(12 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(35 Shortcuts)*
+- [Office General](#office-general) *(2 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(7 Shortcuts)*
-- [Microsoft Powerpoint](#microsoft-powerpoint) *(2 Shortcuts)*
+- [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(4 Shortcuts)*
+- [Microsoft Outlook](#microsoft-outlook) *(4 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(11 Shortcuts)*
 - [Adobe Premiere Pro](#adobe-premiere-pro) *(9 Shortcuts)*
@@ -58,6 +60,7 @@ These Shortcuts work in most programs so they are industry standard.
 | `ctrl + f` | Search |
 | `ctrl + a` | Select All |
 | `ctrl + s` | Save |
+| `ctrl + shift + s` | Save As |
 | `escape` | Close Popup |
 | `ctrl + n` | New File |
 | `arrows` | Move Cursor |
@@ -65,6 +68,8 @@ These Shortcuts work in most programs so they are industry standard.
 | `shift + arrows` | Move Cursor while selecting |
 | `ctrl + shift + arrows` | Move Cursor while selecting word by word |
 | `ctrl + w` | Close Document |
+| `ctrl + p` | Print |
+| `F2` | Rename |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -111,14 +116,19 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + d` | Show Desktop |
 | `Windows + a` | Open Notification Center |
 | `Windows + x` | Open the Quick Link Menu |
+| `Windows + m` | Minimize all windows |
+| `Windows + home` | Minimize all windows but the active one |
+| `Windows + pause` | Show computer infos |
 | `Windows + tab` | Show Virtual Desktops |
 | `ctrl + Windows + left/right` | Switch between Virtual Desktops |
 | `ctrl + Windows + d` | Create new Virtual Desktop |
 | `ctrl + Windows + F4` | Close current Virtual Desktop |
 | `alt + shift + print` | Toggle High Contrast Mode |
 | `Windows + v` | Open Clipboard History |
+| `Windows + i` | Open Settings |
 | `Windows + space` | Switch Language Mode |
 | `F1` | Open Help Menu, also works in a lot of programs |
+| `ctrl + shift + escape` | Open Task Manager |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -271,6 +281,20 @@ These shortcuts are for the Godot Engine (Version 3.x and 4.x).
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
 
+## Office General
+
+These shortcuts apply to Microsoft Office and other Microsoft programs.
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=office-general)
+
+| Shortcut | Description |
+| --- | --- |
+| `ctrl + F1` | Toggle Ribbon Menu visibility |
+| `dblclick` | Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button] |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
 ## Microsoft Word
 
 Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#content-windows) because some of these also apply.
@@ -283,9 +307,9 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `ctrl + shift + k` | Italic Selection |
 | `ctrl + shift + u` | Underline Selection |
 | `ctrl + enter` | Insert Page Break |
+| `shift + enter` | Insert Line Break |
 | `F11` | Select Next Link |
 | `shift + F11` | Select previous Link |
-| `dblclick` | Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -300,6 +324,7 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | --- | --- |
 | `shift + F5` | Start Presentation from here |
 | `F5` | Start Presentation |
+| `ctrl + m` | Create new Slide |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -316,6 +341,22 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `ctrl + pagedown` | Switch to next Sheet in Workbook |
 | `ctrl + pageup` | Switch to previous Sheet in Workbook |
 | `F4` | Switch through anchor mode [When the cursor is within a cell reference] |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
+## Microsoft Outlook
+
+
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-outlook)
+
+| Shortcut | Description |
+| --- | --- |
+| `ctrl + r` | Reply |
+| `ctrl + shift + r` | Reply to all |
+| `ctrl + shift + a` | Create new Appointment |
+| `ctrl + enter` | Send Mail [When in E-Mail Editor] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -481,11 +522,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 221
+Total Shortcuts: 236
 
 Application with most Shortcuts: Godot (36)
 
 Application with least Shortcuts: Microsoft General (1)
 
-Average Shortcuts per Application: 11.63
+Average Shortcuts per Application: 11.24
 

@@ -16,22 +16,8 @@
                 "file": "Articles.md"
               }
             }
-          },
-          {
-            "id": "ec053274aa1c4ca9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "048 - Godot Tips and Tricks/_blog/article.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "048 - Godot Tips and Tricks/_blog/article.md"
+                "file": "Articles.md"
               }
             }
           },
@@ -118,10 +104,10 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "ec053274aa1c4ca9",
+  "active": "07f1d9cd1163b829",
   "lastOpenFiles": [
-    "Articles.md",
     "048 - Godot Tips and Tricks/_blog/article.md",
+    "Articles.md",
     "048 - Godot Tips and Tricks/_blog/preview.png",
     "000 - Singleton Articles/002_Godot tips and Tricks/preview.png.tmp$$",
     "048 - Godot Tips and Tricks/_blog",

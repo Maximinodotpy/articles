@@ -66,6 +66,7 @@ button.toggle_mode = true
 button.button_group = buttonGroup
 ```
 
+Can also be added via the Properties Panel.
 ## Button Shortcuts
 
 You can add Shortcuts to Buttons either via the Properties Panel,
