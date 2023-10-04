@@ -84,6 +84,19 @@ shortcut.events = [ key ]
 button.shortcut = shortcut
 ```
 
+
+## Rects UNFINI
+
+## Stepify Numbers
+
+You probably know `clamp` but there is also `snapped` which takes in a number and a snapping amount and it will snap it to that range.
+
+```gdscript
+var number = snapped(55, 20)
+
+# Will be 60
+```
+
 ## Shortcuts
 
 Everything is better with Shortcuts -> [Godot Keyboard Shortcuts (maximmaeder.com)](https://maximmaeder.com/keyboard-shortcuts/#godot)

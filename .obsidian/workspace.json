@@ -8,12 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "07f1d9cd1163b829",
+            "id": "9fd3e9cb20e2f213",
             "type": "leaf",
             "state": {
-              "type": "database-plugin",
+              "type": "markdown",
               "state": {
-                "file": "Articles.md"
+                "file": "048 - Godot Tips and Tricks/_blog/article.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -76,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles.md"
+                "file": "048 - Godot Tips and Tricks/_blog/article.md"
               }
             }
           },
@@ -104,10 +107,10 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "07f1d9cd1163b829",
+  "active": "9fd3e9cb20e2f213",
   "lastOpenFiles": [
-    "048 - Godot Tips and Tricks/_blog/article.md",
     "Articles.md",
+    "048 - Godot Tips and Tricks/_blog/article.md",
     "048 - Godot Tips and Tricks/_blog/preview.png",
     "000 - Singleton Articles/002_Godot tips and Tricks/preview.png.tmp$$",
     "048 - Godot Tips and Tricks/_blog",
