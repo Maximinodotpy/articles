@@ -53,6 +53,35 @@ If you did not know, Godot will create custom Documentation for your Script File
 
 ![](https://i.imgur.com/3hAvJkS.png)
 
+## Button Groups
+
+You can add Buttons to groups so that only one of them can be pressed at a time, which radio button behavior.
+
+```gdscript
+var buttonGroup = ButtonGroup.new()
+
+...
+
+button.toggle_mode = true
+button.button_group = buttonGroup
+```
+
+## Button Shortcuts
+
+You can add Shortcuts to Buttons either via the Properties Panel,
+
+![](https://i.imgur.com/diNMT5h.png)
+
+
+or through code.
+
+```gdscript
+var shortcut = Shortcut.new()
+var key = InputEventKey.new()
+key.set_keycode(KEY_V)
+shortcut.events = [ key ]
+button.shortcut = shortcut
+```
 
 ## Shortcuts
 
