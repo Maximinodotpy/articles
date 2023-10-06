@@ -85,7 +85,16 @@ button.shortcut = shortcut
 ```
 
 
-## Rects UNFINI
+## Rect2
+
+The [Rect2](https://docs.godotengine.org/en/stable/classes/class_rect2.html) Class is very useful for 2D Area Code, for example you could use this class to find out if a point is within an Area.
+
+```
+var rect = Rect2(0, 0, 100, 100)
+
+print(rect.has_point(50, 50)) # Yes
+print(rect.has_point(-10, -10)) # No
+```
 
 ## Stepify Numbers
 
@@ -96,6 +105,26 @@ var number = snapped(55, 20)
 
 # Will be 60
 ```
+
+
+## Setting SpinBox value without signal.
+
+The [SpinBox](https://docs.godotengine.org/en/stable/classes/class_spinbox.html) class will emit the `value_changed` signal even if the Value was changed via code, you can avoid this by calling `set_value_no_signal` on the SpinBox.
+
+
+## Class Names
+
+You can create globally available classes/types by using the [`class_name`](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#doc-gdscript-basics-class-name) keyword within your scripts.
+
+These Scripts will be available everywhere by their name, keep in mind that this does not load scenes but scripts.
+
+
+## Dragging Dropping Node References
+
+You can quickly drag and drop node references into the code editor to get the Path of the Node, By holding CTRL it will even create an onready variable for you.
+
+![](https://i.imgur.com/2uMq5XI.gif)
+
 
 ## Shortcuts
 
