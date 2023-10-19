@@ -147,6 +147,12 @@ It is important to add a name to the submenu as this info will be used internall
 
 Adding a singleton and Usage Screenshot
 
+![](https://i.imgur.com/CWOFZNX.png)
+
+
+![](https://i.imgur.com/g1N5Yzl.png)
+
+
 Singleton Pattern link
 
 ## Anti Aliasing Settings UNFINI
