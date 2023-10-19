@@ -137,10 +137,41 @@ add_child(alignMenu)
 
 ...
 
-add_submenu_item('Align OPtion', 'align', 2)
+add_submenu_item('Align Option', 'align', 2)
 ```
 
 It is important to add a name to the submenu as this info will be used internally by the Engine.
+
+
+## Global Scripts / Singletons UNFINI
+
+Adding a singleton and Usage Screenshot
+
+## Anti Aliasing Settings UNFINI
+
+## is_instance_valid() UNFINI
+
+## Adding Shortcuts to Menus UNFINI
+
+## Typed Arrays UNFINI
+
+## Moving Children UNFINI
+
+move_child
+get_index
+split container
+
+## Typing Signal Arguments UNFINI
+
+
+## [Pausing and Not Pausing](https://docs.godotengine.org/en/stable/tutorials/scripting/pausing_games.html)
+
+You can use `get_tree().paused` to pause and continue your game. This will make it so the `_process` functions wont be called.
+
+For more fine grained control on how Nodes behave we can set their Process Mode.
+
+![](https://i.imgur.com/u5kC7PM.png)
+
 
 ## Shortcuts
 
