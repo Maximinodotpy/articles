@@ -126,7 +126,21 @@ You can quickly drag and drop node references into the code editor to get the Pa
 ![](https://i.imgur.com/2uMq5XI.gif)
 
 
-## Adding Submenus UNFINI
+## Adding Submenus
+
+If you want add a submenu you will have as you probably already thought to create another `PopupMenu` and assign it to another Menu.
+
+```
+var alignMenu = PopupMenu.new()
+alignMenu.name = 'align'
+add_child(alignMenu)
+
+...
+
+add_submenu_item('Align OPtion', 'align', 2)
+```
+
+It is important to add a name to the submenu as this info will be used internally by the Engine.
 
 ## Shortcuts
 
