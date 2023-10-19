@@ -57,6 +57,7 @@
                 { "keys": "Windows + down", "description": "Minimize Window" },
 
                 { "keys": "alt + tab", "description": "View open Applications, in current virtual desktop" },
+                { "keys": "delete", "description": "Close Application [When viewing open applications in current virtual desktop]" },
                 { "keys": "alt + escape", "description": "Go back in Window Focus History" },
 
                 { "keys": "F11", "description": "Toggle Full Screen" },
