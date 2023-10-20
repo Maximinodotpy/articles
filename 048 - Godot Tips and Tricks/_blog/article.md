@@ -143,34 +143,58 @@ add_submenu_item('Align Option', 'align', 2)
 It is important to add a name to the submenu as this info will be used internally by the Engine.
 
 
-## Global Scripts / Singletons UNFINI
+## Global Scripts / Singletons
 
-Adding a singleton and Usage Screenshot
+You can add Scripts as Singletons so they're globally available.
+
+Do this by going into `Settings > Autoload`
 
 ![](https://i.imgur.com/CWOFZNX.png)
 
+Access them by their given name.
 
 ![](https://i.imgur.com/g1N5Yzl.png)
 
+## Anti Aliasing Settings
 
-Singleton Pattern link
-
-## Anti Aliasing Settings UNFINI
+![](https://i.imgur.com/B7r0NqX.png)
 
 ## is_instance_valid() UNFINI
 
+Check if a reference to a node has been freed with `is_instance_valid(node)`
+
+![](https://i.imgur.com/E6JjmGa.png)
+
 ## Adding Shortcuts to Menus UNFINI
+
+Adding shortcuts to Menus involves just like with buttons first creating a shortcut and then setting it to a certain item in the menu.
+
+```gdscript
+add_item('Toggle', 0)
+set_item_shortcut(0, toggle_shortcut)
+```
 
 ## Typed Arrays UNFINI
 
+You can type arrays.
+
+```gdscript
+var node_array: Array[Node] = []
+```
+
 ## Moving Children UNFINI
 
-move_child
-get_index
-split container
+You can move child nodes within their parent with `move_child`. To find the index (position) of a child within a parent use `get_index` on the child. This for example useful when dealing with Split Container where you want to flip the order of panels.
 
 ## Typing Signal Arguments UNFINI
 
+You can add types to signal arguments.
+
+```gdscript
+signal on_object_added(node: Node2D)
+signal on_object_removed(node: Node2D)
+signal on_object_renamed(node: Node2D)
+```
 
 ## [Pausing and Not Pausing](https://docs.godotengine.org/en/stable/tutorials/scripting/pausing_games.html)
 
