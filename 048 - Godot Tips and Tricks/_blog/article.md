@@ -89,7 +89,7 @@ button.shortcut = shortcut
 
 The [Rect2](https://docs.godotengine.org/en/stable/classes/class_rect2.html) Class is very useful for 2D Area Code, for example you could use this class to find out if a point is within an Area.
 
-```
+```gdscript
 var rect = Rect2(0, 0, 100, 100)
 
 print(rect.has_point(50, 50)) # Yes
@@ -128,7 +128,7 @@ You can quickly drag and drop node references into the code editor to get the Pa
 
 ## Adding Submenus
 
-If you want add a submenu you will have as you probably already thought to create another `PopupMenu` and assign it to another Menu.
+If you want add a submenu you will have as you probably already thought to create another [`PopupMenu`](https://docs.godotengine.org/en/stable/classes/class_popupmenu.html) and assign it to another Menu.
 
 ```
 var alignMenu = PopupMenu.new()
@@ -145,7 +145,7 @@ It is important to add a name to the submenu as this info will be used internall
 
 ## Global Scripts / Singletons
 
-You can add Scripts as Singletons so they're globally available.
+You can add Scripts as [Singletons](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html) so they're globally available.
 
 Do this by going into `Settings > Autoload`
 
@@ -159,13 +159,13 @@ Access them by their given name.
 
 ![](https://i.imgur.com/B7r0NqX.png)
 
-## is_instance_valid() UNFINI
+## is_instance_valid()
 
 Check if a reference to a node has been freed with `is_instance_valid(node)`
 
 ![](https://i.imgur.com/E6JjmGa.png)
 
-## Adding Shortcuts to Menus UNFINI
+## Adding Shortcuts to Menus
 
 Adding shortcuts to Menus involves just like with buttons first creating a shortcut and then setting it to a certain item in the menu.
 
@@ -174,7 +174,7 @@ add_item('Toggle', 0)
 set_item_shortcut(0, toggle_shortcut)
 ```
 
-## Typed Arrays UNFINI
+## Typed Arrays
 
 You can type arrays.
 
@@ -182,11 +182,11 @@ You can type arrays.
 var node_array: Array[Node] = []
 ```
 
-## Moving Children UNFINI
+## Moving Children
 
 You can move child nodes within their parent with `move_child`. To find the index (position) of a child within a parent use `get_index` on the child. This for example useful when dealing with Split Container where you want to flip the order of panels.
 
-## Typing Signal Arguments UNFINI
+## Typing Signal Arguments
 
 You can add types to signal arguments.
 
