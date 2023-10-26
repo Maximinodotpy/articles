@@ -15,6 +15,7 @@ description: Learn how to Calculate Gravity between two objects, apply the force
 
 Recently I worked on a [Planet / Gravity Simulator](https://maximino.itch.io/planet-simulator) and because of that I had to study how Gravity works. Because I had a little bit of trouble figuring out the correct formula and how to apply it to my gravity objects, I decided to make a short article describing how I did it.
 
+
 ## Calculating Gravitational Force
 
 To calculate the Gravity between two objects we need to know three things.
