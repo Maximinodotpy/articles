@@ -4,11 +4,13 @@ slug: calculating-gravity
 tags:
   - Component
   - Concept
-  - GD Script
-  - Dev Story
+  - GD
+  - Script
+  - Dev
+  - Story
 category: General
-status: draft
-description: Learn how to Calculate Gravity between two objects, apply it the said objects and how to use it in Godot.
+status: publish
+description: Learn how to Calculate Gravity between two objects, apply the forces to said objects and how to use it in Godot.
 ---
 
 Recently I worked on a [Planet / Gravity Simulator](https://maximino.itch.io/planet-simulator) and because of that I had to study how Gravity works. Because I had a little bit of trouble figuring out the correct formula and how to apply it to my gravity objects, I decided to make a short article describing how I did it.
