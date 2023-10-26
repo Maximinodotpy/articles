@@ -30,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles.md"
+                "file": "049 - Calculating Gravity/_blog/article.md"
               }
             }
           },
@@ -117,26 +116,27 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "7dd4e0e78cb3b4fc",
+  "active": "9fd3e9cb20e2f213",
   "lastOpenFiles": [
+    "049 - Calculating Gravity/_blog/preview.png",
+    "049 - Calculating Gravity/_blog/preview.png.tmp$$",
+    "049 - Calculating Gravity/_blog/A9Rlu756f_ilxk91_byc.tmp",
+    "049 - Calculating Gravity/_blog/~ai-5ba9bce2-99c8-445a-b083-bb4cf493cad6_.tmp",
+    "049 - Calculating Gravity/_blog/A9R104tmgz_5bwx1h_c54.tmp",
+    "049 - Calculating Gravity/_blog/preview.ai",
+    "049 - Calculating Gravity/_blog/A9Rxnnvwm_ilxk8y_byc.tmp",
+    "049 - Calculating Gravity/_blog/~ai-2f344403-64ee-4952-bd94-dfae81dc5761_.tmp",
+    "049 - Calculating Gravity/_blog/A9R1b8htgm_5bwx1e_c54.tmp",
+    "Articles.md",
     "049 - Calculating Gravity/_blog/article.md",
     "orbit.gif",
     "048 - Godot Tips and Tricks/_blog/article.md",
     "048 - Godot Tips and Tricks/_blog/Gifs/node_references.gif",
     "048 - Godot Tips and Tricks/_blog/Gifs",
     "048 - Godot Tips and Tricks/_blog/New folder",
-    "Articles.md",
     "048 - Godot Tips and Tricks/_blog/preview.png",
-    "000 - Singleton Articles/002_Godot tips and Tricks/preview.png.tmp$$",
-    "048 - Godot Tips and Tricks/_blog",
-    "048 - Godot Tips and Tricks",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/article.md",
     "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png",
-    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.png.tmp$$",
-    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R12v11y6_vcv0gi_794.tmp",
-    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/~ai-82e69e44-8e73-49d5-8b82-f4fcedef27a8_.tmp",
-    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/A9R1y4t1yq_nav565_cwc.tmp",
-    "047 - How to Automate Publishing Godot Games to Itch.io/_blog/preview.ai",
     "010 - Highlighted Code Editor with vue.js and regex/_blog/article.md",
     "046 - Analog Clock with JavaScript/_blog/article.md",
     "046 - Analog Clock with JavaScript/_blog/preview.png",
@@ -161,7 +161,6 @@
     "015 - Tabs with HTML, SASS and JS/_blog/article.md",
     "Overview.md",
     "045 - My Godot 4 Impressions/_blog/preview.png",
-    "044 - Regular Expressions/_blog/article.md",
     "044 - Regular Expressions/_blog/preview.png",
     "044 - Regular Expressions/_blog/cat.jpeg",
     "043 - Tree View with Svelte/_blog/views/edit_view.png"

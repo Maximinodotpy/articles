@@ -5,6 +5,7 @@ tags:
   - Component
   - Concept
   - GD Script
+  - Dev Story
 category: General
 status: draft
 description: Learn how to Calculate Gravity between two objects, apply it the said objects and how to use it in Godot.
