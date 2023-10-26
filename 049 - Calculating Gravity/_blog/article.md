@@ -65,4 +65,4 @@ There are three things we can take away from this Formula and how we apply it to
   Every object no matter how small affects every other object. This means also we as humans with our tiny masses affect other things like the Earth, Moon and Sun.
 
 
-![[orbit.gif]]
+![Orbit](https://raw.githubusercontent.com/Maximinodotpy/articles/main/049%20-%20Calculating%20Gravity/_blog/orbit.gif)
