@@ -17,16 +17,16 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 - [General](#general) *(24 Shortcuts)*
 - [File Explorer](#file-explorer) *(10 Shortcuts)*
-- [Windows](#windows) *(27 Shortcuts)*
+- [Windows](#windows) *(28 Shortcuts)*
 - [Microsoft General](#microsoft-general) *(1 Shortcuts)*
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(12 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(35 Shortcuts)*
-- [Office General](#office-general) *(2 Shortcuts)*
-- [Microsoft Word](#microsoft-word) *(7 Shortcuts)*
+- [Office General](#office-general) *(13 Shortcuts)*
+- [Microsoft Word](#microsoft-word) *(2 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
-- [Microsoft Excel](#microsoft-excl) *(4 Shortcuts)*
+- [Microsoft Excel](#microsoft-excl) *(20 Shortcuts)*
 - [Microsoft Outlook](#microsoft-outlook) *(4 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(11 Shortcuts)*
@@ -106,6 +106,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `alt + F4` | Close Window |
 | `Windows + down` | Minimize Window |
 | `alt + tab` | View open Applications, in current virtual desktop |
+| `delete` | Close Application [When viewing open applications in current virtual desktop] |
 | `alt + escape` | Go back in Window Focus History |
 | `F11` | Toggle Full Screen |
 | `Windows + arrows` | Move active window on the screen |
@@ -291,6 +292,17 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 | --- | --- |
 | `ctrl + F1` | Toggle Ribbon Menu visibility |
 | `dblclick` | Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button] |
+| `ctrl + Windows + alt + shift + n` | Open OneNote [When anywhere in Windows] |
+| `ctrl + alt + v` | Paste Special [When in a Rich Text Editor] |
+| `ctrl + k` | Insert Hyperlink [When in a Rich Text Editor] |
+| `ctrl + b` | Bold Selection [When in a Rich Text Editor] |
+| `ctrl + i` | Italic Selection [When in a Rich Text Editor] |
+| `ctrl + u` | Underline Selection [When in a Rich Text Editor] |
+| `ctrl + l` | Align Text Left [When in a Rich Text Editor] |
+| `ctrl + e` | Align Text Center [When in a Rich Text Editor] |
+| `ctrl + r` | Align Text Right [When in a Rich Text Editor] |
+| `F11` | Select Next Link [When in a Rich Text Editor] |
+| `shift + F11` | Select previous Link [When in a Rich Text Editor] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -303,13 +315,8 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 
 | Shortcut | Description |
 | --- | --- |
-| `ctrl + shift + f` | Bold Selection |
-| `ctrl + shift + k` | Italic Selection |
-| `ctrl + shift + u` | Underline Selection |
 | `ctrl + enter` | Insert Page Break |
 | `shift + enter` | Insert Line Break |
-| `F11` | Select Next Link |
-| `shift + F11` | Select previous Link |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -341,6 +348,22 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `ctrl + pagedown` | Switch to next Sheet in Workbook |
 | `ctrl + pageup` | Switch to previous Sheet in Workbook |
 | `F4` | Switch through anchor mode [When the cursor is within a cell reference] |
+| `ctrl + 1` | Open the Number Formatting Window [When on cell with Number] |
+| `ctrl + 1` | Open the Text Formatting Window [When on cell with Text] |
+| `ctrl + d` | Fill Down |
+| `ctrl + r` | Fill Right |
+| `ctrl + e` | Fill Fast |
+| `alt + shift + =` | Insert fast sum of selected range |
+| `shift + F3` | Open insert function dialogue |
+| `tab` | Complete function name |
+| `ctrl + 0` | Hide selected columns |
+| `ctrl + shift + 0` | Show selected columns |
+| `ctrl + 9` | Hide selected rows |
+| `ctrl + shift + 9` | Show selected rows |
+| `ctrl + ;` | Insert current date |
+| `ctrl + t` | Create table within selection |
+| `ctrl + shift + t` | Toggle total Row [When within a table] |
+| `ctrl + +` | Open Insert Dialogue |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -522,11 +545,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 236
+Total Shortcuts: 259
 
 Application with most Shortcuts: Godot (36)
 
 Application with least Shortcuts: Microsoft General (1)
 
-Average Shortcuts per Application: 11.24
+Average Shortcuts per Application: 12.33
 

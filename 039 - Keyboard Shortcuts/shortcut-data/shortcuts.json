@@ -217,20 +217,26 @@
             "description": "These shortcuts apply to Microsoft Office and other Microsoft programs.",
             "shortcuts": [
                 { "keys": "ctrl + F1", "description": "Toggle Ribbon Menu visibility" },
-                { "keys": "dblclick", "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" }
+                { "keys": "dblclick", "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" },
+                { "keys": "ctrl + Windows + alt + shift + n", "description": "Open OneNote [When anywhere in Windows]" },
+                { "keys": "ctrl + alt + v", "description": "Paste Special [When in a Rich Text Editor]" },
+                { "keys": "ctrl + k", "description": "Insert Hyperlink [When in a Rich Text Editor]" },
+                { "keys": "ctrl + b", "description": "Bold Selection [When in a Rich Text Editor]" },
+                { "keys": "ctrl + i", "description": "Italic Selection [When in a Rich Text Editor]" },
+                { "keys": "ctrl + u", "description": "Underline Selection [When in a Rich Text Editor]" },
+                { "keys": "ctrl + l", "description": "Align Text Left [When in a Rich Text Editor]" },
+                { "keys": "ctrl + e", "description": "Align Text Center [When in a Rich Text Editor]" },
+                { "keys": "ctrl + r", "description": "Align Text Right [When in a Rich Text Editor]" },
+                { "keys": "F11", "description": "Select Next Link [When in a Rich Text Editor]" },
+                { "keys": "shift + F11", "description": "Select previous Link [When in a Rich Text Editor]" }   
             ]
         },
         "microsoft-word": {
             "name": "Microsoft Word",
             "description": "Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#content-windows) because some of these also apply.",
             "shortcuts": [
-                { "keys": "ctrl + shift + f", "description": "Bold Selection" },
-                { "keys": "ctrl + shift + k", "description": "Italic Selection" },
-                { "keys": "ctrl + shift + u", "description": "Underline Selection" },
                 { "keys": "ctrl + enter", "description": "Insert Page Break" },
-                { "keys": "shift + enter", "description": "Insert Line Break" },
-                { "keys": "F11", "description": "Select Next Link" },
-                { "keys": "shift + F11", "description": "Select previous Link" }
+                { "keys": "shift + enter", "description": "Insert Line Break" }
             ]
         },
         "microsoft-powerpoint": {
@@ -249,7 +255,23 @@
                 { "keys": "shift + dblclick", "description": "Set same width/height to auto fit its content for selected cells [When clicking on a column or row division border]" },
                 { "keys": "ctrl + pagedown", "description": "Switch to next Sheet in Workbook" },
                 { "keys": "ctrl + pageup", "description": "Switch to previous Sheet in Workbook" },
-                { "keys": "F4", "description": "Switch through anchor mode [When the cursor is within a cell reference]" }
+                { "keys": "F4", "description": "Switch through anchor mode [When the cursor is within a cell reference]" },
+                { "keys": "ctrl + 1", "description": "Open the Number Formatting Window [When on cell with Number]" },
+                { "keys": "ctrl + 1", "description": "Open the Text Formatting Window [When on cell with Text]" },
+                { "keys": "ctrl + d", "description": "Fill Down" },
+                { "keys": "ctrl + r", "description": "Fill Right" },
+                { "keys": "ctrl + e", "description": "Fill Fast" },
+                { "keys": "alt + shift + =", "description": "Insert fast sum of selected range" },
+                { "keys": "shift + F3", "description": "Open insert function dialogue" },
+                { "keys": "tab", "description": "Complete function name" },
+                { "keys": "ctrl + 0", "description": "Hide selected columns" },
+                { "keys": "ctrl + shift + 0", "description": "Show selected columns" },
+                { "keys": "ctrl + 9", "description": "Hide selected rows" },
+                { "keys": "ctrl + shift + 9", "description": "Show selected rows" },
+                { "keys": "ctrl + ;", "description": "Insert current date" },
+                { "keys": "ctrl + t", "description": "Create table within selection" },
+                { "keys": "ctrl + shift + t", "description": "Toggle total Row [When within a table]" },
+                { "keys": "ctrl + +", "description": "Open Insert Dialogue" }
             ]
         },
         "microsoft-outlook": {
