@@ -6,8 +6,8 @@ tags:
   - GD
   - Script
 category: Godot Game Engine
-status: draft
-description: A bunch of Tips and Tricks for the Open Source Game Engine Godot.
+status: publish
+description: Just a few thought on working with the Godot Game Engine while creating my Planet Simulator.
 ---
 
 Recently I programmed a [Planet/Gravity Simulator](https://maximino.itch.io/planet-simulator) and now I want to share my thought on the process and the things I learned on the way. I will also share some [tips and tricks](https://maximmaeder.com/godot-tips-and-tricks/) I learned while working with the Godot Game Engine.
@@ -34,7 +34,7 @@ motion -= (direction * acceleration * delta) * EditorGlobal.simulationSpeed
 position += (motion * delta) * EditorGlobal.simulationSpeed
 ```
 
-We do this because we want the Planets to accelareate faster and slower depending on the simulation speed but we also want that their linear motion is slow and faster. 
+We do this because we want the Planets to accelerate faster and slower depending on the simulation speed but we also want that their linear motion is slow and faster. 
 
 For example if there is one Planet moving at a certain speed the Simulation Speed modifier should effect how fast it moves without any other objects.
 
@@ -84,8 +84,3 @@ So thats my finding and and thoughts when working with the Godot Editor on my Pl
 - Config Class
 
 -->
-
-
-More Godot Articles
-
-Other Games
