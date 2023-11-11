@@ -119,6 +119,8 @@ columns:
       - { label: "CI and CD", value: "CI and CD", color: "hsl(164, 95%, 90%)"}
       - { label: "GD", value: "GD", color: "hsl(4, 95%, 90%)"}
       - { label: "Script", value: "Script", color: "hsl(88, 95%, 90%)"}
+      - { label: "Dev", value: "Dev", color: "hsl(37, 95%, 90%)"}
+      - { label: "Story", value: "Story", color: "hsl(188, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
