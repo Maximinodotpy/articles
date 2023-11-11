@@ -4,29 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a653c3288a24fedc",
+        "id": "599f77c3d8c82b70",
         "type": "tabs",
         "children": [
           {
-            "id": "9fd3e9cb20e2f213",
+            "id": "fdb5464d6ea0e8ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "049 - Calculating Gravity/_blog/article.md",
+                "file": "050 - I made a Planet Simulator with Godot/_blog/article.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "7dd4e0e78cb3b4fc",
-            "type": "leaf",
-            "state": {
-              "type": "database-plugin",
-              "state": {
-                "file": "Articles.md"
               }
             }
           }
@@ -88,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "049 - Calculating Gravity/_blog/article.md"
+                "file": "050 - I made a Planet Simulator with Godot/_blog/article.md"
               }
             }
           },
@@ -116,8 +106,9 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "243fd8e1bf8469d0",
+  "active": "fdb5464d6ea0e8ab",
   "lastOpenFiles": [
+    "049 - Calculating Gravity/_blog/article.md",
     "049 - Calculating Gravity/_blog/preview.png.tmp$$",
     "049 - Calculating Gravity/_blog/A9Rzfgfj1_ilxk9a_byc.tmp",
     "049 - Calculating Gravity/_blog/~ai-08a80b8a-5af3-4f2c-b866-c8d930d4eea8_.tmp",
@@ -129,9 +120,7 @@
     "049 - Calculating Gravity/_blog/~ai-3b16a41a-e56d-47e9-97bc-64bb6bbbf456_.tmp",
     "049 - Calculating Gravity/_blog/A9Re29ni4_5bwx1k_c54.tmp",
     "049 - Calculating Gravity/_blog/preview.png",
-    "049 - Calculating Gravity/_blog/A9Rlu756f_ilxk91_byc.tmp",
     "Articles.md",
-    "049 - Calculating Gravity/_blog/article.md",
     "049 - Calculating Gravity/_blog/orbit.gif",
     "048 - Godot Tips and Tricks/_blog/article.md",
     "048 - Godot Tips and Tricks/_blog/Gifs/node_references.gif",
