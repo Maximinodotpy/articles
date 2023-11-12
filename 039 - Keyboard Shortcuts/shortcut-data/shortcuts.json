@@ -102,13 +102,32 @@
                 { "keys": "ctrl + shift + tab", "description": "Switch to left tab" },
                 { "keys": "ctrl + t", "description": "New Tab" },
                 { "keys": "ctrl + w", "description": "Close Tab" },
+                { "keys": "ctrl + shift + w", "description": "Close current window" },
                 { "keys": "ctrl + j", "description": "Show Downloads" },
                 { "keys": "ctrl + shift + k", "description": "Duplicate Tab" },
                 { "keys": "F12", "description": "Open Dev Tools" },
                 { "keys": "ctrl + l", "description": "Focus URL Input" },
                 { "keys": "ctrl + shift + t", "description": "Open most recently closed tab or if edge is started freshly open all recent tabs from the last session" },
                 { "keys": "ctrl + u", "description": "Show Source Code" },
-                { "keys": "ctrl + shift + 2", "description": "Toggle split screen" }
+                { "keys": "ctrl + shift + 2", "description": "Toggle split screen" },
+                { "keys": "ctrl + shift + b", "description": "Toggle favorites bar" },
+                { "keys": "ctrl + d", "description": "Save the current tab as a favorite" },
+                { "keys": "ctrl + shift + d", "description": "Save all open tabs as favorites in a new folder" },
+                { "keys": "ctrl + shift + e", "description": "Open search in sidebar" },
+                { "keys": "alt + e", "description": "Open Settings and more panel" },
+                { "keys": "ctrl + h", "description": "Open History" },
+                { "keys": "ctrl + shift + n", "description": "Open a new InPrivate window" },
+                { "keys": "ctrl + shift + l", "description": "Paste and search or Paste and go, if its a URL" },
+                { "keys": "ctrl + shift + o", "description": "Open favorites" },
+                { "keys": "ctrl + shift + p", "description": "Print using the system dialog" },
+                { "keys": "ctrl + shift + v", "description": "Paste without formatting" },
+                { "keys": "ctrl + 9", "description": "Switch to the last tab" },
+                { "keys": "alt + left", "description": "Go back in history" },
+                { "keys": "alt + right", "description": "Go forward in history" },
+                { "keys": "F6", "description": "Move focus to the next pane, can be used to break out tabs and reinsert them" },
+                { "keys": "shift + F6", "description": "Move focus to the previous pane" },
+                { "keys": "ctrl + F6", "description": "Move focus to the web content pane" },
+                { "keys": "F7", "description": "Toggle caret browsing" }
             ]
         },
         "vimium": {
@@ -271,7 +290,8 @@
                 { "keys": "ctrl + ;", "description": "Insert current date" },
                 { "keys": "ctrl + t", "description": "Create table within selection" },
                 { "keys": "ctrl + shift + t", "description": "Toggle total Row [When within a table]" },
-                { "keys": "ctrl + +", "description": "Open Insert Dialogue" }
+                { "keys": "ctrl + +", "description": "Open Insert Dialogue" },
+                { "keys": "ctrl + -", "description": "Open Delete Dialogue" }
             ]
         },
         "microsoft-outlook": {

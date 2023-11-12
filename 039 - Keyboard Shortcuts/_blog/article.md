@@ -19,14 +19,14 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [File Explorer](#file-explorer) *(10 Shortcuts)*
 - [Windows](#windows) *(28 Shortcuts)*
 - [Microsoft General](#microsoft-general) *(1 Shortcuts)*
-- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(12 Shortcuts)*
+- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(31 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(35 Shortcuts)*
 - [Office General](#office-general) *(13 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(2 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
-- [Microsoft Excel](#microsoft-excl) *(20 Shortcuts)*
+- [Microsoft Excel](#microsoft-excl) *(21 Shortcuts)*
 - [Microsoft Outlook](#microsoft-outlook) *(4 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(11 Shortcuts)*
@@ -158,6 +158,7 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + shift + tab` | Switch to left tab |
 | `ctrl + t` | New Tab |
 | `ctrl + w` | Close Tab |
+| `ctrl + shift + w` | Close current window |
 | `ctrl + j` | Show Downloads |
 | `ctrl + shift + k` | Duplicate Tab |
 | `F12` | Open Dev Tools |
@@ -165,6 +166,24 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + shift + t` | Open most recently closed tab or if edge is started freshly open all recent tabs from the last session |
 | `ctrl + u` | Show Source Code |
 | `ctrl + shift + 2` | Toggle split screen |
+| `ctrl + shift + b` | Toggle favorites bar |
+| `ctrl + d` | Save the current tab as a favorite |
+| `ctrl + shift + d` | Save all open tabs as favorites in a new folder |
+| `ctrl + shift + e` | Open search in sidebar |
+| `alt + e` | Open Settings and more panel |
+| `ctrl + h` | Open History |
+| `ctrl + shift + n` | Open a new InPrivate window |
+| `ctrl + shift + l` | Paste and search or Paste and go, if its a URL |
+| `ctrl + shift + o` | Open favorites |
+| `ctrl + shift + p` | Print using the system dialog |
+| `ctrl + shift + v` | Paste without formatting |
+| `ctrl + 9` | Switch to the last tab |
+| `alt + left` | Go back in history |
+| `alt + right` | Go forward in history |
+| `F6` | Move focus to the next pane, can be used to break out tabs and reinsert them |
+| `shift + F6` | Move focus to the previous pane |
+| `ctrl + F6` | Move focus to the web content pane |
+| `F7` | Toggle caret browsing |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -364,6 +383,7 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `ctrl + t` | Create table within selection |
 | `ctrl + shift + t` | Toggle total Row [When within a table] |
 | `ctrl + +` | Open Insert Dialogue |
+| `ctrl + -` | Open Delete Dialogue |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -545,11 +565,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 259
+Total Shortcuts: 279
 
 Application with most Shortcuts: Godot (36)
 
 Application with least Shortcuts: Microsoft General (1)
 
-Average Shortcuts per Application: 12.33
+Average Shortcuts per Application: 13.29
 
