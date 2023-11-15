@@ -127,7 +127,16 @@
                 { "keys": "F6", "description": "Move focus to the next pane, can be used to break out tabs and reinsert them" },
                 { "keys": "shift + F6", "description": "Move focus to the previous pane" },
                 { "keys": "ctrl + F6", "description": "Move focus to the web content pane" },
-                { "keys": "F7", "description": "Toggle caret browsing" }
+                { "keys": "F7", "description": "Toggle caret browsing" },
+
+                { "keys": "ctrl + left/right", "description": "Move tabs left or right [When focused on them]"  },
+                { "keys": "ctrl + shift + c",  "description": "Open Dev Tools with Select Tool"  },
+                { "keys": "ctrl + shift + m","description": "Toggle Device Simulation [When in DevTools]"  },
+                { "keys": "ctrl + shift + h", "description": "Show infos about active dev tools [When in DevTools]"  },
+                { "keys": "ctrl + shift + j", "description": "Open Dev Tool Console or close Dev Tools"  },
+                { "keys": "ctrl + shift + p", "description": "Open Command Palette in Dev Tools [When in DevTools]"  },
+                { "keys": "escape", "description": "Toggle Drawer"  },
+                { "keys": "shift + escape", "description": "Maximize/Minimize Drawer"  }
             ]
         },
         "vimium": {
@@ -238,6 +247,10 @@
                 { "keys": "ctrl + F1", "description": "Toggle Ribbon Menu visibility" },
                 { "keys": "dblclick", "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" },
                 { "keys": "ctrl + Windows + alt + shift + n", "description": "Open OneNote [When anywhere in Windows]" },
+                { "keys": "ctrl + Windows + alt + shift + w", "description": "Open Word [When anywhere in Windows]" },
+                { "keys": "ctrl + Windows + alt + shift + x", "description": "Open Excl [When anywhere in Windows]" },
+                { "keys": "ctrl + Windows + alt + shift + p", "description": "Open Powerpoint [When anywhere in Windows]" },
+                { "keys": "ctrl + Windows + alt + shift + l", "description": "Open LinkedIn [When anywhere in Windows]" },
                 { "keys": "ctrl + alt + v", "description": "Paste Special [When in a Rich Text Editor]" },
                 { "keys": "ctrl + k", "description": "Insert Hyperlink [When in a Rich Text Editor]" },
                 { "keys": "ctrl + b", "description": "Bold Selection [When in a Rich Text Editor]" },

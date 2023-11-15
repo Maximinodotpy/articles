@@ -19,11 +19,11 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [File Explorer](#file-explorer) *(10 Shortcuts)*
 - [Windows](#windows) *(28 Shortcuts)*
 - [Microsoft General](#microsoft-general) *(1 Shortcuts)*
-- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(31 Shortcuts)*
+- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(39 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(35 Shortcuts)*
-- [Office General](#office-general) *(13 Shortcuts)*
+- [Office General](#office-general) *(17 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(2 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(21 Shortcuts)*
@@ -184,6 +184,14 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `shift + F6` | Move focus to the previous pane |
 | `ctrl + F6` | Move focus to the web content pane |
 | `F7` | Toggle caret browsing |
+| `ctrl + left/right` | Move tabs left or right [When focused on them] |
+| `ctrl + shift + c` | Open Dev Tools with Select Tool |
+| `ctrl + shift + m` | Toggle Device Simulation [When in DevTools] |
+| `ctrl + shift + h` | Show infos about active dev tools [When in DevTools] |
+| `ctrl + shift + j` | Open Dev Tool Console or close Dev Tools |
+| `ctrl + shift + p` | Open Command Palette in Dev Tools [When in DevTools] |
+| `escape` | Toggle Drawer |
+| `shift + escape` | Maximize/Minimize Drawer |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -312,6 +320,10 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 | `ctrl + F1` | Toggle Ribbon Menu visibility |
 | `dblclick` | Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button] |
 | `ctrl + Windows + alt + shift + n` | Open OneNote [When anywhere in Windows] |
+| `ctrl + Windows + alt + shift + w` | Open Word [When anywhere in Windows] |
+| `ctrl + Windows + alt + shift + x` | Open Excl [When anywhere in Windows] |
+| `ctrl + Windows + alt + shift + p` | Open Powerpoint [When anywhere in Windows] |
+| `ctrl + Windows + alt + shift + l` | Open LinkedIn [When anywhere in Windows] |
 | `ctrl + alt + v` | Paste Special [When in a Rich Text Editor] |
 | `ctrl + k` | Insert Hyperlink [When in a Rich Text Editor] |
 | `ctrl + b` | Bold Selection [When in a Rich Text Editor] |
@@ -565,11 +577,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 279
+Total Shortcuts: 291
 
-Application with most Shortcuts: Godot (36)
+Application with most Shortcuts: Browser (Microsoft Edge) (39)
 
 Application with least Shortcuts: Microsoft General (1)
 
-Average Shortcuts per Application: 13.29
+Average Shortcuts per Application: 13.86
 
