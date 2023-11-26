@@ -15,14 +15,14 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 **Applications / Places**
 
-- [General](#general) *(24 Shortcuts)*
-- [File Explorer](#file-explorer) *(10 Shortcuts)*
-- [Windows](#windows) *(28 Shortcuts)*
+- [General](#general) *(30 Shortcuts)*
+- [File Explorer](#file-explorer) *(25 Shortcuts)*
+- [Windows](#windows) *(48 Shortcuts)*
 - [Microsoft General](#microsoft-general) *(1 Shortcuts)*
-- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(39 Shortcuts)*
+- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(43 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
-- [Visual Studio Code](#visual-studio-code) *(35 Shortcuts)*
+- [Visual Studio Code](#visual-studio-code) *(36 Shortcuts)*
 - [Office General](#office-general) *(17 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(2 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
@@ -63,13 +63,19 @@ These Shortcuts work in most programs so they are industry standard.
 | `ctrl + shift + s` | Save As |
 | `escape` | Close Popup |
 | `ctrl + n` | New File |
-| `arrows` | Move Cursor |
-| `ctrl + arrows` | Move Cursor Word by Word |
-| `shift + arrows` | Move Cursor while selecting |
-| `ctrl + shift + arrows` | Move Cursor while selecting word by word |
+| `arrows` | Move cursor |
+| `ctrl + arrows` | Move cursor word by word |
+| `shift + arrows` | Move cursor while selecting |
+| `ctrl + shift + arrows` | Move cursor while selecting word by word |
 | `ctrl + w` | Close Document |
 | `ctrl + p` | Print |
+| `F1` | Open Help |
 | `F2` | Rename |
+| `F3` | Search |
+| `F4` | Focus path location Input, for example in the Explorer and Browser |
+| `F5` | Refresh |
+| `F6` | Cycle through screen elements in a window or on the desktop |
+| `F11` | Toggle Full Screen |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -92,6 +98,21 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 | `ctrl + shift + n` | New Folder |
 | `ctrl + space` | Toggle selection of current File |
 | `ctrl + arrows` | Move between items without losing focus |
+| `ctrl + shift + e` | Display all folders above the selected folder |
+| `alt + p` | Toggle the preview pane |
+| `alt + shift + p` | Toggle the details pane |
+| `num*` | Display all sub-folder under the selected folder [When in tree view on the left] |
+| `num+` | Expand current folder [When in tree view on the left] |
+| `num-` | Collapse current folder[When in tree view on the left] |
+| `ctrl + alt + +/-` | Cycle through view layouts |
+| `ctrl + shift + 1` | Switch to view layout 'Extra large icons' |
+| `ctrl + shift + 2` | Switch to view layout 'Large Icons' |
+| `ctrl + shift + 3` | Switch to view layout 'Medium Icons' |
+| `ctrl + shift + 4` | Switch to view layout 'Small Icons' |
+| `ctrl + shift + 5` | Switch to view layout 'List' |
+| `ctrl + shift + 6` | Switch to view layout 'Details' |
+| `ctrl + shift + 7` | Switch to view layout 'Tiles' |
+| `ctrl + shift + 8` | Switch to view layout 'Content' |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -108,7 +129,6 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `alt + tab` | View open Applications, in current virtual desktop |
 | `delete` | Close Application [When viewing open applications in current virtual desktop] |
 | `alt + escape` | Go back in Window Focus History |
-| `F11` | Toggle Full Screen |
 | `Windows + arrows` | Move active window on the screen |
 | `Windows + shift + arrows` | Move active window to another Screen in the same manner as on the current one |
 | `Windows + e` | Open File Explorer |
@@ -117,9 +137,31 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + d` | Show Desktop |
 | `Windows + a` | Open Notification Center |
 | `Windows + x` | Open the Quick Link Menu |
-| `Windows + m` | Minimize all windows |
+| `Windows + m` | Minimize all windows, second strokes restores other windows |
+| `Windows + shift + m` | Restore all minimized windows |
 | `Windows + home` | Minimize all windows but the active one |
 | `Windows + pause` | Show computer infos |
+| `Windows + b` | Focus hidden icons panel in Taskbar |
+| `ctrl + Windows + c` | Toggle color filters [When enabled in color blindnes settings] |
+| `Windows + h` | Start voice typing |
+| `Windows + k` | Open Cast Settings |
+| `ctrl + Windows + q` | Open Quick Assist |
+| `Windows + r` | Open the Run dialog box |
+| `Windows + s` | Open Windows Search, can be omitted by pressing window and then typing |
+| `Windows + t` | Cycle through apps on the Taskbar |
+| `Windows + u` | Open Accessibility Settings |
+| `Windows + shift + v` | Set focus to a notification |
+| `Windows + .` | Open Emoji Panel |
+| `Windows + ,` | Display the desktop temporariley until you release the Windows logo |
+| `ctrl + Windows + f` | Search for PCs |
+| `Windows + number` | Open this app pinned in the taskbar or switch to it |
+| `Windows + shift + f` | Start new instance of this pinned taskbar app |
+| `Windows + shift + up` | Stretch current window to full height |
+| `ctrl + Windows + n` | Turn on Windows Narrator |
+| `Windows + +` | Open magnifier and zoom in |
+| `Windows + -` | Zoom ou in the magnifier app |
+| `Windows + escape` | Close magnifier app |
+| `shift + click` | Open another instance of this app [When clicking on an app in the taskbar] |
 | `Windows + tab` | Show Virtual Desktops |
 | `ctrl + Windows + left/right` | Switch between Virtual Desktops |
 | `ctrl + Windows + d` | Create new Virtual Desktop |
@@ -128,7 +170,6 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + v` | Open Clipboard History |
 | `Windows + i` | Open Settings |
 | `Windows + space` | Switch Language Mode |
-| `F1` | Open Help Menu, also works in a lot of programs |
 | `ctrl + shift + escape` | Open Task Manager |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
@@ -190,8 +231,12 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + shift + h` | Show infos about active dev tools [When in DevTools] |
 | `ctrl + shift + j` | Open Dev Tool Console or close Dev Tools |
 | `ctrl + shift + p` | Open Command Palette in Dev Tools [When in DevTools] |
-| `escape` | Toggle Drawer |
+| `escape` | Toggle drawer |
 | `shift + escape` | Maximize/Minimize Drawer |
+| `ctrl + shift + a` | Search tabs |
+| `ctrl + shift + §` | Toggle sidebar |
+| `ctrl + shift + ,` | Toggle vertical tabs |
+| `shift + escape` | Open the browser task manager |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -305,6 +350,7 @@ These shortcuts are for the Godot Engine (Version 3.x and 4.x).
 | `ctrl + k m` | Choose Language Mode |
 | `ctrl + shift + enter` | Insert Empty Line |
 | `ctrl + shift + c` | Open New External Terminal |
+| `F8` | Cycle through problems begining with the nearest |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -577,11 +623,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 291
+Total Shortcuts: 337
 
-Application with most Shortcuts: Browser (Microsoft Edge) (39)
+Application with most Shortcuts: Windows (48)
 
 Application with least Shortcuts: Microsoft General (1)
 
-Average Shortcuts per Application: 13.86
+Average Shortcuts per Application: 16.05
 

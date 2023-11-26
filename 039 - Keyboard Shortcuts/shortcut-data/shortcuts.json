@@ -23,13 +23,20 @@
                 { "keys": "ctrl + shift + s", "description": "Save As" },
                 { "keys": "escape", "description": "Close Popup" },
                 { "keys": "ctrl + n", "description": "New File" },
-                { "keys": "arrows", "description": "Move Cursor" },
-                { "keys": "ctrl + arrows", "description": "Move Cursor Word by Word" },
-                { "keys": "shift + arrows", "description": "Move Cursor while selecting" },
-                { "keys": "ctrl + shift + arrows", "description": "Move Cursor while selecting word by word" },
+                { "keys": "arrows", "description": "Move cursor" },
+                { "keys": "ctrl + arrows", "description": "Move cursor word by word" },
+                { "keys": "shift + arrows", "description": "Move cursor while selecting" },
+                { "keys": "ctrl + shift + arrows", "description": "Move cursor while selecting word by word" },
                 { "keys": "ctrl + w", "description": "Close Document" },
                 { "keys": "ctrl + p", "description": "Print" },
-                { "keys": "F2", "description": "Rename" }
+
+                { "keys": "F1", "description": "Open Help" },
+                { "keys": "F2", "description": "Rename" },
+                { "keys": "F3", "description": "Search" },
+                { "keys": "F4", "description": "Focus path location Input, for example in the Explorer and Browser" },
+                { "keys": "F5", "description": "Refresh" },
+                { "keys": "F6", "description": "Cycle through screen elements in a window or on the desktop" },
+                { "keys": "F11", "description": "Toggle Full Screen" }
             ]
         },
         "file-explorer": {
@@ -45,7 +52,24 @@
                 { "keys": "F2", "description": "Rename File / Folder" },
                 { "keys": "ctrl + shift + n", "description": "New Folder" },
                 { "keys": "ctrl + space", "description": "Toggle selection of current File" },
-                { "keys": "ctrl + arrows", "description": "Move between items without losing focus" }
+                { "keys": "ctrl + arrows", "description": "Move between items without losing focus" },
+                { "keys": "ctrl + shift + e", "description": "Display all folders above the selected folder" },
+                { "keys": "alt + p", "description": "Toggle the preview pane" },
+                { "keys": "alt + shift + p", "description": "Toggle the details pane" },
+
+                { "keys": "num*", "description": "Display all sub-folder under the selected folder [When in tree view on the left]" },
+                { "keys": "num+", "description": "Expand current folder [When in tree view on the left]" },
+                { "keys": "num-", "description": "Collapse current folder[When in tree view on the left]" },
+                
+                { "keys": "ctrl + alt + +/-", "description": "Cycle through view layouts" },
+                { "keys": "ctrl + shift + 1", "description": "Switch to view layout 'Extra large icons'" },
+                { "keys": "ctrl + shift + 2", "description": "Switch to view layout 'Large Icons'" },
+                { "keys": "ctrl + shift + 3", "description": "Switch to view layout 'Medium Icons'" },
+                { "keys": "ctrl + shift + 4", "description": "Switch to view layout 'Small Icons'" },
+                { "keys": "ctrl + shift + 5", "description": "Switch to view layout 'List'" },
+                { "keys": "ctrl + shift + 6", "description": "Switch to view layout 'Details'" },
+                { "keys": "ctrl + shift + 7", "description": "Switch to view layout 'Tiles'" },
+                { "keys": "ctrl + shift + 8", "description": "Switch to view layout 'Content'" }
             ]
         },
         "windows": {
@@ -60,7 +84,6 @@
                 { "keys": "delete", "description": "Close Application [When viewing open applications in current virtual desktop]" },
                 { "keys": "alt + escape", "description": "Go back in Window Focus History" },
 
-                { "keys": "F11", "description": "Toggle Full Screen" },
                 { "keys": "Windows + arrows", "description": "Move active window on the screen" },
                 { "keys": "Windows + shift + arrows", "description": "Move active window to another Screen in the same manner as on the current one" },
                 { "keys": "Windows + e", "description": "Open File Explorer" },
@@ -69,9 +92,33 @@
                 { "keys": "Windows + d", "description": "Show Desktop" },
                 { "keys": "Windows + a", "description": "Open Notification Center" },
                 { "keys": "Windows + x", "description": "Open the Quick Link Menu" },
-                { "keys": "Windows + m", "description": "Minimize all windows" },
+                { "keys": "Windows + m", "description": "Minimize all windows, second strokes restores other windows" },
+                { "keys": "Windows + shift + m", "description": "Restore all minimized windows" },
                 { "keys": "Windows + home", "description": "Minimize all windows but the active one" },
                 { "keys": "Windows + pause", "description": "Show computer infos" },
+
+                { "keys": "Windows + b", "description": "Focus hidden icons panel in Taskbar" },
+                { "keys": "ctrl + Windows + c", "description": "Toggle color filters [When enabled in color blindnes settings]" },
+                { "keys": "Windows + h", "description": "Start voice typing" },
+                { "keys": "Windows + k", "description": "Open Cast Settings" },
+                { "keys": "ctrl + Windows + q", "description": "Open Quick Assist" },
+                { "keys": "Windows + r", "description": "Open the Run dialog box" },
+                { "keys": "Windows + s", "description": "Open Windows Search, can be omitted by pressing window and then typing" },
+                { "keys": "Windows + t", "description": "Cycle through apps on the Taskbar" },
+                { "keys": "Windows + u", "description": "Open Accessibility Settings" },
+                { "keys": "Windows + shift + v", "description": "Set focus to a notification" },
+                { "keys": "Windows + .", "description": "Open Emoji Panel" },
+                { "keys": "Windows + ,", "description": "Display the desktop temporariley until you release the Windows logo" },
+                { "keys": "ctrl + Windows + f", "description": "Search for PCs" },
+                { "keys": "Windows + number", "description": "Open this app pinned in the taskbar or switch to it" },
+                { "keys": "Windows + shift + f", "description": "Start new instance of this pinned taskbar app" },
+                { "keys": "Windows + shift + up", "description": "Stretch current window to full height" },
+                { "keys": "ctrl + Windows + n", "description": "Turn on Windows Narrator" },
+                { "keys": "Windows + +", "description": "Open magnifier and zoom in" },
+                { "keys": "Windows + -", "description": "Zoom ou in the magnifier app" },
+                { "keys": "Windows + escape", "description": "Close magnifier app" },
+
+                { "keys": "shift + click", "description": "Open another instance of this app [When clicking on an app in the taskbar]" },
 
                 { "keys": "Windows + tab", "description": "Show Virtual Desktops" },
                 { "keys": "ctrl + Windows + left/right", "description": "Switch between Virtual Desktops" },
@@ -82,7 +129,6 @@
                 { "keys": "Windows + v", "description": "Open Clipboard History" },
                 { "keys": "Windows + i", "description": "Open Settings" },
                 { "keys": "Windows + space", "description": "Switch Language Mode" },
-                { "keys": "F1", "description": "Open Help Menu, also works in a lot of programs" },
                 { "keys": "ctrl + shift + escape", "description": "Open Task Manager" }
             ]
         },
@@ -135,8 +181,13 @@
                 { "keys": "ctrl + shift + h", "description": "Show infos about active dev tools [When in DevTools]"  },
                 { "keys": "ctrl + shift + j", "description": "Open Dev Tool Console or close Dev Tools"  },
                 { "keys": "ctrl + shift + p", "description": "Open Command Palette in Dev Tools [When in DevTools]"  },
-                { "keys": "escape", "description": "Toggle Drawer"  },
-                { "keys": "shift + escape", "description": "Maximize/Minimize Drawer"  }
+                { "keys": "escape", "description": "Toggle drawer"  },
+                { "keys": "shift + escape", "description": "Maximize/Minimize Drawer"  },
+
+                { "keys": "ctrl + shift + a", "description": "Search tabs"  },
+                { "keys": "ctrl + shift + §", "description": "Toggle sidebar"  },
+                { "keys": "ctrl + shift + ,", "description": "Toggle vertical tabs"  },
+                { "keys": "shift + escape", "description": "Open the browser task manager"  }
             ]
         },
         "vimium": {
@@ -237,7 +288,8 @@
                 { "keys": "ctrl + k z", "description": "Enter Zen Mode" },
                 { "keys": "ctrl + k m", "description": "Choose Language Mode" },
                 { "keys": "ctrl + shift + enter", "description": "Insert Empty Line" },
-                { "keys": "ctrl + shift + c", "description": "Open New External Terminal" }
+                { "keys": "ctrl + shift + c", "description": "Open New External Terminal" },
+                { "keys": "F8", "description": "Cycle through problems begining with the nearest" }
             ]
         },
         "office-general": {
