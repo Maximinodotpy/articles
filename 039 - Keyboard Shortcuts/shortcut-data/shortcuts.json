@@ -21,14 +21,15 @@
                 { "keys": "ctrl + a", "description": "Select All" },
                 { "keys": "ctrl + s", "description": "Save" },
                 { "keys": "ctrl + shift + s", "description": "Save As" },
-                { "keys": "escape", "description": "Close Popup" },
+                { "keys": "ctrl + h", "description": "Search and Replace" },
                 { "keys": "ctrl + n", "description": "New File" },
+                { "keys": "ctrl + w", "description": "Close Document" },
+                { "keys": "ctrl + p", "description": "Print" },
+                { "keys": "escape", "description": "Close Popup" },
                 { "keys": "arrows", "description": "Move cursor" },
                 { "keys": "ctrl + arrows", "description": "Move cursor word by word" },
                 { "keys": "shift + arrows", "description": "Move cursor while selecting" },
                 { "keys": "ctrl + shift + arrows", "description": "Move cursor while selecting word by word" },
-                { "keys": "ctrl + w", "description": "Close Document" },
-                { "keys": "ctrl + p", "description": "Print" },
 
                 { "keys": "F1", "description": "Open Help" },
                 { "keys": "F2", "description": "Rename" },
@@ -49,7 +50,6 @@
                 { "keys": "alt + right", "description": "Go forward in history" },
                 { "keys": "enter", "description": "Open File / Folder" },
                 { "keys": "alt + enter", "description": "View File / Folder Properties" },
-                { "keys": "F2", "description": "Rename File / Folder" },
                 { "keys": "ctrl + shift + n", "description": "New Folder" },
                 { "keys": "ctrl + space", "description": "Toggle selection of current File" },
                 { "keys": "ctrl + arrows", "description": "Move between items without losing focus" },
@@ -130,13 +130,6 @@
                 { "keys": "Windows + i", "description": "Open Settings" },
                 { "keys": "Windows + space", "description": "Switch Language Mode" },
                 { "keys": "ctrl + shift + escape", "description": "Open Task Manager" }
-            ]
-        },
-        "microsoft-general": {
-            "name": "Microsoft General",
-            "description": "These shortcuts apply to Microsoft Office and other Microsoft programs.",
-            "shortcuts": [
-                { "keys": "alt + down", "description": "Open Text Proposal Window [When in Rich Text Editor]" }
             ]
         },
         "browser-microsoft-edge": {
@@ -312,7 +305,8 @@
                 { "keys": "ctrl + e", "description": "Align Text Center [When in a Rich Text Editor]" },
                 { "keys": "ctrl + r", "description": "Align Text Right [When in a Rich Text Editor]" },
                 { "keys": "F11", "description": "Select Next Link [When in a Rich Text Editor]" },
-                { "keys": "shift + F11", "description": "Select previous Link [When in a Rich Text Editor]" }   
+                { "keys": "shift + F11", "description": "Select previous Link [When in a Rich Text Editor]" }
+                { "keys": "alt + down", "description": "Open Text Proposal Window [When in Rich Text Editor]" }
             ]
         },
         "microsoft-word": {
