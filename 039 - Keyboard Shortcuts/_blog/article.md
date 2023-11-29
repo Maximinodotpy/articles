@@ -15,15 +15,14 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 **Applications / Places**
 
-- [General](#general) *(30 Shortcuts)*
-- [File Explorer](#file-explorer) *(25 Shortcuts)*
+- [General](#general) *(31 Shortcuts)*
+- [File Explorer](#file-explorer) *(24 Shortcuts)*
 - [Windows](#windows) *(48 Shortcuts)*
-- [Microsoft General](#microsoft-general) *(1 Shortcuts)*
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(43 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(36 Shortcuts)*
-- [Office General](#office-general) *(17 Shortcuts)*
+- [Office General](#office-general) *(18 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(2 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(21 Shortcuts)*
@@ -44,6 +43,8 @@ These Shortcuts work in most programs so they are industry standard.
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=general)
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=general)
+
 | Shortcut | Description |
 | --- | --- |
 | `tab` | Move Between focusable Elements |
@@ -61,14 +62,15 @@ These Shortcuts work in most programs so they are industry standard.
 | `ctrl + a` | Select All |
 | `ctrl + s` | Save |
 | `ctrl + shift + s` | Save As |
-| `escape` | Close Popup |
+| `ctrl + h` | Search and Replace |
 | `ctrl + n` | New File |
+| `ctrl + w` | Close Document |
+| `ctrl + p` | Print |
+| `escape` | Close Popup |
 | `arrows` | Move cursor |
 | `ctrl + arrows` | Move cursor word by word |
 | `shift + arrows` | Move cursor while selecting |
 | `ctrl + shift + arrows` | Move cursor while selecting word by word |
-| `ctrl + w` | Close Document |
-| `ctrl + p` | Print |
 | `F1` | Open Help |
 | `F2` | Rename |
 | `F3` | Search |
@@ -86,6 +88,8 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=file-explorer)
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=file-explorer)
+
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + l` | Focus Path Input |
@@ -94,7 +98,6 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 | `alt + right` | Go forward in history |
 | `enter` | Open File / Folder |
 | `alt + enter` | View File / Folder Properties |
-| `F2` | Rename File / Folder |
 | `ctrl + shift + n` | New Folder |
 | `ctrl + space` | Toggle selection of current File |
 | `ctrl + arrows` | Move between items without losing focus |
@@ -120,6 +123,8 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 ## Windows
 
 These shortcuts apply to the Windows Operating System. They are mostly not specific to a program. There's also this funny [website for taking screenshots](https://www.take-a-screenshot.org/).
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=windows)
 
 | Shortcut | Description |
 | --- | --- |
@@ -175,22 +180,11 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
 
-## Microsoft General
-
-These shortcuts apply to Microsoft Office and other Microsoft programs.
-
-[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-general)
-
-| Shortcut | Description |
-| --- | --- |
-| `alt + down` | Open Text Proposal Window [When in Rich Text Editor] |
-
-[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
-
-
 ## Browser (Microsoft Edge)
 
 These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) to enhance your browsing experience even more.
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=browser-microsoft-edge)
 
 | Shortcut | Description |
 | --- | --- |
@@ -245,6 +239,8 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 
 The Browser Extension for Google Chrome and MS Edge. It allows you to navigate the web with just your keyboard. It's Awesome!
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=vimium)
+
 | Shortcut | Description |
 | --- | --- |
 | `f` | Open Link Selection |
@@ -264,6 +260,8 @@ The Browser Extension for Google Chrome and MS Edge. It allows you to navigate t
 These shortcuts are for the Godot Engine (Version 3.x and 4.x).
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=godot)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=godot)
 
 | Shortcut | Description |
 | --- | --- |
@@ -313,6 +311,8 @@ These shortcuts are for the Godot Engine (Version 3.x and 4.x).
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=visual-studio-code)
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=visual-studio-code)
+
 | Shortcut | Description |
 | --- | --- |
 | `alt + shift + f` | Format all Code |
@@ -361,6 +361,8 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=office-general)
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=office-general)
+
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + F1` | Toggle Ribbon Menu visibility |
@@ -380,6 +382,7 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 | `ctrl + r` | Align Text Right [When in a Rich Text Editor] |
 | `F11` | Select Next Link [When in a Rich Text Editor] |
 | `shift + F11` | Select previous Link [When in a Rich Text Editor] |
+| `alt + down` | Open Text Proposal Window [When in Rich Text Editor] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -389,6 +392,8 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#content-windows) because some of these also apply.
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-word)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=microsoft-word)
 
 | Shortcut | Description |
 | --- | --- |
@@ -404,6 +409,8 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-powerpoint)
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=microsoft-powerpoint)
+
 | Shortcut | Description |
 | --- | --- |
 | `shift + F5` | Start Presentation from here |
@@ -418,6 +425,8 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-excl)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=microsoft-excl)
 
 | Shortcut | Description |
 | --- | --- |
@@ -452,6 +461,8 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-outlook)
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=microsoft-outlook)
+
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + r` | Reply |
@@ -467,6 +478,8 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=jupyter-notebook)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=jupyter-notebook)
 
 | Shortcut | Description |
 | --- | --- |
@@ -488,6 +501,8 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 Adobe offers a lot of programs in the creative sector and these shortcuts apply to most of their software.
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-general)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=adobe-general)
 
 | Shortcut | Description |
 | --- | --- |
@@ -512,6 +527,8 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-premiere-pro)
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=adobe-premiere-pro)
+
 | Shortcut | Description |
 | --- | --- |
 | `m` | Preview Window |
@@ -532,6 +549,8 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. I think it's really great and I use it a lot. I think you will love it too and if you do, you can use these shortcuts to speed up your workflow. Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-illustrator)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=adobe-illustrator)
 
 | Shortcut | Description |
 | --- | --- |
@@ -565,6 +584,8 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-after-effects)
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=adobe-after-effects)
+
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + shift + d` | Split Selected Timeline |
@@ -579,6 +600,8 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=wordpress)
 
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=wordpress)
+
 | Shortcut | Description |
 | --- | --- |
 | `ctrl + alt + m` | Toggle Code Editor in Post Edit View |
@@ -591,6 +614,8 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 Githubs Desktop Client
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=github-desktop)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=github-desktop)
 
 | Shortcut | Description |
 | --- | --- |
@@ -607,6 +632,8 @@ Githubs Desktop Client
 [Obsidian](https://obsidian.md/) is an awesome Markdown based Notetaking tool that I just recently (July 2023) discovered for myself and best of all its also has a lot of keyboard shortcuts. Keep in mind that many shortcuts known from other programs like `ctrl + tab` also apply here. Also common formatting Keyboards like `ctrl + i` for emphasised text can be used in Obsidian.
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=obsidian-md)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=obsidian-md)
 
 | Shortcut | Description |
 | --- | --- |
@@ -627,7 +654,7 @@ Total Shortcuts: 337
 
 Application with most Shortcuts: Windows (48)
 
-Application with least Shortcuts: Microsoft General (1)
+Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 16.05
+Average Shortcuts per Application: 16.85
 
