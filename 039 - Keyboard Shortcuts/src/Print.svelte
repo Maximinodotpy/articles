@@ -9,7 +9,6 @@
 <script lang="ts">
     // @ts-ignore
     import { applications } from "../shortcut-data/shortcuts.json";
-    import App from "./App.svelte";
 
     let searchParams = new URLSearchParams(document.location.search);
 
@@ -35,9 +34,6 @@
 
     <!-- Only print table if the app is in the target list -->
     {#if target_applications.includes(key)}
-
-        
-
         <div class="{target_applications.length > 1 ? 'break-after-page': ''} stuff">
             <div class="flex items-center justify-between">
                 <h1 class="mb-3 text-3xl">{value.name}</h1>
@@ -82,7 +78,7 @@
 {/each}
 
 <!-- Create a notice saying press ctrl + p to print which is always at the bottom -->
-<button class="fixed bottom-0 left-0 right-0 flex items-center justify-center p-3 font-bold text-red-100 bg-red-500 print:hidden" on:click={printCurrent}>
+<button class="sticky bottom-0 left-0 right-0 flex items-center justify-center w-full p-3 font-bold text-red-100 bg-red-500 print:hidden" on:click={printCurrent}>
     <div class="flex items-center gap-2 text-2xl">
         <span>Press <kbd>ctrl + p</kbd> to print or click me</span>
     </div>
