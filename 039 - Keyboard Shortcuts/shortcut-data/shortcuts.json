@@ -299,6 +299,7 @@
             "shortcuts": [
                 { "keys": "ctrl + F1",                           "description": "Toggle Ribbon Menu visibility" },
                 { "keys": "dblclick",                            "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" },
+                { "keys": "alt",                                 "description": "Start Ribbon navigation" },
                 
                 { "keys": "ctrl + Windows + alt + shift + n",    "description": "Open OneNote [When anywhere in Windows]" },
                 { "keys": "ctrl + Windows + alt + shift + w",    "description": "Open Word [When anywhere in Windows]" },
@@ -308,7 +309,6 @@
 
                 { "keys": "ctrl + alt + v",                      "description": "Paste Special [When in a Rich Text Editor]" },
 
-                { "keys": "ctrl + k",                            "description": "Insert Hyperlink [When in a Rich Text Editor]" },
                 { "keys": "ctrl + b",                            "description": "Bold Selection [When in a Rich Text Editor]" },
                 { "keys": "ctrl + i",                            "description": "Italic Selection [When in a Rich Text Editor]" },
                 { "keys": "ctrl + u",                            "description": "Underline Selection [When in a Rich Text Editor]" },
@@ -316,10 +316,11 @@
                 { "keys": "ctrl + l",                            "description": "Align Text Left [When in a Rich Text Editor]" },
                 { "keys": "ctrl + e",                            "description": "Align Text Center [When in a Rich Text Editor]" },
                 { "keys": "ctrl + r",                            "description": "Align Text Right [When in a Rich Text Editor]" },
+                { "keys": "ctrl + j",                            "description": "Justify Text [When in a Rich Text Editor]" },
 
+                { "keys": "ctrl + k",                            "description": "Insert or Edit link [When in a Rich Text Editor]" },
                 { "keys": "F11",                                 "description": "Select Next Link [When in a Rich Text Editor]" },
-                { "keys": "shift + F11",                         "description": "Select previous Link [When in a Rich Text Editor]" },
-                { "keys": "alt + down",                          "description": "Open Text Proposal Window [When in Rich Text Editor]" }
+                { "keys": "shift + F11",                         "description": "Select previous Link [When in a Rich Text Editor]" }
             ]
         },
         "microsoft-word": {
@@ -327,7 +328,13 @@
             "description": "Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#content-windows) because some of these also apply.",
             "shortcuts": [
                 { "keys": "ctrl + enter",                        "description": "Insert Page Break" },
-                { "keys": "shift + enter",                       "description": "Insert Line Break" }
+                { "keys": "shift + enter",                       "description": "Insert Line Break" },
+
+                { "keys": "alt + down",                          "description": "Open Text Proposal Window [When in Rich Text Editor]" },
+                { "keys": "F7",                                  "description": "Open Editor Panel, for grammar and spelling check" },
+                { "keys": "shift + F7",                          "description": "Open Thesaurus Panel" },
+
+                { "keys": "ctrl + alt + s",                      "description": "Toggle window split" }
             ]
         },
         "microsoft-powerpoint": {
