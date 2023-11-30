@@ -4,6 +4,11 @@ print('Compiling Shortcuts to Markdown Article ...')
 
 shortcutData = json.load(open('shortcut-data/shortcuts.json', 'r'))['applications']
 shortcutBlacklist = json.load(open('shortcut-data/quiz-blacklist.json', 'r'))
+shortcutSchema = json.load(open('shortcut-data/shortcuts-schema.json', 'r', encoding='utf-8'))
+
+# Print out the Schema regex for the keys
+print('Schema:')
+print(shortcutSchema['$defs']['application']['properties']['shortcuts']['items']['properties']['keys']['pattern'])
 
 result = """---
 name: 'Keyboard Shortcuts'

@@ -15,15 +15,15 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 **Applications / Places**
 
-- [General](#general) *(31 Shortcuts)*
+- [General](#general) *(32 Shortcuts)*
 - [File Explorer](#file-explorer) *(24 Shortcuts)*
 - [Windows](#windows) *(48 Shortcuts)*
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(43 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(36 Shortcuts)*
-- [Office General](#office-general) *(18 Shortcuts)*
-- [Microsoft Word](#microsoft-word) *(2 Shortcuts)*
+- [Office General](#office-general) *(40 Shortcuts)*
+- [Microsoft Word](#microsoft-word) *(23 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(21 Shortcuts)*
 - [Microsoft Outlook](#microsoft-outlook) *(4 Shortcuts)*
@@ -39,7 +39,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 ## General
 
-These Shortcuts work in most programs so they are industry standard.
+These Shortcuts work in most programs, but still watch out for program specific shortcuts.
 
 [Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=general)
 
@@ -51,26 +51,27 @@ These Shortcuts work in most programs so they are industry standard.
 | `shift + tab` | Move Between focusable Elements backwards |
 | `home` | Jump to the Start |
 | `end` | Jump to the End |
-| `ctrl + c` | Copy |
-| `ctrl + v` | Insert |
-| `delete` | Delete |
-| `ctrl + backspace` | Delete the whole Word |
-| `ctrl + x` | Cut |
-| `ctrl + z` | Undo |
-| `ctrl + y` | Redo |
-| `ctrl + f` | Search |
-| `ctrl + a` | Select All |
-| `ctrl + s` | Save |
-| `ctrl + shift + s` | Save As |
-| `ctrl + h` | Search and Replace |
-| `ctrl + n` | New File |
-| `ctrl + w` | Close Document |
-| `ctrl + p` | Print |
-| `escape` | Close Popup |
 | `arrows` | Move cursor |
 | `ctrl + arrows` | Move cursor word by word |
 | `shift + arrows` | Move cursor while selecting |
 | `ctrl + shift + arrows` | Move cursor while selecting word by word |
+| `delete` | Delete |
+| `ctrl + backspace` | Delete the whole Word |
+| `ctrl + c` | Copy |
+| `ctrl + v` | Insert |
+| `ctrl + x` | Cut |
+| `ctrl + z` | Undo |
+| `ctrl + y` | Redo |
+| `ctrl + f` | Search |
+| `ctrl + h` | Search and Replace |
+| `ctrl + g` | Go to |
+| `ctrl + a` | Select All |
+| `ctrl + s` | Save |
+| `ctrl + shift + s` | Save As |
+| `ctrl + n` | New File |
+| `ctrl + w` | Close Document |
+| `ctrl + p` | Print |
+| `escape` | Close Popup |
 | `F1` | Open Help |
 | `F2` | Rename |
 | `F3` | Search |
@@ -102,8 +103,8 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 | `ctrl + space` | Toggle selection of current File |
 | `ctrl + arrows` | Move between items without losing focus |
 | `ctrl + shift + e` | Display all folders above the selected folder |
-| `alt + p` | Toggle the preview pane |
 | `alt + shift + p` | Toggle the details pane |
+| `alt + p` | Toggle the preview pane |
 | `num*` | Display all sub-folder under the selected folder [When in tree view on the left] |
 | `num+` | Expand current folder [When in tree view on the left] |
 | `num-` | Collapse current folder[When in tree view on the left] |
@@ -197,8 +198,8 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + j` | Show Downloads |
 | `ctrl + shift + k` | Duplicate Tab |
 | `F12` | Open Dev Tools |
-| `ctrl + l` | Focus URL Input |
 | `ctrl + shift + t` | Open most recently closed tab or if edge is started freshly open all recent tabs from the last session |
+| `ctrl + l` | Focus URL Input |
 | `ctrl + u` | Show Source Code |
 | `ctrl + shift + 2` | Toggle split screen |
 | `ctrl + shift + b` | Toggle favorites bar |
@@ -315,41 +316,41 @@ These shortcuts are for the Godot Engine (Version 3.x and 4.x).
 
 | Shortcut | Description |
 | --- | --- |
-| `alt + shift + f` | Format all Code |
 | `alt + shift + i` | Add cursors to ends of all currently selected lines |
+| `ctrl + alt + up/down` | Duplicate cursor up/down |
+| `ctrl + shift + l` | Select all occurences of the current word |
+| `alt + enter` | Select all found occurences [When in Code Search] |
+| `alt + r` | Toggle Regex [When in Code Search] |
+| `ctrl + l` | Select current line |
+| `ctrl + d` | Select next occurence of the current word |
+| `ctrl + k ctrl + d` | Select next but one occurence of the current word |
+| `F12` | Jump to definition |
+| `ctrl + shift + '` | Fold Current Level |
+| `ctrl + shift + ^` | Unfold Current Level |
+| `alt + shift + f` | Format all Code |
+| `alt + shift + a` | Block comment |
+| `ctrl + shift + enter` | Insert Empty Line |
 | `alt + shift + up/down` | Duplicate Line up/down |
+| `alt + up/down` | Move this line up/down |
 | `alt + number` | Switch to open editor within group |
 | `ctrl + number` | Switch to or Create corresponding Editor Group |
 | `ctrl + F4` | Close Editor Group |
-| `alt + shift + a` | Block comment |
-| `ctrl + alt + up/down` | Duplicate cursor up/down |
-| `alt + up/down` | Move this line up/down |
-| `ctrl + l` | Select current line |
 | `ctrl + j` | Toggle Bottom Panel |
 | `ctrl + b` | Toggle Primary Side Panel |
-| `ctrl + shift + l` | Select all occurences of the current word |
 | `ctrl + shift + p` | Open Command Palette |
 | `ctrl + shift + e` | Open Integrated Explorer |
 | `alt + shift + r` | Open File in OS Explorer [When in Integrated Explorer] |
 | `ctrl + shift + x` | Open Extensions |
-| `ctrl + d` | Select next occurence of the current word |
-| `ctrl + k ctrl + d` | Select next but one occurence of the current word |
-| `ctrl + space` | Show Context Snippets |
-| `ctrl + shift + space` | Show Function Parameters |
-| `alt + enter` | Select all found occurences [When in Code Search] |
-| `alt + r` | Toggle Regex [When in Code Search] |
-| `F12` | Jump to definition |
-| `ctrl + shift + '` | Fold Current Level |
-| `ctrl + shift + ^` | Unfold Current Level |
-| `ctrl + ,` | Open Settings |
-| `ctrl + .` | View Code Actions |
 | `ctrl + pagedown` | Switch to right File in Group |
 | `ctrl + pageup` | Switch to left File in Group |
 | `ctrl + shift + 5` | Split Current Terminal [When in Terminal] |
-| `ctrl + k z` | Enter Zen Mode |
-| `ctrl + k m` | Choose Language Mode |
-| `ctrl + shift + enter` | Insert Empty Line |
+| `ctrl + k z` | Toggle Zen Mode |
 | `ctrl + shift + c` | Open New External Terminal |
+| `ctrl + ,` | Open Settings |
+| `ctrl + space` | Show Context Snippets |
+| `ctrl + shift + space` | Show Function Parameters |
+| `ctrl + k m` | Choose Language Mode |
+| `ctrl + .` | View Code Actions |
 | `F8` | Cycle through problems begining with the nearest |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
@@ -367,22 +368,44 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 | --- | --- |
 | `ctrl + F1` | Toggle Ribbon Menu visibility |
 | `dblclick` | Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button] |
+| `alt/F10` | Start Ribbon navigation |
+| `ctrl + left/right` | Move between command groupings in the ribbon menu |
+| `ctrl + shift + F10` | Show the tooltip for the ribbon element currently in focus |
+| `alt + down` | Open the menu for the selected button [When focused on a command in the Ribbon menu] |
 | `ctrl + Windows + alt + shift + n` | Open OneNote [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + w` | Open Word [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + x` | Open Excl [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + p` | Open Powerpoint [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + l` | Open LinkedIn [When anywhere in Windows] |
 | `ctrl + alt + v` | Paste Special [When in a Rich Text Editor] |
-| `ctrl + k` | Insert Hyperlink [When in a Rich Text Editor] |
 | `ctrl + b` | Bold Selection [When in a Rich Text Editor] |
 | `ctrl + i` | Italic Selection [When in a Rich Text Editor] |
 | `ctrl + u` | Underline Selection [When in a Rich Text Editor] |
+| `ctrl + shift + w` | Underline Selection, but only words not whitespace [When in a Rich Text Editor] |
 | `ctrl + l` | Align Text Left [When in a Rich Text Editor] |
 | `ctrl + e` | Align Text Center [When in a Rich Text Editor] |
 | `ctrl + r` | Align Text Right [When in a Rich Text Editor] |
+| `ctrl + j` | Justify Text [When in a Rich Text Editor] |
+| `alt + shift + up/down` | Move paragraph up or down [When in a Rich Text Editor] |
+| `ctrl + t` | Create hanging indent [When in a Rich Text Editor] |
+| `ctrl + shift + t` | Remove hanging indent [When in a Rich Text Editor] |
+| `ctrl + q` | Remove paragraph formatting [When in a Rich Text Editor] |
+| `ctrl + shift + n` | Apply the normal style |
+| `ctrl + alt + 1` | Apply heading 1 style |
+| `ctrl + alt + 2` | Apply heading 2 style |
+| `ctrl + alt + 3` | Apply heading 3 style |
+| `ctrl + 1` | Apply single spacing to paragraph |
+| `ctrl + 2` | Apply double spacing to paragraph |
+| `ctrl + 5` | Apply 1-5 spacing to the paragraph |
+| `ctrl + shift + c` | Copy format of current selection [When in a Rich Text Editor] |
+| `ctrl + shift + v` | Paste format to current selection [When in a Rich Text Editor] |
+| `F2` | Start object movement, confirm by pressing enter |
+| `shift + F2` | Start object copying, confirm by pressing enter |
+| `F8` | Expand selection |
+| `shift + F8` | Reduce selection |
+| `ctrl + k` | Insert or Edit link [When in a Rich Text Editor] |
 | `F11` | Select Next Link [When in a Rich Text Editor] |
 | `shift + F11` | Select previous Link [When in a Rich Text Editor] |
-| `alt + down` | Open Text Proposal Window [When in Rich Text Editor] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -399,6 +422,27 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | --- | --- |
 | `ctrl + enter` | Insert Page Break |
 | `shift + enter` | Insert Line Break |
+| `alt + down` | Open Text Proposal Window [When in Rich Text Editor] |
+| `F7` | Open Editor Panel, for grammar and spelling check |
+| `shift + F7` | Open Thesaurus Panel |
+| `shift + F1` | Open Reveal Formatting Panel |
+| `ctrl + alt + s` | Toggle window split |
+| `ctrl + shift + e` | Toggle document access mode |
+| `alt + w f` | Switch to the read mode view |
+| `ctrl + alt + p` | Switch to the print layout view |
+| `ctrl + alt + o` | Switch to the outline view |
+| `ctrl + alt + n` | Switch to the draft view |
+| `tab/alt + shift + left` | Promote a paragraph [When in outline view] |
+| `shift + tab/alt + shift + right` | Demote a paragraph [When in outline view] |
+| `ctrl + shift + n` | Demote a paragraph to body text [When in outline view] |
+| `alt + shift + up` | Move the selected paragraphs up [When in outline view] |
+| `alt + shift + down` | Move the selected paragraphs down [When in outline view] |
+| `alt + shift + num+` | Expand the text under a heading [When in outline view] |
+| `alt + shift + num-` | Collapse the text under a heading [When in outline view] |
+| `alt + shift + a` | Expand or collapse all headings or texts [When in outline view] |
+| `num/` | Toggle character formatting [When in outline view] |
+| `alt + shift + l` | Toggle show only first line of body text [When in outline view] |
+| `alt + shift + number` | Show all headings with the specified heading nummer [When in outline view] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -430,7 +474,6 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 
 | Shortcut | Description |
 | --- | --- |
-| `shift + dblclick` | Set same width/height to auto fit its content for selected cells [When clicking on a column or row division border] |
 | `ctrl + pagedown` | Switch to next Sheet in Workbook |
 | `ctrl + pageup` | Switch to previous Sheet in Workbook |
 | `F4` | Switch through anchor mode [When the cursor is within a cell reference] |
@@ -446,9 +489,10 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `ctrl + shift + 0` | Show selected columns |
 | `ctrl + 9` | Hide selected rows |
 | `ctrl + shift + 9` | Show selected rows |
-| `ctrl + ;` | Insert current date |
+| `shift + dblclick` | Set same width/height to auto fit its content for selected cells [When clicking on a column or row division border] |
 | `ctrl + t` | Create table within selection |
 | `ctrl + shift + t` | Toggle total Row [When within a table] |
+| `ctrl + ;` | Insert current date |
 | `ctrl + +` | Open Insert Dialogue |
 | `ctrl + -` | Open Delete Dialogue |
 
@@ -554,8 +598,8 @@ These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. 
 
 | Shortcut | Description |
 | --- | --- |
-| `p` | Switch to Pen Tool |
 | `t` | Switch to Text Tool |
+| `p` | Switch to Pen Tool |
 | `m` | Switch to Square Tool |
 | `i` | Switch to Eyedropper |
 | `g` | Switch to Gradient Tool |
@@ -650,11 +694,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 337
+Total Shortcuts: 381
 
 Application with most Shortcuts: Windows (48)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 16.85
+Average Shortcuts per Application: 19.05
 

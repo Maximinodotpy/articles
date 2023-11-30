@@ -148,8 +148,10 @@
                 { "keys": "ctrl + j",                            "description": "Show Downloads" },
                 { "keys": "ctrl + shift + k",                    "description": "Duplicate Tab" },
                 { "keys": "F12",                                 "description": "Open Dev Tools" },
-                { "keys": "ctrl + l",                            "description": "Focus URL Input" },
                 { "keys": "ctrl + shift + t",                    "description": "Open most recently closed tab or if edge is started freshly open all recent tabs from the last session" },
+                
+                { "keys": "ctrl + l",                            "description": "Focus URL Input" },
+
                 { "keys": "ctrl + u",                            "description": "Show Source Code" },
                 { "keys": "ctrl + shift + 2",                    "description": "Toggle split screen" },
                 { "keys": "ctrl + shift + b",                    "description": "Toggle favorites bar" },
@@ -299,7 +301,10 @@
             "shortcuts": [
                 { "keys": "ctrl + F1",                           "description": "Toggle Ribbon Menu visibility" },
                 { "keys": "dblclick",                            "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" },
-                { "keys": "alt",                                 "description": "Start Ribbon navigation" },
+                { "keys": "alt/F10",                                 "description": "Start Ribbon navigation" },
+                { "keys": "ctrl + left/right",                   "description": "Move between command groupings in the ribbon menu" },
+                { "keys": "ctrl + shift + F10",                  "description": "Show the tooltip for the ribbon element currently in focus" },
+                { "keys": "alt + down",                          "description": "Open the menu for the selected button [When focused on a command in the Ribbon menu]" },
                 
                 { "keys": "ctrl + Windows + alt + shift + n",    "description": "Open OneNote [When anywhere in Windows]" },
                 { "keys": "ctrl + Windows + alt + shift + w",    "description": "Open Word [When anywhere in Windows]" },
@@ -312,11 +317,32 @@
                 { "keys": "ctrl + b",                            "description": "Bold Selection [When in a Rich Text Editor]" },
                 { "keys": "ctrl + i",                            "description": "Italic Selection [When in a Rich Text Editor]" },
                 { "keys": "ctrl + u",                            "description": "Underline Selection [When in a Rich Text Editor]" },
+                { "keys": "ctrl + shift + w",                    "description": "Underline Selection, but only words not whitespace [When in a Rich Text Editor]" },
 
                 { "keys": "ctrl + l",                            "description": "Align Text Left [When in a Rich Text Editor]" },
                 { "keys": "ctrl + e",                            "description": "Align Text Center [When in a Rich Text Editor]" },
                 { "keys": "ctrl + r",                            "description": "Align Text Right [When in a Rich Text Editor]" },
                 { "keys": "ctrl + j",                            "description": "Justify Text [When in a Rich Text Editor]" },
+                { "keys": "alt + shift + up/down",               "description": "Move paragraph up or down [When in a Rich Text Editor]" },
+                { "keys": "ctrl + t",                            "description": "Create hanging indent [When in a Rich Text Editor]" },
+                { "keys": "ctrl + shift + t",                    "description": "Remove hanging indent [When in a Rich Text Editor]" },
+                { "keys": "ctrl + q",                            "description": "Remove paragraph formatting [When in a Rich Text Editor]" },
+                { "keys": "ctrl + shift + n",                    "description": "Apply the normal style" },
+                { "keys": "ctrl + alt + 1",                      "description": "Apply heading 1 style" },
+                { "keys": "ctrl + alt + 2",                      "description": "Apply heading 2 style" },
+                { "keys": "ctrl + alt + 3",                      "description": "Apply heading 3 style" },
+
+                { "keys": "ctrl + 1",                            "description": "Apply single spacing to paragraph" },
+                { "keys": "ctrl + 2",                            "description": "Apply double spacing to paragraph" },
+                { "keys": "ctrl + 5",                            "description": "Apply 1-5 spacing to the paragraph" },
+
+                { "keys": "ctrl + shift + c",                    "description": "Copy format of current selection [When in a Rich Text Editor]" },
+                { "keys": "ctrl + shift + v",                    "description": "Paste format to current selection [When in a Rich Text Editor]" },
+                
+                { "keys": "F2",                                  "description": "Start object movement, confirm by pressing enter" },
+                { "keys": "shift + F2",                          "description": "Start object copying, confirm by pressing enter" },
+                { "keys": "F8",                                  "description": "Expand selection" },
+                { "keys": "shift + F8",                          "description": "Reduce selection" },
 
                 { "keys": "ctrl + k",                            "description": "Insert or Edit link [When in a Rich Text Editor]" },
                 { "keys": "F11",                                 "description": "Select Next Link [When in a Rich Text Editor]" },
@@ -333,8 +359,27 @@
                 { "keys": "alt + down",                          "description": "Open Text Proposal Window [When in Rich Text Editor]" },
                 { "keys": "F7",                                  "description": "Open Editor Panel, for grammar and spelling check" },
                 { "keys": "shift + F7",                          "description": "Open Thesaurus Panel" },
+                { "keys": "shift + F1",                          "description": "Open Reveal Formatting Panel" },
 
-                { "keys": "ctrl + alt + s",                      "description": "Toggle window split" }
+                { "keys": "ctrl + alt + s",                      "description": "Toggle window split" },
+                { "keys": "ctrl + shift + e",                    "description": "Toggle document access mode" },
+
+                { "keys": "alt + w f",                           "description": "Switch to the read mode view" },
+                { "keys": "ctrl + alt + p",                      "description": "Switch to the print layout view" },
+                { "keys": "ctrl + alt + o",                      "description": "Switch to the outline view" },
+                { "keys": "ctrl + alt + n",                      "description": "Switch to the draft view" },
+
+                { "keys": "tab/alt + shift + left",              "description": "Promote a paragraph [When in outline view]" },
+                { "keys": "shift + tab/alt + shift + right",     "description": "Demote a paragraph [When in outline view]" },
+                { "keys": "ctrl + shift + n",                    "description": "Demote a paragraph to body text [When in outline view]" },
+                { "keys": "alt + shift + up",                    "description": "Move the selected paragraphs up [When in outline view]" },
+                { "keys": "alt + shift + down",                  "description": "Move the selected paragraphs down [When in outline view]" },
+                { "keys": "alt + shift + num+",                  "description": "Expand the text under a heading [When in outline view]" },
+                { "keys": "alt + shift + num-",                  "description": "Collapse the text under a heading [When in outline view]" },
+                { "keys": "alt + shift + a",                     "description": "Expand or collapse all headings or texts [When in outline view]" },
+                { "keys": "num/",                                "description": "Toggle character formatting [When in outline view]" },
+                { "keys": "alt + shift + l",                     "description": "Toggle show only first line of body text [When in outline view]" },
+                { "keys": "alt + shift + number",                "description": "Show all headings with the specified heading nummer [When in outline view]" }
             ]
         },
         "microsoft-powerpoint": {
@@ -450,12 +495,16 @@
                 { "keys": "shift + m",                           "description": "Switch to Morph Tool" },
                 { "keys": "shift + o",                           "description": "Switch to Drawing area Tool" },
                 { "keys": "shift + f",                           "description": "Switch to Presentation Mode" },
+
                 { "keys": "d",                                   "description": "Reset Colors for current Object" },
+                
                 { "keys": "ctrl + alt + shift + v",              "description": "Move object one layer forward" },
                 { "keys": "ctrl + alt + shift + r",              "description": "Move object one layer back" },
                 { "keys": "ctrl + shift + (",                    "description": "Move Object to back" },
                 { "keys": "ctrl + shift + )",                    "description": "Move Object to front" },
+
                 { "keys": "ctrl + shift + v",                    "description": "Insert at the same Position" },
+                
                 { "keys": "ctrl + r",                            "description": "Toggle rulers" },
                 { "keys": "ctrl + shift + b",                    "description": "Toggle Bounding Box" },
                 { "keys": "ctrl + shift + d",                    "description": "Toggle Transparence Grid" },
