@@ -250,47 +250,47 @@
             "name": "Visual Studio Code",
             "description": "",
             "shortcuts": [
-                { "keys": "alt + shift + f",                     "description": "Format all Code" },
-
+                
                 { "keys": "alt + shift + i",                     "description": "Add cursors to ends of all currently selected lines" },
                 { "keys": "ctrl + alt + up/down",                "description": "Duplicate cursor up/down" },
-
+                { "keys": "ctrl + shift + l",                    "description": "Select all occurences of the current word" },
+                { "keys": "alt + enter",                         "description": "Select all found occurences [When in Code Search]" },
+                { "keys": "alt + r",                             "description": "Toggle Regex [When in Code Search]" },
+                { "keys": "ctrl + l",                            "description": "Select current line" },
+                { "keys": "ctrl + d",                            "description": "Select next occurence of the current word" },
+                { "keys": "ctrl + k ctrl + d",                   "description": "Select next but one occurence of the current word" },
+                { "keys": "F12",                                 "description": "Jump to definition" },
+                { "keys": "ctrl + shift + '",                    "description": "Fold Current Level" },
+                { "keys": "ctrl + shift + ^",                    "description": "Unfold Current Level" },
+                
+                { "keys": "alt + shift + f",                     "description": "Format all Code" },
                 { "keys": "alt + shift + a",                     "description": "Block comment" },
+                { "keys": "ctrl + shift + enter",                "description": "Insert Empty Line" },
                 { "keys": "alt + shift + up/down",               "description": "Duplicate Line up/down" },
                 { "keys": "alt + up/down",                       "description": "Move this line up/down" },
-                { "keys": "ctrl + l",                            "description": "Select current line" },
                 
                 { "keys": "alt + number",                        "description": "Switch to open editor within group" },
                 { "keys": "ctrl + number",                       "description": "Switch to or Create corresponding Editor Group" },
                 { "keys": "ctrl + F4",                           "description": "Close Editor Group" },
                 { "keys": "ctrl + j",                            "description": "Toggle Bottom Panel" },
                 { "keys": "ctrl + b",                            "description": "Toggle Primary Side Panel" },
-                
-                { "keys": "ctrl + shift + l",                    "description": "Select all occurences of the current word" },
-
                 { "keys": "ctrl + shift + p",                    "description": "Open Command Palette" },
                 { "keys": "ctrl + shift + e",                    "description": "Open Integrated Explorer" },
                 { "keys": "alt + shift + r",                     "description": "Open File in OS Explorer [When in Integrated Explorer]" },
                 { "keys": "ctrl + shift + x",                    "description": "Open Extensions" },
-                { "keys": "ctrl + d",                            "description": "Select next occurence of the current word" },
-                { "keys": "ctrl + k ctrl + d",                   "description": "Select next but one occurence of the current word" },
-                { "keys": "ctrl + space",                        "description": "Show Context Snippets" },
-                { "keys": "ctrl + shift + space",                "description": "Show Function Parameters" },
-                { "keys": "alt + enter",                         "description": "Select all found occurences [When in Code Search]" },
-                { "keys": "alt + r",                             "description": "Toggle Regex [When in Code Search]" },
-                { "keys": "F12",                                 "description": "Jump to definition" },
-                { "keys": "ctrl + shift + '",                    "description": "Fold Current Level" },
-                { "keys": "ctrl + shift + ^",                    "description": "Unfold Current Level" },
-                { "keys": "ctrl + ,",                            "description": "Open Settings" },
-                { "keys": "ctrl + .",                            "description": "View Code Actions" },
                 { "keys": "ctrl + pagedown",                     "description": "Switch to right File in Group" },
                 { "keys": "ctrl + pageup",                       "description": "Switch to left File in Group" },
                 { "keys": "ctrl + shift + 5",                    "description": "Split Current Terminal [When in Terminal]" },
                 { "keys": "ctrl + k z",                          "description": "Toggle Zen Mode" },
-                { "keys": "ctrl + k m",                          "description": "Choose Language Mode" },
-                { "keys": "ctrl + shift + enter",                "description": "Insert Empty Line" },
                 { "keys": "ctrl + shift + c",                    "description": "Open New External Terminal" },
+                { "keys": "ctrl + ,",                            "description": "Open Settings" },
+
+                { "keys": "ctrl + space",                        "description": "Show Context Snippets" },
+                { "keys": "ctrl + shift + space",                "description": "Show Function Parameters" },
+                { "keys": "ctrl + k m",                          "description": "Choose Language Mode" },
+                { "keys": "ctrl + .",                            "description": "View Code Actions" },
                 { "keys": "F8",                                  "description": "Cycle through problems begining with the nearest" }
+
             ]
         },
         "office-general": {
@@ -299,19 +299,24 @@
             "shortcuts": [
                 { "keys": "ctrl + F1",                           "description": "Toggle Ribbon Menu visibility" },
                 { "keys": "dblclick",                            "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" },
+                
                 { "keys": "ctrl + Windows + alt + shift + n",    "description": "Open OneNote [When anywhere in Windows]" },
                 { "keys": "ctrl + Windows + alt + shift + w",    "description": "Open Word [When anywhere in Windows]" },
                 { "keys": "ctrl + Windows + alt + shift + x",    "description": "Open Excl [When anywhere in Windows]" },
                 { "keys": "ctrl + Windows + alt + shift + p",    "description": "Open Powerpoint [When anywhere in Windows]" },
                 { "keys": "ctrl + Windows + alt + shift + l",    "description": "Open LinkedIn [When anywhere in Windows]" },
+
                 { "keys": "ctrl + alt + v",                      "description": "Paste Special [When in a Rich Text Editor]" },
+
                 { "keys": "ctrl + k",                            "description": "Insert Hyperlink [When in a Rich Text Editor]" },
                 { "keys": "ctrl + b",                            "description": "Bold Selection [When in a Rich Text Editor]" },
                 { "keys": "ctrl + i",                            "description": "Italic Selection [When in a Rich Text Editor]" },
                 { "keys": "ctrl + u",                            "description": "Underline Selection [When in a Rich Text Editor]" },
+
                 { "keys": "ctrl + l",                            "description": "Align Text Left [When in a Rich Text Editor]" },
                 { "keys": "ctrl + e",                            "description": "Align Text Center [When in a Rich Text Editor]" },
                 { "keys": "ctrl + r",                            "description": "Align Text Right [When in a Rich Text Editor]" },
+
                 { "keys": "F11",                                 "description": "Select Next Link [When in a Rich Text Editor]" },
                 { "keys": "shift + F11",                         "description": "Select previous Link [When in a Rich Text Editor]" },
                 { "keys": "alt + down",                          "description": "Open Text Proposal Window [When in Rich Text Editor]" }
@@ -338,25 +343,31 @@
             "name": "Microsoft Excel",
             "description": "",
             "shortcuts": [
-                { "keys": "shift + dblclick",                    "description": "Set same width/height to auto fit its content for selected cells [When clicking on a column or row division border]" },
                 { "keys": "ctrl + pagedown",                     "description": "Switch to next Sheet in Workbook" },
                 { "keys": "ctrl + pageup",                       "description": "Switch to previous Sheet in Workbook" },
+                
                 { "keys": "F4",                                  "description": "Switch through anchor mode [When the cursor is within a cell reference]" },
                 { "keys": "ctrl + 1",                            "description": "Open the Number Formatting Window [When on cell with Number]" },
                 { "keys": "ctrl + 1",                            "description": "Open the Text Formatting Window [When on cell with Text]" },
+                
                 { "keys": "ctrl + d",                            "description": "Fill Down" },
                 { "keys": "ctrl + r",                            "description": "Fill Right" },
                 { "keys": "ctrl + e",                            "description": "Fill Fast" },
+                
                 { "keys": "alt + shift + =",                     "description": "Insert fast sum of selected range" },
                 { "keys": "shift + F3",                          "description": "Open insert function dialogue" },
                 { "keys": "tab",                                 "description": "Complete function name" },
+                
                 { "keys": "ctrl + 0",                            "description": "Hide selected columns" },
                 { "keys": "ctrl + shift + 0",                    "description": "Show selected columns" },
                 { "keys": "ctrl + 9",                            "description": "Hide selected rows" },
                 { "keys": "ctrl + shift + 9",                    "description": "Show selected rows" },
-                { "keys": "ctrl + ;",                            "description": "Insert current date" },
+                { "keys": "shift + dblclick",                    "description": "Set same width/height to auto fit its content for selected cells [When clicking on a column or row division border]" },
+
                 { "keys": "ctrl + t",                            "description": "Create table within selection" },
                 { "keys": "ctrl + shift + t",                    "description": "Toggle total Row [When within a table]" },
+                { "keys": "ctrl + ;",                            "description": "Insert current date" },
+
                 { "keys": "ctrl + +",                            "description": "Open Insert Dialogue" },
                 { "keys": "ctrl + -",                            "description": "Open Delete Dialogue" }
             ]
