@@ -22,11 +22,11 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(36 Shortcuts)*
-- [Office General](#office-general) *(40 Shortcuts)*
+- [Office General](#office-general) *(41 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(24 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(25 Shortcuts)*
-- [Microsoft Outlook](#microsoft-outlook) *(4 Shortcuts)*
+- [Microsoft Outlook](#microsoft-outlook) *(9 Shortcuts)*
 - [Microsoft Teams](#microsoft-teams) *(20 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(11 Shortcuts)*
@@ -369,10 +369,11 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 | --- | --- |
 | `ctrl + F1` | Toggle Ribbon Menu visibility |
 | `dblclick` | Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button] |
-| `alt/F10` | Start Ribbon navigation |
+| `alt + nothing / F10` | Start Ribbon navigation |
 | `ctrl + left/right` | Move between command groupings in the ribbon menu |
 | `ctrl + shift + F10` | Show the tooltip for the ribbon element currently in focus |
 | `alt + down` | Open the menu for the selected button [When focused on a command in the Ribbon menu] |
+| `ctrl + number` | Switch to corresponding view in the left sidebar if there is one, for example outlook and teams |
 | `ctrl + Windows + alt + shift + n` | Open OneNote [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + w` | Open Word [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + x` | Open Excl [When anywhere in Windows] |
@@ -517,8 +518,13 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | --- | --- |
 | `ctrl + r` | Reply |
 | `ctrl + shift + r` | Reply to all |
-| `ctrl + shift + a` | Create new Appointment |
+| `ctrl + f` | Forward message |
+| `shift + enter` | Open selected message in new window [When in email] |
+| `ctrl + number` | Switch to corresponding panel in sidebar |
+| `ctrl + u` | Mark e-mail as unread |
+| `ctrl + q` | Mark e-mail as read |
 | `ctrl + enter` | Send Mail [When in E-Mail Editor] |
+| `ctrl + shift + a` | Create new Appointment |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -734,11 +740,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 406
+Total Shortcuts: 412
 
 Application with most Shortcuts: Windows (48)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 19.33
+Average Shortcuts per Application: 19.62
 

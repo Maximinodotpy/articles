@@ -35,11 +35,11 @@
                         "properties": {
                             "keys": {
                                 "type": "string",
-                                "pattern": "^((?:ctrl \\+ )?(?:Windows \\+ )?(?:alt \\+ )?(?:shift \\+ )?(?:(?:F\\d{1,2})|\\d|home|return|enter|tab|end|escape|delete|backspace|num\\*|num\\+|num-|num\\/|arrows|left|right|down|up|arrows|pause|mouse|click|dblclick|scroll|mouse|nothing|number|space|print|pagedown|pageup|\\+\\/-|\\=|\\;|\\+|\\-|[a-zäüö]|,|\\.|\\§|\\^|\\(|\\)|'|\\?)(?:((?<=\\S) |\\/(?=\\S))|((?=$)))){1,}$"
+                                "pattern": "^((?:ctrl \\+ )?(?:Windows \\+ )?(?:alt \\+ )?(?:shift \\+ )?(?:(?:F\\d{1,2})|\\d|home|return|enter|tab|end|escape|delete|backspace|num\\*|num\\+|num-|num\\/|arrows|left|right|down|up|arrows|pause|mouse|click|dblclick|scroll|mouse|nothing|number|space|nothing|print|pagedown|pageup|\\+\\/-|\\=|\\;|\\+|\\-|[a-zäüö]|,|\\.|\\§|\\^|\\(|\\)|'|\\?)(?:((?<=\\S) \/ | |\\/(?=\\S))|((?=$)))){1,}$"
                             },
                             "description": {
                                 "type": "string",
-                                "pattern": "((Snap|Choose|Go|Paste|Push|Commit|Restore|Remove|Cycle|Apply|Reduce|Raise|Share|Accept|Decline|Display|Stretch|Refresh|Exit|Turn|Set|Maximize|Align|Hide|Fill|Italic|Underline|Collapse|Cut|Complete|Fit|Pan|Copy|Enter|Move|Duplicate|Replace|Save|Zoom|New|Select|Insert|Bold|Add|Justify|Scroll|Reply|Send|Go|Close|Rotate|Promote|Demote|Scale|Inser|Run|Jump|Use|Print|Block|View|Search|Start|Play|Group|Pause|Center|Ungroup|Focus|Reset|Expand|Minimize|Lock|Unlock|Split|Delete|Rename|Toggle|Create|Show|Open|Preview|Switch|Setup|Format|Zoom|Undo|Redo|Fold|Unfold))(?=$| )['\\w /,-]*(\\[When .*\\])?$"
+                                "pattern": "((Snap|Choose|Go|Paste|Push|Commit|Restore|Remove|Cycle|Apply|Reduce|Raise|Share|Accept|Decline|Repeat|Forward|Mark|Display|Stretch|Refresh|Exit|Turn|Set|Maximize|Align|Hide|Fill|Italic|Underline|Collapse|Cut|Complete|Fit|Pan|Copy|Enter|Move|Duplicate|Replace|Save|Zoom|New|Select|Insert|Bold|Add|Justify|Scroll|Reply|Send|Go|Close|Rotate|Promote|Demote|Scale|Inser|Run|Jump|Use|Print|Block|View|Search|Start|Play|Group|Pause|Center|Ungroup|Focus|Reset|Expand|Minimize|Lock|Unlock|Split|Delete|Rename|Toggle|Create|Show|Open|Preview|Switch|Setup|Format|Zoom|Undo|Redo|Fold|Unfold))(?=$| )['\\w /,-]*(\\[When .*\\])?$"
                             }
                         }
                     }

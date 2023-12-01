@@ -300,10 +300,12 @@
             "shortcuts": [
                 { "keys": "ctrl + F1",                           "description": "Toggle Ribbon Menu visibility" },
                 { "keys": "dblclick",                            "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" },
-                { "keys": "alt/F10",                             "description": "Start Ribbon navigation" },
+                { "keys": "alt + nothing / F10",                 "description": "Start Ribbon navigation" },
                 { "keys": "ctrl + left/right",                   "description": "Move between command groupings in the ribbon menu" },
                 { "keys": "ctrl + shift + F10",                  "description": "Show the tooltip for the ribbon element currently in focus" },
                 { "keys": "alt + down",                          "description": "Open the menu for the selected button [When focused on a command in the Ribbon menu]" },
+
+                { "keys": "ctrl + number",                       "description": "Switch to corresponding view in the left sidebar if there is one, for example outlook and teams" },
                 
                 { "keys": "ctrl + Windows + alt + shift + n",    "description": "Open OneNote [When anywhere in Windows]" },
                 { "keys": "ctrl + Windows + alt + shift + w",    "description": "Open Word [When anywhere in Windows]" },
@@ -435,8 +437,16 @@
             "shortcuts": [
                 { "keys": "ctrl + r",                            "description": "Reply" },
                 { "keys": "ctrl + shift + r",                    "description": "Reply to all" },
-                { "keys": "ctrl + shift + a",                    "description": "Create new Appointment" },
-                { "keys": "ctrl + enter",                        "description": "Send Mail [When in E-Mail Editor]" }
+                { "keys": "ctrl + f",                            "description": "Forward message" },
+
+                { "keys": "shift + enter",                       "description": "Open selected message in new window [When in email]" },
+                { "keys": "ctrl + number",                       "description": "Switch to corresponding panel in sidebar" },
+                { "keys": "ctrl + u",                            "description": "Mark e-mail as unread" },
+                { "keys": "ctrl + q",                            "description": "Mark e-mail as read" },
+
+                { "keys": "ctrl + enter",                        "description": "Send Mail [When in E-Mail Editor]" },
+
+                { "keys": "ctrl + shift + a",                    "description": "Create new Appointment" }
             ]
         },
         "microsoft-teams": {
@@ -493,7 +503,9 @@
                 { "keys": "v",                                   "description": "Switch to selection Tool" },
                 { "keys": "a",                                   "description": "Switch to Direct Selection Tool" },
                 { "keys": "t",                                   "description": "Switch to Text Tool" },
+
                 { "keys": "ctrl + y",                            "description": "Toggle Intelligent Helper Lines" },
+
                 { "keys": "alt + arrows/mouse",                  "description": "Copy Object" },
                 { "keys": "alt + scroll",                        "description": "Zoom " },
                 { "keys": "tab",                                 "description": "Toggle Tools and other Windows" },
