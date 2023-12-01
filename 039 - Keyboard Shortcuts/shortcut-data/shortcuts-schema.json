@@ -39,7 +39,7 @@
                             },
                             "description": {
                                 "type": "string",
-                                "pattern": "((Snap|Choose|Go|Paste|Push|Commit|Restore|Remove|Cycle|Apply|Reduce|Display|Stretch|Refresh|Exit|Turn|Set|Maximize|Align|Hide|Fill|Italic|Underline|Collapse|Cut|Complete|Fit|Pan|Copy|Enter|Move|Duplicate|Replace|Save|Zoom|New|Select|Insert|Bold|Add|Justify|Scroll|Reply|Send|Go|Close|Rotate|Promote|Demote|Scale|Inser|Run|Jump|Use|Print|Block|View|Search|Start|Play|Group|Pause|Center|Ungroup|Focus|Reset|Expand|Minimize|Lock|Unlock|Split|Delete|Rename|Toggle|Create|Show|Open|Preview|Switch|Setup|Format|Zoom|Undo|Redo|Fold|Unfold))(?=$| )['\\w /,-]*(\\[When .*\\])?$"
+                                "pattern": "((Snap|Choose|Go|Paste|Push|Commit|Restore|Remove|Cycle|Apply|Reduce|Raise|Share|Accept|Decline|Display|Stretch|Refresh|Exit|Turn|Set|Maximize|Align|Hide|Fill|Italic|Underline|Collapse|Cut|Complete|Fit|Pan|Copy|Enter|Move|Duplicate|Replace|Save|Zoom|New|Select|Insert|Bold|Add|Justify|Scroll|Reply|Send|Go|Close|Rotate|Promote|Demote|Scale|Inser|Run|Jump|Use|Print|Block|View|Search|Start|Play|Group|Pause|Center|Ungroup|Focus|Reset|Expand|Minimize|Lock|Unlock|Split|Delete|Rename|Toggle|Create|Show|Open|Preview|Switch|Setup|Format|Zoom|Undo|Redo|Fold|Unfold))(?=$| )['\\w /,-]*(\\[When .*\\])?$"
                             }
                         }
                     }

@@ -23,10 +23,11 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(36 Shortcuts)*
 - [Office General](#office-general) *(40 Shortcuts)*
-- [Microsoft Word](#microsoft-word) *(23 Shortcuts)*
+- [Microsoft Word](#microsoft-word) *(24 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
-- [Microsoft Excel](#microsoft-excl) *(21 Shortcuts)*
+- [Microsoft Excel](#microsoft-excl) *(25 Shortcuts)*
 - [Microsoft Outlook](#microsoft-outlook) *(4 Shortcuts)*
+- [Microsoft Teams](#microsoft-teams) *(20 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(11 Shortcuts)*
 - [Adobe Premiere Pro](#adobe-premiere-pro) *(9 Shortcuts)*
@@ -422,10 +423,11 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | --- | --- |
 | `ctrl + enter` | Insert Page Break |
 | `shift + enter` | Insert Line Break |
-| `alt + down` | Open Text Proposal Window [When in Rich Text Editor] |
+| `shift + F1` | Open Reveal Formatting Panel |
+| `F4` | Repeat last command |
 | `F7` | Open Editor Panel, for grammar and spelling check |
 | `shift + F7` | Open Thesaurus Panel |
-| `shift + F1` | Open Reveal Formatting Panel |
+| `alt + down` | Open Text Proposal Window [When in Rich Text Editor] |
 | `ctrl + alt + s` | Toggle window split |
 | `ctrl + shift + e` | Toggle document access mode |
 | `alt + w f` | Switch to the read mode view |
@@ -485,6 +487,10 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `alt + shift + =` | Insert fast sum of selected range |
 | `shift + F3` | Open insert function dialogue |
 | `tab` | Complete function name |
+| `alt + down` | Open dropdown for current cell |
+| `F3` | Open paste name window |
+| `ctrl + F3` | Open name manager |
+| `ctrl + shift + F3` | Create name from selection |
 | `ctrl + 0` | Hide selected columns |
 | `ctrl + shift + 0` | Show selected columns |
 | `ctrl + 9` | Hide selected rows |
@@ -513,6 +519,40 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `ctrl + shift + r` | Reply to all |
 | `ctrl + shift + a` | Create new Appointment |
 | `ctrl + enter` | Send Mail [When in E-Mail Editor] |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
+## Microsoft Teams
+
+
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=microsoft-teams)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=microsoft-teams)
+
+| Shortcut | Description |
+| --- | --- |
+| `ctrl + .` | Show keyboard shortcuts [When in call] |
+| `ctrl + shift + s` | Accept audio call |
+| `ctrl + shift + a` | Accept video call |
+| `ctrl + shift + d` | Decline audio call |
+| `ctrl + shift + c` | Start audio call with current chat |
+| `ctrl + shift + u` | Start video call with current chat |
+| `ctrl + shift + m` | Toggle microphone [When in call] |
+| `ctrl + space` | Toggle mute off temporariley [When in call] |
+| `ctrl + shift + o` | Toggle video cam [When in call] |
+| `ctrl + shift + h` | Exit call [When in call] |
+| `ctrl + shift + e` | Share Screen [When in call] |
+| `ctrl + shift + k` | Raise hand [When in call] |
+| `ctrl + number` | Switch to corresponding view in the left sidebar |
+| `alt + up` | Go to list element above |
+| `alt + down` | Go to list element below |
+| `ctrl + shift + h` | Open navigation history panel |
+| `alt + shift + c` | Focus message input |
+| `ctrl + shift + x` | Expand or minimize message input |
+| `ctrl + enter` | Send message [When in expanded message input] |
+| `ctrl + e` | Focus search bar |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -694,11 +734,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 381
+Total Shortcuts: 406
 
 Application with most Shortcuts: Windows (48)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 19.05
+Average Shortcuts per Application: 19.33
 

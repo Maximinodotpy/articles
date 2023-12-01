@@ -252,7 +252,6 @@
             "name": "Visual Studio Code",
             "description": "",
             "shortcuts": [
-                
                 { "keys": "alt + shift + i",                     "description": "Add cursors to ends of all currently selected lines" },
                 { "keys": "ctrl + alt + up/down",                "description": "Duplicate cursor up/down" },
                 { "keys": "ctrl + shift + l",                    "description": "Select all occurences of the current word" },
@@ -301,7 +300,7 @@
             "shortcuts": [
                 { "keys": "ctrl + F1",                           "description": "Toggle Ribbon Menu visibility" },
                 { "keys": "dblclick",                            "description": "Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button]" },
-                { "keys": "alt/F10",                                 "description": "Start Ribbon navigation" },
+                { "keys": "alt/F10",                             "description": "Start Ribbon navigation" },
                 { "keys": "ctrl + left/right",                   "description": "Move between command groupings in the ribbon menu" },
                 { "keys": "ctrl + shift + F10",                  "description": "Show the tooltip for the ribbon element currently in focus" },
                 { "keys": "alt + down",                          "description": "Open the menu for the selected button [When focused on a command in the Ribbon menu]" },
@@ -356,10 +355,11 @@
                 { "keys": "ctrl + enter",                        "description": "Insert Page Break" },
                 { "keys": "shift + enter",                       "description": "Insert Line Break" },
 
-                { "keys": "alt + down",                          "description": "Open Text Proposal Window [When in Rich Text Editor]" },
+                { "keys": "shift + F1",                          "description": "Open Reveal Formatting Panel" },
+                { "keys": "F4",                                  "description": "Repeat last command" },
                 { "keys": "F7",                                  "description": "Open Editor Panel, for grammar and spelling check" },
                 { "keys": "shift + F7",                          "description": "Open Thesaurus Panel" },
-                { "keys": "shift + F1",                          "description": "Open Reveal Formatting Panel" },
+                { "keys": "alt + down",                          "description": "Open Text Proposal Window [When in Rich Text Editor]" },
 
                 { "keys": "ctrl + alt + s",                      "description": "Toggle window split" },
                 { "keys": "ctrl + shift + e",                    "description": "Toggle document access mode" },
@@ -409,6 +409,11 @@
                 { "keys": "alt + shift + =",                     "description": "Insert fast sum of selected range" },
                 { "keys": "shift + F3",                          "description": "Open insert function dialogue" },
                 { "keys": "tab",                                 "description": "Complete function name" },
+                { "keys": "alt + down",                          "description": "Open dropdown for current cell" },
+
+                { "keys": "F3",                                  "description": "Open paste name window" },
+                { "keys": "ctrl + F3",                           "description": "Open name manager" },
+                { "keys": "ctrl + shift + F3",                   "description": "Create name from selection" },
                 
                 { "keys": "ctrl + 0",                            "description": "Hide selected columns" },
                 { "keys": "ctrl + shift + 0",                    "description": "Show selected columns" },
@@ -432,6 +437,38 @@
                 { "keys": "ctrl + shift + r",                    "description": "Reply to all" },
                 { "keys": "ctrl + shift + a",                    "description": "Create new Appointment" },
                 { "keys": "ctrl + enter",                        "description": "Send Mail [When in E-Mail Editor]" }
+            ]
+        },
+        "microsoft-teams": {
+            "name": "Microsoft Teams",
+            "description": "",
+            "shortcuts": [
+                { "keys": "ctrl + .",                            "description": "Show keyboard shortcuts [When in call]" },
+
+                { "keys": "ctrl + shift + s",                    "description": "Accept audio call" },
+                { "keys": "ctrl + shift + a",                    "description": "Accept video call" },
+                { "keys": "ctrl + shift + d",                    "description": "Decline audio call" },
+                
+                { "keys": "ctrl + shift + c",                    "description": "Start audio call with current chat" },
+                { "keys": "ctrl + shift + u",                    "description": "Start video call with current chat" },
+
+                { "keys": "ctrl + shift + m",                    "description": "Toggle microphone [When in call]" },
+                { "keys": "ctrl + space",                        "description": "Toggle mute off temporariley [When in call]" },
+                { "keys": "ctrl + shift + o",                    "description": "Toggle video cam [When in call]" },
+                { "keys": "ctrl + shift + h",                    "description": "Exit call [When in call]" },
+                { "keys": "ctrl + shift + e",                    "description": "Share Screen [When in call]" },
+                { "keys": "ctrl + shift + k",                    "description": "Raise hand [When in call]" },
+
+                { "keys": "ctrl + number",                       "description": "Switch to corresponding view in the left sidebar" },
+                { "keys": "alt + up",                            "description": "Go to list element above" },
+                { "keys": "alt + down",                          "description": "Go to list element below" },
+                { "keys": "ctrl + shift + h",                    "description": "Open navigation history panel" },
+                
+                { "keys": "alt + shift + c",                     "description": "Focus message input" },
+                { "keys": "ctrl + shift + x",                    "description": "Expand or minimize message input" },
+                { "keys": "ctrl + enter",                        "description": "Send message [When in expanded message input]" },
+
+                { "keys": "ctrl + e",                            "description": "Focus search bar" }
             ]
         },
         "jupyter-notebook": {
