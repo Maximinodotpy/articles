@@ -29,9 +29,9 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Microsoft Outlook](#microsoft-outlook) *(9 Shortcuts)*
 - [Microsoft Teams](#microsoft-teams) *(20 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
-- [Adobe General](#adobe-general) *(11 Shortcuts)*
-- [Adobe Premiere Pro](#adobe-premiere-pro) *(9 Shortcuts)*
-- [Adobe Illustrator](#adobe-illustrator) *(20 Shortcuts)*
+- [Adobe General](#adobe-general) *(16 Shortcuts)*
+- [Adobe Premiere Pro](#adobe-premiere-pro) *(10 Shortcuts)*
+- [Adobe Illustrator](#adobe-illustrator) *(47 Shortcuts)*
 - [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
 - [Wordpress](#wordpress) *(1 Shortcuts)*
 - [Github Desktop](#github-desktop) *(4 Shortcuts)*
@@ -600,6 +600,11 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `a` | Switch to Direct Selection Tool |
 | `t` | Switch to Text Tool |
 | `ctrl + y` | Toggle Intelligent Helper Lines |
+| `ctrl + 0` | Zoom so canvas fits in screen |
+| `ctrl + 1` | Zoom to 100% |
+| `ctrl + g` | Group selected elements |
+| `ctrl + shift + g` | Ungroup selected elements |
+| `ctrl + shift + z` | Redo |
 | `alt + arrows/mouse` | Copy Object |
 | `alt + scroll` | Zoom  |
 | `tab` | Toggle Tools and other Windows |
@@ -630,6 +635,7 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 | `o` | Set out |
 | `shift + i` | Go to in |
 | `shift + o` | Go to out |
+| `shift + delete` | Delete selected clips and close ripple |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -644,26 +650,53 @@ These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. 
 
 | Shortcut | Description |
 | --- | --- |
-| `t` | Switch to Text Tool |
-| `p` | Switch to Pen Tool |
-| `m` | Switch to Square Tool |
-| `i` | Switch to Eyedropper |
-| `g` | Switch to Gradient Tool |
-| `shift + e` | Switch to Eraser Tool |
-| `shift + w` | Switch to Thicken Tool |
-| `shift + m` | Switch to Morph Tool |
-| `shift + o` | Switch to Drawing area Tool |
-| `shift + f` | Switch to Presentation Mode |
-| `d` | Reset Colors for current Object |
+| `t` | Switch to text Tool |
+| `p` | Switch to pen Tool |
+| `m` | Switch to square Tool |
+| `i` | Switch to eyedropper |
+| `g` | Switch to gradient Tool |
+| `shift + e` | Switch to eraser Tool |
+| `shift + w` | Switch to thicken Tool |
+| `shift + m` | Switch to morph Tool |
+| `shift + o` | Switch to artboard Tool |
+| `ctrl + alt + a` | Select artwork in active artboard |
+| `ctrl + shift + a` | Unselect all |
+| `ctrl + 2` | Lock selection |
+| `ctrl + alt + 2` | Unlock selection |
+| `ctrl + d` | Reapply a transformatio to an object |
+| `ctrl + 4` | Apply last pathfinder effect on selection |
+| `ctrl + shift + m` | Open move object dialogue |
+| `ctrl + alt + shift + m` | Open the transform each dialogue |
 | `ctrl + alt + shift + v` | Move object one layer forward |
 | `ctrl + alt + shift + r` | Move object one layer back |
-| `ctrl + shift + (` | Move Object to back |
-| `ctrl + shift + )` | Move Object to front |
-| `ctrl + shift + v` | Insert at the same Position |
+| `ctrl + shift + (` | Move object to back |
+| `ctrl + shift + )` | Move object to front |
+| `ctrl + shift + v` | Paste at the same Position |
+| `ctrl + f` | Paste in front of currently selected object |
+| `ctrl + b` | Paste in back of currently selected object |
+| `ctrl + shift + k` | Open color settings |
+| `ctrl + k` | Open preferences |
+| `ctrl + alt + shift + k` | Open keyboard shortcuts |
+| `ctrl + shift + p` | Open place dialogue |
+| `ctrl + shift + n` | Create file from template |
+| `ctrl + h` | Show document template |
+| `ctrl + alt + n` | Create file without dialogue |
+| `ctrl + alt + p` | Open the document setup dialogue |
+| `ctrl + alt + p` | Open the export for screens dialogue |
 | `ctrl + r` | Toggle rulers |
-| `ctrl + shift + b` | Toggle Bounding Box |
-| `ctrl + shift + d` | Toggle Transparence Grid |
-| `ctrl + shift + 7` | Create Clip Mask with current objects [When having selected atleast two objects] |
+| `ctrl + shift + b` | Toggle bounding box |
+| `ctrl + shift + d` | Toggle transparence grid |
+| `ctrl + shift + h` | Toggle artboards |
+| `f` | Cycle screen modes |
+| `shift + f` | Switch to presentation Mode |
+| `ctrl + alt + 0` | Fit artboards to screen |
+| `tab` | Toggle panels |
+| `shift + tab` | Toggle panels except tools and controls |
+| `x` | Toggle fill and stroke |
+| `shift + x` | Swap fill an stroke |
+| `d` | Reset Colors for current Object |
+| `ctrl + 7` | Create clipping mask with current objects [When having selected atleast two objects] |
+| `ctrl + shift + 7` | Release clipping mask |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -740,11 +773,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 412
+Total Shortcuts: 445
 
 Application with most Shortcuts: Windows (48)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 19.62
+Average Shortcuts per Application: 21.19
 

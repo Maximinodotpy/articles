@@ -505,6 +505,13 @@
                 { "keys": "t",                                   "description": "Switch to Text Tool" },
 
                 { "keys": "ctrl + y",                            "description": "Toggle Intelligent Helper Lines" },
+                { "keys": "ctrl + 0",                            "description": "Zoom so canvas fits in screen" },
+                { "keys": "ctrl + 1",                            "description": "Zoom to 100%" },
+
+                { "keys": "ctrl + g",                            "description": "Group selected elements" },
+                { "keys": "ctrl + shift + g",                            "description": "Ungroup selected elements" },
+
+                { "keys": "ctrl + shift + z",                    "description": "Redo" },
 
                 { "keys": "alt + arrows/mouse",                  "description": "Copy Object" },
                 { "keys": "alt + scroll",                        "description": "Zoom " },
@@ -524,40 +531,74 @@
                 { "keys": "v",                                   "description": "Select" },
                 { "keys": "c",                                   "description": "Switch to the Cut Tool" },
                 { "keys": "a",                                   "description": "Switch to the Track Selection to the right Tool" },
+
                 { "keys": "i",                                   "description": "Set in" },
                 { "keys": "o",                                   "description": "Set out" },
                 { "keys": "shift + i",                           "description": "Go to in" },
-                { "keys": "shift + o",                           "description": "Go to out" }
+                { "keys": "shift + o",                           "description": "Go to out" },
+
+                { "keys": "shift + delete",                      "description": "Delete selected clips and close ripple" }
             ]
         },
         "adobe-illustrator": {
             "name": "Adobe Illustrator",
             "description": "These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. I think it's really great and I use it a lot. I think you will love it too and if you do, you can use these shortcuts to speed up your workflow. Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
-                { "keys": "t",                                   "description": "Switch to Text Tool" },
-                { "keys": "p",                                   "description": "Switch to Pen Tool" },
-                { "keys": "m",                                   "description": "Switch to Square Tool" },
-                { "keys": "i",                                   "description": "Switch to Eyedropper" },
-                { "keys": "g",                                   "description": "Switch to Gradient Tool" },
-                { "keys": "shift + e",                           "description": "Switch to Eraser Tool" },
-                { "keys": "shift + w",                           "description": "Switch to Thicken Tool" },
-                { "keys": "shift + m",                           "description": "Switch to Morph Tool" },
-                { "keys": "shift + o",                           "description": "Switch to Drawing area Tool" },
-                { "keys": "shift + f",                           "description": "Switch to Presentation Mode" },
+                { "keys": "t",                                   "description": "Switch to text Tool" },
+                { "keys": "p",                                   "description": "Switch to pen Tool" },
+                { "keys": "m",                                   "description": "Switch to square Tool" },
+                { "keys": "i",                                   "description": "Switch to eyedropper" },
+                { "keys": "g",                                   "description": "Switch to gradient Tool" },
+                { "keys": "shift + e",                           "description": "Switch to eraser Tool" },
+                { "keys": "shift + w",                           "description": "Switch to thicken Tool" },
+                { "keys": "shift + m",                           "description": "Switch to morph Tool" },
+                { "keys": "shift + o",                           "description": "Switch to artboard Tool" },
 
-                { "keys": "d",                                   "description": "Reset Colors for current Object" },
+                { "keys": "ctrl + alt + a",                      "description": "Select artwork in active artboard" },
+                { "keys": "ctrl + shift + a",                    "description": "Unselect all" },
+                { "keys": "ctrl + 2",                            "description": "Lock selection" },
+                { "keys": "ctrl + alt + 2",                      "description": "Unlock selection" },
+                { "keys": "ctrl + d",                            "description": "Reapply a transformatio to an object" },
+                { "keys": "ctrl + 4",                            "description": "Apply last pathfinder effect on selection" },
+                { "keys": "ctrl + shift + m",                    "description": "Open move object dialogue" },
+                { "keys": "ctrl + alt + shift + m",              "description": "Open the transform each dialogue" },
+
                 
                 { "keys": "ctrl + alt + shift + v",              "description": "Move object one layer forward" },
                 { "keys": "ctrl + alt + shift + r",              "description": "Move object one layer back" },
-                { "keys": "ctrl + shift + (",                    "description": "Move Object to back" },
-                { "keys": "ctrl + shift + )",                    "description": "Move Object to front" },
-
-                { "keys": "ctrl + shift + v",                    "description": "Insert at the same Position" },
+                { "keys": "ctrl + shift + (",                    "description": "Move object to back" },
+                { "keys": "ctrl + shift + )",                    "description": "Move object to front" },
+                { "keys": "ctrl + shift + v",                    "description": "Paste at the same Position" },
+                { "keys": "ctrl + f",                            "description": "Paste in front of currently selected object" },
+                { "keys": "ctrl + b",                            "description": "Paste in back of currently selected object" },
+                
+                { "keys": "ctrl + shift + k",                    "description": "Open color settings" },
+                { "keys": "ctrl + k",                            "description": "Open preferences" },
+                { "keys": "ctrl + alt + shift + k",              "description": "Open keyboard shortcuts" },
+                
+                { "keys": "ctrl + shift + p",                    "description": "Open place dialogue" },
+                { "keys": "ctrl + shift + n",                    "description": "Create file from template" },
+                { "keys": "ctrl + h",                            "description": "Show document template" },
+                { "keys": "ctrl + alt + n",                      "description": "Create file without dialogue" },
+                { "keys": "ctrl + alt + p",                      "description": "Open the document setup dialogue" },
+                { "keys": "ctrl + alt + e",                      "description": "Open the export for screens dialogue" },
                 
                 { "keys": "ctrl + r",                            "description": "Toggle rulers" },
-                { "keys": "ctrl + shift + b",                    "description": "Toggle Bounding Box" },
-                { "keys": "ctrl + shift + d",                    "description": "Toggle Transparence Grid" },
-                { "keys": "ctrl + shift + 7",                    "description": "Create Clip Mask with current objects [When having selected atleast two objects]" }
+                { "keys": "ctrl + shift + b",                    "description": "Toggle bounding box" },
+                { "keys": "ctrl + shift + d",                    "description": "Toggle transparence grid" },
+                { "keys": "ctrl + shift + h",                    "description": "Toggle artboards" },
+                { "keys": "f",                                   "description": "Cycle screen modes" },
+                { "keys": "shift + f",                           "description": "Switch to presentation Mode" },
+                { "keys": "ctrl + alt + 0",                      "description": "Fit artboards to screen" },
+                
+                { "keys": "tab",                                 "description": "Toggle panels" },
+                { "keys": "shift + tab",                         "description": "Toggle panels except tools and controls" },
+                
+                { "keys": "x",                                   "description": "Toggle fill and stroke" },
+                { "keys": "shift + x",                           "description": "Swap fill an stroke" },
+                { "keys": "d",                                   "description": "Reset Colors for current Object" },
+                { "keys": "ctrl + 7",                            "description": "Create clipping mask with current objects [When having selected atleast two objects]" },
+                { "keys": "ctrl + shift + 7",                    "description": "Release clipping mask" }
             ]
         },
         "adobe-after-effects": {
