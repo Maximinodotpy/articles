@@ -370,6 +370,7 @@
                 { "keys": "ctrl + alt + p",                      "description": "Switch to the print layout view" },
                 { "keys": "ctrl + alt + o",                      "description": "Switch to the outline view" },
                 { "keys": "ctrl + alt + n",                      "description": "Switch to the draft view" },
+                { "keys": "ctrl + shift + (",                    "description": "Toggle paragraph markers" },
 
                 { "keys": "tab/alt + shift + left",              "description": "Promote a paragraph [When in outline view]" },
                 { "keys": "shift + tab/alt + shift + right",     "description": "Demote a paragraph [When in outline view]" },
