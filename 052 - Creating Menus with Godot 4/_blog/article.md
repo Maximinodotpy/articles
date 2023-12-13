@@ -2,7 +2,7 @@
 name: Creating Menus with Godot 4
 slug: creating-menus-with-godot-4
 category: Godot Game Engine
-status: draft
+status: publish
 description: Learn how to create menus in Godot 4 using a dictionary structure and a function that will build the menu accordingly.
 ---
 
