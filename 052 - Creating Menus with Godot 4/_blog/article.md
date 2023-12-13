@@ -15,6 +15,8 @@ Let's first go over the structure of the dictionary defining the menu.
 As you see each key is the name of the menu and its value is another dictionary with the configuration for the given menu item. Actually every config key is optional. We could even add a `children` key in order to create a submenu.
 
 ```gdscript
+extends MenuBar
+
 var menuItems = {
 	'File': {
 		'New Scene': {
@@ -79,7 +81,7 @@ Take a look at the full example in the [Showcase](#showcase) section and in the 
 
 The `createSubmenu` function is the heart of this whole program. This function will take in the name and the data for a submenu and create the items accordingly.
 
-We start by creating a new `PopupMenu` node and settings its name, this is important for two reasons. First: Top Level Popup Menus derive their visible name from the node name like tabs do. Second submenus are also identified over their name so we can use this to find the submenu we want to add items to.
+We start by creating a new [`PopupMenu`](https://docs.godotengine.org/en/stable/classes/class_popupmenu.html) node and settings its name, this is important for two reasons. First: Top Level `PopupMenu`s derive their visible name from the node name like [Tabs](https://docs.godotengine.org/en/stable/classes/class_tabbar.html) do. Second submenus are also identified over their name so we can use this to find the submenu we want to add items to.
 
 ```gdscript
 func createSubmenu(submenu_name: String, data: Dictionary) -> PopupMenu:
@@ -191,9 +193,9 @@ func _ready():
 
 ## `createShortcut` helper function
 
-Let's also quickly go over the `createShortcut` helper function which can be used in the the menuItems variable to assign Keyboard Shortcuts to the menu items. Normally we would have to go through several hoops to create a shortcut and this function simplifies that. It take a mandatory key variable and optionally booleans for the `ctrl`, `shift` and `alt` modifiers, by default these are set to false so if we want to assign a single letter as a shortcut we dont have to do as much.
+Let's also quickly go over the `createShortcut` helper function which can be used in the the `menuItems` variable to assign Keyboard Shortcuts to the menu items. Normally we would have to go through several hoops to create a shortcut and this function simplifies that. It take a mandatory key variable and optionally booleans for the `ctrl`, `shift` and `alt` modifiers, by default these are set to false so if we want to assign a single letter as a shortcut we dont have to do as much.
 
-`Shortcuts` consist of a list of `InputEvent`'s
+[`Shortcut`s](https://docs.godotengine.org/en/stable/classes/class_shortcut.html) consist of a list of [`InputEventKey`'s](https://docs.godotengine.org/en/stable/classes/class_inputeventkey.html#class-inputeventkey)
 
 ```gdscript
 func createShortcut(letter: Key, ctrl: bool = false, shift: bool = false, alt: bool = false)-> Shortcut:
@@ -212,3 +214,7 @@ func createShortcut(letter: Key, ctrl: bool = false, shift: bool = false, alt: b
 ```
 
 ## Showcase
+
+![Godot Menu Showcase](https://raw.githubusercontent.com/Maximinodotpy/articles/main/052%20-%20Creating%20Menus%20with%20Godot%204/_blog/godot_menus_showcase.gif)
+
+So thats it! I hope that you now have an Idea on how to create Menus in Godot 4. You can also extend this system to support features that you need.
