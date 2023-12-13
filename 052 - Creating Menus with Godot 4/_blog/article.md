@@ -3,7 +3,7 @@ name: Creating Menus with Godot 4
 slug: creating-menus-with-godot-4
 category: Godot Game Engine
 status: draft
-description: 
+description: Learn how to create menus in Godot 4 using a dictionary structure and a function that will build the menu accordingly.
 ---
 
 In this tutorial I want to teach you how to make menus in Godot 4. I will do this by building a dynamic system where we can add menu items to a structured dictionary and a function will build the menu accordingly. This structured Dictionary will support the following features: Name, Tooltip, Shortcut, Condition, Callback, Children. The menu will be built using the `PopupMenu` node and the `createSubmenu` function will be the heart of this whole program.
