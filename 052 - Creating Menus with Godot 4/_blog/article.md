@@ -70,17 +70,124 @@ Let's go over the different keys and their purpose.
 - `separator`: A boolean that will add a separator after the menu item
 - `check_state`: A boolean that will make the menu item checkable and set its state
 - `icon`: A texture that will be used as the icon for the menu item
+- `icon_max_width`: A number that will be used to set the max width of the icon
 
-<!-- ADD GITHUB LINK -->
-Take a look at the full example in the [Showcase](#showcase) section and in the Github Repository.
+Take a look at the full example in the [Showcase](#showcase) section and in the [Github Repository](https://github.com/Maximinodotpy/articles/blob/main/052%20-%20Creating%20Menus%20with%20Godot%204/MenuBar.gd).
 
 
 ## `createSubmenu` function
 
 The `createSubmenu` function is the heart of this whole program. This function will take in the name and the data for a submenu and create the items accordingly.
 
+We start by creating a new `PopupMenu` node and settings its name, this is important for two reasons. First: Top Level Popup Menus derive their visible name from the node name like tabs do. Second submenus are also identified over their name so we can use this to find the submenu we want to add items to.
 
-<!-- END: Top Level Loop -->
+```gdscript
+func createSubmenu(submenu_name: String, data: Dictionary) -> PopupMenu:
+	var popup_menu = PopupMenu.new()
+	popup_menu.name = submenu_name
+```
+
+Then we continue by looping over the data dictionary and creating the menu items. We need the index variable because most methods of the the popup menu need a number to insert or edit an item.
+
+```gdscript
+	var index = 0
+	for menu_item_name in data:
+		var menu_item_data = data[menu_item_name]
+
+		...
+```
+
+After that we will add the item to the PopupMenu.
+
+```gdscript
+		popup_menu.add_item(menu_item_name, index)
+```
+
+Then we set all the optional things that can be configured for each menu item like the shortcut, tooltip, icon, icon_max_width. As you see there are a bunch of methods to change existing popup menu items and we always need the index.
+
+```gdscript
+		if 'shortcut' in menu_item_data: popup_menu.set_item_shortcut(index, menu_item_data['shortcut'])
+
+		if 'tooltip' in menu_item_data: popup_menu.set_item_tooltip(index, menu_item_data['tooltip'])
+
+		if 'icon' in menu_item_data: popup_menu.set_item_icon(index, menu_item_data['icon'])
+
+		if 'icon_max_width' in menu_item_data:
+			popup_menu.set_item_icon_max_width(index, menu_item_data['icon_max_width'])
+		else:
+			popup_menu.set_item_icon_max_width(index, 30)
+
+		if 'check_state' in menu_item_data:
+			popup_menu.set_item_as_checkable(index, true)
+			popup_menu.set_item_checked(index, menu_item_data['check_state'])
+```
+
+Continuing we add a submenu in case the children property has been set. Here we can use the `createSubmenu` function again to create a submenu recursively.
+
+In order to create and connect submenus to an item we need to know the name of the submenu.
+
+```gdscript
+		if 'children' in menu_item_data:
+			var submenu = createSubmenu(menu_item_name + '_sub-menu', menu_item_data['children'])
+			popup_menu.set_item_submenu(index, submenu.name)
+			popup_menu.add_child(submenu)
+```
+
+Then we connect the callback function to the menu item, we also pass some information that could come in useful like the popup menu the index of the item and the checked state.
+
+```gdscript
+		var index_pressed_callback = func(pressed_index):
+			if pressed_index == index:
+				var isChecked = popup_menu.is_item_checked(index)
+
+				if 'callback' in menu_item_data:
+					menu_item_data['callback'].call({
+						'checked': isChecked,
+						'popup_menu': popup_menu,
+						'index': index
+					})
+
+		popup_menu.index_pressed.connect(index_pressed_callback)
+```
+
+After that we also connect the condition and depends_on functions if they have been set. The condition function will be called once and the depends_on function will connect the condition function to any event.
+
+We run the condition function once to set the initial state of the item.
+
+```gdscript
+		var dependant_callback = func():
+			var isEnabled = menu_item_data['condition'].call()
+			popup_menu.set_item_disabled(index, !isEnabled)
+
+		if 'condition' in menu_item_data:
+			dependant_callback.call()
+
+			if 'depends_on' in menu_item_data:
+				menu_item_data['depends_on'].call(dependant_callback)
+```
+
+Lastyl we add a separator if the `add_separator` key has been set to true.
+
+We will have to increase the index because the separator will be added after the item and also count as an item.
+
+```gdscript
+		if 'add_seperator' in menu_item_data:
+			if menu_item_data['add_seperator']:
+				index += 1
+				popup_menu.add_separator('', index)
+
+		index += 1
+
+	return popup_menu
+```
+
+Also dont forget to loop over each top level item in the ready function to create the menu.
+
+```gdscript
+func _ready():
+	for menu in menuItems:
+		add_child(createSubmenu(menu, menuItems[menu]))
+```
 
 ## `createShortcut` helper function
 
