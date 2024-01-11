@@ -79,6 +79,9 @@
             "name": "Windows",
             "description": "These shortcuts apply to the Windows Operating System. They are mostly not specific to a program. There's also this funny [website for taking screenshots](https://www.take-a-screenshot.org/).",
             "shortcuts": [
+                { "keys": "Windows + nothing",                   "description": "Open the start menu, type anything to search" },
+                { "keys": "ctrl + escape",                       "description": "Open the start menu, if not overwritten by program, type anything to search" },
+
                 { "keys": "shift + F10",                         "description": "Open Context Menu, also works in a lot of programs by windows" },
                 { "keys": "alt + F4",                            "description": "Close Window" },
                 { "keys": "Windows + down",                      "description": "Minimize Window" },
@@ -139,6 +142,9 @@
             "name": "Browser (Microsoft Edge)",
             "description": "These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) to enhance your browsing experience even more.",
             "shortcuts": [
+                { "keys": "ctrl + q",                            "description": "Open the command palette" },
+                { "keys": "ctrl + l",                            "description": "Focus URL Input" },
+
                 { "keys": "ctrl + number",                       "description": "Switch to corresponding tab" },
                 { "keys": "ctrl + tab",                          "description": "Switch to right tab" },
                 { "keys": "ctrl + shift + tab",                  "description": "Switch to left tab" },
@@ -150,8 +156,6 @@
                 { "keys": "F12",                                 "description": "Open Dev Tools" },
                 { "keys": "ctrl + shift + t",                    "description": "Open most recently closed tab or if edge is started freshly open all recent tabs from the last session" },
                 
-                { "keys": "ctrl + l",                            "description": "Focus URL Input" },
-
                 { "keys": "ctrl + u",                            "description": "Show Source Code" },
                 { "keys": "ctrl + shift + 2",                    "description": "Toggle split screen" },
                 { "keys": "ctrl + shift + b",                    "description": "Toggle favorites bar" },

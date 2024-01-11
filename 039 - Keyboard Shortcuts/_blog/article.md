@@ -17,13 +17,13 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 - [General](#general) *(32 Shortcuts)*
 - [File Explorer](#file-explorer) *(24 Shortcuts)*
-- [Windows](#windows) *(48 Shortcuts)*
-- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(43 Shortcuts)*
+- [Windows](#windows) *(50 Shortcuts)*
+- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(44 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(36 Shortcuts)*
 - [Office General](#office-general) *(41 Shortcuts)*
-- [Microsoft Word](#microsoft-word) *(24 Shortcuts)*
+- [Microsoft Word](#microsoft-word) *(25 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(25 Shortcuts)*
 - [Microsoft Outlook](#microsoft-outlook) *(9 Shortcuts)*
@@ -130,6 +130,8 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 
 | Shortcut | Description |
 | --- | --- |
+| `Windows + nothing` | Open the start menu, type anything to search |
+| `ctrl + escape` | Open the start menu, if not overwritten by program, type anything to search |
 | `shift + F10` | Open Context Menu, also works in a lot of programs by windows |
 | `alt + F4` | Close Window |
 | `Windows + down` | Minimize Window |
@@ -190,6 +192,8 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 
 | Shortcut | Description |
 | --- | --- |
+| `ctrl + q` | Open the command palette |
+| `ctrl + l` | Focus URL Input |
 | `ctrl + number` | Switch to corresponding tab |
 | `ctrl + tab` | Switch to right tab |
 | `ctrl + shift + tab` | Switch to left tab |
@@ -200,7 +204,6 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + shift + k` | Duplicate Tab |
 | `F12` | Open Dev Tools |
 | `ctrl + shift + t` | Open most recently closed tab or if edge is started freshly open all recent tabs from the last session |
-| `ctrl + l` | Focus URL Input |
 | `ctrl + u` | Show Source Code |
 | `ctrl + shift + 2` | Toggle split screen |
 | `ctrl + shift + b` | Toggle favorites bar |
@@ -435,6 +438,7 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `ctrl + alt + p` | Switch to the print layout view |
 | `ctrl + alt + o` | Switch to the outline view |
 | `ctrl + alt + n` | Switch to the draft view |
+| `ctrl + shift + (` | Toggle paragraph markers |
 | `tab/alt + shift + left` | Promote a paragraph [When in outline view] |
 | `shift + tab/alt + shift + right` | Demote a paragraph [When in outline view] |
 | `ctrl + shift + n` | Demote a paragraph to body text [When in outline view] |
@@ -682,7 +686,7 @@ These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. 
 | `ctrl + h` | Show document template |
 | `ctrl + alt + n` | Create file without dialogue |
 | `ctrl + alt + p` | Open the document setup dialogue |
-| `ctrl + alt + p` | Open the export for screens dialogue |
+| `ctrl + alt + e` | Open the export for screens dialogue |
 | `ctrl + r` | Toggle rulers |
 | `ctrl + shift + b` | Toggle bounding box |
 | `ctrl + shift + d` | Toggle transparence grid |
@@ -773,11 +777,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 445
+Total Shortcuts: 449
 
-Application with most Shortcuts: Windows (48)
+Application with most Shortcuts: Windows (50)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.19
+Average Shortcuts per Application: 21.38
 
