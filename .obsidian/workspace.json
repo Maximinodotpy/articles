@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "050 - I made a Planet Simulator with Godot/_blog/article.md",
+                "file": "051 - My thoughts on American Prometheus/_blog/article.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "050 - I made a Planet Simulator with Godot/_blog/article.md"
+                "file": "051 - My thoughts on American Prometheus/_blog/article.md"
               }
             }
           },
@@ -111,6 +111,8 @@
   },
   "active": "fdb5464d6ea0e8ab",
   "lastOpenFiles": [
+    "050 - I made a Planet Simulator with Godot/_blog/article.md",
+    "051 - My thoughts on American Prometheus/_blog/article.md",
     "050 - I made a Planet Simulator with Godot/_blog/preview.png",
     "050 - I made a Planet Simulator with Godot/_blog/preview.png.tmp$$",
     "050 - I made a Planet Simulator with Godot/_blog/A9R12uyzu4_1lk6ntq_cag.tmp",
@@ -153,9 +155,7 @@
     "040 - Line Chart with Svelte/_blog/article.md",
     "007 - simple spreadsheet app with vue/_blog/article.md",
     "015 - Tabs with HTML, SASS and JS/_blog/article.md",
-    "Overview.md",
     "045 - My Godot 4 Impressions/_blog/preview.png",
-    "044 - Regular Expressions/_blog/preview.png",
-    "044 - Regular Expressions/_blog/cat.jpeg"
+    "044 - Regular Expressions/_blog/preview.png"
   ]
 }
