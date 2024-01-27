@@ -17,30 +17,24 @@ Oppenheimer is about the American physicist Julius Robert Oppenheimer which lead
 The book is called "American Prometheus" as an allusion to the Greek figure Prometheus which gave fire to man and was then punished by the gods. In Oppenheimers case he was punished by the 1954 trial but he wasn't actually punished for giving the nuclear fire but for fighting against the thermonuclear fire which was pursued during the late 1940s.
 
 In the intro to American Prometheus a quote is given by Oppenheimer where he says to Einstein "Damn it, I happen to love this country" which was changed a little bit in the movie but the spirit is still there.
-
-%%Vlt. macht der Name "American Prometheus" Nicht so viel sinn weil ja Zeus Prometheus bestraft hat dafür dass er denn menschen Feuer gäbe und Oppenheimer bestrafte sich selber dafür dass er der Menschheit Atomfeuer gab.%%
-%%Eine Stelle aus dem Film findet man auf Seite 5 (Prologue): "Damn it, I happen to love this country" #akkurat %%
 ## Coming of age
 
 Let's go over Robert Oppenheimers youth and his time in several universities.
 
 Oppenheimer was born in the year 1904 in New York and was raised there in cultural Jewish household. He then went to the ["_New York Society for Ethical Culture_"](https://en.wikipedia.org/wiki/Ethical_movement). This was a highly progressive school where each student was each encouraged to follow the subject they were the best in. This environment probably created Oppenheimers sense for social justice which would reveal itself in the 1930s.
 
-In his late teenhood Robert also started to sail which he paused until he and his wife Kitty would discover it as the
+In comparison to the ethical culture society harvard was really conservative or maybe it was fitting for the time as they only allowed a limited amount of jewish and black students and they also forced racial segregation. This period is called ["Nadir of American race relations"](https://en.wikipedia.org/wiki/Nadir_of_American_race_relations) which lasted well into the 1940s.
 
-- %%Oppenheimer war nur Kulturell Jude und nicht Spirituell.%%
-- %%Im film Wirkt es so als würden seine Sozialistischen Züge erst im erwachsenen alter kommen aber seine Bildung hat in in dieser weise wahrscheinlich stark beeinflusst.%%
-- Auf der Wikipedia Seite zu Oppenheimer steht dass er in den späten Jahren seines Lebens seine gemeinsame passion zum segeln mit Kitty seiner Frau entdeckte, es wird so geschrieben als ob er erst dann segelte obwohl er schon seit klein auf auf hoher see war.
-- Im Zusammenhang seiner Segelleidenschaft wird zum ersten mal von seiner Arroganz gesprochen.
-- Im Jahr 1921 war Robert in einer Mine in Joachimsthal um Steine zu suchen, später würden die Deutschen hier Uran abbauen für ihr Atomwaffen Projekt unter Heisenberg. #ironie
-- Robert hat sich in den Mittleren Westen bzw. New Mexico verliebt bei einem Ausflug mit seinem Lehrer im Jahr 1921 wo er auch die Schule im Los Alamos Tal besuchte von der er auch schwer beindruckt war weil dort jeder Schüler zu einem Pferd sorgen musste. Im Film redet man nur von einer Indianer Jungen Schule. Ist auch noch ironisch dass er den ort denn er liebte mit einer Bombe zerstörte. #ironie 
-- In den 1920er war Harvard relativ konservativ und erhob eine Limit an Jüdischen Studenten was im vergleich zur Ethical School sehr zurück geblieben war. und dazu haben sie auch die Rassentrennung unterstützt. #ironie 
-- In Cambridge (1925) wurde er sehr unzufrieden und wollte immer lieber Theoretischer Physiker werden. Hier steigt auch der Film ein. #akkurat
-- Die Eltern von Oppenheimer wollte ihn einfach mit einer Frau verkuppeln in seiner depressiven phase.
-- Die Geschichte mit dem Apfel stimmt einfach, er wollte wirklich seinen Lehrer in Cambridge vergiften (S46, I am Having a Pretty Bad ), Julius Oppenheimer sein Vater hat dann die Schule dazu bewegt ihn nicht zu expellen, Im film nimmt er einfach den apfel. #akkurat 
-- in Paris empfiehlt ein Psychoanalyst Oppenheimer endlich mal eine Freundin zu haben damit er nicht so crazy ist.
-- Der Apfel Zwischenfall war noch relativ gross. #akkurat 
-- 1926 hat Cambridge seine Physik Studenten auf eine Reise nach leiden geschickt wo er max born, leiter uni göttingen kennenlernte.
+In his late Teenhood Robert also started to sail which he paused until he and his wife Kitty would discover it as their shared passion long after the the trial during the 1950s and 60s.
+
+In his youth Robert was intrested in geology and on a visit to his german grandfather he collected stones in the mines of [Joachimsthal](https://de.wikipedia.org/wiki/Joachimsthal), where ironically later the uranium for the German weapons project would be mined.
+
+On a voyage with one of his ethical culture teachers to new Mexico Robert fell in love with the American mid-west (New Mexico) and riding. He was also astonished by a school in the Los Alamos Mesa where boys learned to care for a horse. Oppenheimer would later return and occupy this school for the Manhattan Project.
+
+The film starts in the year 1925 when Oppenheimer is at Cambridge and he studies applied physics. He was really depressed at the time and he visited several psychiatrists. His parents even matched him with a women in order to make him happier. Oppenheimer poisoning his professor is also true but in real life Oppenheimers father Julius Oppenheimer had to come over to ensure that his son would not be expelled.
+
+As depicted in the movie Robert took off the Göttingen (Germany) but before that he went to Leiden (Netherlands) where he met [Isidor Rabi](https://de.wikipedia.org/wiki/Isidor_Isaac_Rabi).
+
 - Die deutschen hatten in den 20er hat wenig respekt vor der Amerikanischen.
 - In seiner Zeit im Göttingen hat Oppenheimer die Bitterheit und Unzufriedenheit der Deutschen gespürte, welche retrospekriv unter anderem zum auftstieg der Nazis führte.
 - Im göttingen hat robert mit friedrich george houteman um die gunst von charlotte rieffenstahl gekämpft, ironischerweise würden später beide atomwaffen bauen. Einfach für andere seiten. #ironie 
