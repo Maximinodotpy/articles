@@ -1,5 +1,5 @@
 ---
-name: My thoughts on oppenheimer
+name: My thoughts on Oppenheimer and American Prometheus
 slug: my-thoughts-on-oppenheimer
 tags:
   - Movie
@@ -109,26 +109,22 @@ Nagasaki wasn't the original target, they had to reroute because of bad weather.
 
 ## What have we done
 
+After the war society respected the work of scientist more and somewhat of a [Meritocracy](https://en.wikipedia.org/wiki/Meritocracy) started.
 
+[Hookan Chevalier](https://en.wikipedia.org/wiki/Haakon_Chevalier) became a translator for the [Nuremberg Trials](https://en.wikipedia.org/wiki/Nuremberg_trials).
 
-- Nach dem Krieg zeigt sich jetzt ob man in einer Meritokratie lebt wo die schlauen Wissenschaftler mitsprechen können.
-- Chevalier war Übersetzer bei den Nürnberger Prozessen.
-- Strauss wollte wirklich dass man seinen namen strows ausspricht #akkurat 
-- Oppenheimer hatte wirklich eine affäre mit Ruth Tolman #akkurat das erwähnt rabi wenn lawrence zum hearing kommt.
-- Das ==Institute for Advanced Study== Princeton war sehr neu erst 1930 entstanden und hatte eigentlich nichts mit der Princeton University zu tun. Aber die Verbindung der Beiden Einrichtungen waren relative unklar.
-	- Das liegt auch daran dass die IAS anfangs in der UP behaust war.
-	- Es wird auch fälschlicherweise behauptet das der von Neumann computer in der UP gebaut wurde.
-	- Ein Afroamerikaner namens William S. Claytor wollte an die IAS und wurde von der UP abgewiesen obwohl die IAS ihn genommen hätten.
-	- Die IAS passt auch zu Oppenheimer wenn man seiner Grundschule betrachtet die sehr freiheitlich und offen war. #ironie 
-	- Über seine Stelle als Rektor der IAS lernte er auch TS Eliot kennen der Autor von Wasteland.
-- Der Typ mit dem Einstein herum gegangen ist war Kurt Gödel.
-- Das Strauss der einzige war der gegen einen ==Export von Isotopen== stimmte und Oppenheimer sich dann lustig machte über stimmte auch. #akkurat 
-- Man dachte zuerst 50 Atombomben würden reichen um die Soviet Union lahmzulegen, schraubte diese Zahl aber weiter hoch um mehr bomben bauen zu können.
-- William Borden hat wirklich von seiner V2 Raketen story erzählt einfach nicht in Person sondern geschrieben an oppenheimer. #akkurat 
-- Oppenheimer hat gesagt "lets give it back to the indians" als Referenz auf Los Alamos. Im film erwähnt er auch noch die Jungen schule #akkurat 
-- Aus den enklassifizierten soviet dokuemnten geht hervor dass die Soviets nie vor hatten west europa anzugreifen, auch kein koreakrieg und quch keine Wasserstoff Bombe zu bauen. Manche sehen denn umgang mit den Atomwaffen als verpasste chance (453)
+Oppenheimer really had an ongoing affair with [Ruth Tolman](https://en.wikipedia.org/wiki/Ruth_Sherman_Tolman).
 
+In 1947 Oppenheimer became the director of the [Institute for Advanced Study](https://en.wikipedia.org/wiki/Institute_for_Advanced_Study) (IAS) Princeton which is often mistaken for the University Princeton. The IAS became a haven for intellectuals from all over.
+
+Oppenheimer really embarrassed Strauss after the didn't want to export Isotopes to Norway.
+
+At first it was fought that 50 atom bombs would be sufficient to destroy the USSR but in order to ramp up production this number was many times increased, resulting in an arsenal of 18'000 Nuclear bombs in 1960.
+
+Lewis Strauss really handed William Borden Oppenheimers files.
 ## It's strows
+
+Strauss really pointed out the pronunciation of his last name.
 
 - Strauss gab Borden wirklich die FBI akte von Oppenheimer(475)
 - Eisenhower wäre eigentlich auch auf der Seite von Oppie gewesen aber er hatte auch angst vor McCarthy.
