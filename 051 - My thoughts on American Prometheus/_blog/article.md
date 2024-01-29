@@ -60,8 +60,12 @@ Also the circumstances around Robert and Kittys affair are correct, She also was
 
 [Leo Szilard](https://en.wikipedia.org/wiki/Leo_Szilard) wrote a letter signed by [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) to then President Franklin Roosevelt to warn him about the possibilities of a nuclear weapon, this was one month before the Second World War began in September 1939.
 
+Before the American Weapons Project began Oppenheimer was tasked to assert alongside other notable scientist whether such a bomb would be feasible. This was when the talked about naval explosion in Halifax. This is also the moment Edward Teller points out the possibility  of Atmospheric Ignition and a Thermonuclear Bomb (H-Bomb). After this scary revelation Oppenheimer doubled checked the match not with Einstein but another scientist.
+
+## KLAUS FUCHS
+
 - %%Szilard hat einfach einen Brief an den US Präsidenten geschrieben wo auf die gefahr einer atomwaffe aufmerksam gemacht wrd und dass sogar einen monat vor kriegsbeginn.%%
-- Bevor das projekt los ging hat oppenheimer mit einer kleinen gruppe von leuten die möglichektein zuerst mal abgecheckt, dort haben sie auch dann über die schiffsexplosiion in novia scotia gesprochen anhand von dem daraus resultierenden bericht lief dann dass manhatten projekt an. Hier kam auch teller auf die idee einer Wasserstoffbombe und dass die Bombe die atmosphäre oder sogar die meere entzünden könnte, das ist also gleichzeitig passiert nicht wie im film. #akkurat
+-%% Bevor das projekt los ging hat oppenheimer mit einer kleinen gruppe von leuten die möglichektein zuerst mal abgecheckt, dort haben sie auch dann über die schiffsexplosiion in novia scotia gesprochen anhand von dem daraus resultierenden bericht lief dann dass manhatten projekt an. Hier kam auch teller auf die idee einer Wasserstoffbombe und dass die Bombe die atmosphäre oder sogar die meere entzünden könnte, das ist also gleichzeitig passiert nicht wie im film. #akkurat%%
 - Er war noch nicht der chef aber die Army weigerte sich im eine *Security Clearance* zu geben 1942. #akkurat
 - Das manhatten projekt war intern auch als S-1 projekt kodiert.
 - Leslie Groves wollte nach dem bau des Pentagons nicht in washington/USA bleiben er wollte einen übersee einsatz, dieser blieb ihm aber verwährt. #akkurat
