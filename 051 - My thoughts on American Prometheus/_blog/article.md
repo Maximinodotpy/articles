@@ -11,7 +11,7 @@ The movie Oppenheimer by Christopher Nolan had a profound effect on me and in th
 
 Now I would like to write down my thoughts here, but be aware these are just my notes and It's highly recommended to have seen the movie, to understand what is happening here. Also this will probably be somewhat incoherent.
 
-Oppenheimer is about the American physicist Julius Robert Oppenheimer which lead the nuclear weapons project that brought about the bombs that destroyed Nagasaki and Hiroshima. The movie also covers Oppenheimers past as a fellow Traveler in the San Francisco chapter of the Communist party which later lead the AEC to revoke his Security Clearance in a Trial.
+Oppenheimer is about the American physicist Julius Robert Oppenheimer which lead the nuclear weapons project that brought about the bombs that destroyed Nagasaki and Hiroshima. The movie also covers Oppenheimers past as a fellow Traveler in the San Francisco chapter of the Communist party which later lead the AEC to revoke his Security Clearance in a show trial orchestrated by Lewis Strauss.
 
 ![JROppenheimer-LosAlamos.jpg (524×721) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/0/03/JROppenheimer-LosAlamos.jpg)
 ## Prelude
@@ -25,7 +25,9 @@ Let's go over Robert Oppenheimers youth and his time in several universities.
 
 Oppenheimer was born in the year 1904 in New York and was raised there in cultural Jewish household. He then went to the ["_New York Society for Ethical Culture_"](https://en.wikipedia.org/wiki/Ethical_movement). This was a highly progressive school where each student was each encouraged to follow the subject they were the best in. This environment probably created Oppenheimers sense for social justice which would reveal itself in the 1930s.
 
-In comparison to the ethical culture society harvard was really conservative or maybe it was fitting for the time as they only allowed a limited amount of jewish and black students and they also forced racial segregation. This period is called ["Nadir of American race relations"](https://en.wikipedia.org/wiki/Nadir_of_American_race_relations) which lasted well into the 1940s.
+![1280px-Mulberry_Street_NYC_c1900_LOC_3g04637u_edit.jpg (1280×945) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Mulberry_Street_NYC_c1900_LOC_3g04637u_edit.jpg/1280px-Mulberry_Street_NYC_c1900_LOC_3g04637u_edit.jpg)
+
+In comparison to the ethical culture society Harvard was really conservative or maybe it was fitting for the time as they only allowed a limited amount of Jewish and black students and they also forced racial segregation. This period is called ["Nadir of American race relations"](https://en.wikipedia.org/wiki/Nadir_of_American_race_relations) which lasted well into the 1940s.
 
 In his late Teen Hood Robert also started to sail which he paused until he and his wife [Kitty](https://en.wikipedia.org/wiki/Katherine_Oppenheimer) would discover it as their shared passion long after the the trial during the 1950s and 60s.
 
@@ -33,24 +35,33 @@ In his youth Robert was interested in geology and on a visit to his German grand
 
 On a voyage with one of his ethical culture teachers to new Mexico Robert fell in love with the American mid-west (New Mexico) and riding. He was also astonished by a [school](https://en.wikipedia.org/wiki/Los_Alamos_Ranch_School) in the Los Alamos Mesa where boys learned to care for a horse. Oppenheimer would later return and occupy this school for the Manhattan Project.
 
+![slider-new-2019.jpg (1920×1080) (lawworksllcnm.com)](https://www.lawworksllcnm.com/images/background/slider-new-2019.jpg)
+
 The movie starts in the 1925 when Oppenheimer is at Cambridge and he studies applied physics. He was really depressed at the time and he visited several psychiatrists. His parents even matched him with a women in order to make him happier. Oppenheimer poisoning his professor is also true but in real life Oppenheimers father Julius Oppenheimer had to come over to ensure that his son would not be expelled.
 
 ![800px-Oppenheimer_robert.png (800×1178) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Oppenheimer_robert.png/800px-Oppenheimer_robert.png)
 
-As depicted in the movie Robert took off the Göttingen (Germany) but before that he went to Leiden (Netherlands) where he met [Isidor Rabi](https://de.wikipedia.org/wiki/Isidor_Isaac_Rabi). This is also where he got his nickname "Opje". After World War 1 Germany was hit with enormous inflation which had its peak in 1923. The resulting discontent which later lead to the rise of the Nazis was amplified by Oppenheimer being a rich foreigner that had no problems with money.
+As depicted in the movie Robert took off the Göttingen (Germany) but before that he went to Leiden (Netherlands) where he met [Isidor Rabi](https://de.wikipedia.org/wiki/Isidor_Isaac_Rabi). This is also where he got his nickname "Opje". After World War 1 Germany was hit with enormous inflation which had its peak in 1923. The resulting discontent, which later lead to the rise of the Nazis, was amplified by Oppenheimer being a rich foreigner that had no problems with money.
 
 ![II_Rabi.jpg (280×396) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/b/ba/II_Rabi.jpg)
 
 Oppenheimer then continued onto [ETH Zürich](https://en.wikipedia.org/wiki/ETH_Zurich) (Eidgenössische Technische Hochschule) where he would meet [Wolfgang Pauli](https://en.wikipedia.org/wiki/Wolfgang_Pauli).
+
+![eth-zh.jpg (1920×1282)](https://s3-eu-west-1.amazonaws.com/lbwp-cdn.sdd1.ch/startwerk/files/1483972093/eth-zh.jpg)
 ## Changing interest's
 
 To furnish his [Sangre De Christo](https://en.wikipedia.org/wiki/Sangre_de_Cristo_Mountains) Ranch named "Perro Caliente", which is Spanish for hot dog, he used the [Sears, Roebuck and Co. Catalogue](https://en.wikipedia.org/wiki/Sears). Today this company is know only as "Sears". One could even order whole houses from these Catalogues which is seen in the Video Game Red Dead Redemption 2 where the company is renamed to "Wheeler, Rawson and Co.".
+
+![800px-Sears_-_Aids_That_Every_Woman_Appreciates.jpg (800×1004) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sears_-_Aids_That_Every_Woman_Appreciates.jpg/800px-Sears_-_Aids_That_Every_Woman_Appreciates.jpg)
+(Portable vibrator for 5.95?)
 
 Just like in the Movie Oppenheimer once talked about how he would like to combines his great two passions Physics and the New Mexico Desert.
 
 His applied physics friend [Ernest Lawrence](https://de.wikipedia.org/wiki/Ernest_Lawrence) was an anti New Dealer and he got the Nobel Price in 1939.
 
-Oppenheimers love of Indian mythology began in 1933, he got his famous quote "I am become death, destroyer of world" and the name for the Trinity test from here. His brothers marriage is also correctly portrayed as Robert wasn't to happy with his waitress wife.
+![R.18ff4da21e5c46f2d6f9568fca6b7dd4 (2160×1437) (bing.com)](https://th.bing.com/th/id/R.18ff4da21e5c46f2d6f9568fca6b7dd4?rik=RmvZK9RFU2YO0w&riu=http%3a%2f%2fimageusa.com%2fwp-content%2fuploads%2f2015%2f01%2f0sjBQ.jpg&ehk=i1WWxCxbMmM%2f52rVloRLpFkspzMSQW21PeOFbllGYig%3d&risl=&pid=ImgRaw&r=0)
+
+Oppenheimers love of Indian mythology began in 1933, he got his famous quote "I am become death, destroyer of world" and the name for the Trinity test from here. His brothers marriage is also correctly portrayed as Robert wasn't to happy with his waitress wife Jackie.
 
 Jean really did not want any flowers.
 
@@ -62,6 +73,8 @@ Also the circumstances around Robert and Kittys affair are correct, She also was
 ## Pristine mesa
 
 [Leo Szilard](https://en.wikipedia.org/wiki/Leo_Szilard) wrote a letter signed by [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) to then President Franklin Roosevelt to warn him about the possibilities of a nuclear weapon, this was one month before the Second World War began in September 1939.
+
+![800px-Albert_Einstein_1921_by_F_Schmutzer.jpg (800×1050) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Albert_Einstein_1921_by_F_Schmutzer.jpg/800px-Albert_Einstein_1921_by_F_Schmutzer.jpg)
 
 Before the American Weapons Project began Oppenheimer was tasked to assert alongside other notable scientist whether such a bomb would be feasible. This was when the talked about naval explosion in Halifax. This is also the moment Edward Teller points out the possibility  of Atmospheric Ignition and a Thermonuclear Bomb (H-Bomb). After this scary revelation Oppenheimer doubled checked the match not with Einstein but another scientist.
 
@@ -119,199 +132,29 @@ In 1947 Oppenheimer became the director of the [Institute for Advanced Study](ht
 
 Oppenheimer really embarrassed Strauss after the didn't want to export Isotopes to Norway.
 
+![Lewis_L_Strauss_takes_oath_of_office_as_AEC_chairman_1953.jpg (987×671) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/5/53/Lewis_L_Strauss_takes_oath_of_office_as_AEC_chairman_1953.jpg)
+
 At first it was fought that 50 atom bombs would be sufficient to destroy the USSR but in order to ramp up production this number was many times increased, resulting in an arsenal of 18'000 Nuclear bombs in 1960.
 
-Lewis Strauss really handed William Borden Oppenheimers files.
+[Lewis Strauss](https://en.wikipedia.org/wiki/Lewis_Strauss) really handed [William Borden](https://en.wikipedia.org/wiki/William_L._Borden) Oppenheimers files.
 ## It's strows
 
 Strauss really pointed out the pronunciation of his last name.
 
-- Strauss gab Borden wirklich die FBI akte von Oppenheimer(475)
-- Eisenhower wäre eigentlich auch auf der Seite von Oppie gewesen aber er hatte auch angst vor McCarthy.
-- Garrison hat über zwei dutzend Zeugen reingeholt.
-- Lawrence war wirklich mad auf auf oppie weil er einen affäre mit ruth tollman hatte. Lawrence kam aber nicht in Person weil er krank wurde und daher hat man eine schriftliche Aussage vorgelesen. #akkurat 
-- Die Aussage von Kitty ist umgefähr so passiert einfach nur eine Vorsitzender stellte die Fragen und nicht Roger Robb.
-- Army McCarthy senator hearings.
-- Wo es kurz so aussah als ob die Vorsitzende oppenheimer durch lassen hat strauss hoover angebelt etwas zu machen aber diese sagte plötzlich es wäre höchst unangebracht sich einzumischen. Hoover hat oppenheimer illegal ein jahrzehnt lang überwacht.
-- Das Verdict / Urteil wurde nicht in person gegeben #akkurat 
-- Es war auch im Buch nicht die Rede dass Borden aussgesagt hat. #akkurat 
-- [New York Times edward teller and oppenheimer meeting in white house - Suchen Bilder (bing.com)](https://www.bing.com/images/search?view=detailV2&ccid=UW5Zrn6N&id=863501C9B70A1A47E84C26B5ED7E7AD24A7689EC&thid=OIP.UW5Zrn6N2BO_amZyO45O2QHaJO&mediaurl=https%3a%2f%2fs.hdnux.com%2fphotos%2f10%2f05%2f75%2f2121538%2f6%2f1200x0.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.516e59ae7e8dd813bf6a66723b8e4ed9%3frik%3d7Il2StJ6fu21Jg%26pid%3dImgRaw%26r%3d0&exph=1496&expw=1200&q=New+York+Times+edward+teller+and+oppenheimer+meeting+in+white+house&simid=608047385559964070&FORM=IRPRST&ck=077EF72B1AD607DDCAF5F1889E1FDF48&selectedIndex=0&itb=0&qft=+filterui%3aimagesize-wallpaper&ajaxhist=0&ajaxserp=0)
-- Das Strauss seinen Handelsminister posten wegen dem Oppenheimer Trial verloren hat stimmt auch, wird im buch aber nur in einem Paragraph besprochen (577), Das mit JFK stimmt auch. #akkurat 
-- Oppenheimers Tochter Toni wollte übersetzerin für die UN werden aber dafür brauchte man auch eine Sicherheitsfreigabe und wegen ihrem Vater erhielt sie diese Nicht. im Jahr 1977 hat sie sich in dem Haus welches ihr Vater auf der Insel gebaut hat erhangen.
+President Eisenhower was actually on Oppenheimers side but he was to afraid of senator McCarthy.
 
-## Words
+[Lloyd Garrison](https://en.wikipedia.org/wiki/Lloyd_K._Garrison), Oppenheimers Lawyer during the trials, invited 24 Witnesses.
 
-| Wort | erklärung oder übersetzung |
-| ---- | ---- |
-| primordial | ursprünglich |
-| Proselytismus | Hinwendung zum Judentum |
-| Meritokratie | Herrschafft der Leistenden |
-| wanton | mutwillig |
-| domineering | herrisch |
-| pristine | unberührt |
-| mesa | Tafelberg, Hochebene |
-| myriad | viele, grosse anzahl |
-| pariah | unberührbar, aussenseiter |
-| unctuos | sarkastische nettheit |
-| anachronismus | falsche zeitliche Einordnung |
-| laconically | selten, knapp |
-| ordeal | qual, feuerprobe |
-| hubris | überheblich, arrogant |
-| preeminence | dominanz, vorrang |
-| polymath | universalgelehrter |
-| ministrations | dienst |
-| watershed | Wendepunkt, Wasserscheide |
-| flimsiness | Fadenscheinigkeit, mit schwachstellen |
-| inept | ungeschickt |
-| floundered | gezappelt |
-| diffident | bescheiden, schüchtern |
-| quipped | witzelte |
-| meticulous | sorgfältig, akribisch |
-| dismay | bestürzung |
-| queer | komisch, schwul |
-| on the mend | auf dem weg der besserung |
-| countenance | Blick |
-| epiphany | offenbarung |
-| axiom | grundsatz |
-| dogma | Lehrsatz |
-| mimograph | mimograf |
-| erratic | unberechnbar |
-| caustic | ätzend |
-| S.O.B | Son of a bitch |
-| red herring | ablenkung |
-| wryly | schief |
-| subversives | umstürzler |
-| internement | Internierung (haft) |
-| ordonance | Ordonnanz (Waffen) |
-| notion | Vorstellung |
-| metallurgical | metallurgisch |
-| quaker | Quäker |
-| consensus | Konsens |
-| exhorted | ermahnt |
-| Seethed at this | darüber aufgeregt |
-| exigencies | Anfordurengen |
-| cockeyed | Schieflage |
-| chided | gerügt |
-| alma mater | alte Universität |
-| facilitate | erleichtern |
-| ushered | eingeleitet, eingeführt |
-| Affidavit | Eidesstattliche Erklärung |
-| veto | Einspruch |
-| effrontery | Frechheit |
-| fiefdom | das Lehnsgut |
-| ephemeral | kurzlebig |
-| insomnia | die Schlafstörung |
-| fastidious | anspruchsvoll |
-| solemn | feierlich |
-| soluble | löslich |
-| acquiesced | nachgeben |
-| miasma | die Verunreinigung |
-| volte-face | die Kehrtwende |
-| deterrent | abschreckend |
-| hogwash | der Unsinn |
-| expiation | das Blutgeld |
-| pensive | nachdenklich |
-| scrutiny | genaue untersuchung |
-| hideous | scheuslich |
-| ostensibly | scheinbar |
-| innuendo | versteckte Andeutung/Anspielung |
-| apogee | höhepunkt |
-| snitch | verräter |
-| accede | zustimmen |
-| martyr |  |
-| unfrock | jdmn. eines Amtes entheben |
-| mercurial | lebhaft / Quecksilber |
-| amplified | verstärken |
-| gallant | ritterlich |
-| monolithic | aus einem Guss |
-| extrajudicial | aussergerichtlich |
-| veritable | wahr |
-| kangaroo court | korruptes Gericht |
-| escutcheon | namensschild |
-| frantic | wahnsinnig |
-| exonerated | entlasten |
-| endorse | etw. befürworten |
-| unearth | aufdecken |
-| assert | versichern durchsetzen, behaupten |
-| oculist | der Augenarzt |
-| apex | der Höhepunkt |
-| defect | der Fehler / überlaufen |
+![Lloyd_K_Garrison.jpg (282×353) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/en/8/89/Lloyd_K_Garrison.jpg)
 
-## Leute
+Lawrence actually didn't come to testify because he was sick. Boris Pash didn't come in his stead.
 
-- Ethical Culture Society
-	- John Lovejoy Elliot
-	- Fergusson (Sein bester Freund)
-- Ella Oppenheimer (Mutter)
-- Julius Oppenheimer (Vater)
-- Frank Oppenehimer (Bruder)
-- Max Born (Leiter Universität Göttingen)
-- Werner Heisenberg (Physiker)
-- Isidor Rabi
-- Schrödinger
-- Enrico Fermi
-- Ernest Lawrence
-- James Franck
-- Nils Bohr
-- Wolfgang Pauli
-- Albert Einstein
-- Boris Pash
-- [Kenneth Nichols](https://en.wikipedia.org/wiki/Kenneth_Nichols)
-- Hans Bethe
-- [Dorothy McKibbin](https://en.wikipedia.org/wiki/Dorothy_McKibbin)
-- Hookan Chevalier
-- Edward Teller
-- Robert Serber
-- Charlotte Serber
-- Richard Tolman
-- Ruth Tolman
-- Victor Weisskopf
-- [Lewis Strauss](https://en.wikipedia.org/wiki/Lewis_Strauss)
-- [William Borden](https://en.wikipedia.org/wiki/William_L._Borden)
-- Condon
-- [Whitney Ashbridge](https://ahf.nuclearmuseum.org/ahf/profile/whitney-ashbridge/)
-- Richard Feynman
-- Andrew Walker
-- Rossi Lomanitz
-- Seth Neddermeyer
-- Freeman Dyson
-- Joseph Rotblat
-- Klaus Fuchs
-- Ted Hall
-- [Henry L. Stimson](https://de.wikipedia.org/wiki/Henry_L._Stimson?wprov=sfla1)
-- Truman
-- Roosevelt
-- J Edward Hoover
-- Joseph McCarthy
-- Klaus Fuchs
+The final verdict wasn't given in person.
 
-## Sonstiges
+Strauss really lost his position as minister for trade because of the Oppenheimer witch hunt and JFK voting against him.
 
-- Buchschrift art die serifenlos ist wie bei vielen sachen im zusammenhang mit dem 1 oder 2ten weltkrieg oder wissenschaft.
-- Zug geräusche im Soundtrack der Trinity Bombe, auch im soundtrack los alamos.
-- "Manhattan Projekt" soundtrack hat im Hintergrund Atomwarnsirenen?
-- Stampf Klatschen als Nazi anspielung auch im Soundtrack "Kitty comes to testify"
-- Van de Graff generator? (p208)
-- Oppenheimer und Arthur Morgan connection
-	- Ritten gerne
-	- hatten tuberkulose, halskrebs
-	- mochten den westen
-	- Sears, Roebuck und Co. (Wheeler, Rawson und co.)
-- Manhattan Projekt und Apollo Programm vergleich.
-- Das fucking Buch war einfach 25 jahre lang in der Machung.
-- Nasi Goreng.
-- In einem Video von weekly weird news meinen sie der film wurde für die Sex Szenen kritisiert sie meinen aber das ganze soll zeigen das Oppenheimer "comfortable around women" War, was stimmt aber nicht immer so war.
-	- In Hollywood nimmt man wohl filme ganz anders war.
-- Die Japaner hätten denke ich auch bedingungslos kapituliert bei einer Demonstration der Waffe denke ich zumindest vor allem weil sie zu diesem Zeitpunkt schon kapitulieren wollten.
-- An Robert Oppenheimers Geschichte kann man auch die Geschichte eines Mannes sehen und seiner Beziehung zu frauen. Man erkennt die verschiedenen Phasen die ein Mann in seiner entwicklung durchmacht bei Robert.
-- Irgendwie fühlten sich verschiedene menschen schuldig an der Atombombe
-	- Präsident
-	- Oppie
-	- Wissenschafftler
-	- Piloten
-- Nagasaki war nicht das ursprüngliche ziel.
-	- Es durfte laut Oppie keine Wolken haben.
-- Project Lexington: Nuklear betriebene Flugzeuge.
-- Das tram fuhr ernsthaft weiter in Hiroshima: [upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Physical_damage%2C_blast_effect%2C_Hiroshima%2C_1946-03-13_~_1946-04-08%2C_342-USAF-11071.ogv/Physical_damage%2C_blast_effect%2C_Hiroshima%2C_1946-03-13_~_1946-04-08%2C_342-USAF-11071.ogv.360p.webm](https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Physical_damage%2C_blast_effect%2C_Hiroshima%2C_1946-03-13_~_1946-04-08%2C_342-USAF-11071.ogv/Physical_damage%2C_blast_effect%2C_Hiroshima%2C_1946-03-13_~_1946-04-08%2C_342-USAF-11071.ogv.360p.webm)
-- Viele leute die mit oppenheimer zu tun hatten sind recht heftig aufgewachsen es wird selten von menschen aus armen oder mittelständischen verhältnissen gesprochen, ausser bei seinem Vater, der einzige der wahrscheinlich den amerikanischen traum erlebt hat.
-- Damals 1954 kannte man bereits das wort Snitch
+Oppenheimer was given the Fermi award by Lyndon B. Johnson instead of Kennedy.
+
+![lossy-page1-800px-Robert_Oppenheimer_1964_Com_L13-0299-0001-0031.tif.jpg (800×1130) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Robert_Oppenheimer_1964_Com_L13-0299-0001-0031.tif/lossy-page1-800px-Robert_Oppenheimer_1964_Com_L13-0299-0001-0031.tif.jpg)
+
+I think you get it ... this movie is amazing.
