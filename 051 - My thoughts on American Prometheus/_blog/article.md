@@ -4,7 +4,7 @@ slug: my-thoughts-on-oppenheimer
 tags:
   - Movie
 category: General
-status: draft
+status: publish
 description: A long article where I compile my thought and conclusions drawn from the move Oppenheimer and the book American Prometheus
 ---
 The movie Oppenheimer by Christopher Nolan had a profound effect on me and in the last half year I though a lot about it and I even read the "American Prometheus" the Book the movie is based on. While reading the book and rewatching the movie several times I wrote down many things that stood out to me, that I found interesting and other things.
