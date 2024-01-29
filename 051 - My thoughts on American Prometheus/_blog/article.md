@@ -6,15 +6,16 @@ category:
 status: draft
 description:
 ---
-The movie Oppenheimer by Christopher nolan had a profound effect on me and in the last half year I though a lot about it and I even read the "American Prometheus" the Book the movie is based on. While reading the book and rewatching the movie several times I wrote down many things that stood out to me, that I found interesting and other things.
+The movie Oppenheimer by Christopher Nolan had a profound effect on me and in the last half year I though a lot about it and I even read the "American Prometheus" the Book the movie is based on. While reading the book and rewatching the movie several times I wrote down many things that stood out to me, that I found interesting and other things.
 
-Now I would like to write down my thought here, but be aware these are just my notes and It's highly recommended to have seen the movie, to understand what is happening here.
+Now I would like to write down my thoughts here, but be aware these are just my notes and It's highly recommended to have seen the movie, to understand what is happening here. Also this will probably be somewhat incoherent.
 
 Oppenheimer is about the American physicist Julius Robert Oppenheimer which lead the nuclear weapons project that brought about the bombs that destroyed Nagasaki and Hiroshima. The movie also covers Oppenheimers past as a fellow Traveler in the San Francisco chapter of the Communist party which later lead the AEC to revoke his Security Clearance in a Trial.
 
+![JROppenheimer-LosAlamos.jpg (524×721) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/0/03/JROppenheimer-LosAlamos.jpg)
 ## Prelude
 
-The book is called "American Prometheus" as an allusion to the Greek figure Prometheus which gave fire to man and was then punished by the gods. In Oppenheimers case he was punished by the 1954 trial but he wasn't actually punished for giving the nuclear fire but for fighting against the thermonuclear fire which was pursued during the late 1940s.
+The book is called "American Prometheus" as an allusion to the [Greek figure Prometheus](https://en.wikipedia.org/wiki/Prometheus) which gave fire to man and was then punished by the gods. In Oppenheimers case he was punished by the 1954 trial but he wasn't actually punished for giving the nuclear fire but for fighting against the thermonuclear fire which was pursued during the late 1940s. Prometheus also being someone who can see the future just like Oppenheimer and his Collogues which foresaw the Cold War and Arms Race with the USSR.
 
 In the intro to American Prometheus a quote is given by Oppenheimer where he says to Einstein "Damn it, I happen to love this country" which was changed a little bit in the movie but the spirit is still there.
 ## Coming of age
@@ -25,48 +26,41 @@ Oppenheimer was born in the year 1904 in New York and was raised there in cultur
 
 In comparison to the ethical culture society harvard was really conservative or maybe it was fitting for the time as they only allowed a limited amount of jewish and black students and they also forced racial segregation. This period is called ["Nadir of American race relations"](https://en.wikipedia.org/wiki/Nadir_of_American_race_relations) which lasted well into the 1940s.
 
-In his late Teenhood Robert also started to sail which he paused until he and his wife Kitty would discover it as their shared passion long after the the trial during the 1950s and 60s.
+In his late Teen Hood Robert also started to sail which he paused until he and his wife [Kitty](https://en.wikipedia.org/wiki/Katherine_Oppenheimer) would discover it as their shared passion long after the the trial during the 1950s and 60s.
 
-In his youth Robert was intrested in geology and on a visit to his german grandfather he collected stones in the mines of [Joachimsthal](https://de.wikipedia.org/wiki/Joachimsthal), where ironically later the uranium for the German weapons project would be mined.
+In his youth Robert was interested in geology and on a visit to his German grandfather he collected stones in the mines of [Joachimsthal](https://de.wikipedia.org/wiki/Joachimsthal), where ironically later the uranium for the German weapons project would be mined.
 
-On a voyage with one of his ethical culture teachers to new Mexico Robert fell in love with the American mid-west (New Mexico) and riding. He was also astonished by a school in the Los Alamos Mesa where boys learned to care for a horse. Oppenheimer would later return and occupy this school for the Manhattan Project.
+On a voyage with one of his ethical culture teachers to new Mexico Robert fell in love with the American mid-west (New Mexico) and riding. He was also astonished by a [school](https://en.wikipedia.org/wiki/Los_Alamos_Ranch_School) in the Los Alamos Mesa where boys learned to care for a horse. Oppenheimer would later return and occupy this school for the Manhattan Project.
 
-The film starts in the year 1925 when Oppenheimer is at Cambridge and he studies applied physics. He was really depressed at the time and he visited several psychiatrists. His parents even matched him with a women in order to make him happier. Oppenheimer poisoning his professor is also true but in real life Oppenheimers father Julius Oppenheimer had to come over to ensure that his son would not be expelled.
+The movie starts in the 1925 when Oppenheimer is at Cambridge and he studies applied physics. He was really depressed at the time and he visited several psychiatrists. His parents even matched him with a women in order to make him happier. Oppenheimer poisoning his professor is also true but in real life Oppenheimers father Julius Oppenheimer had to come over to ensure that his son would not be expelled.
 
-As depicted in the movie Robert took off the Göttingen (Germany) but before that he went to Leiden (Netherlands) where he met [Isidor Rabi](https://de.wikipedia.org/wiki/Isidor_Isaac_Rabi).
+![800px-Oppenheimer_robert.png (800×1178) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Oppenheimer_robert.png/800px-Oppenheimer_robert.png)
 
-- Die deutschen hatten in den 20er hat wenig respekt vor der Amerikanischen.
-- In seiner Zeit im Göttingen hat Oppenheimer die Bitterheit und Unzufriedenheit der Deutschen gespürte, welche retrospekriv unter anderem zum auftstieg der Nazis führte.
-- Im göttingen hat robert mit friedrich george houteman um die gunst von charlotte rieffenstahl gekämpft, ironischerweise würden später beide atomwaffen bauen. Einfach für andere seiten. #ironie 
-- Bohr und Oppenheimer waren ziemlich gute freunde, anders als dargestellt im Film.
-- Man vergisst immer das die Wissenschaftler vom Manhatten Projekt die ganze zeit dachten dass man die Bomben gegen deutschland einsetzen wird.
-- Robert und sein Bruder Frank hatten einfach einen heftigen autounfall auf dem weg nach Pasadena. Oppenheimrr erschien trotz gebrochenem arm in Caltech.
-- Er nahm gleichzeitig eine Stelle in Caltec und Berkley an, nicht wie im film nur berkley.
-- Den spitznamen Oppie (Opje) erhielt er von seiner Niederländischen Mitschülern in seiner Zeit in Leiden (1928) #akkurat 
-- Nach Leiden ging oppenheimer nach Zürich. Dazwischen ging er aber noch an einen Vortrag von Heisenberg. Im film sieht es so aus als wäre ihre erste bekanntmachung hier angesiedelt was im echten leben nicht so war.
+As depicted in the movie Robert took off the Göttingen (Germany) but before that he went to Leiden (Netherlands) where he met [Isidor Rabi](https://de.wikipedia.org/wiki/Isidor_Isaac_Rabi). This is also where he got his nickname "Opje". After World War 1 Germany was hit with enormous inflation which had its peak in 1923. The resulting discontent which later lead to the rise of the Nazis was amplified by Oppenheimer being a rich foreigner that had no problems with money.
 
+Oppenheimer then continued onto [ETH Zürich](https://en.wikipedia.org/wiki/ETH_Zurich) (Eidgenössische Technische Hochschule) where he would meet [Wolfgang Pauli](https://en.wikipedia.org/wiki/Wolfgang_Pauli).
 ## Changing interest's
 
-- Sears, Robuck Kataloge wie die dinger in RDR 2 namens Wheeler und Rawson.
-- Perro Caliente farm bei den Sangre de Christo bergen in NM.
-- Bei einem Ausritt 1931 spricht Oppenheimer davon dass seine zwei grossen passionen Physik und New Mexico sind, diese lassen sich aber leider nicht verbinden. #akkurat 
-- Ernest Lawrence, Roberts Experimenteller Physik Freund war gegen den New Deal und bekam bereits 1939 den Nobel Preis.
-- ETH subreddit sind sie einfach ausgerastet weil die Zürcher Uni dargestellt wurde obwohl er dort nie studiert hatte.
-- als Oppies mutter 1931 starb meinte er seine Mutter liebte ihn, vlt liebte sie ihn zu stark (p98).
-- Oppenheimers liebe zu indischer Mythologie began im Jahr 1933
-- Oppies Unions Gründung im film ist wahrscheinlich durch die ganzen Streiks im Jahr 1934 inspiriert. #akkurat 
-- Im film lernt Oppie Jean Tatlock bei einer KP Party kennen aber im echten leben haben sie sich vorher kennemgelernt und Jean hat in ihm erst das Interesse für Kommunismus geweckt. #akkurat
-- Die Hochzeit von seinem Bruder frank und Jackie wird lustigerweise im film korrekt dargestellt also oppie unterstützte es nicht. #akkurat
-- Frank war auch bei den Kommunisten und als er seine jacke zur wäscherei schickte hat jemand seine Mitglieder karte darin gefunden und in einem umschlag zurück gesendet.
-- Die szene dass Jean keine blume will stimmt auch. #akkurat
-- Katherine "Kitty" Harrison war einfach deutsche, was eine weitere ironische komponente oppenheimers lebens darstellt #ironie 
-- Richard harrison der vierte man von kitty war eine dead end marriage, Die affäre ging aber sehr zivil über die bühne  und in die öffentlichkeit, als sie schwanger wurde haben sie sich geschieden damit robert sie heiraten kann.
-- Kitty und Robert haben sich einfach in Virginia City (eine ziemliche Wild West) geheiratet.
-- Ihr neues auto ein cadilac nannten sie "Bombsight" nach ihrer heirat. #ironie 
+To furnish his [Sangre De Christo](https://en.wikipedia.org/wiki/Sangre_de_Cristo_Mountains) Ranch named "Perro Caliente", which is Spanish for hot dog, he used the [Sears, Roebuck and Co. Catalogue](https://en.wikipedia.org/wiki/Sears). Today this company is know only as "Sears". One could even order whole houses from these Catalogues which is seen in the Video Game Red Dead Redemption 2 where the company is renamed to "Wheeler, Rawson and Co.".
+
+Just like in the Movie Oppenheimer once talked about how he would like to combines his great two passions Physics and the New Mexico Desert.
+
+His applied physics friend [Ernest Lawrence](https://de.wikipedia.org/wiki/Ernest_Lawrence) was an anti New Dealer and he got the Nobel Price in 1939.
+
+Oppenheimers love of Indian mythology began in 1933, he got his famous quote "I am become death, destroyer of world" and the name for the Trinity test from here. His brothers marriage is also correctly portrayed as Robert wasn't to happy with his waitress wife.
+
+Jean really did not want any flowers.
+
+![800px-Portrait_of_Jean_Tatlock_in_her_20s.jpg (800×1032) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Portrait_of_Jean_Tatlock_in_her_20s.jpg/800px-Portrait_of_Jean_Tatlock_in_her_20s.jpg)
+
+
+Also the circumstances around Robert and Kittys affair are correct, She also was of German descendance which is a further ironic component of Oppenheimers life. They would later Marry in the [Virginia City](https://en.wikipedia.org/wiki/Virginia_City,_Nevada) and they would call their first car ironically "bombsight".
 
 ## Pristine mesa
 
-- Szilard hat einfach einen Brief an den US Präsidenten geschrieben wo auf die gefahr einer atomwaffe aufmerksam gemacht wrd und dass sogar einen monat vor kriegsbeginn.
+[Leo Szilard](https://en.wikipedia.org/wiki/Leo_Szilard) wrote a letter signed by [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) to then President Franklin Roosevelt to warn him about the possibilities of a nuclear weapon this was one month before the Second World War began in September .939
+
+- %%Szilard hat einfach einen Brief an den US Präsidenten geschrieben wo auf die gefahr einer atomwaffe aufmerksam gemacht wrd und dass sogar einen monat vor kriegsbeginn.%%
 - Bevor das projekt los ging hat oppenheimer mit einer kleinen gruppe von leuten die möglichektein zuerst mal abgecheckt, dort haben sie auch dann über die schiffsexplosiion in novia scotia gesprochen anhand von dem daraus resultierenden bericht lief dann dass manhatten projekt an. Hier kam auch teller auf die idee einer Wasserstoffbombe und dass die Bombe die atmosphäre oder sogar die meere entzünden könnte, das ist also gleichzeitig passiert nicht wie im film. #akkurat
 - Er war noch nicht der chef aber die Army weigerte sich im eine *Security Clearance* zu geben 1942. #akkurat
 - Das manhatten projekt war intern auch als S-1 projekt kodiert.
