@@ -1,10 +1,11 @@
 ---
-name: 
-slug: 
-tags: 
-category: 
+name: My thoughts on oppenheimer
+slug: my-thoughts-on-oppenheimer
+tags:
+  - Movie
+category: General
 status: draft
-description:
+description: A long article where I compile my thought and conclusions drawn from the move Oppenheimer and the book American Prometheus
 ---
 The movie Oppenheimer by Christopher Nolan had a profound effect on me and in the last half year I though a lot about it and I even read the "American Prometheus" the Book the movie is based on. While reading the book and rewatching the movie several times I wrote down many things that stood out to me, that I found interesting and other things.
 
@@ -38,6 +39,8 @@ The movie starts in the 1925 when Oppenheimer is at Cambridge and he studies app
 
 As depicted in the movie Robert took off the Göttingen (Germany) but before that he went to Leiden (Netherlands) where he met [Isidor Rabi](https://de.wikipedia.org/wiki/Isidor_Isaac_Rabi). This is also where he got his nickname "Opje". After World War 1 Germany was hit with enormous inflation which had its peak in 1923. The resulting discontent which later lead to the rise of the Nazis was amplified by Oppenheimer being a rich foreigner that had no problems with money.
 
+![II_Rabi.jpg (280×396) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/b/ba/II_Rabi.jpg)
+
 Oppenheimer then continued onto [ETH Zürich](https://en.wikipedia.org/wiki/ETH_Zurich) (Eidgenössische Technische Hochschule) where he would meet [Wolfgang Pauli](https://en.wikipedia.org/wiki/Wolfgang_Pauli).
 ## Changing interest's
 
@@ -62,39 +65,51 @@ Also the circumstances around Robert and Kittys affair are correct, She also was
 
 Before the American Weapons Project began Oppenheimer was tasked to assert alongside other notable scientist whether such a bomb would be feasible. This was when the talked about naval explosion in Halifax. This is also the moment Edward Teller points out the possibility  of Atmospheric Ignition and a Thermonuclear Bomb (H-Bomb). After this scary revelation Oppenheimer doubled checked the match not with Einstein but another scientist.
 
-## KLAUS FUCHS
+At first the Manhattan Project was coded S-1 and they fought it would cost around 100 Million Dollars but it ended up costing about 2 Billion. Leslie Groves was the designated the Military Leader of the Operation because he built the Pentagon.
 
-- %%Szilard hat einfach einen Brief an den US Präsidenten geschrieben wo auf die gefahr einer atomwaffe aufmerksam gemacht wrd und dass sogar einen monat vor kriegsbeginn.%%
--%% Bevor das projekt los ging hat oppenheimer mit einer kleinen gruppe von leuten die möglichektein zuerst mal abgecheckt, dort haben sie auch dann über die schiffsexplosiion in novia scotia gesprochen anhand von dem daraus resultierenden bericht lief dann dass manhatten projekt an. Hier kam auch teller auf die idee einer Wasserstoffbombe und dass die Bombe die atmosphäre oder sogar die meere entzünden könnte, das ist also gleichzeitig passiert nicht wie im film. #akkurat%%
-- Er war noch nicht der chef aber die Army weigerte sich im eine *Security Clearance* zu geben 1942. #akkurat
-- Das manhatten projekt war intern auch als S-1 projekt kodiert.
-- Leslie Groves wollte nach dem bau des Pentagons nicht in washington/USA bleiben er wollte einen übersee einsatz, dieser blieb ihm aber verwährt. #akkurat
-- Am anfang ging man davon aus dass das S-1 projekt 100 Millionen dollar kosten würde schlussendlich aber 2 milliarden.
-- Die Geschichte mit Colonel Nicholson der die Jacke von groves nehmen musste stimmte. #akkurat
-- Das Oppenheimer Martinis macht während dem Chevalier Zwischenfall stimmt auch. #akkurat
-- Das echte Los Alamos war recht viel grösser als im film dargestellt (210) #akkurat
-- Rabi war schon sehr früh gegen den bau (212)
-- Oppenheimer hörte oft auf den rat von Rabi (212)
-- New Mexico war ein guter ort um tuberkulose  zu heilen (213)
-- Sie haben den codenamen "Gadget" verwendet weil sie wollten dass ein Elektriker und Handwerker im raum oben nicht das wort "bombe" hört. (219)
-- als sie erfahren haben dass Werner Heisenberg eine präsentation in der Schweiz halten wird hatte sie kurz überlegt ob man ihn kidnappen oder ermordern könnte. (222)
-- Es wird nicht so detailliert auf die Rekrutierung der Wissenschafftler eingegangen im Buch. #akkurat
-- Der Militär dude Whitney Ashbridge war einfach in der schule in Los Alamos (228) #ironie
-- Boris pash war an den Zigarren assassination's versuchen an Fidel Castro beteiligt.
-- Nils Bohr (273) war der meinung dass die atomwaffe eine offene technologie sein sollte.
-- Ein Science Fiction Author namand John Wood Campbell hat gecheckt das was los ist weil viele adressen nach NM geändert wurden. https://www.reddit.com/r/HistoryMemes/s/eOiqnHdrM1 und https://de.wikipedia.org/wiki/John_W._Campbell?wprov=sfla1
-- Viktor Weisskopf späterer Leiter des CERN's
-- Das britische Bombenprogramm hiess tube alloys 
-- Opp. gab teller wirklich wöchentlich eine stunde für die H-Bombe (283) #akkurat
-- Beim test lag Oppenheimer auch auf dem boden draussen bei der nahen messstation
-- Oppenheimer hat sich nicht mit einstein getroffen um mit ihm die atmosphärische entzündung zu besprechen. https://www.businessinsider.com/einstein-oppenheimer-relationship-disagreements-not-friends-2023-7?r=US&IR=T.
-- Nur einer der beiden waffentypen wurde getester. (Gun Type und Implosion Type(Trinity)) #akkurat
-- Oppenheimer war nicht an der Ortsauswahl beteiligt. #akkurat
-- Japan war eigentlich bereits zu kapitulieren einfach unter der bedingingung das ihr kaiser bleiben darf.
-- Oppenheimers stampf rede stimmt. #akkurat 
-- Henry Stimson war in beiden Weltkriegen kriegsminister der USA.
+Klaus Fuchs' allegiance's with the Soviet Union are foreshadowed in the Movie by two occasions in the movie where someone says "Fuchs head down" when they are testing the Dynamite Lenses of the Implosion Bomb.
+
+During the Chevalier Affair Oppenheimer really made his famous martinis.
+
+The real Los Alamos was way bigger than portrayed in the Movie. It housed about 3000 Scientist and 2000 Soldiers.
+
+The gave the Bomb the nickname / code name "The Gadget" because they didn't want to talk about a nuclear bomb while handy man were doing work in the floor above them.
+
+![1280px-The_gadget_in_the_Trinity_Test_Site_tower_(1945).jpg (1280×965) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/The_gadget_in_the_Trinity_Test_Site_tower_%281945%29.jpg/1280px-The_gadget_in_the_Trinity_Test_Site_tower_%281945%29.jpg)
+
+Isidor Rabi was a good friend of Oppenheimer which listened often to his advise, Rabi was against the atom bomb.
+
+During this time Oppenheimer suffered from tuberculosis. Doctors recommend people with tuberculosis to go to Dry places.
+
+The military leader assigned to Los Alamos [Whitney Ashbridge](https://ahf.nuclearmuseum.org/ahf/profile/whitney-ashbridge/) ironically went to the Boys School.
+
+[Boris Pash](https://de.wikipedia.org/wiki/Boris_Pash), the man tasked with surveilling Oppenheimer was later assigned to poisoning Fide Castro with Cigars.
+
+![Boris_Pash.jpg (217×287) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/0/04/Boris_Pash.jpg)
+
+A science fiction author called [John Wood Campbell](https://en.wikipedia.org/wiki/John_W._Campbell) noticed that something must be going on in Santa Fe New Mexico when a lot of his subscribers moved their adress to the same PO. Box there.
+
+[Victor Weisskopf](https://en.wikipedia.org/wiki/Victor_Weisskopf) later became the director of the CERN.
+
+Oppenheimer really met up with Teller one hour a week to discuss the H-Bomb.
+
+During the trinity test Oppenheimer wasn't standing in a bunker and looking at the explosion, he was also laying on the ground and lookin at it through welders glasses. This change is understandable. Only one of the weapon types was tested the implosion type with plutonium.
+
+![TrinityFireballGif.gif (312×175) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/f/f4/TrinityFireballGif.gif)
+
+Japan was willing to surrender even before the use of the bombs under the condition that their emperor wouldn't be executed. The US didn't accept this before the bombs but after.
+
+![1024px-AtomicEffects-Hiroshima.jpg (1024×1024) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/AtomicEffects-Hiroshima.jpg/1024px-AtomicEffects-Hiroshima.jpg)
+
+Nagasaki wasn't the original target, they had to reroute because of bad weather. The original Cities name "Kokura" is in japan today a phrase meaning luck.
+
+![800px-Atomic_bomb_1945_mission_map.svg.png (800×1053) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Atomic_bomb_1945_mission_map.svg/800px-Atomic_bomb_1945_mission_map.svg.png)
+
+[Henry Stimson](https://en.wikipedia.org/wiki/Henry_L._Stimson) was Minister of War during both World Wars.
 
 ## What have we done
+
+
 
 - Nach dem Krieg zeigt sich jetzt ob man in einer Meritokratie lebt wo die schlauen Wissenschaftler mitsprechen können.
 - Chevalier war Übersetzer bei den Nürnberger Prozessen.
@@ -273,8 +288,6 @@ Before the American Weapons Project began Oppenheimer was tasked to assert along
 - J Edward Hoover
 - Joseph McCarthy
 - Klaus Fuchs
-
-
 
 ## Sonstiges
 
