@@ -108,7 +108,7 @@ A science fiction author called [John Wood Campbell](https://en.wikipedia.org/wi
 
 Oppenheimer really met up with Teller one hour a week to discuss the H-Bomb.
 
-During the trinity test Oppenheimer wasn't standing in a bunker and looking at the explosion, he was also laying on the ground and lookin at it through welders glasses. This change is understandable. Only one of the weapon types was tested the implosion type with plutonium, as they did not have enough uranium and they were sure that the gun type design would work.
+During the trinity test Oppenheimer wasn't standing in a bunker and looking at the explosion, he was also laying on the ground and lookin at it through welders glasses. This change is understandable. Only one of the weapon types was tested the implosion type with plutonium, as they did not have enough uranium and they were sure that the [gun type design](https://en.wikipedia.org/wiki/Gun-type_fission_weapon) would work.
 
 ![TrinityFireballGif.gif (312×175) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/f/f4/TrinityFireballGif.gif)
 
