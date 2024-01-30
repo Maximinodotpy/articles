@@ -17,11 +17,11 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 - [General](#general) *(32 Shortcuts)*
 - [File Explorer](#file-explorer) *(24 Shortcuts)*
-- [Windows](#windows) *(50 Shortcuts)*
-- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(44 Shortcuts)*
+- [Windows](#windows) *(53 Shortcuts)*
+- [Browser (Microsoft Edge)](#browser-microsoft-edge) *(45 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
-- [Visual Studio Code](#visual-studio-code) *(36 Shortcuts)*
+- [Visual Studio Code](#visual-studio-code) *(38 Shortcuts)*
 - [Office General](#office-general) *(41 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(25 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
@@ -132,6 +132,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | --- | --- |
 | `Windows + nothing` | Open the start menu, type anything to search |
 | `ctrl + escape` | Open the start menu, if not overwritten by program, type anything to search |
+| `alt + space` | Open the search bar (Windows 10 only) |
 | `shift + F10` | Open Context Menu, also works in a lot of programs by windows |
 | `alt + F4` | Close Window |
 | `Windows + down` | Minimize Window |
@@ -144,20 +145,22 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + l` | Lock Windows |
 | `Windows + shift + s` | Start Snipping Tool |
 | `Windows + d` | Show Desktop |
-| `Windows + a` | Open Notification Center |
+| `Windows + a` | Open action Center |
 | `Windows + x` | Open the Quick Link Menu |
 | `Windows + m` | Minimize all windows, second strokes restores other windows |
+| `Windows + p` | Open projections settings |
 | `Windows + shift + m` | Restore all minimized windows |
 | `Windows + home` | Minimize all windows but the active one |
 | `Windows + pause` | Show computer infos |
-| `Windows + b` | Focus hidden icons panel in Taskbar |
+| `Windows + b` | Focus hidden icons panel in taskbar |
+| `Windows + alt + number` | Open jump list in the given app in taskbar |
 | `ctrl + Windows + c` | Toggle color filters [When enabled in color blindnes settings] |
 | `Windows + h` | Start voice typing |
 | `Windows + k` | Open Cast Settings |
 | `ctrl + Windows + q` | Open Quick Assist |
 | `Windows + r` | Open the Run dialog box |
 | `Windows + s` | Open Windows Search, can be omitted by pressing window and then typing |
-| `Windows + t` | Cycle through apps on the Taskbar |
+| `Windows + t` | Cycle through apps on the taskbar |
 | `Windows + u` | Open Accessibility Settings |
 | `Windows + shift + v` | Set focus to a notification |
 | `Windows + .` | Open Emoji Panel |
@@ -168,10 +171,10 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + shift + up` | Stretch current window to full height |
 | `ctrl + Windows + n` | Turn on Windows Narrator |
 | `Windows + +` | Open magnifier and zoom in |
-| `Windows + -` | Zoom ou in the magnifier app |
+| `Windows + -` | Zoomm out in the magnifier app |
 | `Windows + escape` | Close magnifier app |
 | `shift + click` | Open another instance of this app [When clicking on an app in the taskbar] |
-| `Windows + tab` | Show Virtual Desktops |
+| `Windows + tab` | Open task view |
 | `ctrl + Windows + left/right` | Switch between Virtual Desktops |
 | `ctrl + Windows + d` | Create new Virtual Desktop |
 | `ctrl + Windows + F4` | Close current Virtual Desktop |
@@ -209,6 +212,7 @@ These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension]
 | `ctrl + shift + b` | Toggle favorites bar |
 | `ctrl + d` | Save the current tab as a favorite |
 | `ctrl + shift + d` | Save all open tabs as favorites in a new folder |
+| `alt + shift + b` | Focus on the first item in the favorites bar |
 | `ctrl + shift + e` | Open search in sidebar |
 | `alt + e` | Open Settings and more panel |
 | `ctrl + h` | Open History |
@@ -329,32 +333,34 @@ These shortcuts are for the Godot Engine (Version 3.x and 4.x).
 | `ctrl + d` | Select next occurence of the current word |
 | `ctrl + k ctrl + d` | Select next but one occurence of the current word |
 | `F12` | Jump to definition |
-| `ctrl + shift + '` | Fold Current Level |
-| `ctrl + shift + ^` | Unfold Current Level |
-| `alt + shift + f` | Format all Code |
+| `ctrl + shift + '` | Fold current level |
+| `ctrl + shift + ^` | Unfold current level |
+| `alt + shift + f` | Format all code |
 | `alt + shift + a` | Block comment |
-| `ctrl + shift + enter` | Insert Empty Line |
-| `alt + shift + up/down` | Duplicate Line up/down |
+| `ctrl + shift + enter` | Insert empty line |
+| `alt + shift + up/down` | Duplicate line up/down |
 | `alt + up/down` | Move this line up/down |
 | `alt + number` | Switch to open editor within group |
-| `ctrl + number` | Switch to or Create corresponding Editor Group |
-| `ctrl + F4` | Close Editor Group |
-| `ctrl + j` | Toggle Bottom Panel |
-| `ctrl + b` | Toggle Primary Side Panel |
-| `ctrl + shift + p` | Open Command Palette |
-| `ctrl + shift + e` | Open Integrated Explorer |
-| `alt + shift + r` | Open File in OS Explorer [When in Integrated Explorer] |
-| `ctrl + shift + x` | Open Extensions |
-| `ctrl + pagedown` | Switch to right File in Group |
-| `ctrl + pageup` | Switch to left File in Group |
-| `ctrl + shift + 5` | Split Current Terminal [When in Terminal] |
-| `ctrl + k z` | Toggle Zen Mode |
-| `ctrl + shift + c` | Open New External Terminal |
-| `ctrl + ,` | Open Settings |
-| `ctrl + space` | Show Context Snippets |
-| `ctrl + shift + space` | Show Function Parameters |
-| `ctrl + k m` | Choose Language Mode |
-| `ctrl + .` | View Code Actions |
+| `ctrl + number` | Switch to or Create corresponding Editor group |
+| `ctrl + F4` | Close editor group |
+| `ctrl + j` | Toggle bottom panel |
+| `ctrl + b` | Toggle primary side panel |
+| `ctrl + shift + p` | Open command palette |
+| `ctrl + shift + e` | Open integrated explorer |
+| `alt + shift + r` | Open file in OS explorer [When in Integrated Explorer] |
+| `ctrl + pagedown` | Switch to right file in group |
+| `ctrl + pageup` | Switch to left file in group |
+| `ctrl + shift + x` | Open extensions |
+| `ctrl + shift + 5` | Split current terminal [When in Terminal] |
+| `ctrl + k z` | Toggle zen mode |
+| `ctrl + shift + c` | Open new external terminal |
+| `ctrl + ,` | Open settings |
+| `ctrl + p` | Open file search |
+| `ctrl + t` | Open symbol search |
+| `ctrl + space` | Show context snippets |
+| `ctrl + shift + space` | Show function parameters |
+| `ctrl + k m` | Choose language mode |
+| `ctrl + .` | View code actions |
 | `F8` | Cycle through problems begining with the nearest |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
@@ -370,31 +376,31 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 
 | Shortcut | Description |
 | --- | --- |
-| `ctrl + F1` | Toggle Ribbon Menu visibility |
-| `dblclick` | Toggle Ribbon Visibility [When clicking on any Ribbon Menu Button] |
-| `alt + nothing / F10` | Start Ribbon navigation |
+| `ctrl + F1` | Toggle ribbon menu visibility |
+| `dblclick` | Toggle ribbon visibility [When clicking on any ribbon Menu Button] |
+| `alt + nothing / F10` | Start ribbon navigation |
 | `ctrl + left/right` | Move between command groupings in the ribbon menu |
 | `ctrl + shift + F10` | Show the tooltip for the ribbon element currently in focus |
-| `alt + down` | Open the menu for the selected button [When focused on a command in the Ribbon menu] |
+| `alt + down` | Open the menu for the selected button [When focused on a command in the ribbon menu] |
 | `ctrl + number` | Switch to corresponding view in the left sidebar if there is one, for example outlook and teams |
 | `ctrl + Windows + alt + shift + n` | Open OneNote [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + w` | Open Word [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + x` | Open Excl [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + p` | Open Powerpoint [When anywhere in Windows] |
 | `ctrl + Windows + alt + shift + l` | Open LinkedIn [When anywhere in Windows] |
-| `ctrl + alt + v` | Paste Special [When in a Rich Text Editor] |
-| `ctrl + b` | Bold Selection [When in a Rich Text Editor] |
-| `ctrl + i` | Italic Selection [When in a Rich Text Editor] |
-| `ctrl + u` | Underline Selection [When in a Rich Text Editor] |
-| `ctrl + shift + w` | Underline Selection, but only words not whitespace [When in a Rich Text Editor] |
-| `ctrl + l` | Align Text Left [When in a Rich Text Editor] |
-| `ctrl + e` | Align Text Center [When in a Rich Text Editor] |
-| `ctrl + r` | Align Text Right [When in a Rich Text Editor] |
-| `ctrl + j` | Justify Text [When in a Rich Text Editor] |
-| `alt + shift + up/down` | Move paragraph up or down [When in a Rich Text Editor] |
-| `ctrl + t` | Create hanging indent [When in a Rich Text Editor] |
-| `ctrl + shift + t` | Remove hanging indent [When in a Rich Text Editor] |
-| `ctrl + q` | Remove paragraph formatting [When in a Rich Text Editor] |
+| `ctrl + alt + v` | Paste special [When in a Rich Text Editor] |
+| `ctrl + b` | Bold selection [When in a Rich Text Editor] |
+| `ctrl + i` | Italic selection [When in a Rich Text Editor] |
+| `ctrl + u` | Underline selection [When in a Rich Text Editor] |
+| `ctrl + shift + w` | Underline selection, but only words not whitespace [When in a Rich Text Editor] |
+| `ctrl + l` | Align text left [When in a Rich text Editor] |
+| `ctrl + e` | Align text center [When in a Rich text Editor] |
+| `ctrl + r` | Align text right [When in a Rich text Editor] |
+| `ctrl + j` | Justify text [When in a Rich text Editor] |
+| `alt + shift + up/down` | Move paragraph up or down [When in a Rich text Editor] |
+| `ctrl + t` | Create hanging indent [When in a Rich text Editor] |
+| `ctrl + shift + t` | Remove hanging indent [When in a Rich text Editor] |
+| `ctrl + q` | Remove paragraph formatting [When in a Rich text Editor] |
 | `ctrl + shift + n` | Apply the normal style |
 | `ctrl + alt + 1` | Apply heading 1 style |
 | `ctrl + alt + 2` | Apply heading 2 style |
@@ -408,8 +414,8 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 | `shift + F2` | Start object copying, confirm by pressing enter |
 | `F8` | Expand selection |
 | `shift + F8` | Reduce selection |
-| `ctrl + k` | Insert or Edit link [When in a Rich Text Editor] |
-| `F11` | Select Next Link [When in a Rich Text Editor] |
+| `ctrl + k` | Insert or edit link [When in a Rich Text Editor] |
+| `F11` | Select next Link [When in a Rich Text Editor] |
 | `shift + F11` | Select previous Link [When in a Rich Text Editor] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
@@ -425,13 +431,13 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 
 | Shortcut | Description |
 | --- | --- |
-| `ctrl + enter` | Insert Page Break |
-| `shift + enter` | Insert Line Break |
-| `shift + F1` | Open Reveal Formatting Panel |
+| `ctrl + enter` | Insert page break |
+| `shift + enter` | Insert line break |
+| `shift + F1` | Open reveal formatting panel |
 | `F4` | Repeat last command |
-| `F7` | Open Editor Panel, for grammar and spelling check |
-| `shift + F7` | Open Thesaurus Panel |
-| `alt + down` | Open Text Proposal Window [When in Rich Text Editor] |
+| `F7` | Open editor panel, for grammar and spelling check |
+| `shift + F7` | Open thesaurus panel |
+| `alt + down` | Open text proposal window [When in Rich Text editor] |
 | `ctrl + alt + s` | Toggle window split |
 | `ctrl + shift + e` | Toggle document access mode |
 | `alt + w f` | Switch to the read mode view |
@@ -464,9 +470,9 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 
 | Shortcut | Description |
 | --- | --- |
-| `shift + F5` | Start Presentation from here |
-| `F5` | Start Presentation |
-| `ctrl + m` | Create new Slide |
+| `shift + F5` | Start presentation from here |
+| `F5` | Start presentation |
+| `ctrl + m` | Create new slide |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -481,8 +487,8 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 
 | Shortcut | Description |
 | --- | --- |
-| `ctrl + pagedown` | Switch to next Sheet in Workbook |
-| `ctrl + pageup` | Switch to previous Sheet in Workbook |
+| `ctrl + pagedown` | Switch to next Sheet in workbook |
+| `ctrl + pageup` | Switch to previous Sheet in workbook |
 | `F4` | Switch through anchor mode [When the cursor is within a cell reference] |
 | `ctrl + 1` | Open the Number Formatting Window [When on cell with Number] |
 | `ctrl + 1` | Open the Text Formatting Window [When on cell with Text] |
@@ -777,11 +783,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 449
+Total Shortcuts: 455
 
-Application with most Shortcuts: Windows (50)
+Application with most Shortcuts: Windows (53)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.38
+Average Shortcuts per Application: 21.67
 

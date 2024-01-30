@@ -81,6 +81,7 @@
             "shortcuts": [
                 { "keys": "Windows + nothing",                   "description": "Open the start menu, type anything to search" },
                 { "keys": "ctrl + escape",                       "description": "Open the start menu, if not overwritten by program, type anything to search" },
+                { "keys": "alt + space",                         "description": "Open the search bar (Windows 10 only)" },
 
                 { "keys": "shift + F10",                         "description": "Open Context Menu, also works in a lot of programs by windows" },
                 { "keys": "alt + F4",                            "description": "Close Window" },
