@@ -17,7 +17,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 - [General](#general) *(32 Shortcuts)*
 - [File Explorer](#file-explorer) *(24 Shortcuts)*
-- [Windows](#windows) *(53 Shortcuts)*
+- [Windows](#windows) *(55 Shortcuts)*
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(45 Shortcuts)*
 - [Vimium](#vimium) *(8 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
@@ -132,7 +132,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | --- | --- |
 | `Windows + nothing` | Open the start menu, type anything to search |
 | `ctrl + escape` | Open the start menu, if not overwritten by program, type anything to search |
-| `alt + space` | Open the search bar (Windows 10 only) |
+| `alt + space` | Open the search bar (Windows PowerToys, by default) |
 | `shift + F10` | Open Context Menu, also works in a lot of programs by windows |
 | `alt + F4` | Close Window |
 | `Windows + down` | Minimize Window |
@@ -141,6 +141,8 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `alt + escape` | Go back in Window Focus History |
 | `Windows + arrows` | Move active window on the screen |
 | `Windows + shift + arrows` | Move active window to another Screen in the same manner as on the current one |
+| `alt + space` | Open the window options for the current window |
+| `shift + nothing` | Show possible window snapping points [When in window resize mode, from the window options menu] |
 | `Windows + e` | Open File Explorer |
 | `Windows + l` | Lock Windows |
 | `Windows + shift + s` | Start Snipping Tool |
@@ -783,11 +785,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 455
+Total Shortcuts: 457
 
-Application with most Shortcuts: Windows (53)
+Application with most Shortcuts: Windows (55)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.67
+Average Shortcuts per Application: 21.76
 
