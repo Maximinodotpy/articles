@@ -36,6 +36,10 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Wordpress](#wordpress) *(1 Shortcuts)*
 - [Github Desktop](#github-desktop) *(4 Shortcuts)*
 - [Obsidian MD](#obsidian-md) *(7 Shortcuts)*
+- [Google Workspaces](#google-workspaces) *(2 Shortcuts)*
+- [Google Calendar](#google-calendar) *(15 Shortcuts)*
+- [Google Tasks](#google-tasks) *(10 Shortcuts)*
+- [Google Contacts](#google-contacts) *(8 Shortcuts)*
 
 
 ## General
@@ -783,13 +787,104 @@ Githubs Desktop Client
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
 
+## Google Workspaces
+
+
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=google-workspaces)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=google-workspaces)
+
+| Shortcut | Description |
+| --- | --- |
+| `?` | Show keyboard shortcuts for this app, works for Calendar, Tasks and Contacts |
+| `/` | Search |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
+## Google Calendar
+
+
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=google-calendar)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=google-calendar)
+
+| Shortcut | Description |
+| --- | --- |
+| `p/k` | Go to previous period |
+| `n/j` | Go to next period |
+| `t` | Go to today |
+| `g` | Go to date |
+| `escape` | Go back to calender view |
+| `d` | Show day view |
+| `w` | Show week view |
+| `m` | Show month view |
+| `y` | Show year view |
+| `a` | Show schedule view |
+| `c` | Create event |
+| `e` | Edit event |
+| `delete` | Delete event |
+| `ctrl + s / ctrl + enter` | Save event |
+| `s` | Open settings |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
+## Google Tasks
+
+
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=google-tasks)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=google-tasks)
+
+| Shortcut | Description |
+| --- | --- |
+| `up` | Go to previous task |
+| `down` | Go to next task |
+| `escape` | Go back to task view |
+| `space` | toggle completion |
+| `s` | toggle starred |
+| `ctrl + up` | Move task up |
+| `ctrl + down` | Move task down |
+| `c` | Create task |
+| `enter` | Edit task |
+| `delete` | Delete task |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
+## Google Contacts
+
+
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=google-contacts)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=google-contacts)
+
+| Shortcut | Description |
+| --- | --- |
+| `j/right` | Go to next task |
+| `k/left` | Go to previous task |
+| `x` | Select current row |
+| `ctrl + a` | select all rows in the current list |
+| `enter` | Open contact details |
+| `m` | Merge selected contacts |
+| `b` | Focus page body |
+| `ctrl + enter` | Save changes to contact |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
 ## Summary
 
-Total Shortcuts: 457
+Total Shortcuts: 492
 
 Application with most Shortcuts: Windows (55)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.76
+Average Shortcuts per Application: 19.68
 

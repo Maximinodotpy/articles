@@ -653,6 +653,71 @@
                 { "keys": "ctrl + alt + left",                   "description": "Go back in History" },
                 { "keys": "ctrl + alt + right",                  "description": "Go forward in History" }
             ]
+        },
+        "google-workspaces": {
+            "name": "Google Workspaces",
+            "description": "",
+            "shortcuts": [
+                { "keys": "?",                                   "description": "Show keyboard shortcuts for this app, works for Calendar, Tasks and Contacts" },
+                { "keys": "/",                                   "description": "Search" }
+            ]
+        },
+        "google-calendar": {
+            "name": "Google Calendar",
+            "description": "",
+            "shortcuts": [
+                { "keys": "p/k",                                 "description": "Go to previous period" },
+                { "keys": "n/j",                                 "description": "Go to next period" },
+                { "keys": "t",                                   "description": "Go to today" },
+                { "keys": "g",                                   "description": "Go to date" },
+                { "keys": "escape",                              "description": "Go back to calender view" },
+
+                { "keys": "d",                                   "description": "Show day view" },
+                { "keys": "w",                                   "description": "Show week view" },
+                { "keys": "m",                                   "description": "Show month view" },
+                { "keys": "y",                                   "description": "Show year view" },
+                { "keys": "a",                                   "description": "Show schedule view" },
+
+                { "keys": "c",                                   "description": "Create event" },
+                { "keys": "e",                                   "description": "Edit event" },
+                { "keys": "delete",                              "description": "Delete event" },
+                { "keys": "ctrl + s / ctrl + enter",             "description": "Save event" },
+
+                { "keys": "s",                                   "description": "Open settings" }
+            ]
+        },
+        "google-tasks": {
+            "name": "Google Tasks",
+            "description": "",
+            "shortcuts": [
+                { "keys": "up",                                  "description": "Go to previous task" },
+                { "keys": "down",                                "description": "Go to next task" },
+                { "keys": "escape",                              "description": "Go back to task view" },
+                { "keys": "space",                               "description": "toggle completion" },
+                { "keys": "s",                                   "description": "toggle starred" },
+
+                { "keys": "ctrl + up",                           "description": "Move task up" },
+                { "keys": "ctrl + down",                         "description": "Move task down" },
+
+                { "keys": "c",                                   "description": "Create task" },
+                { "keys": "enter",                               "description": "Edit task" },
+                { "keys": "delete",                              "description": "Delete task" }
+            ]
+        },
+        "google-contacts": {
+            "name": "Google Contacts",
+            "description": "",
+            "shortcuts": [
+                { "keys": "j/right",                             "description": "Go to next task" },
+                { "keys": "k/left",                              "description": "Go to previous task" },
+                { "keys": "x",                                   "description": "Select current row" },
+                { "keys": "ctrl + a",                            "description": "select all rows in the current list" },
+                { "keys": "enter",                               "description": "Open contact details" },
+
+                { "keys": "m",                                   "description": "Merge selected contacts" },
+                { "keys": "b",                                   "description": "Focus page body" },
+                { "keys": "ctrl + enter",                        "description": "Save changes to contact" }
+            ]
         }
     }   
 }
