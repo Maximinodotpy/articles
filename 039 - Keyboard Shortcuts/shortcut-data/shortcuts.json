@@ -541,18 +541,61 @@
             "name": "Adobe Premiere Pro",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
-                { "keys": "m",                                   "description": "Preview Window" },
-                { "keys": "ä",                                   "description": "Maximize Window" },
-                { "keys": "v",                                   "description": "Select" },
-                { "keys": "c",                                   "description": "Switch to the Cut Tool" },
-                { "keys": "a",                                   "description": "Switch to the Track Selection to the right Tool" },
+                { "keys": "shift + ü",                           "description": "Maximize Window" },
+                { "keys": "v",                                   "description": "Switch to th select tool" },
+                { "keys": "c",                                   "description": "Switch to the cut tool" },
+                { "keys": "a",                                   "description": "Switch to the track selection to the right tool" },
+                { "keys": "a",                                   "description": "Switch to the clip speed tool" },
 
                 { "keys": "i",                                   "description": "Set in" },
                 { "keys": "o",                                   "description": "Set out" },
                 { "keys": "shift + i",                           "description": "Go to in" },
                 { "keys": "shift + o",                           "description": "Go to out" },
+                { "keys": "ctrl + shift + x",                    "description": "Clear in and out point" },
 
-                { "keys": "shift + delete",                      "description": "Delete selected clips and close ripple" }
+                { "keys": "m",                                   "description": "Set marker" },
+                { "keys": "shift + m",                           "description": "Go to next marker" },
+                { "keys": "ctrl + shift + m",                    "description": "Go to previous marker" },
+                
+                { "keys": "down",                                "description": "Go to next clip point" },
+                { "keys": "up",                                  "description": "Go to previous clip point" },
+
+                { "keys": "ctrl + i",                            "description": "Import" },
+                { "keys": "ctrl + m",                            "description": "Export" },
+
+                { "keys": "ctrl + alt + v",                      "description": "Paste attributes" },
+                { "keys": "shift + delete",                      "description": "Delete selected clips and close ripple" },
+
+                { "keys": "shift + g",                           "description": "Open audio channels (When in clip panel)" },
+                { "keys": "g",                                   "description": "Open audio gain (When in clip panel)" },
+                { "keys": "ctrl + r",                            "description": "Open speed duration (When in clip panel)" },
+                { "keys": ",",                                   "description": "Open insert prompt (When in clip panel)" },
+
+                { "keys": "shift + e",                           "description": "Toggle clip (When in clip panel)" },
+                { "keys": "r",                                   "description": " (When in clip panel)" },
+
+
+                { "keys": "f",                                   "description": "Match frame (When in clip panel)" },
+                { "keys": "ctrl + k",                            "description": "Add edit to current track (When in clip panel)" },
+                { "keys": "ctrl + shift + k",                    "description": "Add edit to all tracks (When in clip panel)" },
+                { "keys": "e",                                   "description": "Extend selected edit to playhead (When in clip panel)" },
+                { "keys": "ctrl + d",                            "description": "Apply video transition (When in clip panel)" },
+                { "keys": "ctrl + shift + d",                    "description": "Apply audio transition (When in clip panel)" },
+
+
+                { "keys": "alt + shift + 0",                     "description": "Reset to saved layout" },
+                { "keys": "shift + 9",                           "description": "Open audio clip mixer" },
+                { "keys": "shift + 6",                           "description": "Open audio track mixer" },
+                { "keys": "shift + 5",                           "description": "Open effect controls" },
+                { "keys": "shift + 7",                           "description": "Open effects" },
+                { "keys": "shift + 8",                           "description": "Open media browser" },
+                { "keys": "shift + 4",                           "description": "Open program monitor" },
+                { "keys": "shift + 1",                           "description": "Open Projects" },
+                { "keys": "shift + 2",                           "description": "Open source monitor" },
+                { "keys": "shift + 3",                           "description": "Open and switch through timelines" },
+
+
+                { "keys": "ctrl + shift + k",                    "description": "Show keyboard shortcuts" }
             ]
         },
         "adobe-illustrator": {
