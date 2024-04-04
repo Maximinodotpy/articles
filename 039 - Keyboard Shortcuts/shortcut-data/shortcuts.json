@@ -545,7 +545,7 @@
                 { "keys": "v",                                   "description": "Switch to th select tool" },
                 { "keys": "c",                                   "description": "Switch to the cut tool" },
                 { "keys": "a",                                   "description": "Switch to the track selection to the right tool" },
-                { "keys": "a",                                   "description": "Switch to the clip speed tool" },
+
 
                 { "keys": "i",                                   "description": "Set in" },
                 { "keys": "o",                                   "description": "Set out" },
@@ -560,11 +560,21 @@
                 { "keys": "down",                                "description": "Go to next clip point" },
                 { "keys": "up",                                  "description": "Go to previous clip point" },
 
+                { "keys": "j",                                   "description": "Shuttle left (When in clip panel)" },
+                { "keys": "k",                                   "description": "Stop shuttle (When in clip panel)" },
+                { "keys": "l",                                   "description": "Shuttle right (When in clip panel)" },
+
+                { "keys": "left",                                "description": "Go to previous frame (When in clip panel)" },
+                { "keys": "right",                               "description": "Go to next frame (When in clip panel)" },
+
+
                 { "keys": "ctrl + i",                            "description": "Import" },
                 { "keys": "ctrl + m",                            "description": "Export" },
 
                 { "keys": "ctrl + alt + v",                      "description": "Paste attributes" },
                 { "keys": "shift + delete",                      "description": "Delete selected clips and close ripple" },
+                { "keys": "q",                                   "description": "Trim to the left" },
+                { "keys": "w",                                   "description": "Trim to the right" },
 
                 { "keys": "shift + g",                           "description": "Open audio channels (When in clip panel)" },
                 { "keys": "g",                                   "description": "Open audio gain (When in clip panel)" },
@@ -574,14 +584,12 @@
                 { "keys": "shift + e",                           "description": "Toggle clip (When in clip panel)" },
                 { "keys": "r",                                   "description": " (When in clip panel)" },
 
-
                 { "keys": "f",                                   "description": "Match frame (When in clip panel)" },
                 { "keys": "ctrl + k",                            "description": "Add edit to current track (When in clip panel)" },
                 { "keys": "ctrl + shift + k",                    "description": "Add edit to all tracks (When in clip panel)" },
                 { "keys": "e",                                   "description": "Extend selected edit to playhead (When in clip panel)" },
                 { "keys": "ctrl + d",                            "description": "Apply video transition (When in clip panel)" },
                 { "keys": "ctrl + shift + d",                    "description": "Apply audio transition (When in clip panel)" },
-
 
                 { "keys": "alt + shift + 0",                     "description": "Reset to saved layout" },
                 { "keys": "shift + 9",                           "description": "Open audio clip mixer" },
@@ -594,8 +602,8 @@
                 { "keys": "shift + 2",                           "description": "Open source monitor" },
                 { "keys": "shift + 3",                           "description": "Open and switch through timelines" },
 
-
-                { "keys": "ctrl + shift + k",                    "description": "Show keyboard shortcuts" }
+                { "keys": "ctrl + shift + e",                    "description": "Export current frame" },
+                { "keys": "ctrl + alt + k",                    "description": "Show keyboard shortcuts" }
             ]
         },
         "adobe-illustrator": {

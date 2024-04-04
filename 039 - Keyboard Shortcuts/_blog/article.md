@@ -30,7 +30,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Microsoft Teams](#microsoft-teams) *(20 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(16 Shortcuts)*
-- [Adobe Premiere Pro](#adobe-premiere-pro) *(10 Shortcuts)*
+- [Adobe Premiere Pro](#adobe-premiere-pro) *(49 Shortcuts)*
 - [Adobe Illustrator](#adobe-illustrator) *(47 Shortcuts)*
 - [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
 - [Wordpress](#wordpress) *(1 Shortcuts)*
@@ -642,16 +642,55 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 
 | Shortcut | Description |
 | --- | --- |
-| `m` | Preview Window |
-| `ä` | Maximize Window |
-| `v` | Select |
-| `c` | Switch to the Cut Tool |
-| `a` | Switch to the Track Selection to the right Tool |
+| `shift + ü` | Maximize Window |
+| `v` | Switch to th select tool |
+| `c` | Switch to the cut tool |
+| `a` | Switch to the track selection to the right tool |
 | `i` | Set in |
 | `o` | Set out |
 | `shift + i` | Go to in |
 | `shift + o` | Go to out |
+| `ctrl + shift + x` | Clear in and out point |
+| `m` | Set marker |
+| `shift + m` | Go to next marker |
+| `ctrl + shift + m` | Go to previous marker |
+| `down` | Go to next clip point |
+| `up` | Go to previous clip point |
+| `j` | Shuttle left (When in clip panel) |
+| `k` | Stop shuttle (When in clip panel) |
+| `l` | Shuttle right (When in clip panel) |
+| `left` | Go to previous frame (When in clip panel) |
+| `right` | Go to next frame (When in clip panel) |
+| `ctrl + i` | Import |
+| `ctrl + m` | Export |
+| `ctrl + alt + v` | Paste attributes |
 | `shift + delete` | Delete selected clips and close ripple |
+| `q` | Trim to the left |
+| `w` | Trim to the right |
+| `shift + g` | Open audio channels (When in clip panel) |
+| `g` | Open audio gain (When in clip panel) |
+| `ctrl + r` | Open speed duration (When in clip panel) |
+| `,` | Open insert prompt (When in clip panel) |
+| `shift + e` | Toggle clip (When in clip panel) |
+| `r` |  (When in clip panel) |
+| `f` | Match frame (When in clip panel) |
+| `ctrl + k` | Add edit to current track (When in clip panel) |
+| `ctrl + shift + k` | Add edit to all tracks (When in clip panel) |
+| `e` | Extend selected edit to playhead (When in clip panel) |
+| `ctrl + d` | Apply video transition (When in clip panel) |
+| `ctrl + shift + d` | Apply audio transition (When in clip panel) |
+| `alt + shift + 0` | Reset to saved layout |
+| `shift + 9` | Open audio clip mixer |
+| `shift + 6` | Open audio track mixer |
+| `shift + 5` | Open effect controls |
+| `shift + 7` | Open effects |
+| `shift + 8` | Open media browser |
+| `shift + 4` | Open program monitor |
+| `shift + 1` | Open Projects |
+| `shift + 2` | Open source monitor |
+| `shift + 3` | Open and switch through timelines |
+| `ctrl + shift + e` | Export current frame |
+| `ctrl + alt + k` | Show keyboard shortcuts |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -880,11 +919,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 492
+Total Shortcuts: 531
 
 Application with most Shortcuts: Windows (55)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 19.68
+Average Shortcuts per Application: 21.24
 
