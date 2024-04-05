@@ -30,7 +30,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Microsoft Teams](#microsoft-teams) *(20 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(16 Shortcuts)*
-- [Adobe Premiere Pro](#adobe-premiere-pro) *(49 Shortcuts)*
+- [Adobe Premiere Pro](#adobe-premiere-pro) *(68 Shortcuts)*
 - [Adobe Illustrator](#adobe-illustrator) *(47 Shortcuts)*
 - [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
 - [Wordpress](#wordpress) *(1 Shortcuts)*
@@ -646,8 +646,11 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 | `v` | Switch to th select tool |
 | `c` | Switch to the cut tool |
 | `a` | Switch to the track selection to the right tool |
+| `y` | Switch to the slip tool |
+| `b` | Switch to the move cut tool |
 | `i` | Set in |
 | `o` | Set out |
+| `x` | Mark clip |
 | `shift + i` | Go to in |
 | `shift + o` | Go to out |
 | `ctrl + shift + x` | Clear in and out point |
@@ -659,8 +662,20 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 | `j` | Shuttle left (When in clip panel) |
 | `k` | Stop shuttle (When in clip panel) |
 | `l` | Shuttle right (When in clip panel) |
+| `space` | Toggle playback (When in clip panel) |
+| `enter` | Start playback from begining (When in clip panel) |
 | `left` | Go to previous frame (When in clip panel) |
 | `right` | Go to next frame (When in clip panel) |
+| `alt + left` | Move selected clips to the left (When in clip panel) |
+| `alt + right` | Move selected clips to the right (When in clip panel) |
+| `alt + up` | Move selected clips to the layer above (When in clip panel) |
+| `alt + down` | Move selected clips to the layer below (When in clip panel) |
+| `ctrl + +` | Enlargen video layers (When in clip panel) |
+| `ctrl + -` | Shrink video layers (When in clip panel) |
+| `alt + +` | Enlargen audio layers (When in clip panel) |
+| `alt + -` | Shrink audio layers (When in clip panel) |
+| `shift + +` | Maximize all layers, audio and video (When in clip panel) |
+| `shift + -` | Minimize all layers, audio and video (When in clip panel) |
 | `ctrl + i` | Import |
 | `ctrl + m` | Export |
 | `ctrl + alt + v` | Paste attributes |
@@ -672,13 +687,17 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 | `ctrl + r` | Open speed duration (When in clip panel) |
 | `,` | Open insert prompt (When in clip panel) |
 | `shift + e` | Toggle clip (When in clip panel) |
-| `r` |  (When in clip panel) |
+| `ctrl + l` | Toggle video and audio connection (When in clip panel) |
 | `f` | Match frame (When in clip panel) |
+| `shift + r` | Reverse match frame (When in clip panel) |
 | `ctrl + k` | Add edit to current track (When in clip panel) |
 | `ctrl + shift + k` | Add edit to all tracks (When in clip panel) |
 | `e` | Extend selected edit to playhead (When in clip panel) |
 | `ctrl + d` | Apply video transition (When in clip panel) |
 | `ctrl + shift + d` | Apply audio transition (When in clip panel) |
+| `d` | Selected all targeted clips beneath playhead (When in clip panel) |
+| `ctrl + 0` | Toggle targeting for all video layers (When in clip panel) |
+| `ctrl + 9` | Toggle targeting for all audio layers (When in clip panel) |
 | `alt + shift + 0` | Reset to saved layout |
 | `shift + 9` | Open audio clip mixer |
 | `shift + 6` | Open audio track mixer |
@@ -919,11 +938,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 531
+Total Shortcuts: 550
 
-Application with most Shortcuts: Windows (55)
+Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.24
+Average Shortcuts per Application: 22.0
 

@@ -548,9 +548,9 @@
                 { "keys": "y",                                   "description": "Switch to the slip tool" },
                 { "keys": "b",                                   "description": "Switch to the move cut tool" },
 
-
                 { "keys": "i",                                   "description": "Set in" },
                 { "keys": "o",                                   "description": "Set out" },
+                { "keys": "x",                                   "description": "Mark clip" },
                 { "keys": "shift + i",                           "description": "Go to in" },
                 { "keys": "shift + o",                           "description": "Go to out" },
                 { "keys": "ctrl + shift + x",                    "description": "Clear in and out point" },
@@ -566,9 +566,23 @@
                 { "keys": "k",                                   "description": "Stop shuttle (When in clip panel)" },
                 { "keys": "l",                                   "description": "Shuttle right (When in clip panel)" },
 
+                { "keys": "space",                               "description": "Toggle playback (When in clip panel)" },
+                { "keys": "enter",                               "description": "Start playback from begining (When in clip panel)" },
+
                 { "keys": "left",                                "description": "Go to previous frame (When in clip panel)" },
                 { "keys": "right",                               "description": "Go to next frame (When in clip panel)" },
+                
+                { "keys": "alt + left",                          "description": "Move selected clips to the left (When in clip panel)" },
+                { "keys": "alt + right",                         "description": "Move selected clips to the right (When in clip panel)" },
+                { "keys": "alt + up",                            "description": "Move selected clips to the layer above (When in clip panel)" },
+                { "keys": "alt + down",                          "description": "Move selected clips to the layer below (When in clip panel)" },
 
+                { "keys": "ctrl + +",                            "description": "Enlargen video layers (When in clip panel)" },
+                { "keys": "ctrl + -",                            "description": "Shrink video layers (When in clip panel)" },
+                { "keys": "alt + +",                             "description": "Enlargen audio layers (When in clip panel)" },
+                { "keys": "alt + -",                             "description": "Shrink audio layers (When in clip panel)" },
+                { "keys": "shift + +",                           "description": "Maximize all layers, audio and video (When in clip panel)" },
+                { "keys": "shift + -",                           "description": "Minimize all layers, audio and video (When in clip panel)" },
 
                 { "keys": "ctrl + i",                            "description": "Import" },
                 { "keys": "ctrl + m",                            "description": "Export" },
@@ -584,14 +598,19 @@
                 { "keys": ",",                                   "description": "Open insert prompt (When in clip panel)" },
 
                 { "keys": "shift + e",                           "description": "Toggle clip (When in clip panel)" },
+                { "keys": "ctrl + l",                            "description": "Toggle video and audio connection (When in clip panel)" },
 
                 { "keys": "f",                                   "description": "Match frame (When in clip panel)" },
-                { "keys": "shift + r",                                   "description": "Reverse match frame (When in clip panel)" },
+                { "keys": "shift + r",                           "description": "Reverse match frame (When in clip panel)" },
                 { "keys": "ctrl + k",                            "description": "Add edit to current track (When in clip panel)" },
                 { "keys": "ctrl + shift + k",                    "description": "Add edit to all tracks (When in clip panel)" },
                 { "keys": "e",                                   "description": "Extend selected edit to playhead (When in clip panel)" },
                 { "keys": "ctrl + d",                            "description": "Apply video transition (When in clip panel)" },
                 { "keys": "ctrl + shift + d",                    "description": "Apply audio transition (When in clip panel)" },
+
+                { "keys": "d",                                   "description": "Selected all targeted clips beneath playhead (When in clip panel)" },
+                { "keys": "ctrl + 0",                            "description": "Toggle targeting for all video layers (When in clip panel)" },
+                { "keys": "ctrl + 9",                            "description": "Toggle targeting for all audio layers (When in clip panel)" },
 
                 { "keys": "alt + shift + 0",                     "description": "Reset to saved layout" },
                 { "keys": "shift + 9",                           "description": "Open audio clip mixer" },
@@ -605,7 +624,7 @@
                 { "keys": "shift + 3",                           "description": "Open and switch through timelines" },
 
                 { "keys": "ctrl + shift + e",                    "description": "Export current frame" },
-                { "keys": "ctrl + alt + k",                    "description": "Show keyboard shortcuts" }
+                { "keys": "ctrl + alt + k",                      "description": "Show keyboard shortcuts" }
             ]
         },
         "adobe-illustrator": {
