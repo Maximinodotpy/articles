@@ -545,6 +545,8 @@
                 { "keys": "v",                                   "description": "Switch to th select tool" },
                 { "keys": "c",                                   "description": "Switch to the cut tool" },
                 { "keys": "a",                                   "description": "Switch to the track selection to the right tool" },
+                { "keys": "y",                                   "description": "Switch to the slip tool" },
+                { "keys": "b",                                   "description": "Switch to the move cut tool" },
 
 
                 { "keys": "i",                                   "description": "Set in" },
@@ -582,9 +584,9 @@
                 { "keys": ",",                                   "description": "Open insert prompt (When in clip panel)" },
 
                 { "keys": "shift + e",                           "description": "Toggle clip (When in clip panel)" },
-                { "keys": "r",                                   "description": " (When in clip panel)" },
 
                 { "keys": "f",                                   "description": "Match frame (When in clip panel)" },
+                { "keys": "shift + r",                                   "description": "Reverse match frame (When in clip panel)" },
                 { "keys": "ctrl + k",                            "description": "Add edit to current track (When in clip panel)" },
                 { "keys": "ctrl + shift + k",                    "description": "Add edit to all tracks (When in clip panel)" },
                 { "keys": "e",                                   "description": "Extend selected edit to playhead (When in clip panel)" },
