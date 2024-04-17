@@ -696,6 +696,20 @@
                 { "keys": "shift + mouse",                       "description": "Snap align to other layer objects in Timeline" }
             ]
         },
+        "adobe-bridge": {
+            "name": "Adobe Bridge",
+            "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
+            "shortcuts": [                
+                { "keys": "ctrl + number",                       "description": "Set rating from 1 to 5" },
+                { "keys": "alt + delete",                        "description": "Reject" },
+                { "keys": "ctrl + 0",                            "description": "No rating" },
+
+                { "keys": "left",                                "description": "Go to previous image" },
+                { "keys": "right",                               "description": "Go to next image" },
+
+                { "keys": "ctrl + shift + r",                    "description": "Batch rename" }
+            ]
+        },
         "wordpress": {
             "name": "Wordpress",
             "description": "",

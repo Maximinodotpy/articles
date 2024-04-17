@@ -33,6 +33,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Adobe Premiere Pro](#adobe-premiere-pro) *(68 Shortcuts)*
 - [Adobe Illustrator](#adobe-illustrator) *(47 Shortcuts)*
 - [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
+- [Adobe Bridge](#adobe-bridge) *(6 Shortcuts)*
 - [Wordpress](#wordpress) *(1 Shortcuts)*
 - [Github Desktop](#github-desktop) *(4 Shortcuts)*
 - [Obsidian MD](#obsidian-md) *(7 Shortcuts)*
@@ -791,6 +792,26 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
 
+## Adobe Bridge
+
+Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-bridge)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=adobe-bridge)
+
+| Shortcut | Description |
+| --- | --- |
+| `ctrl + number` | Set rating from 1 to 5 |
+| `alt + delete` | Reject |
+| `ctrl + 0` | No rating |
+| `left` | Go to previous image |
+| `right` | Go to next image |
+| `ctrl + shift + r` | Batch rename |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
 ## Wordpress
 
 
@@ -938,11 +959,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 550
+Total Shortcuts: 556
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 22.0
+Average Shortcuts per Application: 21.38
 
