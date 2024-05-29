@@ -17,12 +17,12 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 - [General](#general) *(32 Shortcuts)*
 - [File Explorer](#file-explorer) *(24 Shortcuts)*
-- [Windows](#windows) *(55 Shortcuts)*
+- [Windows](#windows) *(57 Shortcuts)*
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(45 Shortcuts)*
-- [Vimium](#vimium) *(8 Shortcuts)*
+- [Vimium](#vimium) *(9 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(38 Shortcuts)*
-- [Office General](#office-general) *(41 Shortcuts)*
+- [Office General](#office-general) *(42 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(25 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(25 Shortcuts)*
@@ -31,9 +31,10 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(16 Shortcuts)*
 - [Adobe Premiere Pro](#adobe-premiere-pro) *(68 Shortcuts)*
-- [Adobe Illustrator](#adobe-illustrator) *(47 Shortcuts)*
+- [Adobe Illustrator](#adobe-illustrator) *(50 Shortcuts)*
 - [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
 - [Adobe Bridge](#adobe-bridge) *(6 Shortcuts)*
+- [Adobe Lightroom New](#adobe-lightroom-new) *(5 Shortcuts)*
 - [Wordpress](#wordpress) *(1 Shortcuts)*
 - [Github Desktop](#github-desktop) *(4 Shortcuts)*
 - [Obsidian MD](#obsidian-md) *(7 Shortcuts)*
@@ -190,6 +191,8 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + i` | Open Settings |
 | `Windows + space` | Switch Language Mode |
 | `ctrl + shift + escape` | Open Task Manager |
+| `Windows + alt + d` | Open Windows Calendar in the bottom right |
+| `ctrl + Windows + shift + b` | Restart Graphicscard Drivers |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -266,6 +269,7 @@ The Browser Extension for Google Chrome and MS Edge. It allows you to navigate t
 | `j` | Scroll Down |
 | `k` | Scroll Up |
 | `g g` | Go to Start |
+| `y y` | Copy the url of the current page |
 | `shift + g` | Go to End |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
@@ -424,6 +428,7 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 | `ctrl + k` | Insert or edit link [When in a Rich Text Editor] |
 | `F11` | Select next Link [When in a Rich Text Editor] |
 | `shift + F11` | Select previous Link [When in a Rich Text Editor] |
+| `ctrl + y` | Repeat last action [When in a Rich Text Editor] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -737,8 +742,10 @@ These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. 
 | `ctrl + alt + a` | Select artwork in active artboard |
 | `ctrl + shift + a` | Unselect all |
 | `ctrl + 2` | Lock selection |
-| `ctrl + alt + 2` | Unlock selection |
-| `ctrl + d` | Reapply a transformatio to an object |
+| `ctrl + alt + 2` | Unlock all locked objects |
+| `ctrl + 3` | Hide selection |
+| `ctrl + alt + 3` | Unhide all hidden objects |
+| `ctrl + d` | Reapply a transformation to an object |
 | `ctrl + 4` | Apply last pathfinder effect on selection |
 | `ctrl + shift + m` | Open move object dialogue |
 | `ctrl + alt + shift + m` | Open the transform each dialogue |
@@ -772,6 +779,7 @@ These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. 
 | `d` | Reset Colors for current Object |
 | `ctrl + 7` | Create clipping mask with current objects [When having selected atleast two objects] |
 | `ctrl + shift + 7` | Release clipping mask |
+| `shift + d` | Cycle through drawing modes |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -808,6 +816,25 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 | `left` | Go to previous image |
 | `right` | Go to next image |
 | `ctrl + shift + r` | Batch rename |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
+## Adobe Lightroom New
+
+Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-lightroom-new)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=adobe-lightroom-new)
+
+| Shortcut | Description |
+| --- | --- |
+| `,` | Toggle movie strip |
+| `.` | Toggle original |
+| `g` | Switch to grid view |
+| `d` | Switch to details view |
+| `alt + c` | Switch to comparison view |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -959,11 +986,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 556
+Total Shortcuts: 568
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.38
+Average Shortcuts per Application: 21.04
 

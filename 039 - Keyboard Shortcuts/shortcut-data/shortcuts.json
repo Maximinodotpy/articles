@@ -141,7 +141,10 @@
                 { "keys": "Windows + v",                         "description": "Open Clipboard History" },
                 { "keys": "Windows + i",                         "description": "Open Settings" },
                 { "keys": "Windows + space",                     "description": "Switch Language Mode" },
-                { "keys": "ctrl + shift + escape",               "description": "Open Task Manager" }
+                { "keys": "ctrl + shift + escape",               "description": "Open Task Manager" },
+
+                { "keys": "Windows + alt + d",                   "description": "Open Windows Calendar in the bottom right" },
+                { "keys": "ctrl + Windows + shift + b",          "description": "Restart Graphicscard Drivers" }
             ]
         },
         "browser-microsoft-edge": {
@@ -212,6 +215,7 @@
                 { "keys": "j",                                   "description": "Scroll Down" },
                 { "keys": "k",                                   "description": "Scroll Up" },
                 { "keys": "g g",                                 "description": "Go to Start" },
+                { "keys": "y y",                                 "description": "Copy the url of the current page" },
                 { "keys": "shift + g",                           "description": "Go to End" }
             ]
         },
@@ -361,7 +365,9 @@
 
                 { "keys": "ctrl + k",                            "description": "Insert or edit link [When in a Rich Text Editor]" },
                 { "keys": "F11",                                 "description": "Select next Link [When in a Rich Text Editor]" },
-                { "keys": "shift + F11",                         "description": "Select previous Link [When in a Rich Text Editor]" }
+                { "keys": "shift + F11",                         "description": "Select previous Link [When in a Rich Text Editor]" },
+
+                { "keys": "ctrl + y",                         "description": "Repeat last action [When in a Rich Text Editor]" }
             ]
         },
         "microsoft-word": {
@@ -644,12 +650,13 @@
                 { "keys": "ctrl + alt + a",                      "description": "Select artwork in active artboard" },
                 { "keys": "ctrl + shift + a",                    "description": "Unselect all" },
                 { "keys": "ctrl + 2",                            "description": "Lock selection" },
-                { "keys": "ctrl + alt + 2",                      "description": "Unlock selection" },
-                { "keys": "ctrl + d",                            "description": "Reapply a transformatio to an object" },
+                { "keys": "ctrl + alt + 2",                      "description": "Unlock all locked objects" },
+                { "keys": "ctrl + 3",                            "description": "Hide selection" },
+                { "keys": "ctrl + alt + 3",                      "description": "Unhide all hidden objects" },
+                { "keys": "ctrl + d",                            "description": "Reapply a transformation to an object" },
                 { "keys": "ctrl + 4",                            "description": "Apply last pathfinder effect on selection" },
                 { "keys": "ctrl + shift + m",                    "description": "Open move object dialogue" },
                 { "keys": "ctrl + alt + shift + m",              "description": "Open the transform each dialogue" },
-
                 
                 { "keys": "ctrl + alt + shift + v",              "description": "Move object one layer forward" },
                 { "keys": "ctrl + alt + shift + r",              "description": "Move object one layer back" },
@@ -685,7 +692,9 @@
                 { "keys": "shift + x",                           "description": "Swap fill an stroke" },
                 { "keys": "d",                                   "description": "Reset Colors for current Object" },
                 { "keys": "ctrl + 7",                            "description": "Create clipping mask with current objects [When having selected atleast two objects]" },
-                { "keys": "ctrl + shift + 7",                    "description": "Release clipping mask" }
+                { "keys": "ctrl + shift + 7",                    "description": "Release clipping mask" },
+
+                { "keys": "shift + d",                           "description": "Cycle through drawing modes" }
             ]
         },
         "adobe-after-effects": {
@@ -708,6 +717,18 @@
                 { "keys": "right",                               "description": "Go to next image" },
 
                 { "keys": "ctrl + shift + r",                    "description": "Batch rename" }
+            ]
+        },
+        "adobe-lightroom-new": {
+            "name": "Adobe Lightroom New",
+            "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
+            "shortcuts": [
+                { "keys": ",",                                   "description": "Toggle movie strip" },
+                { "keys": ".",                                   "description": "Toggle original" },
+
+                { "keys": "g",                                   "description": "Switch to grid view" },
+                { "keys": "d",                                   "description": "Switch to details view" },
+                { "keys": "alt + c",                             "description": "Switch to comparison view" }
             ]
         },
         "wordpress": {
