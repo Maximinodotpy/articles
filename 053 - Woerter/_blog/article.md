@@ -23,6 +23,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | prekär | (A) Ausserordentlich |
 | fulminant | (A) Aussserordentlich |
 | genuin | (A) Echt |
+| protonym | (A) Erstname |
 | inflationär  | (A) Geldentwertung |
 | warrantiert  | (A) Gerechtfertigt |
 | prägnant  | (A) Gross, Ausdrucksreich |
@@ -40,6 +41,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | vehement  | (A) akut, drastisch, stark |
 | auktorial | (A) allwissend |
 | adäquat | (A) angemessen |
+| ad hominem | (A) auf die Person bezogen |
 | teleologisch | (A) auf ein Ziel hin gerichtet |
 | eloquent  | (A) ausdrucksvoll, wortreich und zielgruppengemäss |
 | superb | (A) ausgezeichnet |
@@ -60,6 +62,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | inkrementel  | (A) stück für stück |
 | apathisch | (A) teilnahmslos |
 | desolat | (A) trostlos |
+| vernakular | (A) umgangssprachlich |
 | obszön | (A) unanständig |
 | primordial | (A) ursprünglich |
 | prätentiös | (A) wichtigtuend |

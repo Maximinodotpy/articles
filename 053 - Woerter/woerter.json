@@ -179,5 +179,8 @@
     "exorbitant"                :  "(A) ausserordentlich",
     "lapidar"                   :  "(A) kurz und bündig",
     "perfide"                   :  "(A) hinterhältig",
-    "superb"                    :  "(A) ausgezeichnet"
+    "superb"                    :  "(A) ausgezeichnet",
+    "vernakular"                :  "(A) umgangssprachlich", 
+    "protonym"                  :  "(A) Erstname",   
+    "ad hominem"                :  "(A) auf die Person bezogen"
 }
