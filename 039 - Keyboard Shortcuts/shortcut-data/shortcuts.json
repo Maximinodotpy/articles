@@ -532,7 +532,7 @@
                 { "keys": "ctrl + g",                            "description": "Group selected elements" },
                 { "keys": "ctrl + shift + g",                    "description": "Ungroup selected elements" },
 
-                { "keys": "ctrl + shift + z",                    "description": "Redo" },
+                { "keys": "ctrl + shift + z",                    "description": "Redo previous undo" },
 
                 { "keys": "alt + arrows/mouse",                  "description": "Copy Object" },
                 { "keys": "alt + scroll",                        "description": "Zoom " },
@@ -541,6 +541,18 @@
                 { "keys": "ctrl + w",                            "description": "Close Document" },
                 { "keys": "space",                               "description": "View Movement Tool" },
                 { "keys": "ctrl + alt + p",                      "description": "Setup Document" }
+            ]
+        },
+        "adobe-animate": {
+            "name": "Adobe Animate",
+            "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
+            "shortcuts": [
+                { "keys": ".",                                   "description": "Go to next Frame" },
+                { "keys": ",",                                   "description": "Go to previous Frame" },
+                { "keys": "shift + .",                           "description": "Go to end" },
+                { "keys": "shift + ,",                           "description": "Go to start" },
+                { "keys": "alt + .",                             "description": "Go to next keyframe" },
+                { "keys": "alt + ,",                             "description": "Go to previouse keyframe" },
             ]
         },
         "adobe-premiere-pro": {
