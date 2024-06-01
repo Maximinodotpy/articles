@@ -9,178 +9,213 @@ description: Einige sehr eloquente Wörter
 
 Hier ist eine Liste von Wörtern, die ich sehr eloquent finde. Ich hoffe, dass Sie sie auch mögen.
 
-# Woerter
+Sie sind nach wortart sortiert (A/N/V).
+
+[Vorschläge](mailto:info@maximmaeder.com) sind willkommen.
+
+
+
+# Wörter
 
 |Wort|Bedeutung|
 |---|---|
-| das Horizontales Gewerbe | (N) Prostitution |
-| salopp | (A) Spontan, Schnell |
-| fulminant | (A) Aussserordentlich |
-| radotieren | (V) Plappern, Reden |
-| die Plörre | (N) Ekelhafte flüssigkeit |
-| die Malesche | (N) Unanehmlichkeit |
-| der Putsch | (N) Militärische Revolution / Aufstand |
-| der Pleonasmus  | (N) Sich wiederholende Aussage |
-| die Entourage | (N) Gruppierung meist Akrobaten |
-| die Amalgamation | (N) Haufen, Ansammlung |
-| autonom | (A) Selbstständig |
-| insistieren  | (V) Darauf bestehen |
-| das Etablissment | (N) Restaurant |
-| das Gefilde  | (N) Feld |
-| drosseln  | (V) Verlangsamen |
-| platonisch | (A) nicht sinnlich, rein seelisch-geistig |
-| vehement  | (A) akut, drastisch, stark |
-| grandios  | (A) grossartig, überwältigend |
-| die Terminologie | (N) Vokabular in einem Fachbereich |
-| die Kaffeefahrt | (N) Verkaufsveranstaltung |
-| prägnant  | (A) Gross, Ausdrucksreich |
-| prophylaktisch  | (A) Vorbeugend |
-| der Selbsterhaltungswille | (N) Sich selber schützen wollen |
-| die Intention | (N) Absicht, Grund etwas zu tun |
-| gravierend | (A) drastisch |
-| konvergieren | (V) Überschneiden |
-| die Rekursion | (N) In sich selbst wiederholend |
-| warrantiert  | (A) Gerechtfertigt |
-| die Fossilien | (N) Überreste von Dinosaurieren |
-| die Hieroglyphen | (N) Schriftzeichen einer Bilderschrift |
-| die Tara  | (N) Brutto - Netto = Tara |
-| die Maxime | (N) Oberste Regel nach der man lebt. |
-| inflationär  | (A) Geldentwertung |
-| die Foraminiferen  | (N) Fossielien |
-| das Axiom | (N) Grundsatz |
-| autodidaktisch  | (A) Sich selbst beibringen |
-| die Quintessesenz  | (N) Kernaussage |
-| tangieren | (V) Nur knapp berühren oder streifen |
-| die Dachtel  | (N) Ohrfeige |
-| quinkelieren | (V) Pfeiffen, Trällern |
-| der Quacksalber | (N) Arzt |
-| arbiträr  | (A) Willkürlich, nicht naturgegeben |
-| gentrifizieren  | (V) Yuppisierung |
-| die Föderation  | (N) Landesart wobei ein Staat in untergebiete geteilt ist |
-| der Zentralstaat | (N) Gegenteil von Föderation |
-| die Asservatenkammer  | (N) Beweismittelkammer |
-| das Syndikat | (N) Bündnis von Personen oder Unternehmen |
-| das Kartell  | (N) Organisation welche Preise Kontrolliert |
-| das Moratorium  | (N) Stillhalteabkommen, Zahlungsaufschub |
-| kontextualisieren  | (V) Etwas in den Zeitlichen Kontext setzen |
-| die Implikation | (N) Einbeziehung einer Sache in eine andere, Auswirkung |
-| das Vakuum | (N) Un ausgefüllter Raum |
-| persona non grata  | (N) Unerwünschte person |
-| knautschen | (V) Geräusch wenn man in eine Leder Couch sitzt |
-| pastoral  | (A) Seelsorge, Ländlich |
-| idyllisch | (A) friedlich, beschaulich, malerisch |
-| prädestiniert | (A) Vorher bestimmt |
+| egozentrisch | (A) Auf sich selber fokussiert |
 | prekär | (A) Ausserordentlich |
-| profilieren  | (V) Sich über etwas was man kann identifizieren. |
-| die Bourgeoisie | (N) Soziale Oberschicht |
-| das Proletariat | (N) Soziale Unterschicht |
-| inkrementel  | (A) stück für stück |
-| der Anreiz | (N) Grund etwas zu tun |
-| der Wackeldackel | (N) Yes Man |
-| das Präludium | (N) Einführende/Beginnende Melodie |
-| intervenieren | (V) eingreifen |
-| die Hypochondrie | (N) übertriebene Neigung, seinen eigenen Gesundheitszustand zu beobachten. |
-| die Asthenie | (N) die Schwäche |
-| der Antagonist  | (N) Bösewicht |
-| der Neologismus | (N) Wortneuschöpfung |
-| die Inversion | (N) Verschiebung der Satzteile im Dichten |
-| der Deismus  | (N) Gott hat die Welt erschaffen mischt sich aber nicht mehr ein |
-| der Pantheismus | (N) Gott ist überall |
-| die Parodie  | (N) Gegenrede/Lustige Anspielung auf Originalinhalt |
-| die Travestie | (N) Anders einkleiden im Bezug auf Geschichten |
-| die Rhetorik | (N) Kunst des sprechens/Cappen |
-| die Promiskuität | (N) Sexuelle Kontakte/Aktiv |
-| offerieren | (V) Anbieten |
-| das Narrativ | (N) Geschichte |
-| der Trochäus | (N) Hebung/Senkung (Sprachflow, Fersfüsse, Rhytmuseinheiten) |
-| der Jambus | (N) Senkung/Hebung (Sprachflow, Fersfüsse, Rhytmuseinheiten) |
-| die Kadenz | (N) Abfallen der Stimme |
-| die Semantik | (N) Bedeutung |
-| die Polyamorie  | (N) Viel Liebend |
-| das Scharmützel | (N) Kleines, wenig Intensives Gefecht |
-| das Präjudiz | (N) Vergange Verurteilingsentscheidungen |
-| eruieren  | (V) Durch gründliche Ersuchung zum Schluss gekommen |
+| fulminant | (A) Aussserordentlich |
+| genuin | (A) Echt |
+| inflationär  | (A) Geldentwertung |
+| warrantiert  | (A) Gerechtfertigt |
+| prägnant  | (A) Gross, Ausdrucksreich |
+| versiert  | (A) Kennt sich in einem Fachbereich durch Erfahrung aus |
 | lakonisch | (A) Knappe aber treffende Ausdrucksweise |
 | drakonisch | (A) Schlimme Strafe / Teuflisch |
-| FOMO | (N) Fear Of Missing Out |
-| die Sublimität  | (N) Etwas dass sich dem Verstand entzieht |
-| der Nachtmahr | (N) Nightmare, Albtraum Wesen |
-| egozentrisch | (A) Auf sich selber fokussiert |
-| die Binäre Opposition | (A) Gegenteilige Dinge wo nichts dazwischen möglich ist |
-| die Notation | (N) Schreibweise |
-| der Nadir | (N) Tiefpunkt |
-| der Zenit | (N) Höchstpunkt |
-| das Meritum  | (N) Leistung |
-| der Nexus | (N) Eine Verbindung |
-| antizipieren | (V) Voraussehen |
-| die Theodizee | (N) Gottes reagiert nicht auf das leiden |
-| der Eskapismus  | (N) Fluchtkultur |
-| propagieren  | (V) nach unten verteilen / benachrichtigen |
-| die Tautologie  | (N) allgemeingültige Aussage |
-| die Tugend | (N) Vorbildliche Eigenschaft |
-| die Misogynie | (N) Frauenhass |
-| die Misandrie | (N) Männerhass |
-| der Usus  | (N) Gewohnheit, Brauch, Sitte |
-| die Fusion | (N) Zusammenschluss |
-| die Fission  | (N) Spaltung |
+| pastoral  | (A) Seelsorge, Ländlich |
+| autonom | (A) Selbstständig |
+| autark | (A) Selbständig |
+| autodidaktisch  | (A) Sich selbst beibringen |
+| salopp | (A) Spontan, Schnell |
+| prophylaktisch  | (A) Vorbeugend |
+| prädestiniert | (A) Vorher bestimmt |
+| arbiträr  | (A) Willkürlich, nicht naturgegeben |
+| vehement  | (A) akut, drastisch, stark |
+| auktorial | (A) allwissend |
+| adäquat | (A) angemessen |
+| teleologisch | (A) auf ein Ziel hin gerichtet |
+| eloquent  | (A) ausdrucksvoll, wortreich und zielgruppengemäss |
+| superb | (A) ausgezeichnet |
+| suffizient | (A) ausreichend |
+| exorbitant | (A) ausserordentlich |
+| gravierend | (A) drastisch |
+| diametral | (A) entgegengesetzt |
+| perplex | (A) erstaunt |
+| idyllisch | (A) friedlich, beschaulich, malerisch |
+| antagonistisch | (A) gegensätzlich |
+| manieriert | (A) gekünstelt oder unnatürlich, manierierte Sprache ist extra hochgestochen mit vieleFremdwörtern und Vokabeln. |
+| grandios  | (A) grossartig, überwältigend |
+| perfide | (A) hinterhältig |
+| dediziert | (A) jmd. o etwasem gewidmet |
+| lapidar | (A) kurz und bündig |
+| ephemeral | (A) kurzlebig |
+| platonisch | (A) nicht sinnlich, rein seelisch-geistig |
+| inkrementel  | (A) stück für stück |
+| apathisch | (A) teilnahmslos |
+| desolat | (A) trostlos |
+| obszön | (A) unanständig |
+| primordial | (A) ursprünglich |
+| prätentiös | (A) wichtigtuend |
+| erratisch | (A) zufällig, unvorhersehbar |
+| kaustisch | (A) ätzend |
+| die Kadenz | (N) Abfallen der Stimme |
+| die Intention | (N) Absicht, Grund etwas zu tun |
 | der Apostat  | (N) Abtrüniger im religiösen Sinn |
-| die Ornithologie | (N) Vogelkunde |
+| die Travestie | (N) Anders einkleiden im Bezug auf Geschichten |
+| der Quacksalber | (N) Arzt |
+| die Semantik | (N) Bedeutung |
+| der Quai  | (N) Befestigtes Ufer |
+| die Asservatenkammer  | (N) Beweismittelkammer |
+| die Tara  | (N) Brutto - Netto = Tara |
+| der Antagonist  | (N) Bösewicht |
+| das Syndikat | (N) Bündnis von Personen oder Unternehmen |
+| die Kausalität  | (N) Die Beziehung zwischen Ursache und Wirkung |
+| die Extremitäten | (N) Die Gliedmassen |
+| Känguru Wor | (N) Ein Wort das in Reihenfolge buchstaben enthält die ein Synonym ergeben.  |
+| die Implikation | (N) Einbeziehung einer Sache in eine andere, Auswirkung |
+| der Nexus | (N) Eine Verbindung |
+| das Präludium | (N) Einführende/Beginnende Melodie |
+| die Plörre | (N) Ekelhafte flüssigkeit |
+| die Abstinenz | (N) Enthaltsamkeit |
+| die Sublimität  | (N) Etwas dass sich dem Verstand entzieht |
 | die Vexillologie | (N) Fahnenkunde |
-| die Heraldik | (N) Wappenkunde |
-| die Anklage  | (N) Strafrechtlicher Aufruf zum Zivilprozess |
-| die Anzeige  | (N) Strafrechtlicher Aufruf zum Strafprozess |
+| FOMO | (N) Fear Of Missing Out |
+| das Gefilde  | (N) Feld |
+| der Eskapismus  | (N) Fluchtkultur |
+| die Foraminiferen  | (N) Fossielien |
+| die Misogynie | (N) Frauenhass |
+| die Parodie  | (N) Gegenrede/Lustige Anspielung auf Originalinhalt |
+| der Zentralstaat | (N) Gegenteil von Föderation |
+| die Binäre Opposition | (N) Gegenteilige Dinge wo nichts dazwischen möglich ist |
+| das Narrativ | (N) Geschichte |
+| der Usus  | (N) Gewohnheit, Brauch, Sitte |
+| der Deismus  | (N) Gott hat die Welt erschaffen mischt sich aber nicht mehr ein |
+| der Pantheismus | (N) Gott ist überall |
+| die Theodizee | (N) Gottes reagiert nicht auf das leiden |
+| der Anreiz | (N) Grund etwas zu tun |
+| das Axiom | (N) Grundsatz |
+| die Entourage | (N) Gruppierung meist Akrobaten |
+| die Amalgamation | (N) Haufen, Ansammlung |
+| der Trochäus | (N) Hebung/Senkung (Sprachflow, Fersfüsse, Rhytmuseinheiten) |
+| der Zenit | (N) Höchstpunkt |
+| die Apoapsis | (N) Höhepunkt in einer Umlaufbahn |
+| die Rekursion | (N) In sich selbst wiederholend |
+| die Quintessesenz  | (N) Kernaussage |
+| das Scharmützel | (N) Kleines, wenig Intensives Gefecht |
+| die Rhetorik | (N) Kunst des sprechens/Cappen |
+| die Föderation  | (N) Landesart wobei ein Staat in untergebiete geteilt ist |
+| die Dendrochronologie | (N) Lehre des Baumalters |
+| das Meritum  | (N) Leistung |
+| der Hedonismus  | (N) Lustbegierde |
+| die Entropie | (N) Mass für Unordnung in einem physikalischen System |
+| der Aphorismus  | (N) Maxime o. Weisheit welche ganzes Thema versucht in einem Satz zusammenzufassen |
+| der Putsch | (N) Militärische Revolution / Aufstand |
+| die Misandrie | (N) Männerhass |
+| der Nachtmahr | (N) Nightmare, Albtraum Wesen |
+| die Maxime | (N) Oberste Regel nach der man lebt. |
+| die Limerenz  | (N) Obsessive (einseitige) Verliebthei |
+| die Dachtel  | (N) Ohrfeige |
+| das Kartell  | (N) Organisation welche Preise Kontrolliert |
 | die Motion | (N) Parlamentarisches Werkzeug zur Gesetzesänderung |
 | das Postulat | (N) Parlamentarisches Werkzeug zur Gesetzesüberprüfung oder Machbarkeit eines Projektdurch die Exekutive (zb. Bundesrat) |
 | die Interpellation | (N) Parlamentarisches Werkzeug zur Stellung von Fragen an die Exekutive (zb. Bundesrat) |
-| der Cordon sanitaire  | (N) Weigerung mit einer Partei zu kooperieren aufgrund der extremen Ideologie |
-| genuin | (A) Echt |
-| die Apoapsis | (N) Höhepunkt in einer Umlaufbahn |
-| die Periapsis | (N) Tiefpunkt in einer Umlaufbahn |
-| autark | (A) Selbständig |
-| das Skalpel  | (N) kleines chirurgisches Messer |
-| die Abstinenz | (N) Enthaltsamkeit |
 | die Anamnese | (N) Professionelle Befragung durch eine Fachkraft, meist ein Arzt<br>manisch |
-| die Abdomen  | (N) der Bauch |
-| das Diagraphgma | (N) das Zwerchfell |
-| die Sepsis | (N) die Blutvergiftung |
-| der Thorax | (N) der Brustkorb |
-| das Sternum  | (N) das Brustbein |
-| versiert  | (A) Kennt sich in einem Fachbereich durch Erfahrung aus |
-| die Entropie | (N) Mass für Unordnung in einem physikalischen System |
-| diametral | (A) entgegengesetzt |
-| teleologisch | (A) auf ein Ziel hin gerichtet |
-| die Kausalität  | (N) Die Beziehung zwischen Ursache und Wirkung |
-| prätentiös | (A) wichtigtuend |
-| eloquent  | (A) ausdrucksvoll, wortreich und zielgruppengemäss |
-| manieriert | (A) gekünstelt oder unnatürlich, manierierte Sprache ist extra hochgestochen mit vieleFremdwörtern und Vokabeln. |
-| perpetuieren | (V) vorantreiben |
-| perplex | (A) erstaunt |
-| obszön | (A) unanständig |
-| suffizient | (A) ausreichend |
-| suggestieren | (V) auf etwas abzielen |
-| die Blamage  | (N) etwas Peinliches |
-| elaborieren  | (V) ausführlich erklären |
-| implementieren  | (V) umsetzen, meist im Informatikbereich |
-| amortisieren | (V) Eine schuld oder Investition tilge |
-| konsolidieren | (V) zusammenlegen |
-| der Hedonismus  | (N) Lustbegierde |
-| primordial | (A) ursprünglich |
-| das Dogma | (N) die etablierte Meinung |
-| erratisch | (A) zufällig, unvorhersehbar |
-| kaustisch | (A) ätzend |
-| die Internierung | (N) die Haft |
-| die Ordonnanz | (N) die Waffen |
-| ephemeral | (A) kurzlebig |
-| der Nepotismus  | (N) die Vetternwirtschafft |
-| das Individuum  | (N) das Unteilbare/Einzelding |
-| der Quai  | (N) Befestigtes Ufer |
-| die Dendrochronologie | (N) Lehre des Baumalters |
-| der Trabant  | (N) der Begleiter |
-| auktorial | (A) allwissend |
+| das Horizontales Gewerbe | (N) Prostitution |
+| das Etablissment | (N) Restaurant |
+| die Notation | (N) Schreibweise |
+| die Hieroglyphen | (N) Schriftzeichen einer Bilderschrift |
+| der Jambus | (N) Senkung/Hebung (Sprachflow, Fersfüsse, Rhytmuseinheiten) |
+| die Promiskuität | (N) Sexuelle Kontakte/Aktiv |
+| der Selbsterhaltungswille | (N) Sich selber schützen wollen |
+| der Pleonasmus  | (N) Sich wiederholende Aussage |
 | In flagranti | (N) Solange das Verbrechen noch brennt, Im Akt erwischt |
-| Känguru Wort / Synony | (N) Ein Wort das in Reihenfolge buchstaben enthält die ein Synonym ergeben. zb. *eucht**igk**e**it -> **Feuchte**. |
-| agitieren | (V) aggressiv verärgern |
-| Limerenz  | (N) Obsessive (einseitige) Verliebthei |
+| die Bourgeoisie | (N) Soziale Oberschicht |
+| das Proletariat | (N) Soziale Unterschicht |
+| die Fission  | (N) Spaltung |
+| das Moratorium  | (N) Stillhalteabkommen, Zahlungsaufschub |
+| die Anzeige  | (N) Strafrechtlicher Aufruf zum Strafprozess |
+| die Anklage  | (N) Strafrechtlicher Aufruf zum Zivilprozess |
+| der Nadir | (N) Tiefpunkt |
+| die Periapsis | (N) Tiefpunkt in einer Umlaufbahn |
+| das Vakuum | (N) Un ausgefüllter Raum |
+| die Malesche | (N) Unanehmlichkeit |
+| die persona non grata  | (N) Unerwünschte person |
+| das Präjudiz | (N) Vergange Verurteilingsentscheidungen |
+| die Kaffeefahrt | (N) Verkaufsveranstaltung |
 | der Diminutiv | (N) Verkleinerungsform eines Nomens (zb. li Endung im Schweizerdeutschen) |
-| die Extremitäten | (N) Die Gliedmassen |
-| der Aphorismus  | (N) Maxime o. Weisheit welche ganzes Thema versucht in einem Satz zusammenzufasse |
+| die Inversion | (N) Verschiebung der Satzteile im Dichten |
+| die Polyamorie  | (N) Viel Liebend |
+| die Ornithologie | (N) Vogelkunde |
+| die Terminologie | (N) Vokabular in einem Fachbereich |
+| die Tugend | (N) Vorbildliche Eigenschaft |
+| die Heraldik | (N) Wappenkunde |
+| der Cordon sanitaire  | (N) Weigerung mit einer Partei zu kooperieren aufgrund der extremen Ideologie |
+| der Neologismus | (N) Wortneuschöpfung |
+| der Wackeldackel | (N) Yes Man |
+| die Fusion | (N) Zusammenschluss |
+| die Tautologie  | (N) allgemeingültige Aussage |
+| das Sternum  | (N) das Brustbein |
+| das Individuum  | (N) das Unteilbare/Einzelding |
+| das Diagraphgma | (N) das Zwerchfell |
+| die Abdomen  | (N) der Bauch |
+| der Trabant  | (N) der Begleiter |
+| der Thorax | (N) der Brustkorb |
+| die Sepsis | (N) die Blutvergiftung |
+| die Internierung | (N) die Haft |
+| die Asthenie | (N) die Schwäche |
+| der Nepotismus  | (N) die Vetternwirtschafft |
+| die Ordonnanz | (N) die Waffen |
+| das Dogma | (N) die etablierte Meinung |
+| die Blamage  | (N) etwas Peinliches |
+| das Skalpel  | (N) kleines chirurgisches Messer |
+| die Fossilien | (N) Überreste von Dinosaurieren |
+| die Hypochondrie | (N) übertriebene Neigung, seinen eigenen Gesundheitszustand zu beobachten. |
+| offerieren | (V) Anbieten |
+| insistieren  | (V) Darauf bestehen |
+| eruieren  | (V) Durch gründliche Ersuchung zum Schluss gekommen |
+| amortisieren | (V) Eine schuld oder Investition tilge |
+| kontextualisieren  | (V) Etwas in den Zeitlichen Kontext setzen |
+| knautschen | (V) Geräusch wenn man in eine Leder Couch sitzt |
+| tangieren | (V) Nur knapp berühren oder streifen |
+| quinkelieren | (V) Pfeiffen, Trällern |
+| radotieren | (V) Plappern, Reden |
+| profilieren  | (V) Sich über etwas was man kann identifizieren. |
+| drosseln  | (V) Verlangsamen |
+| antizipieren | (V) Voraussehen |
+| gentrifizieren  | (V) Yuppisierung |
+| agitieren | (V) aggressiv verärgern |
+| suggestieren | (V) auf etwas abzielen |
+| elaborieren  | (V) ausführlich erklären |
+| intervenieren | (V) eingreifen |
+| propagieren  | (V) nach unten verteilen / benachrichtigen |
+| implementieren  | (V) umsetzen, meist im Informatikbereich |
+| persiflieren | (V) verspotten/lächerlich machen |
+| perpetuieren | (V) vorantreiben |
+| konsolidieren | (V) zusammenlegen |
+| konvergieren | (V) Überschneiden |
+
+
+# Wörter für Wörter
+
+|Wort|Bedeutung|
+|---|---|
+| Akronym | Abkürzendes Wort aus dem Ersten Buchstaben jedes Wortes |
+| Backronym | Abkürzung welche vor dem Ausdruck gemacht wurde |
+| Apronym | Akronym welches selber ein Wort ist |
+| Demonym | Begriff für ein Volk zb. Deutsche, Schweizer |
+| Antonym | Das Gegenteil. |
+| Oxymoron | Sich widersprechender Ausdruck |
+| Metonym | Stellvertrendes Wort mit anderer Bedeutung |
+| Pangramm | Text wo alle Buchstaben vorkommen (für Font Testing) |
+| Anagramm | Wort dessen Buchstabe man umstellen könnte um ein anderes Wort zu erhalten. |
+| Palindrom | Wort welches rückwärtsgespiegelt gleich geschrieben wird |
+| Ambigramm | Worter welche vertikal rotiert eine andere bedeutung haben |
+| Onomatopoesie | Wörter die so klingen wie der Ton den sie beschreiben |
+| Homonym | Wörter mit mehreren Bedeutungen |

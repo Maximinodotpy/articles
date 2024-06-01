@@ -1,0 +1,15 @@
+{
+    "Akronym"                   : "Abkürzendes Wort aus dem Ersten Buchstaben jedes Wortes",
+    "Ambigramm"                 : "Worter welche vertikal rotiert eine andere bedeutung haben",
+    "Anagramm"                  : "Wort dessen Buchstabe man umstellen könnte um ein anderes Wort zu erhalten.",
+    "Antonym"                   : "Das Gegenteil.",
+    "Apronym"                   : "Akronym welches selber ein Wort ist",
+    "Backronym"                 : "Abkürzung welche vor dem Ausdruck gemacht wurde",
+    "Demonym"                   : "Begriff für ein Volk zb. Deutsche, Schweizer",
+    "Homonym"                   : "Wörter mit mehreren Bedeutungen",
+    "Metonym"                   : "Stellvertrendes Wort mit anderer Bedeutung",
+    "Onomatopoesie"             : "Wörter die so klingen wie der Ton den sie beschreiben",
+    "Oxymoron"                  : "Sich widersprechender Ausdruck",
+    "Palindrom"                 : "Wort welches rückwärtsgespiegelt gleich geschrieben wird",
+    "Pangramm"                  : "Text wo alle Buchstaben vorkommen (für Font Testing)"
+}

@@ -1,6 +1,23 @@
 # Imports
 import json
 
+def read_and_write_word_list(file_name, title):
+    global final_string
+
+    with open(file_name, 'r', encoding='utf-8') as file:
+        words = json.load(file)
+
+        words = dict(sorted(words.items(), key=lambda item: item[1]))
+
+        final_string += f'\n\n# {title}\n\n'
+
+        final_string += '|Wort|Bedeutung|\n'
+        final_string += '|---|---|\n'
+
+        for key, value in words.items():
+            final_string += f'| {key} | {value} |\n'
+
+
 final_string = """---
 name: Wörter
 slug: woerter
@@ -12,22 +29,17 @@ description: Einige sehr eloquente Wörter
 
 Hier ist eine Liste von Wörtern, die ich sehr eloquent finde. Ich hoffe, dass Sie sie auch mögen.
 
+Sie sind nach wortart sortiert (A/N/V).
+
+[Vorschläge](mailto:info@maximmaeder.com) sind willkommen.
+
 """
 
 # Read the woerter.json file
-with open('woerter.json', 'r', encoding='utf-8') as file:
-    woerter = json.load(file)
+read_and_write_word_list('woerter.json', 'Wörter')
 
-    print(woerter)
-
-    final_string += '# Woerter\n\n'
-
-    final_string += '|Wort|Bedeutung|\n'
-    final_string += '|---|---|\n'
-
-    # Loop over all keys and values
-    for key, value in woerter.items():
-        final_string += f'| {key} | {value} |\n'
+# Read the woerter_fuer_woerter.json file
+read_and_write_word_list('woerter_fuer_woerter.json', 'Wörter für Wörter')
 
 
 # Save the content to the file "_blog/article.md"
