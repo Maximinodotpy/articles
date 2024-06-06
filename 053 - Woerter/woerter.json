@@ -182,5 +182,6 @@
     "superb"                    :  "(A) ausgezeichnet",
     "vernakular"                :  "(A) umgangssprachlich", 
     "protonym"                  :  "(A) Erstname",   
-    "ad hominem"                :  "(A) auf die Person bezogen"
+    "ad hominem"                :  "(A) auf die Person bezogen",
+    "das Verdikt"               :  "(N) das Urteil"
 }

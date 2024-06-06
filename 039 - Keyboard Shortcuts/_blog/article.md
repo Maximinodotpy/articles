@@ -22,7 +22,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Vimium](#vimium) *(9 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
 - [Visual Studio Code](#visual-studio-code) *(38 Shortcuts)*
-- [Office General](#office-general) *(42 Shortcuts)*
+- [Office General](#office-general) *(45 Shortcuts)*
 - [Microsoft Word](#microsoft-word) *(25 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(25 Shortcuts)*
@@ -30,6 +30,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Microsoft Teams](#microsoft-teams) *(20 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(16 Shortcuts)*
+- [Adobe Animate](#adobe-animate) *(6 Shortcuts)*
 - [Adobe Premiere Pro](#adobe-premiere-pro) *(68 Shortcuts)*
 - [Adobe Illustrator](#adobe-illustrator) *(50 Shortcuts)*
 - [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
@@ -429,6 +430,9 @@ These shortcuts apply to Microsoft Office and other Microsoft programs.
 | `F11` | Select next Link [When in a Rich Text Editor] |
 | `shift + F11` | Select previous Link [When in a Rich Text Editor] |
 | `ctrl + y` | Repeat last action [When in a Rich Text Editor] |
+| `alt + shift + up` | Move line up [When in a Rich Text Editor] |
+| `alt + shift + down` | Move line down [When in a Rich Text Editor] |
+| `ctrl + alt + 5` | Cycle through floating objects [When in a Rich Text Editor] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -626,7 +630,7 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `ctrl + 1` | Zoom to 100% |
 | `ctrl + g` | Group selected elements |
 | `ctrl + shift + g` | Ungroup selected elements |
-| `ctrl + shift + z` | Redo |
+| `ctrl + shift + z` | Redo previous undo |
 | `alt + arrows/mouse` | Copy Object |
 | `alt + scroll` | Zoom  |
 | `tab` | Toggle Tools and other Windows |
@@ -634,6 +638,26 @@ Adobe offers a lot of programs in the creative sector and these shortcuts apply 
 | `ctrl + w` | Close Document |
 | `space` | View Movement Tool |
 | `ctrl + alt + p` | Setup Document |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
+## Adobe Animate
+
+Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-animate)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=adobe-animate)
+
+| Shortcut | Description |
+| --- | --- |
+| `.` | Go to next Frame |
+| `,` | Go to previous Frame |
+| `shift + .` | Go to end |
+| `shift + ,` | Go to start |
+| `alt + .` | Go to next keyframe |
+| `alt + ,` | Go to previouse keyframe |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -986,11 +1010,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 568
+Total Shortcuts: 577
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.04
+Average Shortcuts per Application: 20.61
 

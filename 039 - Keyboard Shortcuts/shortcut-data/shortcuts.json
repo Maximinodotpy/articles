@@ -309,7 +309,6 @@
                 { "keys": "ctrl + k m",                          "description": "Choose language mode" },
                 { "keys": "ctrl + .",                            "description": "View code actions" },
                 { "keys": "F8",                                  "description": "Cycle through problems begining with the nearest" }
-
             ]
         },
         "office-general": {
@@ -367,7 +366,11 @@
                 { "keys": "F11",                                 "description": "Select next Link [When in a Rich Text Editor]" },
                 { "keys": "shift + F11",                         "description": "Select previous Link [When in a Rich Text Editor]" },
 
-                { "keys": "ctrl + y",                         "description": "Repeat last action [When in a Rich Text Editor]" }
+                { "keys": "ctrl + y",                            "description": "Repeat last action [When in a Rich Text Editor]" },
+                { "keys": "alt + shift + up",                    "description": "Move line up [When in a Rich Text Editor]" },
+                { "keys": "alt + shift + down",                  "description": "Move line down [When in a Rich Text Editor]" },
+
+                { "keys": "ctrl + alt + 5",                      "description": "Cycle through floating objects [When in a Rich Text Editor]" }
             ]
         },
         "microsoft-word": {
@@ -552,7 +555,7 @@
                 { "keys": "shift + .",                           "description": "Go to end" },
                 { "keys": "shift + ,",                           "description": "Go to start" },
                 { "keys": "alt + .",                             "description": "Go to next keyframe" },
-                { "keys": "alt + ,",                             "description": "Go to previouse keyframe" },
+                { "keys": "alt + ,",                             "description": "Go to previouse keyframe" }
             ]
         },
         "adobe-premiere-pro": {

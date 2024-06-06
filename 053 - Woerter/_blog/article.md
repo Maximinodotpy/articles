@@ -166,6 +166,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | die Tautologie  | (N) allgemeingültige Aussage |
 | das Sternum  | (N) das Brustbein |
 | das Individuum  | (N) das Unteilbare/Einzelding |
+| das Verdikt | (N) das Urteil |
 | das Diagraphgma | (N) das Zwerchfell |
 | die Abdomen  | (N) der Bauch |
 | der Trabant  | (N) der Begleiter |
