@@ -183,5 +183,18 @@
     "vernakular"                :  "(A) umgangssprachlich", 
     "protonym"                  :  "(A) Erstname",   
     "ad hominem"                :  "(A) auf die Person bezogen",
-    "das Verdikt"               :  "(N) das Urteil"
+    "das Verdikt"               :  "(N) das Urteil",
+    "auserkoren"                :  "(A) ausgewählt",
+    "degoutant"                 :  "(A) widerlich",
+    "der Hehler"                :  "(N) der Diebeshelfer, jmd. der gestohlene Ware handelt",
+    "akribisch"                 :  "(A) sehr genau",
+    "arkan"                     :  "(A) geheim, nicht zugänglich",
+    "brachial"                  :  "(A) grob, gewaltsam",
+    "disponibel"                :  "(A) verfügbar",
+    "eminent"                   :  "(A) hervorragend",
+    "luziferisch"               :  "(A) teuflisch, bösartig",
+    "pittoresk"                 :  "(A) malerisch",
+    "redundant"                 :  "(A) überflüssig",
+    "rudimentär"                :  "(A) unvollständig",
+    "lethargisch"               :  "(A) antriebslos"
 }

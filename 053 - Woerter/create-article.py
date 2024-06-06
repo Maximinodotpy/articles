@@ -17,6 +17,12 @@ def read_and_write_word_list(file_name, title):
         for key, value in words.items():
             final_string += f'| {key} | {value} |\n'
 
+link = [
+    'https://www.studienscheiss.de/schlaue-adjektive-studienarbeit/',
+    'https://sprachschleuder.de/formulierungshilfen-wissenschaftliche-arbeit/bildungssprache-schlaue-woerter/',
+    'https://learnsolution.de/1000-adjektive-zauberwoerter-die-jeden-aufsatz-lesenswert-machen/',
+    'https://sternenvogelreisen.de/woerter-gehobene-sprache/',
+]
 
 final_string = """---
 name: Wörter
@@ -41,6 +47,10 @@ read_and_write_word_list('woerter.json', 'Wörter')
 # Read the woerter_fuer_woerter.json file
 read_and_write_word_list('woerter_fuer_woerter.json', 'Wörter für Wörter')
 
+# Add some links
+final_string += '\n\n# Links\n\n'
+for l in link:
+    final_string += f'* [{l}]({l})\n'
 
 # Save the content to the file "_blog/article.md"
 with open('_blog/article.md', 'w', encoding='utf-8') as file:
