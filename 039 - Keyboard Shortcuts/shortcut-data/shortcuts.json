@@ -144,7 +144,10 @@
                 { "keys": "ctrl + shift + escape",               "description": "Open Task Manager" },
 
                 { "keys": "Windows + alt + d",                   "description": "Open Windows Calendar in the bottom right" },
-                { "keys": "ctrl + Windows + shift + b",          "description": "Restart Graphicscard Drivers" }
+                { "keys": "ctrl + Windows + shift + b",          "description": "Restart Graphicscard Drivers" },
+
+                { "keys": "ctrl + Windows + alt + shift + d",    "description": "Open OneDrive" },
+                { "keys": "ctrl + Windows + alt + shift + o",    "description": "Open Outlook inbox" }
             ]
         },
         "browser-microsoft-edge": {

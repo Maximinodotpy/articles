@@ -17,7 +17,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 - [General](#general) *(32 Shortcuts)*
 - [File Explorer](#file-explorer) *(24 Shortcuts)*
-- [Windows](#windows) *(57 Shortcuts)*
+- [Windows](#windows) *(59 Shortcuts)*
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(45 Shortcuts)*
 - [Vimium](#vimium) *(9 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
@@ -194,6 +194,8 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `ctrl + shift + escape` | Open Task Manager |
 | `Windows + alt + d` | Open Windows Calendar in the bottom right |
 | `ctrl + Windows + shift + b` | Restart Graphicscard Drivers |
+| `ctrl + Windows + alt + shift + d` | Open OneDrive |
+| `ctrl + Windows + alt + shift + o` | Open Outlook inbox |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -1010,11 +1012,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 577
+Total Shortcuts: 579
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 20.61
+Average Shortcuts per Application: 20.68
 
