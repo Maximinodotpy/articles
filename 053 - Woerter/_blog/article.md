@@ -41,9 +41,11 @@ Sie sind nach wortart sortiert (A/N/V).
 | vehement  | (A) akut, drastisch, stark |
 | auktorial | (A) allwissend |
 | adäquat | (A) angemessen |
+| lethargisch | (A) antriebslos |
 | ad hominem | (A) auf die Person bezogen |
 | teleologisch | (A) auf ein Ziel hin gerichtet |
 | eloquent  | (A) ausdrucksvoll, wortreich und zielgruppengemäss |
+| auserkoren | (A) ausgewählt |
 | superb | (A) ausgezeichnet |
 | suffizient | (A) ausreichend |
 | exorbitant | (A) ausserordentlich |
@@ -52,22 +54,33 @@ Sie sind nach wortart sortiert (A/N/V).
 | perplex | (A) erstaunt |
 | idyllisch | (A) friedlich, beschaulich, malerisch |
 | antagonistisch | (A) gegensätzlich |
+| arkan | (A) geheim, nicht zugänglich |
 | manieriert | (A) gekünstelt oder unnatürlich, manierierte Sprache ist extra hochgestochen mit vieleFremdwörtern und Vokabeln. |
+| brachial | (A) grob, gewaltsam |
 | grandios  | (A) grossartig, überwältigend |
+| eminent | (A) hervorragend |
 | perfide | (A) hinterhältig |
 | dediziert | (A) jmd. o etwasem gewidmet |
 | lapidar | (A) kurz und bündig |
 | ephemeral | (A) kurzlebig |
+| pittoresk | (A) malerisch |
 | platonisch | (A) nicht sinnlich, rein seelisch-geistig |
+| akribisch | (A) sehr genau |
 | inkrementel  | (A) stück für stück |
 | apathisch | (A) teilnahmslos |
+| luziferisch | (A) teuflisch, bösartig |
 | desolat | (A) trostlos |
 | vernakular | (A) umgangssprachlich |
 | obszön | (A) unanständig |
+| adamant | (A) unnachgiebig |
+| rudimentär | (A) unvollständig |
 | primordial | (A) ursprünglich |
+| disponibel | (A) verfügbar |
 | prätentiös | (A) wichtigtuend |
+| degoutant | (A) widerlich |
 | erratisch | (A) zufällig, unvorhersehbar |
 | kaustisch | (A) ätzend |
+| redundant | (A) überflüssig |
 | die Kadenz | (N) Abfallen der Stimme |
 | die Intention | (N) Absicht, Grund etwas zu tun |
 | der Apostat  | (N) Abtrüniger im religiösen Sinn |
@@ -134,6 +147,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | das Etablissment | (N) Restaurant |
 | die Notation | (N) Schreibweise |
 | die Hieroglyphen | (N) Schriftzeichen einer Bilderschrift |
+| Ägide | (N) Schutz, Schirmherrschaft |
 | der Jambus | (N) Senkung/Hebung (Sprachflow, Fersfüsse, Rhytmuseinheiten) |
 | die Promiskuität | (N) Sexuelle Kontakte/Aktiv |
 | der Selbsterhaltungswille | (N) Sich selber schützen wollen |
@@ -171,6 +185,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | die Abdomen  | (N) der Bauch |
 | der Trabant  | (N) der Begleiter |
 | der Thorax | (N) der Brustkorb |
+| der Hehler | (N) der Diebeshelfer, jmd. der gestohlene Ware handelt |
 | die Sepsis | (N) die Blutvergiftung |
 | die Internierung | (N) die Haft |
 | die Asthenie | (N) die Schwäche |
@@ -179,6 +194,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | das Dogma | (N) die etablierte Meinung |
 | die Blamage  | (N) etwas Peinliches |
 | das Skalpel  | (N) kleines chirurgisches Messer |
+| Voyerismus | (N) sexuelle Neigung, andere Menschen zu beobachten |
 | die Fossilien | (N) Überreste von Dinosaurieren |
 | die Hypochondrie | (N) übertriebene Neigung, seinen eigenen Gesundheitszustand zu beobachten. |
 | offerieren | (V) Anbieten |
@@ -223,3 +239,11 @@ Sie sind nach wortart sortiert (A/N/V).
 | Ambigramm | Worter welche vertikal rotiert eine andere bedeutung haben |
 | Onomatopoesie | Wörter die so klingen wie der Ton den sie beschreiben |
 | Homonym | Wörter mit mehreren Bedeutungen |
+
+
+# Links
+
+* [https://www.studienscheiss.de/schlaue-adjektive-studienarbeit/](https://www.studienscheiss.de/schlaue-adjektive-studienarbeit/)
+* [https://sprachschleuder.de/formulierungshilfen-wissenschaftliche-arbeit/bildungssprache-schlaue-woerter/](https://sprachschleuder.de/formulierungshilfen-wissenschaftliche-arbeit/bildungssprache-schlaue-woerter/)
+* [https://learnsolution.de/1000-adjektive-zauberwoerter-die-jeden-aufsatz-lesenswert-machen/](https://learnsolution.de/1000-adjektive-zauberwoerter-die-jeden-aufsatz-lesenswert-machen/)
+* [https://sternenvogelreisen.de/woerter-gehobene-sprache/](https://sternenvogelreisen.de/woerter-gehobene-sprache/)
