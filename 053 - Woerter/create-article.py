@@ -22,6 +22,8 @@ link = [
     'https://sprachschleuder.de/formulierungshilfen-wissenschaftliche-arbeit/bildungssprache-schlaue-woerter/',
     'https://learnsolution.de/1000-adjektive-zauberwoerter-die-jeden-aufsatz-lesenswert-machen/',
     'https://sternenvogelreisen.de/woerter-gehobene-sprache/',
+    'https://sternenvogelreisen.de/substantive-gehobene-sprache/',
+    'https://www.sprachnudel.de/woerterbuch/wortsuche/gehobene-sprache',
 ]
 
 final_string = """---

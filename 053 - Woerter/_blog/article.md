@@ -44,6 +44,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | lethargisch | (A) antriebslos |
 | ad hominem | (A) auf die Person bezogen |
 | teleologisch | (A) auf ein Ziel hin gerichtet |
+| abgefeimt | (A) auf unmoralische Weise schlau |
 | eloquent  | (A) ausdrucksvoll, wortreich und zielgruppengemäss |
 | auserkoren | (A) ausgewählt |
 | superb | (A) ausgezeichnet |
@@ -51,9 +52,14 @@ Sie sind nach wortart sortiert (A/N/V).
 | exorbitant | (A) ausserordentlich |
 | gravierend | (A) drastisch |
 | diametral | (A) entgegengesetzt |
+| pitoyable | (A) erbärmlich |
 | perplex | (A) erstaunt |
+| impertinent | (A) frech |
+| amikal | (A) freundschaftlich |
 | idyllisch | (A) friedlich, beschaulich, malerisch |
+| ad hoc | (A) für diesen Zweck, spontant |
 | antagonistisch | (A) gegensätzlich |
+| klandestin | (A) geheim |
 | arkan | (A) geheim, nicht zugänglich |
 | manieriert | (A) gekünstelt oder unnatürlich, manierierte Sprache ist extra hochgestochen mit vieleFremdwörtern und Vokabeln. |
 | brachial | (A) grob, gewaltsam |
@@ -63,19 +69,26 @@ Sie sind nach wortart sortiert (A/N/V).
 | dediziert | (A) jmd. o etwasem gewidmet |
 | lapidar | (A) kurz und bündig |
 | ephemeral | (A) kurzlebig |
+| artifiziell | (A) künstlich |
 | pittoresk | (A) malerisch |
 | platonisch | (A) nicht sinnlich, rein seelisch-geistig |
+| opulent | (A) prunkvoll |
 | akribisch | (A) sehr genau |
+| obstinat | (A) stur, unbelehrbar |
 | inkrementel  | (A) stück für stück |
 | apathisch | (A) teilnahmslos |
 | luziferisch | (A) teuflisch, bösartig |
+| banal | (A) trivial, nichtssagend |
 | desolat | (A) trostlos |
 | vernakular | (A) umgangssprachlich |
 | obszön | (A) unanständig |
+| sakrosankt | (A) unantastbar |
+| nebulös | (A) unklar, verschwommen |
 | adamant | (A) unnachgiebig |
 | rudimentär | (A) unvollständig |
 | primordial | (A) ursprünglich |
 | disponibel | (A) verfügbar |
+| designiert | (A) vorgesehen |
 | prätentiös | (A) wichtigtuend |
 | degoutant | (A) widerlich |
 | erratisch | (A) zufällig, unvorhersehbar |
@@ -111,6 +124,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | der Zentralstaat | (N) Gegenteil von Föderation |
 | die Binäre Opposition | (N) Gegenteilige Dinge wo nichts dazwischen möglich ist |
 | das Narrativ | (N) Geschichte |
+| das Antlitz | (N) Gesicht |
 | der Usus  | (N) Gewohnheit, Brauch, Sitte |
 | der Deismus  | (N) Gott hat die Welt erschaffen mischt sich aber nicht mehr ein |
 | der Pantheismus | (N) Gott ist überall |
@@ -156,6 +170,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | die Bourgeoisie | (N) Soziale Oberschicht |
 | das Proletariat | (N) Soziale Unterschicht |
 | die Fission  | (N) Spaltung |
+| Mentalesisch | (N) Sprache des Geistes |
 | das Moratorium  | (N) Stillhalteabkommen, Zahlungsaufschub |
 | die Anzeige  | (N) Strafrechtlicher Aufruf zum Strafprozess |
 | die Anklage  | (N) Strafrechtlicher Aufruf zum Zivilprozess |
@@ -175,26 +190,37 @@ Sie sind nach wortart sortiert (A/N/V).
 | die Heraldik | (N) Wappenkunde |
 | der Cordon sanitaire  | (N) Weigerung mit einer Partei zu kooperieren aufgrund der extremen Ideologie |
 | der Neologismus | (N) Wortneuschöpfung |
+| der Furor | (N) Wut |
 | der Wackeldackel | (N) Yes Man |
 | die Fusion | (N) Zusammenschluss |
 | die Tautologie  | (N) allgemeingültige Aussage |
 | das Sternum  | (N) das Brustbein |
+| das Adagium | (N) das Sprichwort |
 | das Individuum  | (N) das Unteilbare/Einzelding |
 | das Verdikt | (N) das Urteil |
 | das Diagraphgma | (N) das Zwerchfell |
+| das Addendum | (N) der Anhang |
 | die Abdomen  | (N) der Bauch |
 | der Trabant  | (N) der Begleiter |
 | der Thorax | (N) der Brustkorb |
 | der Hehler | (N) der Diebeshelfer, jmd. der gestohlene Ware handelt |
+| die Koryphäe | (N) der Fachmann |
+| der Apologet | (N) der Verteidiger einer Überzeugung oder Lehre |
+| der Demagoge | (N) der Volksverführer |
 | die Sepsis | (N) die Blutvergiftung |
 | die Internierung | (N) die Haft |
 | die Asthenie | (N) die Schwäche |
+| der Altruismus | (N) die Selbstlosigkeit |
 | der Nepotismus  | (N) die Vetternwirtschafft |
 | die Ordonnanz | (N) die Waffen |
 | das Dogma | (N) die etablierte Meinung |
+| das Damoklesschwert | (N) die ständige Bedrohung |
 | die Blamage  | (N) etwas Peinliches |
 | das Skalpel  | (N) kleines chirurgisches Messer |
-| Voyerismus | (N) sexuelle Neigung, andere Menschen zu beobachten |
+| die Schwadronade | (N) leeres Gerede |
+| das Kenotaph | (N) leeres Grabmal |
+| die Freveltat | (N) schändliche Tat |
+| der Voyerismus | (N) sexuelle Neigung, andere Menschen zu beobachten |
 | die Fossilien | (N) Überreste von Dinosaurieren |
 | die Hypochondrie | (N) übertriebene Neigung, seinen eigenen Gesundheitszustand zu beobachten. |
 | offerieren | (V) Anbieten |
@@ -212,10 +238,15 @@ Sie sind nach wortart sortiert (A/N/V).
 | gentrifizieren  | (V) Yuppisierung |
 | agitieren | (V) aggressiv verärgern |
 | suggestieren | (V) auf etwas abzielen |
+| abandonnieren | (V) aufgeben |
 | elaborieren  | (V) ausführlich erklären |
+| asservieren | (V) beschlagnahmen |
 | intervenieren | (V) eingreifen |
 | propagieren  | (V) nach unten verteilen / benachrichtigen |
+| affilieren | (V) sich anschliessen |
 | implementieren  | (V) umsetzen, meist im Informatikbereich |
+| abhorrieren | (V) verabscheuen |
+| abjizieren | (V) verachten |
 | persiflieren | (V) verspotten/lächerlich machen |
 | perpetuieren | (V) vorantreiben |
 | konsolidieren | (V) zusammenlegen |
@@ -247,3 +278,5 @@ Sie sind nach wortart sortiert (A/N/V).
 * [https://sprachschleuder.de/formulierungshilfen-wissenschaftliche-arbeit/bildungssprache-schlaue-woerter/](https://sprachschleuder.de/formulierungshilfen-wissenschaftliche-arbeit/bildungssprache-schlaue-woerter/)
 * [https://learnsolution.de/1000-adjektive-zauberwoerter-die-jeden-aufsatz-lesenswert-machen/](https://learnsolution.de/1000-adjektive-zauberwoerter-die-jeden-aufsatz-lesenswert-machen/)
 * [https://sternenvogelreisen.de/woerter-gehobene-sprache/](https://sternenvogelreisen.de/woerter-gehobene-sprache/)
+* [https://sternenvogelreisen.de/substantive-gehobene-sprache/](https://sternenvogelreisen.de/substantive-gehobene-sprache/)
+* [https://www.sprachnudel.de/woerterbuch/wortsuche/gehobene-sprache](https://www.sprachnudel.de/woerterbuch/wortsuche/gehobene-sprache)
