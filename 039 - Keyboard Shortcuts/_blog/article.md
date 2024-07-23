@@ -17,7 +17,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 
 - [General](#general) *(32 Shortcuts)*
 - [File Explorer](#file-explorer) *(24 Shortcuts)*
-- [Windows](#windows) *(59 Shortcuts)*
+- [Windows](#windows) *(60 Shortcuts)*
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(45 Shortcuts)*
 - [Vimium](#vimium) *(9 Shortcuts)*
 - [Godot](#godot) *(36 Shortcuts)*
@@ -140,6 +140,7 @@ These shortcuts apply to the Windows Operating System. They are mostly not speci
 | `Windows + nothing` | Open the start menu, type anything to search |
 | `ctrl + escape` | Open the start menu, if not overwritten by program, type anything to search |
 | `alt + space` | Open the search bar (Windows PowerToys, by default) |
+| `Windows + c` | Open Microsoft Edge, if installed |
 | `shift + F10` | Open Context Menu, also works in a lot of programs by windows |
 | `alt + F4` | Close Window |
 | `Windows + down` | Minimize Window |
@@ -1012,11 +1013,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 579
+Total Shortcuts: 580
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 20.68
+Average Shortcuts per Application: 20.71
 
