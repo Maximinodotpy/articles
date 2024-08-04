@@ -38,6 +38,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | prophylaktisch  | (A) Vorbeugend |
 | prädestiniert | (A) Vorher bestimmt |
 | arbiträr  | (A) Willkürlich, nicht naturgegeben |
+| derogativ | (A) abwertend |
 | vehement  | (A) akut, drastisch, stark |
 | auktorial | (A) allwissend |
 | adäquat | (A) angemessen |
@@ -213,8 +214,10 @@ Sie sind nach wortart sortiert (A/N/V).
 | der Altruismus | (N) die Selbstlosigkeit |
 | der Nepotismus  | (N) die Vetternwirtschafft |
 | die Ordonnanz | (N) die Waffen |
+| Diaspora | (N) die Zerstreuung |
 | das Dogma | (N) die etablierte Meinung |
-| das Damoklesschwert | (N) die ständige Bedrohung |
+| das Damoklesschwert | (N) die unverhinderbare, auf einen zukommende, Bedrohung |
+| der Pyrrhussieg | (N) ein Sieg, der so teuer erkauft wurde, dass er sich wie eine Niederlage anfühlt |
 | die Blamage  | (N) etwas Peinliches |
 | das Skalpel  | (N) kleines chirurgisches Messer |
 | die Schwadronade | (N) leeres Gerede |
