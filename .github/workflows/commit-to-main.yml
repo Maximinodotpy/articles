@@ -18,6 +18,9 @@ jobs:
         message: Temp Commit
         committer_name: GitHub Actions
         committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+        add: |
+          '*.*'
+          '*/**/*'
 
     - name: Merge development -> staging
       uses: devmasx/merge-branch@master
