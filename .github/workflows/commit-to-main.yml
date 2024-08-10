@@ -13,6 +13,12 @@ jobs:
     - name: Recompile articles
       run: python run-all-creators.py
 
+    - uses: EndBug/add-and-commit@v9
+      with:
+        message: Temp Commit
+        committer_name: GitHub Actions
+        committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+
     - name: Merge development -> staging
       uses: devmasx/merge-branch@master
       with:
