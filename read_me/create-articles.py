@@ -19,6 +19,7 @@ Please dont refrain from creating an Issue if you find an Error in one of my Art
 |--|--|--|
 """
 
+
 columns = 3
 
 response = requests.get('https://maximmaeder.com/feed/json')
@@ -46,5 +47,5 @@ for i in chunks(content['items'], columns):
     
     finalString += '|\n'
 
-with open('README.md', 'w') as f:
+with open('../README.md', 'w') as f:
     f.write(finalString)

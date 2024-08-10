@@ -13,7 +13,10 @@ jobs:
     - name: Recompile articles
       run: python run-all-creators.py
 
-    - name: Commit & Push changes
-      uses: actions-js/push@master
+    - name: Merge development -> staging
+      uses: devmasx/merge-branch@master
       with:
+        type: now
+        from_branch: pen
+        target_branch: main
         github_token: ${{ secrets.GITHUB_TOKEN }}
