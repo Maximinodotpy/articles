@@ -1,0 +1,15 @@
+on:
+    push:
+      branches: [ master, main ]
+jobs:
+    deployment:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Deploy Stage
+        uses: satak/webrequest-action@master
+        with:
+          url: https://maximmaeder.com/wp-json/mgd/v1/update_outdated
+          method: GET
+
+      - name: Notify Google of Sitemap change
+        run: curl http://www.google.com/ping?sitemap=https://maximmaeder.com/sitemap.xml
