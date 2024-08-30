@@ -4,6 +4,7 @@
     "applications": {
         "general": {
             "name": "General",
+            "color": "#000000",
             "description": "These Shortcuts work in most programs, but still watch out for program specific shortcuts.",
             "shortcuts": [
                 { "keys": "tab",                                 "description": "Move Between focusable Elements" },
@@ -45,6 +46,7 @@
         },
         "file-explorer": {
             "name": "File Explorer", 
+            "color": "#0078d7",
             "description": "These shortcuts work in the integrated File Explorer of the Windows Operating System.",
             "shortcuts": [
                 { "keys": "ctrl + l",                            "description": "Focus Path Input" },
@@ -77,6 +79,7 @@
         },
         "windows": {
             "name": "Windows",
+            "color": "#0078d7",
             "description": "These shortcuts apply to the Windows Operating System. They are mostly not specific to a program. There's also this funny [website for taking screenshots](https://www.take-a-screenshot.org/).",
             "shortcuts": [
                 { "keys": "Windows + nothing",                   "description": "Open the start menu, type anything to search" },
@@ -153,6 +156,7 @@
         },
         "browser-microsoft-edge": {
             "name": "Browser (Microsoft Edge)",
+            "color": "#0078d7",
             "description": "These shortcuts apply to Microsoft Edge. You can also get the [Vimium extension](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) to enhance your browsing experience even more.",
             "shortcuts": [
                 { "keys": "ctrl + q",                            "description": "Open the command palette" },
@@ -210,6 +214,7 @@
         },
         "vimium": {
             "name": "Vimium",
+            "color": "#000000",
             "description": "The Browser Extension for Google Chrome and MS Edge. It allows you to navigate the web with just your keyboard. It's Awesome!",
             "shortcuts": [
                 { "keys": "f",                                   "description": "Open Link Selection" },
@@ -225,6 +230,7 @@
         },
         "godot": {
             "name": "Godot",
+            "color": "#85c2e0",
             "description": "These shortcuts are for the Godot Engine (Version 3.x and 4.x).",
             "shortcuts": [
                 { "keys": "q",                                   "description": "Select Mode [When in 2D]" },
@@ -271,6 +277,7 @@
         },
         "visual-studio-code": {
             "name": "Visual Studio Code",
+            "color": "#007ACC",
             "description": "",
             "shortcuts": [
                 { "keys": "alt + shift + i",                     "description": "Add cursors to ends of all currently selected lines" },
@@ -317,6 +324,7 @@
         },
         "office-general": {
             "name": "Office General",
+            "color": "#D83B01",
             "description": "These shortcuts apply to Microsoft Office and other Microsoft programs.",
             "shortcuts": [
                 { "keys": "ctrl + F1",                           "description": "Toggle ribbon menu visibility" },
@@ -379,6 +387,7 @@
         },
         "microsoft-word": {
             "name": "Microsoft Word",
+            "color": "#2b579a",
             "description": "Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#content-windows) because some of these also apply.",
             "shortcuts": [
                 { "keys": "ctrl + enter",                        "description": "Insert page break" },
@@ -414,6 +423,7 @@
         },
         "microsoft-powerpoint": {
             "name": "Microsoft Powerpoint",
+            "color": "#d24726",
             "description": "",
             "shortcuts": [
                 { "keys": "shift + F5",                          "description": "Start presentation from here" },
@@ -423,6 +433,7 @@
         },
         "microsoft-excl": {
             "name": "Microsoft Excel",
+            "color": "#217346",
             "description": "",
             "shortcuts": [
                 { "keys": "ctrl + pagedown",                     "description": "Switch to next Sheet in workbook" },
@@ -461,6 +472,7 @@
         },
         "microsoft-outlook": {
             "name": "Microsoft Outlook",
+            "color": "#0078d4",
             "description": "",
             "shortcuts": [
                 { "keys": "ctrl + r",                            "description": "Reply" },
@@ -479,6 +491,7 @@
         },
         "microsoft-teams": {
             "name": "Microsoft Teams",
+            "color": "#6264A7",
             "description": "",
             "shortcuts": [
                 { "keys": "ctrl + .",                            "description": "Show keyboard shortcuts [When in call]" },
@@ -511,6 +524,7 @@
         },
         "jupyter-notebook": {
             "name": "Jupyter Notebook",
+            "color": "#f37626",
             "description": "",
             "shortcuts": [
                 { "keys": "b",                                   "description": "Add cell below" },
@@ -526,6 +540,7 @@
         },
         "adobe-general": {
             "name": "Adobe General",
+            "color": "#ff0000",
             "description": "Adobe offers a lot of programs in the creative sector and these shortcuts apply to most of their software.",
             "shortcuts": [
                 { "keys": "v",                                   "description": "Switch to selection Tool" },
@@ -552,6 +567,7 @@
         },
         "adobe-animate": {
             "name": "Adobe Animate",
+            "color": "#ff0000",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": ".",                                   "description": "Go to next Frame" },
@@ -564,6 +580,7 @@
         },
         "adobe-premiere-pro": {
             "name": "Adobe Premiere Pro",
+            "color": "#ff0000",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": "shift + ü",                           "description": "Maximize Window" },
@@ -654,6 +671,7 @@
         },
         "adobe-illustrator": {
             "name": "Adobe Illustrator",
+            "color": "#ff0000",
             "description": "These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. I think it's really great and I use it a lot. I think you will love it too and if you do, you can use these shortcuts to speed up your workflow. Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": "t",                                   "description": "Switch to text Tool" },
@@ -718,6 +736,7 @@
         },
         "adobe-after-effects": {
             "name": "Adobe After Effects",
+            "color": "#ff0000",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": "ctrl + shift + d",                    "description": "Split Selected Timeline" },
@@ -726,6 +745,7 @@
         },
         "adobe-bridge": {
             "name": "Adobe Bridge",
+            "color": "#ff0000",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [                
                 { "keys": "ctrl + number",                       "description": "Set rating from 1 to 5" },
@@ -740,6 +760,7 @@
         },
         "adobe-lightroom-new": {
             "name": "Adobe Lightroom New",
+            "color": "#ff0000",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": ",",                                   "description": "Toggle movie strip" },
@@ -752,6 +773,7 @@
         },
         "wordpress": {
             "name": "Wordpress",
+            "color": "#21759b",
             "description": "",
             "shortcuts": [
                 { "keys": "ctrl + alt + m",                      "description": "Toggle Code Editor in Post Edit View" }
@@ -759,6 +781,7 @@
         },
         "github-desktop": {
             "name": "Github Desktop",
+            "color": "#24292e",
             "description": "Githubs Desktop Client",
             "shortcuts": [
                 { "keys": "ctrl + shift + a",                    "description": "Open current Repository in Editor" },
@@ -769,6 +792,7 @@
         },
         "obsidian-md": {
             "name": "Obsidian MD",
+            "color": "#7138d1",
             "description": "[Obsidian](https://obsidian.md/) is an awesome Markdown based Notetaking tool that I just recently (July 2023) discovered for myself and best of all its also has a lot of keyboard shortcuts. Keep in mind that many shortcuts known from other programs like `ctrl + tab` also apply here. Also common formatting Keyboards like `ctrl + i` for emphasised text can be used in Obsidian.",
             "shortcuts": [
                 { "keys": "ctrl + p",                            "description": "Open Command Palette" },
@@ -782,6 +806,7 @@
         },
         "google-workspaces": {
             "name": "Google Workspaces",
+            "color": "#4285f4",
             "description": "",
             "shortcuts": [
                 { "keys": "?",                                   "description": "Show keyboard shortcuts for this app, works for Calendar, Tasks and Contacts" },
@@ -790,6 +815,7 @@
         },
         "google-calendar": {
             "name": "Google Calendar",
+            "color": "#34a853",
             "description": "",
             "shortcuts": [
                 { "keys": "p/k",                                 "description": "Go to previous period" },
@@ -814,6 +840,7 @@
         },
         "google-tasks": {
             "name": "Google Tasks",
+            "color": "#fbbc05",
             "description": "",
             "shortcuts": [
                 { "keys": "up",                                  "description": "Go to previous task" },
@@ -832,6 +859,7 @@
         },
         "google-contacts": {
             "name": "Google Contacts",
+            "color": "#ea4335",
             "description": "",
             "shortcuts": [
                 { "keys": "j/right",                             "description": "Go to next task" },
