@@ -567,7 +567,7 @@
         },
         "adobe-animate": {
             "name": "Adobe Animate",
-            "color": "#ff0000",
+            "color": "#9998F6",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": ".",                                   "description": "Go to next Frame" },
@@ -580,7 +580,7 @@
         },
         "adobe-premiere-pro": {
             "name": "Adobe Premiere Pro",
-            "color": "#ff0000",
+            "color": "#9B99F7",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": "shift + ü",                           "description": "Maximize Window" },
@@ -671,7 +671,7 @@
         },
         "adobe-illustrator": {
             "name": "Adobe Illustrator",
-            "color": "#ff0000",
+            "color": "#FA980C",
             "description": "These shortcuts apply to Adobes wonderful Vector Graphics Software Illustrator. I think it's really great and I use it a lot. I think you will love it too and if you do, you can use these shortcuts to speed up your workflow. Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": "t",                                   "description": "Switch to text Tool" },
@@ -736,7 +736,7 @@
         },
         "adobe-after-effects": {
             "name": "Adobe After Effects",
-            "color": "#ff0000",
+            "color": "#9B99F7",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": "ctrl + shift + d",                    "description": "Split Selected Timeline" },
@@ -745,7 +745,7 @@
         },
         "adobe-bridge": {
             "name": "Adobe Bridge",
-            "color": "#ff0000",
+            "color": "#010C1B",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [                
                 { "keys": "ctrl + number",                       "description": "Set rating from 1 to 5" },
@@ -760,7 +760,7 @@
         },
         "adobe-lightroom-new": {
             "name": "Adobe Lightroom New",
-            "color": "#ff0000",
+            "color": "#34A9FA",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
                 { "keys": ",",                                   "description": "Toggle movie strip" },
