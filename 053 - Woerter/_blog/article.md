@@ -52,6 +52,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | suffizient | (A) ausreichend |
 | exorbitant | (A) ausserordentlich |
 | gravierend | (A) drastisch |
+| parochial | (A) engstirnig |
 | diametral | (A) entgegengesetzt |
 | pitoyable | (A) erbärmlich |
 | perplex | (A) erstaunt |
@@ -199,6 +200,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | das Adagium | (N) das Sprichwort |
 | das Individuum  | (N) das Unteilbare/Einzelding |
 | das Verdikt | (N) das Urteil |
+| das Kommutativgesetz | (N) das Vertauschungsgesetz |
 | das Diagraphgma | (N) das Zwerchfell |
 | das Addendum | (N) der Anhang |
 | die Abdomen  | (N) der Bauch |
@@ -212,6 +214,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | die Internierung | (N) die Haft |
 | die Asthenie | (N) die Schwäche |
 | der Altruismus | (N) die Selbstlosigkeit |
+| der Anthropormorphismus | (N) die Vermenschlichung |
 | der Nepotismus  | (N) die Vetternwirtschafft |
 | die Ordonnanz | (N) die Waffen |
 | Diaspora | (N) die Zerstreuung |
