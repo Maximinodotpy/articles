@@ -486,7 +486,8 @@
 
                 { "keys": "ctrl + enter",                        "description": "Send Mail [When in E-Mail Editor]" },
 
-                { "keys": "ctrl + shift + a",                    "description": "Create new Appointment" }
+                { "keys": "ctrl + shift + a",                    "description": "Create new Appointment" },
+                { "keys": "ctrl + shift + p",                    "description": "Create new Search Folder [When in email]" }
             ]
         },
         "microsoft-teams": {
@@ -667,6 +668,14 @@
 
                 { "keys": "ctrl + shift + e",                    "description": "Export current frame" },
                 { "keys": "ctrl + alt + k",                      "description": "Show keyboard shortcuts" }
+            ]
+        },
+        "adobe-indesign": {
+            "name": "Adobe InDesign",
+            "color": "#FF3366",
+            "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
+            "shortcuts": [
+
             ]
         },
         "adobe-illustrator": {
