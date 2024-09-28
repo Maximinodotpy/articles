@@ -52,6 +52,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | suffizient | (A) ausreichend |
 | exorbitant | (A) ausserordentlich |
 | gravierend | (A) drastisch |
+| frugal | (A) einfach, bescheiden |
 | parochial | (A) engstirnig |
 | diametral | (A) entgegengesetzt |
 | pitoyable | (A) erbärmlich |
@@ -68,13 +69,16 @@ Sie sind nach wortart sortiert (A/N/V).
 | grandios  | (A) grossartig, überwältigend |
 | eminent | (A) hervorragend |
 | perfide | (A) hinterhältig |
+| inhärent | (A) innewohnend |
 | dediziert | (A) jmd. o etwasem gewidmet |
 | lapidar | (A) kurz und bündig |
 | ephemeral | (A) kurzlebig |
 | artifiziell | (A) künstlich |
 | pittoresk | (A) malerisch |
 | platonisch | (A) nicht sinnlich, rein seelisch-geistig |
+| eklatant | (A) offensichtlich, aufdringlich |
 | opulent | (A) prunkvoll |
+| enigmatisch | (A) rätselhaft |
 | akribisch | (A) sehr genau |
 | obstinat | (A) stur, unbelehrbar |
 | inkrementel  | (A) stück für stück |
@@ -89,12 +93,14 @@ Sie sind nach wortart sortiert (A/N/V).
 | adamant | (A) unnachgiebig |
 | rudimentär | (A) unvollständig |
 | primordial | (A) ursprünglich |
+| frappierend | (A) verblüffend |
 | disponibel | (A) verfügbar |
 | designiert | (A) vorgesehen |
 | prätentiös | (A) wichtigtuend |
 | degoutant | (A) widerlich |
 | erratisch | (A) zufällig, unvorhersehbar |
 | kaustisch | (A) ätzend |
+| idiosynkratisch | (A) überempfindlich gegen bestimmte Stoffe und Reize |
 | redundant | (A) überflüssig |
 | die Kadenz | (N) Abfallen der Stimme |
 | die Intention | (N) Absicht, Grund etwas zu tun |
@@ -197,29 +203,39 @@ Sie sind nach wortart sortiert (A/N/V).
 | die Fusion | (N) Zusammenschluss |
 | die Tautologie  | (N) allgemeingültige Aussage |
 | das Sternum  | (N) das Brustbein |
+| die Hekatombe | (N) das Massenopfer |
 | das Adagium | (N) das Sprichwort |
 | das Individuum  | (N) das Unteilbare/Einzelding |
 | das Verdikt | (N) das Urteil |
 | das Kommutativgesetz | (N) das Vertauschungsgesetz |
 | das Diagraphgma | (N) das Zwerchfell |
+| epitheton ornans | (N) das schmückende Beiwort |
 | das Addendum | (N) der Anhang |
 | die Abdomen  | (N) der Bauch |
 | der Trabant  | (N) der Begleiter |
 | der Thorax | (N) der Brustkorb |
 | der Hehler | (N) der Diebeshelfer, jmd. der gestohlene Ware handelt |
 | die Koryphäe | (N) der Fachmann |
+| die Epigone | (N) der Nachahmer |
 | der Apologet | (N) der Verteidiger einer Überzeugung oder Lehre |
 | der Demagoge | (N) der Volksverführer |
+| die Emanzipation | (N) die Befreiung |
 | die Sepsis | (N) die Blutvergiftung |
+| der Habitus | (N) die Gewohnheit |
 | die Internierung | (N) die Haft |
+| die Euphorie | (N) die Hochstimmung |
+| die Dissenz | (N) die Meinungsverschiedenheit |
+| Diadochen | (N) die Nachfolger eines Herrschers |
 | die Asthenie | (N) die Schwäche |
 | der Altruismus | (N) die Selbstlosigkeit |
-| der Anthropormorphismus | (N) die Vermenschlichung |
+| Disruption | (N) die Unterbrechung |
+| der Anthropormorphismus | (N) die Vermenschlichung von nicht menschlichen Wesen o. Dingen |
 | der Nepotismus  | (N) die Vetternwirtschafft |
 | die Ordonnanz | (N) die Waffen |
 | Diaspora | (N) die Zerstreuung |
 | das Dogma | (N) die etablierte Meinung |
 | das Damoklesschwert | (N) die unverhinderbare, auf einen zukommende, Bedrohung |
+| der Konsens | (N) die Übereinstimmung |
 | der Pyrrhussieg | (N) ein Sieg, der so teuer erkauft wurde, dass er sich wie eine Niederlage anfühlt |
 | die Blamage  | (N) etwas Peinliches |
 | das Skalpel  | (N) kleines chirurgisches Messer |
@@ -245,11 +261,14 @@ Sie sind nach wortart sortiert (A/N/V).
 | agitieren | (V) aggressiv verärgern |
 | suggestieren | (V) auf etwas abzielen |
 | abandonnieren | (V) aufgeben |
+| divergieren | (V) auseinandergehen |
 | elaborieren  | (V) ausführlich erklären |
 | asservieren | (V) beschlagnahmen |
 | intervenieren | (V) eingreifen |
+| evozieren | (V) hervorrufen zb. Erinnerungen |
 | propagieren  | (V) nach unten verteilen / benachrichtigen |
 | affilieren | (V) sich anschliessen |
+| echauffieren | (V) sich aufregen |
 | implementieren  | (V) umsetzen, meist im Informatikbereich |
 | abhorrieren | (V) verabscheuen |
 | abjizieren | (V) verachten |
