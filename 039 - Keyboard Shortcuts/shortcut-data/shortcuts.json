@@ -675,7 +675,32 @@
             "color": "#FF3366",
             "description": "Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).",
             "shortcuts": [
+                { "keys": "shift + p",                           "description": "Switch to Page Tool" },
+                { "keys": "u",                                   "description": "Switch to Gap Tool" },
+                { "keys": "shift + t",                           "description": "Switch to Path Text Tool" },
+                { "keys": "f",                                   "description": "Switch to Rectangle Frame Tool" },
+                { "keys": "m",                                   "description": "Switch to Rectangle Tool" },
+                { "keys": "l",                                   "description": "Switch to Ellipse Tool" },
+                { "keys": "r",                                   "description": "Switch to Rotate Tool" },
+                { "keys": "s",                                   "description": "Switch to Scale Tool" },
+                { "keys": "o",                                   "description": "Switch to Shear Tool" },
+                { "keys": "e",                                   "description": "Switch to Free Transform Tool" },
+                { "keys": "i",                                   "description": "Switch to Pipette Tool" },
+                { "keys": "k",                                   "description": "Switch to Measure Tool" },
+                { "keys": "g",                                   "description": "Switch to Gradient Tool" },
+                { "keys": "shift + g",                           "description": "Switch to Gradient Feather Tool" },
+                { "keys": "c",                                   "description": "Switch to Scissors Tool" },
+                { "keys": "h",                                   "description": "Switch to Hand Tool" },
+                { "keys": "z",                                   "description": "Switch to Zoom Tool" },
+                { "keys": "b",                                   "description": "Toggle content extractor and placer tool" },
 
+                { "keys": "x",                                   "description": "Toggle fill and stroke" },
+                { "keys": ".",                                   "description": "Apply Gradient" },
+                { "keys": ",",                                   "description": "Apply Color" },
+                { "keys": "num/",                                "description": "Apply No Color" },
+
+                { "keys": "w",                                   "description": "Toggle normal view and preview" },
+                { "keys": "shift + w",                           "description": "Enter presentation mode" }
             ]
         },
         "adobe-illustrator": {
