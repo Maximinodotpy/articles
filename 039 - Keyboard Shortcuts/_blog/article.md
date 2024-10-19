@@ -26,12 +26,13 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Microsoft Word](#microsoft-word) *(25 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(25 Shortcuts)*
-- [Microsoft Outlook](#microsoft-outlook) *(9 Shortcuts)*
+- [Microsoft Outlook](#microsoft-outlook) *(10 Shortcuts)*
 - [Microsoft Teams](#microsoft-teams) *(20 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(16 Shortcuts)*
 - [Adobe Animate](#adobe-animate) *(6 Shortcuts)*
 - [Adobe Premiere Pro](#adobe-premiere-pro) *(68 Shortcuts)*
+- [Adobe InDesign](#adobe-indesign) *(24 Shortcuts)*
 - [Adobe Illustrator](#adobe-illustrator) *(50 Shortcuts)*
 - [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
 - [Adobe Bridge](#adobe-bridge) *(6 Shortcuts)*
@@ -554,6 +555,7 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `ctrl + q` | Mark e-mail as read |
 | `ctrl + enter` | Send Mail [When in E-Mail Editor] |
 | `ctrl + shift + a` | Create new Appointment |
+| `ctrl + shift + p` | Create new Search Folder [When in email] |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -743,6 +745,44 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 | `shift + 3` | Open and switch through timelines |
 | `ctrl + shift + e` | Export current frame |
 | `ctrl + alt + k` | Show keyboard shortcuts |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
+## Adobe InDesign
+
+Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-adobe-general).
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=adobe-indesign)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=adobe-indesign)
+
+| Shortcut | Description |
+| --- | --- |
+| `shift + p` | Switch to Page Tool |
+| `u` | Switch to Gap Tool |
+| `shift + t` | Switch to Path Text Tool |
+| `f` | Switch to Rectangle Frame Tool |
+| `m` | Switch to Rectangle Tool |
+| `l` | Switch to Ellipse Tool |
+| `r` | Switch to Rotate Tool |
+| `s` | Switch to Scale Tool |
+| `o` | Switch to Shear Tool |
+| `e` | Switch to Free Transform Tool |
+| `i` | Switch to Pipette Tool |
+| `k` | Switch to Measure Tool |
+| `g` | Switch to Gradient Tool |
+| `shift + g` | Switch to Gradient Feather Tool |
+| `c` | Switch to Scissors Tool |
+| `h` | Switch to Hand Tool |
+| `z` | Switch to Zoom Tool |
+| `b` | Toggle content extractor and placer tool |
+| `x` | Toggle fill and stroke |
+| `.` | Apply Gradient |
+| `,` | Apply Color |
+| `num/` | Apply No Color |
+| `w` | Toggle normal view and preview |
+| `shift + w` | Enter presentation mode |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -1013,11 +1053,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 580
+Total Shortcuts: 605
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 20.71
+Average Shortcuts per Application: 20.86
 
