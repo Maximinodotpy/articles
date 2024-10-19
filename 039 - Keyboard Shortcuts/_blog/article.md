@@ -32,7 +32,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Adobe General](#adobe-general) *(16 Shortcuts)*
 - [Adobe Animate](#adobe-animate) *(6 Shortcuts)*
 - [Adobe Premiere Pro](#adobe-premiere-pro) *(68 Shortcuts)*
-- [Adobe InDesign](#adobe-indesign) *(39 Shortcuts)*
+- [Adobe InDesign](#adobe-indesign) *(47 Shortcuts)*
 - [Adobe Illustrator](#adobe-illustrator) *(50 Shortcuts)*
 - [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
 - [Adobe Bridge](#adobe-bridge) *(6 Shortcuts)*
@@ -798,6 +798,14 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 | `ctrl + alt + shift + u` | Cycle through units of measurement |
 | `w` | Toggle normal view and preview |
 | `shift + w` | Enter presentation mode |
+| `ctrl + 6` | Focus control panel |
+| `ctrl + shift + 6` | Toggle control panel |
+| `ctrl + t` | Open character panel |
+| `ctrl + shift + t` | Open tabs panel |
+| `ctrl + alt + t` | Open paragraph panel |
+| `ctrl + alt + j` | Open Paragraph Rules dialog box |
+| `ctrl + alt + shift + j` | Open Justification dialog box |
+| `alt + dblclick` | Open text frame dialog box |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
@@ -1068,11 +1076,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 620
+Total Shortcuts: 628
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.38
+Average Shortcuts per Application: 21.66
 

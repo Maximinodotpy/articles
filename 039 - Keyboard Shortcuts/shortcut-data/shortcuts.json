@@ -719,7 +719,18 @@
                 { "keys": "ctrl + alt + shift + u",              "description": "Cycle through units of measurement" },
 
                 { "keys": "w",                                   "description": "Toggle normal view and preview" },
-                { "keys": "shift + w",                           "description": "Enter presentation mode" }
+                { "keys": "shift + w",                           "description": "Enter presentation mode" },
+
+                { "keys": "ctrl + 6",                            "description": "Focus control panel" },
+                { "keys": "ctrl + shift + 6",                    "description": "Toggle control panel" },
+
+                { "keys": "ctrl + t",                            "description": "Open character panel" },
+                { "keys": "ctrl + shift + t",                    "description": "Open tabs panel" },
+                { "keys": "ctrl + alt + t",                      "description": "Open paragraph panel" },
+
+                { "keys": "ctrl + alt + j",                      "description": "Open Paragraph Rules dialog box" },
+                { "keys": "ctrl + alt + shift + j",              "description": "Open Justification dialog box" },
+                { "keys": "alt + dblclick",                      "description": "Open text frame dialog box" }
             ]
         },
         "adobe-illustrator": {
