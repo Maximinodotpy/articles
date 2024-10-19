@@ -40,6 +40,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | arbiträr  | (A) Willkürlich, nicht naturgegeben |
 | derogativ | (A) abwertend |
 | vehement  | (A) akut, drastisch, stark |
+| profan | (A) alltäglich |
 | auktorial | (A) allwissend |
 | adäquat | (A) angemessen |
 | lethargisch | (A) antriebslos |
@@ -57,7 +58,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | diametral | (A) entgegengesetzt |
 | pitoyable | (A) erbärmlich |
 | perplex | (A) erstaunt |
-| impertinent | (A) frech |
+| impertinent | (A) frech o nicht sachdienlich |
 | amikal | (A) freundschaftlich |
 | idyllisch | (A) friedlich, beschaulich, malerisch |
 | ad hoc | (A) für diesen Zweck, spontant |
@@ -69,8 +70,10 @@ Sie sind nach wortart sortiert (A/N/V).
 | grandios  | (A) grossartig, überwältigend |
 | eminent | (A) hervorragend |
 | perfide | (A) hinterhältig |
+| pendent | (A) hängend |
 | inhärent | (A) innewohnend |
 | dediziert | (A) jmd. o etwasem gewidmet |
+| pedantisch | (A) kleinlich |
 | lapidar | (A) kurz und bündig |
 | ephemeral | (A) kurzlebig |
 | artifiziell | (A) künstlich |
@@ -94,12 +97,14 @@ Sie sind nach wortart sortiert (A/N/V).
 | rudimentär | (A) unvollständig |
 | primordial | (A) ursprünglich |
 | frappierend | (A) verblüffend |
+| latent | (A) verborgen |
 | disponibel | (A) verfügbar |
 | designiert | (A) vorgesehen |
 | prätentiös | (A) wichtigtuend |
 | degoutant | (A) widerlich |
 | erratisch | (A) zufällig, unvorhersehbar |
 | kaustisch | (A) ätzend |
+| kongruent | (A) übereinstimmend |
 | idiosynkratisch | (A) überempfindlich gegen bestimmte Stoffe und Reize |
 | redundant | (A) überflüssig |
 | die Kadenz | (N) Abfallen der Stimme |
@@ -216,19 +221,22 @@ Sie sind nach wortart sortiert (A/N/V).
 | der Thorax | (N) der Brustkorb |
 | der Hehler | (N) der Diebeshelfer, jmd. der gestohlene Ware handelt |
 | die Koryphäe | (N) der Fachmann |
+| das Odium | (N) der Hass der auf einer Person lastet |
+| die Hybris | (N) der Hochmut |
 | die Epigone | (N) der Nachahmer |
 | der Apologet | (N) der Verteidiger einer Überzeugung oder Lehre |
 | der Demagoge | (N) der Volksverführer |
+| die Kohärenz | (N) der Zusammenhang |
 | die Emanzipation | (N) die Befreiung |
 | die Sepsis | (N) die Blutvergiftung |
 | der Habitus | (N) die Gewohnheit |
 | die Internierung | (N) die Haft |
 | die Euphorie | (N) die Hochstimmung |
 | die Dissenz | (N) die Meinungsverschiedenheit |
-| Diadochen | (N) die Nachfolger eines Herrschers |
+| die Diadochen | (N) die Nachfolger eines Herrschers |
 | die Asthenie | (N) die Schwäche |
 | der Altruismus | (N) die Selbstlosigkeit |
-| Disruption | (N) die Unterbrechung |
+| die Disruption | (N) die Unterbrechung |
 | der Anthropormorphismus | (N) die Vermenschlichung von nicht menschlichen Wesen o. Dingen |
 | der Nepotismus  | (N) die Vetternwirtschafft |
 | die Ordonnanz | (N) die Waffen |
@@ -265,8 +273,10 @@ Sie sind nach wortart sortiert (A/N/V).
 | elaborieren  | (V) ausführlich erklären |
 | asservieren | (V) beschlagnahmen |
 | intervenieren | (V) eingreifen |
+| postulieren | (V) fordern |
 | evozieren | (V) hervorrufen zb. Erinnerungen |
 | propagieren  | (V) nach unten verteilen / benachrichtigen |
+| mäandern | (V) schlängeln |
 | affilieren | (V) sich anschliessen |
 | echauffieren | (V) sich aufregen |
 | implementieren  | (V) umsetzen, meist im Informatikbereich |

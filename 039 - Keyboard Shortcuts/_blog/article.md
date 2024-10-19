@@ -32,7 +32,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Adobe General](#adobe-general) *(16 Shortcuts)*
 - [Adobe Animate](#adobe-animate) *(6 Shortcuts)*
 - [Adobe Premiere Pro](#adobe-premiere-pro) *(68 Shortcuts)*
-- [Adobe InDesign](#adobe-indesign) *(24 Shortcuts)*
+- [Adobe InDesign](#adobe-indesign) *(39 Shortcuts)*
 - [Adobe Illustrator](#adobe-illustrator) *(50 Shortcuts)*
 - [Adobe After Effects](#adobe-after-effects) *(2 Shortcuts)*
 - [Adobe Bridge](#adobe-bridge) *(6 Shortcuts)*
@@ -781,6 +781,21 @@ Dont forget to also check out the [General Adobe Keyboard Shortcuts](#content-ad
 | `.` | Apply Gradient |
 | `,` | Apply Color |
 | `num/` | Apply No Color |
+| `ctrl + ,` | Increase scale of current selection by 1% |
+| `ctrl + alt + ,` | Increase scale of current selection by 5% |
+| `ctrl + .` | Decrease scale of current selection by 1% |
+| `ctrl + alt + .` | Decrease scale of current selection by 5% |
+| `ctrl + alt + drag` | Resize frame and content |
+| `ctrl + shift + b` | Bold text selection |
+| `ctrl + shift + i` | Italic text selection |
+| `ctrl + shift + y` | Normalize text selection |
+| `ctrl + shift + u` | Underline text selection |
+| `ctrl + shift + k` | Toggle all caps |
+| `ctrl + shift + h` | Toggle small caps |
+| `ctrl + shift + l` | Align text left |
+| `ctrl + shift + c` | Align text center |
+| `ctrl + shift + r` | Align text right |
+| `ctrl + alt + shift + u` | Cycle through units of measurement |
 | `w` | Toggle normal view and preview |
 | `shift + w` | Enter presentation mode |
 
@@ -1053,11 +1068,11 @@ Githubs Desktop Client
 
 ## Summary
 
-Total Shortcuts: 605
+Total Shortcuts: 620
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 20.86
+Average Shortcuts per Application: 21.38
 

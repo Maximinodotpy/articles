@@ -698,6 +698,25 @@
                 { "keys": ".",                                   "description": "Apply Gradient" },
                 { "keys": ",",                                   "description": "Apply Color" },
                 { "keys": "num/",                                "description": "Apply No Color" },
+                
+                { "keys": "ctrl + ,",                            "description": "Increase scale of current selection by 1%" },
+                { "keys": "ctrl + alt + ,",                      "description": "Increase scale of current selection by 5%" },
+                { "keys": "ctrl + .",                            "description": "Decrease scale of current selection by 1%" },
+                { "keys": "ctrl + alt + .",                      "description": "Decrease scale of current selection by 5%" },
+
+                { "keys": "ctrl + alt + drag",                   "description": "Resize frame and content" },
+
+                { "keys": "ctrl + shift + b",                    "description": "Bold text selection" },
+                { "keys": "ctrl + shift + i",                    "description": "Italic text selection" },
+                { "keys": "ctrl + shift + y",                    "description": "Normalize text selection" },
+                { "keys": "ctrl + shift + u",                    "description": "Underline text selection" },
+                { "keys": "ctrl + shift + k",                    "description": "Toggle all caps" },
+                { "keys": "ctrl + shift + h",                    "description": "Toggle small caps" },
+                { "keys": "ctrl + shift + l",                    "description": "Align text left" },
+                { "keys": "ctrl + shift + c",                    "description": "Align text center" },
+                { "keys": "ctrl + shift + r",                    "description": "Align text right" },
+
+                { "keys": "ctrl + alt + shift + u",              "description": "Cycle through units of measurement" },
 
                 { "keys": "w",                                   "description": "Toggle normal view and preview" },
                 { "keys": "shift + w",                           "description": "Enter presentation mode" }
