@@ -274,7 +274,9 @@ Sie sind nach wortart sortiert (A/N/V).
 | asservieren | (V) beschlagnahmen |
 | intervenieren | (V) eingreifen |
 | postulieren | (V) fordern |
+| äufnen | (V) gelder anhäufen für einen bestimmten Zweck |
 | evozieren | (V) hervorrufen zb. Erinnerungen |
+| plafonieren | (V) nach oben hin begrenzen, beschränken |
 | propagieren  | (V) nach unten verteilen / benachrichtigen |
 | mäandern | (V) schlängeln |
 | affilieren | (V) sich anschliessen |
