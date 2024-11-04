@@ -52,6 +52,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | superb | (A) ausgezeichnet |
 | suffizient | (A) ausreichend |
 | exorbitant | (A) ausserordentlich |
+| ponderabel | (A) bedenklich |
 | gravierend | (A) drastisch |
 | frugal | (A) einfach, bescheiden |
 | parochial | (A) engstirnig |
@@ -159,6 +160,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | der Hedonismus  | (N) Lustbegierde |
 | die Entropie | (N) Mass für Unordnung in einem physikalischen System |
 | der Aphorismus  | (N) Maxime o. Weisheit welche ganzes Thema versucht in einem Satz zusammenzufassen |
+| präponderanzmethode | (N) Methode um die Mehrheit zu bestimmen |
 | der Putsch | (N) Militärische Revolution / Aufstand |
 | die Misandrie | (N) Männerhass |
 | der Nachtmahr | (N) Nightmare, Albtraum Wesen |
@@ -202,6 +204,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | die Tugend | (N) Vorbildliche Eigenschaft |
 | die Heraldik | (N) Wappenkunde |
 | der Cordon sanitaire  | (N) Weigerung mit einer Partei zu kooperieren aufgrund der extremen Ideologie |
+| januswort | (N) Wort das zwei Bedeutungen hat (Homonym), die sich wiedersprechen |
 | der Neologismus | (N) Wortneuschöpfung |
 | der Furor | (N) Wut |
 | der Wackeldackel | (N) Yes Man |
