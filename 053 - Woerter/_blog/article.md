@@ -24,6 +24,8 @@ Sie sind nach wortart sortiert (A/N/V).
 | fulminant | (A) Aussserordentlich |
 | genuin | (A) Echt |
 | protonym | (A) Erstname |
+| homodiegetisch | (A) Erzählung in der der Erzähler auch eine Rolle spielt |
+| heterodiegetisch | (A) Erzählung in der der Erzähler kein Rolle spielt bzw. nicht vorkommt |
 | inflationär  | (A) Geldentwertung |
 | warrantiert  | (A) Gerechtfertigt |
 | prägnant  | (A) Gross, Ausdrucksreich |
@@ -75,6 +77,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | inhärent | (A) innewohnend |
 | dediziert | (A) jmd. o etwasem gewidmet |
 | pedantisch | (A) kleinlich |
+| belligrent | (A) kriegerisch, kriegstreibend |
 | lapidar | (A) kurz und bündig |
 | ephemeral | (A) kurzlebig |
 | artifiziell | (A) künstlich |
@@ -104,6 +107,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | prätentiös | (A) wichtigtuend |
 | degoutant | (A) widerlich |
 | erratisch | (A) zufällig, unvorhersehbar |
+| apokryph | (A) zweifelhaft |
 | kaustisch | (A) ätzend |
 | kongruent | (A) übereinstimmend |
 | idiosynkratisch | (A) überempfindlich gegen bestimmte Stoffe und Reize |

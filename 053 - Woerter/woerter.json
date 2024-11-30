@@ -270,5 +270,9 @@
     "äufnen"                    :  "(V) gelder anhäufen für einen bestimmten Zweck",
     "januswort"                 :  "(N) Wort das zwei Bedeutungen hat (Homonym), die sich wiedersprechen",
     "präponderanzmethode"       :  "(N) Methode um die Mehrheit zu bestimmen",
-    "ponderabel"                :  "(A) bedenklich"
+    "ponderabel"                :  "(A) bedenklich",
+    "belligrent"                :  "(A) kriegerisch, kriegstreibend",
+    "homodiegetisch"            :  "(A) Erzählung in der der Erzähler auch eine Rolle spielt",
+    "heterodiegetisch"          :  "(A) Erzählung in der der Erzähler kein Rolle spielt bzw. nicht vorkommt",
+    "apokryph"                  :  "(A) zweifelhaft"
 }
