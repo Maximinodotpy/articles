@@ -936,6 +936,35 @@
                 { "keys": "b",                                   "description": "Focus page body" },
                 { "keys": "ctrl + enter",                        "description": "Save changes to contact" }
             ]
+        },
+        "thunderbird": {
+            "name": "Thunderbird",
+            "color": "#0052cc",
+            "description": "Thunderbird is an awesome free and open source email client that I use a lot. It has a lot of keyboard shortcuts that can help you speed up your workflow.",
+            "shortcuts": [
+                { "keys": "ctrl + n/m",                          "description": "Create New E-Mail" },
+                { "keys": "ctrl + r",                            "description": "Reply" },
+                { "keys": "ctrl + shift + r",                    "description": "Reply all" },
+                { "keys": "ctrl + shift + l",                    "description": "Reply mailing list" },
+                { "keys": "ctrl + e",                            "description": "Edit E-Mail as new message" },
+                { "keys": "F5",                                  "description": "Sync messages" },
+                { "keys": "shift + F5",                          "description": "Sync messages for all accounts" },
+                { "keys": "ctrl + o / enter",                    "description": "Open message in new Tab" },
+                { "keys": "ctrl + shift + o",                    "description": "Open message Tree in new Tab" },
+                { "keys": "right",                               "description": "Open message Tree" },
+                { "keys": "left",                                "description": "Close message Tree" },
+
+                { "keys": "alt + 1",                             "description": "Switch to E-Mail" },
+                { "keys": "alt + 2",                             "description": "Switch to Adressbook" },
+                { "keys": "alt + 3",                             "description": "Switch to Calendar" },
+                { "keys": "alt + 4",                             "description": "Switch to Tasks" },
+                { "keys": "alt + 5",                             "description": "Switch to Chat" },
+
+                { "keys": "f",                                   "description": "Next message" },
+                { "keys": "b",                                   "description": "Previous message" },
+                { "keys": "n",                                   "description": "Next unread message" },
+                { "keys": "p",                                   "description": "Previous message" }
+            ]
         }
     }   
 }

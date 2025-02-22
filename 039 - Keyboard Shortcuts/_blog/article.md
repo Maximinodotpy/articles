@@ -44,6 +44,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Google Calendar](#google-calendar) *(15 Shortcuts)*
 - [Google Tasks](#google-tasks) *(10 Shortcuts)*
 - [Google Contacts](#google-contacts) *(8 Shortcuts)*
+- [Thunderbird](#thunderbird) *(20 Shortcuts)*
 
 
 ## General
@@ -1074,13 +1075,47 @@ Githubs Desktop Client
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
 
+## Thunderbird
+
+Thunderbird is an awesome free and open source email client that I use a lot. It has a lot of keyboard shortcuts that can help you speed up your workflow.
+
+[Practise these Shortcuts](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?app=thunderbird)
+
+[Get PDF](https://demos.maximmaeder.com/d/keyboard-shortcuts/index.html?pdf=1&auto-print=1&apps=thunderbird)
+
+| Shortcut | Description |
+| --- | --- |
+| `ctrl + n/m` | Create New E-Mail |
+| `ctrl + r` | Reply |
+| `ctrl + shift + r` | Reply all |
+| `ctrl + shift + l` | Reply mailing list |
+| `ctrl + e` | Edit E-Mail as new message |
+| `F5` | Sync messages |
+| `shift + F5` | Sync messages for all accounts |
+| `ctrl + o / enter` | Open message in new Tab |
+| `ctrl + shift + o` | Open message Tree in new Tab |
+| `right` | Open message Tree |
+| `left` | Close message Tree |
+| `alt + 1` | Switch to E-Mail |
+| `alt + 2` | Switch to Adressbook |
+| `alt + 3` | Switch to Calendar |
+| `alt + 4` | Switch to Tasks |
+| `alt + 5` | Switch to Chat |
+| `f` | Next message |
+| `b` | Previous message |
+| `n` | Next unread message |
+| `p` | Previous message |
+
+[Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
+
+
 ## Summary
 
-Total Shortcuts: 628
+Total Shortcuts: 648
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.66
+Average Shortcuts per Application: 21.6
 
