@@ -963,7 +963,30 @@
                 { "keys": "f",                                   "description": "Next message" },
                 { "keys": "b",                                   "description": "Previous message" },
                 { "keys": "n",                                   "description": "Next unread message" },
-                { "keys": "p",                                   "description": "Previous message" }
+                { "keys": "p",                                   "description": "Previous message" },
+
+                { "keys": "ctrl + k",                            "description": "Search all" },
+                { "keys": "ctrl + shift + k",                    "description": "Search current conext" },
+                { "keys": "ctrl + shift + f",                    "description": "Open search messages panel" },
+
+                { "keys": "ctrl + p",                            "description": "Print" },
+                { "keys": "ctrl + s",                            "description": "Save message as File" },
+                { "keys": "ctrl + u",                            "description": "View source code of message" },
+                { "keys": "ctrl + a",                            "description": "Select all" },
+                { "keys": "F7",                                  "description": "Toggle caret browsing" },
+
+                { "keys": "drag",                                "description": "Move a message to a folder" },
+                { "keys": "ctrl + drag",                         "description": "Copy a message to a folder" },
+
+                { "keys": "a",                                   "description": "Archive message" },
+                { "keys": "0",                                   "description": "Remove all keywords from this message" },
+                { "keys": "number",                              "description": "Toggle a certain keyword for this message" },
+                { "keys": "m",                                   "description": "Toggle read status for this message" },
+                { "keys": "shift + c",                           "description": "Mark all messages as read" },
+                { "keys": "c",                                   "description": "Mark all messages in this date range as read" },
+                { "keys": "j",                                   "description": "This message is junk" },
+                { "keys": "shift + j",                           "description": "This message is not junk" },
+                { "keys": "s",                                   "description": "Toggle star for this message" }
             ]
         }
     }   

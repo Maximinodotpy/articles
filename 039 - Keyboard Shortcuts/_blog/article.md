@@ -44,7 +44,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Google Calendar](#google-calendar) *(15 Shortcuts)*
 - [Google Tasks](#google-tasks) *(10 Shortcuts)*
 - [Google Contacts](#google-contacts) *(8 Shortcuts)*
-- [Thunderbird](#thunderbird) *(20 Shortcuts)*
+- [Thunderbird](#thunderbird) *(39 Shortcuts)*
 
 
 ## General
@@ -1105,17 +1105,36 @@ Thunderbird is an awesome free and open source email client that I use a lot. It
 | `b` | Previous message |
 | `n` | Next unread message |
 | `p` | Previous message |
+| `ctrl + k` | Search all |
+| `ctrl + shift + k` | Search current conext |
+| `ctrl + shift + f` | Open search messages panel |
+| `ctrl + p` | Print |
+| `ctrl + s` | Save message as File |
+| `ctrl + u` | View source code of message |
+| `ctrl + a` | Select all |
+| `F7` | Toggle caret browsing |
+| `drag` | Move a message to a folder |
+| `ctrl + drag` | Copy a message to a folder |
+| `a` | Archive message |
+| `0` | Remove all keywords from this message |
+| `number` | Toggle a certain keyword for this message |
+| `m` | Toggle read status for this message |
+| `shift + c` | Mark all messages as read |
+| `c` | Mark all messages in this date range as read |
+| `j` | This message is junk |
+| `shift + j` | This message is not junk |
+| `s` | Toggle star for this message |
 
 [Edit this Article in the Repository](https://github.com/Maximinodotpy/articles)
 
 
 ## Summary
 
-Total Shortcuts: 648
+Total Shortcuts: 667
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 21.6
+Average Shortcuts per Application: 22.23
 
