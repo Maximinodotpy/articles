@@ -27,3 +27,4 @@ description: placeholder
 - [https://sveltestrap.js.org/](https://sveltestrap.js.org/)
 - [https://svelteui.dev/](https://svelteui.dev/)
 - [https://threlte.xyz/](https://threlte.xyz/)
+- [https://zerodevx.github.io/svelte-toast/](https://zerodevx.github.io/svelte-toast/)
