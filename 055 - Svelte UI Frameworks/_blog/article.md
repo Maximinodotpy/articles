@@ -6,12 +6,12 @@ status: publish
 description: placeholder
 ---
 
-# Svelte UI Libraries
+In the following I will list a lot of UI libraries that are available for Svelte and SvelteKit.
 
 - [https://bits-ui.com/](https://bits-ui.com/)
 - [https://daisyui.com/](https://daisyui.com/)
 - [https://flowbite-svelte.com/](https://flowbite-svelte.com/)
-- [https://github.com/beercss/beercss](https://github.com/beercss/beercss)
+- [https://www.beercss.com/](https://www.beercss.com/)
 - [https://grail-ui.vercel.app/](https://grail-ui.vercel.app/)
 - [https://illright.github.io/attractions/](https://illright.github.io/attractions/)
 - [https://melt-ui.com/](https://melt-ui.com/)
