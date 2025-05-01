@@ -40,6 +40,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | prophylaktisch  | (A) Vorbeugend |
 | prädestiniert | (A) Vorher bestimmt |
 | arbiträr  | (A) Willkürlich, nicht naturgegeben |
+| tributär | (A) abhängig |
 | derogativ | (A) abwertend |
 | vehement  | (A) akut, drastisch, stark |
 | profan | (A) alltäglich |
@@ -61,6 +62,8 @@ Sie sind nach wortart sortiert (A/N/V).
 | diametral | (A) entgegengesetzt |
 | pitoyable | (A) erbärmlich |
 | perplex | (A) erstaunt |
+| viszeral | (A) es betrifft die Eingeweide |
+| livid | (A) extrem wütend |
 | impertinent | (A) frech o nicht sachdienlich |
 | amikal | (A) freundschaftlich |
 | idyllisch | (A) friedlich, beschaulich, malerisch |
@@ -104,10 +107,12 @@ Sie sind nach wortart sortiert (A/N/V).
 | latent | (A) verborgen |
 | disponibel | (A) verfügbar |
 | designiert | (A) vorgesehen |
+| penultimate | (A) vorletzt |
 | prätentiös | (A) wichtigtuend |
 | degoutant | (A) widerlich |
 | erratisch | (A) zufällig, unvorhersehbar |
 | apokryph | (A) zweifelhaft |
+| trepidar | (A) zögerlich, unsicher oder ängstlich |
 | kaustisch | (A) ätzend |
 | kongruent | (A) übereinstimmend |
 | idiosynkratisch | (A) überempfindlich gegen bestimmte Stoffe und Reize |
@@ -150,6 +155,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | der Anreiz | (N) Grund etwas zu tun |
 | das Axiom | (N) Grundsatz |
 | die Entourage | (N) Gruppierung meist Akrobaten |
+| die Taxidermie | (N) Haltbarmachung von Tierkörpern zu Studien-, Lehr- oder Dekorationszwecken |
 | die Amalgamation | (N) Haufen, Ansammlung |
 | der Trochäus | (N) Hebung/Senkung (Sprachflow, Fersfüsse, Rhytmuseinheiten) |
 | der Zenit | (N) Höchstpunkt |
@@ -160,6 +166,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | die Rhetorik | (N) Kunst des sprechens/Cappen |
 | die Föderation  | (N) Landesart wobei ein Staat in untergebiete geteilt ist |
 | die Dendrochronologie | (N) Lehre des Baumalters |
+| die Geriatrie | (N) Lehre von den Krankheiten des alternden Menschen |
 | das Meritum  | (N) Leistung |
 | der Hedonismus  | (N) Lustbegierde |
 | die Entropie | (N) Mass für Unordnung in einem physikalischen System |
@@ -181,6 +188,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | die Notation | (N) Schreibweise |
 | die Hieroglyphen | (N) Schriftzeichen einer Bilderschrift |
 | Ägide | (N) Schutz, Schirmherrschaft |
+| die Segregation | (N) Segregation bezeichnet die räumliche Trennung von Menschen oder Gruppen aufgrund bestimmter Merkmale wie Rasse, Ethnie, Geschlecht, Religion oder sozialem Status. |
 | der Jambus | (N) Senkung/Hebung (Sprachflow, Fersfüsse, Rhytmuseinheiten) |
 | die Promiskuität | (N) Sexuelle Kontakte/Aktiv |
 | der Selbsterhaltungswille | (N) Sich selber schützen wollen |
@@ -201,6 +209,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | das Präjudiz | (N) Vergange Verurteilingsentscheidungen |
 | die Kaffeefahrt | (N) Verkaufsveranstaltung |
 | der Diminutiv | (N) Verkleinerungsform eines Nomens (zb. li Endung im Schweizerdeutschen) |
+| die Lazeration | (N) Verletzung der Haut und des Fleisches, die genäht werden muss. |
 | die Inversion | (N) Verschiebung der Satzteile im Dichten |
 | die Polyamorie  | (N) Viel Liebend |
 | die Ornithologie | (N) Vogelkunde |
@@ -224,6 +233,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | epitheton ornans | (N) das schmückende Beiwort |
 | das Addendum | (N) der Anhang |
 | die Abdomen  | (N) der Bauch |
+| das Abdomen | (N) der Bauch |
 | der Trabant  | (N) der Begleiter |
 | der Thorax | (N) der Brustkorb |
 | der Hehler | (N) der Diebeshelfer, jmd. der gestohlene Ware handelt |
@@ -234,24 +244,29 @@ Sie sind nach wortart sortiert (A/N/V).
 | der Apologet | (N) der Verteidiger einer Überzeugung oder Lehre |
 | der Demagoge | (N) der Volksverführer |
 | die Kohärenz | (N) der Zusammenhang |
+| die Dissuasion | (N) die Abschreckung |
 | die Emanzipation | (N) die Befreiung |
+| die Kavitation | (N) die Bildung von Dampfblasen in Flüssigkeiten |
 | die Sepsis | (N) die Blutvergiftung |
 | der Habitus | (N) die Gewohnheit |
 | die Internierung | (N) die Haft |
 | die Euphorie | (N) die Hochstimmung |
 | die Dissenz | (N) die Meinungsverschiedenheit |
 | die Diadochen | (N) die Nachfolger eines Herrschers |
+| die Sutur | (N) die Naht |
 | die Asthenie | (N) die Schwäche |
 | der Altruismus | (N) die Selbstlosigkeit |
 | die Disruption | (N) die Unterbrechung |
 | der Anthropormorphismus | (N) die Vermenschlichung von nicht menschlichen Wesen o. Dingen |
 | der Nepotismus  | (N) die Vetternwirtschafft |
+| Plebisziten | (N) die Volksabstimmung |
 | die Ordonnanz | (N) die Waffen |
 | Diaspora | (N) die Zerstreuung |
 | das Dogma | (N) die etablierte Meinung |
 | das Damoklesschwert | (N) die unverhinderbare, auf einen zukommende, Bedrohung |
 | der Konsens | (N) die Übereinstimmung |
 | der Pyrrhussieg | (N) ein Sieg, der so teuer erkauft wurde, dass er sich wie eine Niederlage anfühlt |
+| der Herkules Aufwand | (N) ein grosser Aufwand |
 | die Blamage  | (N) etwas Peinliches |
 | das Skalpel  | (N) kleines chirurgisches Messer |
 | die Schwadronade | (N) leeres Gerede |
@@ -280,17 +295,21 @@ Sie sind nach wortart sortiert (A/N/V).
 | elaborieren  | (V) ausführlich erklären |
 | asservieren | (V) beschlagnahmen |
 | intervenieren | (V) eingreifen |
+| sistieren | (V) einstellen, beenden, aufhören |
 | postulieren | (V) fordern |
 | äufnen | (V) gelder anhäufen für einen bestimmten Zweck |
 | evozieren | (V) hervorrufen zb. Erinnerungen |
+| mitigieren | (V) mildern |
 | plafonieren | (V) nach oben hin begrenzen, beschränken |
 | propagieren  | (V) nach unten verteilen / benachrichtigen |
 | mäandern | (V) schlängeln |
 | affilieren | (V) sich anschliessen |
 | echauffieren | (V) sich aufregen |
+| hofieren | (V) umschmeicheln |
 | implementieren  | (V) umsetzen, meist im Informatikbereich |
 | abhorrieren | (V) verabscheuen |
 | abjizieren | (V) verachten |
+| expadieren | (V) verlängern, ausdehnen, erweitern, vertagen oder verschnellrn |
 | persiflieren | (V) verspotten/lächerlich machen |
 | perpetuieren | (V) vorantreiben |
 | konsolidieren | (V) zusammenlegen |
