@@ -61,6 +61,7 @@
                 { "keys": "ctrl + shift + e",                    "description": "Display all folders above the selected folder" },
                 { "keys": "alt + shift + p",                     "description": "Toggle the details pane" },
                 { "keys": "alt + p",                             "description": "Toggle the preview pane" },
+                { "keys": "ctrl + shift + drag",                 "description": "Create link to the file at this location that is currently dragged with the mouse" },
 
                 { "keys": "num*",                                "description": "Display all sub-folder under the selected folder [When in tree view on the left]" },
                 { "keys": "num+",                                "description": "Expand current folder [When in tree view on the left]" },
@@ -483,6 +484,9 @@
                 { "keys": "ctrl + number",                       "description": "Switch to corresponding panel in sidebar" },
                 { "keys": "ctrl + u",                            "description": "Mark e-mail as unread" },
                 { "keys": "ctrl + q",                            "description": "Mark e-mail as read" },
+
+                { "keys": "space",                               "description": "Next E-Mail" },
+                { "keys": "shift + space",                       "description": "Previous E-Mail" },
 
                 { "keys": "ctrl + enter",                        "description": "Send Mail [When in E-Mail Editor]" },
 

@@ -122,6 +122,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | der Apostat  | (N) Abtrüniger im religiösen Sinn |
 | die Travestie | (N) Anders einkleiden im Bezug auf Geschichten |
 | der Quacksalber | (N) Arzt |
+| das Bayou | (N) Bayou ist eine in den Südstaaten der USA und hier insbesondere in Louisiana verbreitete Bezeichnung für stehende oder langsam fließende Gewässer. |
 | die Semantik | (N) Bedeutung |
 | der Quai  | (N) Befestigtes Ufer |
 | die Asservatenkammer  | (N) Beweismittelkammer |
@@ -265,6 +266,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | das Dogma | (N) die etablierte Meinung |
 | das Damoklesschwert | (N) die unverhinderbare, auf einen zukommende, Bedrohung |
 | der Konsens | (N) die Übereinstimmung |
+| das Deli | (N) ein Geschäft, das Lebensmittel verkauft, die für den sofortigen Verzehr geeignet sind, wie z.B. Sandwiches, Salate und Snacks. |
 | der Pyrrhussieg | (N) ein Sieg, der so teuer erkauft wurde, dass er sich wie eine Niederlage anfühlt |
 | der Herkules Aufwand | (N) ein grosser Aufwand |
 | die Blamage  | (N) etwas Peinliches |
@@ -295,6 +297,7 @@ Sie sind nach wortart sortiert (A/N/V).
 | elaborieren  | (V) ausführlich erklären |
 | asservieren | (V) beschlagnahmen |
 | intervenieren | (V) eingreifen |
+| konzedieren | (V) einräumen oder zugestehen |
 | sistieren | (V) einstellen, beenden, aufhören |
 | postulieren | (V) fordern |
 | äufnen | (V) gelder anhäufen für einen bestimmten Zweck |

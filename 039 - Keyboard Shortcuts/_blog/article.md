@@ -16,7 +16,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 **Applications / Places**
 
 - [General](#general) *(32 Shortcuts)*
-- [File Explorer](#file-explorer) *(24 Shortcuts)*
+- [File Explorer](#file-explorer) *(25 Shortcuts)*
 - [Windows](#windows) *(60 Shortcuts)*
 - [Browser (Microsoft Edge)](#browser-microsoft-edge) *(45 Shortcuts)*
 - [Vimium](#vimium) *(9 Shortcuts)*
@@ -26,7 +26,7 @@ I also defined a json schema for the file, which you can find [here](https://git
 - [Microsoft Word](#microsoft-word) *(25 Shortcuts)*
 - [Microsoft Powerpoint](#microsoft-powerpoint) *(3 Shortcuts)*
 - [Microsoft Excel](#microsoft-excl) *(25 Shortcuts)*
-- [Microsoft Outlook](#microsoft-outlook) *(10 Shortcuts)*
+- [Microsoft Outlook](#microsoft-outlook) *(12 Shortcuts)*
 - [Microsoft Teams](#microsoft-teams) *(20 Shortcuts)*
 - [Jupyter Notebook](#jupyter-notebook) *(9 Shortcuts)*
 - [Adobe General](#adobe-general) *(16 Shortcuts)*
@@ -115,6 +115,7 @@ These shortcuts work in the integrated File Explorer of the Windows Operating Sy
 | `ctrl + shift + e` | Display all folders above the selected folder |
 | `alt + shift + p` | Toggle the details pane |
 | `alt + p` | Toggle the preview pane |
+| `ctrl + shift + drag` | Create link to the file at this location that is currently dragged with the mouse |
 | `num*` | Display all sub-folder under the selected folder [When in tree view on the left] |
 | `num+` | Expand current folder [When in tree view on the left] |
 | `num-` | Collapse current folder[When in tree view on the left] |
@@ -554,6 +555,8 @@ Also look at [Microsoft in General](#content-microsoft-general) and [Windows](#c
 | `ctrl + number` | Switch to corresponding panel in sidebar |
 | `ctrl + u` | Mark e-mail as unread |
 | `ctrl + q` | Mark e-mail as read |
+| `space` | Next E-Mail |
+| `shift + space` | Previous E-Mail |
 | `ctrl + enter` | Send Mail [When in E-Mail Editor] |
 | `ctrl + shift + a` | Create new Appointment |
 | `ctrl + shift + p` | Create new Search Folder [When in email] |
@@ -1130,11 +1133,11 @@ Thunderbird is an awesome free and open source email client that I use a lot. It
 
 ## Summary
 
-Total Shortcuts: 667
+Total Shortcuts: 670
 
 Application with most Shortcuts: Adobe Premiere Pro (68)
 
 Application with least Shortcuts: Wordpress (1)
 
-Average Shortcuts per Application: 22.23
+Average Shortcuts per Application: 22.33
 
