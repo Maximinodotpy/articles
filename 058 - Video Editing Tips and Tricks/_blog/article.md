@@ -21,7 +21,7 @@ When you come across a youtube video that you would like to download you could e
 ![https://i.imgur.com/9qXhKQk.png](freeonlineconverter.org)
 ![https://i.imgur.com/3RuJTsg.png](yout.com)
 
-Maybe you'll want to download large quantities of videos and audios from youtube, in that case you could make use of your programming skills. There are several packages made for this purpose. In python you could make use of [pytube](https://github.com/pytube/pytube) or in js you could use playwright to create a program that uses the UI of the aferomentioned websites to automatically download videos.
+Maybe you'll want to download large quantities of videos and audios from youtube, in that case you could make use of your programming skills. There are several packages made for this purpose. In python you could make use of [pytube](https://github.com/pytube/pytube) or in js you could use [playwright](https://playwright.dev/) to create a program that uses the UI of the aferomentioned websites to automatically download videos.
 
 <!-- Maybe link to my project -->
 
