@@ -941,6 +941,15 @@
                 { "keys": "ctrl + enter",                        "description": "Save changes to contact" }
             ]
         },
+        "darktable": {
+            "name": "Darktable",
+            "color": "#1D74DB",
+            "description": "Darktable is an open-source photography workflow application and raw developer. It is special because it allows you to visually assign map shortcuts to certain actions.",
+            "shortcuts": [
+                { "keys": "space",                               "description": "Go to next image (When in darktable)" },
+                { "keys": "return",                              "description": "Go to previous image (When in darktable)" }
+            ]
+        },
         "thunderbird": {
             "name": "Thunderbird",
             "color": "#0052cc",
