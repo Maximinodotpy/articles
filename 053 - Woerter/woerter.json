@@ -296,5 +296,7 @@
     "viszeral"                  :  "(A) es betrifft die Eingeweide",
     "konzedieren"               :  "(V) einräumen oder zugestehen",
     "das Deli"                  :  "(N) ein Geschäft, das Lebensmittel verkauft, die für den sofortigen Verzehr geeignet sind, wie z.B. Sandwiches, Salate und Snacks.",
-    "das Bayou"                 :  "(N) Bayou ist eine in den Südstaaten der USA und hier insbesondere in Louisiana verbreitete Bezeichnung für stehende oder langsam fließende Gewässer."
+    "das Bayou"                 :  "(N) Bayou ist eine in den Südstaaten der USA und hier insbesondere in Louisiana verbreitete Bezeichnung für stehende oder langsam fließende Gewässer.",
+    "das Okzident"              :  "(N) Eine andere bezeichnung für die westliche Welt, es ist das pendant zum Orient.",
+    "unset"                     :  "(A) Es ist instabil"
 } 

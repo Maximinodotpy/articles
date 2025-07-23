@@ -36,3 +36,4 @@ If you want to download large quantities of videos or audio from YouTube, you mi
 ## What Software to use
 
 There are several good editing softwares that do the job. During my apprenticeship i mostly used adobe premiere pro, but thereafter I had to find a free alternative <!-- LINK TO OTHER ARTICLE -->, at the moment i
+
