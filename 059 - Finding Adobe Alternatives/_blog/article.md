@@ -43,7 +43,9 @@ Out of all these Options i think the User Interface from Krita looks the best. B
 
 At times Illustrator was the Adobe Software that I used the most and I have to say I really like it, the only bad things about are maybe the new AI Features that never helped and thats like all other Adobe Programs more on the slow side.
 
-Having said that there is [Inkscape](https://inkscape.org/), that 
+Having said that there is [Inkscape](https://inkscape.org/), that i found is a really good free alternative to illustrator. It has a really nice userinterface with most of the features you might want from a vector graphics editor.
+
+![A graphic I made with Inkscape](https://i.imgur.com/RZtzu9R.png)
 
 There is also [Affinity Designer](https://affinity.serif.com/de/designer/), but I havent tried that one out since I'm searching fully free alternatives.
 
