@@ -39,6 +39,8 @@ Out of all these Options i think the User Interface from Krita looks the best. B
 <!-- KDenlive -->
 <!-- DaVinci Resolve -->
 
+Having said all this, I really miss Premiere Pro. At the moment this is the only program I would buy the licence for if my video cutting occasions werent purely recreational.
+
 ## Vector Graphics (Illustrator)
 
 At times Illustrator was the Adobe Software that I used the most and I have to say I really like it, the only bad things about are maybe the new AI Features that never helped and thats like all other Adobe Programs more on the slow side.
