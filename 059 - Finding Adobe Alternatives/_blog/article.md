@@ -34,6 +34,12 @@ Masking is rather hard or a little bit
 
 Out of all these Options i think the User Interface from Krita looks the best. Besides it supports effect/filter layers, which I use somewhat often.
 
+## Audio Editing
+
+<!-- Audition -->
+<!-- Audacity -->
+<!-- Cake Walk -->
+
 ## Video Editing (Premiere)
 
 <!-- KDenlive -->
