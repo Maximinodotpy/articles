@@ -127,7 +127,7 @@ With the *Sensors* Panel you can emulate a fake position and fake device orienta
 
 ### Elements
 
-This is the classic Tool, that everybody knows, here, you can look at the HTMl and CSS of your page and edit it easily.
+This is the classic Tool, that everybody knows, here, you can look at the HTML and CSS of your page and edit it easily.
 
 [Official Documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/elements-tool/elements-tool)
 
