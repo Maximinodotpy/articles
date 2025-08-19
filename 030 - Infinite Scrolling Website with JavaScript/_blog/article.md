@@ -185,4 +185,4 @@ We made it a website that shows a bunch of cats that get more if you scroll down
 
 Look at the [Source Code](https://github.com/Maximinodotpy/articles) in my GitHub Repository.
 
-Visit the [Demo](https://demos.maximmaeder.com/demo/catstragam/).
+Visit the [Demo](https://demos.maximmaeder.com/d/infinite-scrolling-website-with-javascript/index.html).
