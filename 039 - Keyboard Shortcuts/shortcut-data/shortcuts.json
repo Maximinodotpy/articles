@@ -315,6 +315,7 @@
                 { "keys": "ctrl + ,",                            "description": "Open settings" },
                 { "keys": "ctrl + p",                            "description": "Open file search" },
                 { "keys": "ctrl + t",                            "description": "Open symbol search" },
+                { "keys": "ctrl + shift + c",                    "description": "Open System Command Prompt in a new Window/Process" },
 
                 { "keys": "ctrl + space",                        "description": "Show context snippets" },
                 { "keys": "ctrl + shift + space",                "description": "Show function parameters" },
