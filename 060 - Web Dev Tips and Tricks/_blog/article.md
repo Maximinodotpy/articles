@@ -48,6 +48,20 @@ br {
 ```
 
 
+## Using grid to simply add spacing between items
+
+When using CSS Grid, you can easily add spacing between grid items using the `gap` property. This is often simpler and more efficient than adding margins to individual items.
+
+```css
+.grid-container {
+    display: grid;
+    gap: 16px;
+}
+```
+
+The children of the grid container will all appear from top to bottom by default if we dont define any columns or rows, and there will be a 16px gap between each item.
+
+
 ## Obscure CSS Properties
 
 - [`hyphens: auto;`](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens) - This property allows text to be hyphenated automatically based on the language and available hyphenation points. It can improve readability in justified text blocks. It can be combined with [`hyphenate-limit-chars`](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-limit-chars) to control the minimum number of characters before and after a hyphenation point.
