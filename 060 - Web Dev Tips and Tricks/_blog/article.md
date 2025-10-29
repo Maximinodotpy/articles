@@ -14,7 +14,10 @@ For this to work you will have to set a background color on the immediate parent
 
 ```html
 <div class="imageContainer">
-    <img src="https://placehold.co/1080x720/FFFFFF/000000?text=TEST&font=lato" alt="Image with white background">
+    <img
+        src="https://placehold.co/1080x720/FFFFFF/000000?text=TEST&font=lato"
+        alt="Image with white background"
+    />
 </div>
 ```
 
