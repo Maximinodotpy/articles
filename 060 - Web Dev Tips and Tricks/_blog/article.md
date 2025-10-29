@@ -34,7 +34,7 @@ img {
 [JSFiddle Example](https://jsfiddle.net/jrmq0bsg/)
 
 
-## Making <br/> optional
+## Making `<br/>` optional
 
 When the text content comes from a CMS or other external source, you may not have control over where line breaks are placed. In these cases, you can use CSS to make `<br/>` tags optional based on the screen size. For example, you might want to hide line breaks on smaller screens to improve readability, while keeping them on larger screens.
 
