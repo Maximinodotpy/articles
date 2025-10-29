@@ -2,8 +2,8 @@
 name: Web Dev Tips and Tricks
 slug: web-dev-tips-and-tricks
 category: General
-status: draft
-description: 
+status: publish
+description: A collection of useful web development tips and tricks.
 ---
 
 ## Using CSS Mix-Blend-Mode to remove white backgrounds from images
@@ -60,6 +60,19 @@ When using CSS Grid, you can easily add spacing between grid items using the `ga
 ```
 
 The children of the grid container will all appear from top to bottom by default if we dont define any columns or rows, and there will be a 16px gap between each item.
+
+
+## Using Mask-Image with Gradients
+
+Sometimes you want to create a fade effect on an element, such as an image or a div. You can achieve this using the `mask-image` property combined with a linear gradient. This technique allows you to create smooth transitions and fade effects without needing additional images or complex HTML structures.
+
+```css
+.your-element {
+    mask-image: linear-gradient(to right, black, transparent);
+}
+```
+
+[tools.maximmaeder.com](https://tools.maximmaeder.com/thoughts-and-notes#mask-image-with-linear-gradient-is-awesome)
 
 
 ## Obscure CSS Properties
