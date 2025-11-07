@@ -91,6 +91,13 @@ echo "Width: $width, Height: $height";
 This might be useful when you need to dynamically adjust layouts, perform image processing based on the dimensions of the image or if you need to know the image size before displaying it.
 
 
+## Copy and Paste in Bash
+
+In bash, you can use the following shortcuts to copy and paste text:
+- Copy: `Ctrl + Insert`
+- Paste: `Shift + Insert`
+
+
 ## Obscure CSS Properties
 
 - [`hyphens: auto;`](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens) - This property allows text to be hyphenated automatically based on the language and available hyphenation points. It can improve readability in justified text blocks. It can be combined with [`hyphenate-limit-chars`](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-limit-chars) to control the minimum number of characters before and after a hyphenation point.
